@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="/static/css/bootstrap.css">
+	<style>
+		body {
+			padding-top: 50px;
+			padding-bottom: 20px;
+		}
+	</style>
+	<link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="/static/css/main.css">
+	<script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">CodeBase</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="/">Home</a></li>
+					<li class=""><a href="/about/">About</a></li>
+					<li class=""><a href="/contact/">Contact</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/students/">Students</a></li>
+							<li><a href="/start-ups/">Startups</a></li>
+							<li><a href="/donate/">Donate</a></li>
+							<!--							<li class="divider"></li>-->
+							<!--							<li class="dropdown-header">Nav header</li>-->
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<!--			  Login Features Hidden-->
+					<!--
+            <div class="form-group">
+	<input type="text" placeholder="Email" class="form-control">
+</div>
+<div class="form-group">
+	<input type="password" placeholder="Password" class="form-control">
+</div>
+<button type="submit" class="btn btn-success">Sign in</button>
+-->
+				</form>
+			</div>
+			<!--/.navbar-collapse -->
+		</div>
+	</div>
+
+	
+<div class="jumbotron">
+  <div class="container">
+    <h1>We're sorry!</h1>
+    <p>The page <b id="url"></b> could not be found on this server.</p>
+  </div>
+</div>
+
+	<script src="/static/js/vendor/jquery-1.10.1.js"></script>
+	<script src="/static/js/vendor/bootstrap.js"></script>
+	<script src="/static/js/main.js"></script>
+</body>
+
+
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+
+      // Add the missing url to the text
+      $("#url").text(window.location.pathname);
+
+      // Fix the css locations dynamically
+      $("head link").each(function() {
+        for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
+          $(this).attr("href", "../" + $(this).attr("href"));
+      });
+    })
+  </script>
+
+
+<footer>
+	<div class="jumbotron foot">
+		<p>CodeBase leagaleze will need to go here. and maybe some links to social media</p>
+	</div>
+</footer>
+
+</html>

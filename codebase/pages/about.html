@@ -1,10 +1,53 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block body %}
+<div class="jumbotron about-banner">
+	<div class="container">
+		<h1>About Us</h1>
+	</div>
+</div>
 
-{% block body %}
-<div class="jumbotron">
-  <div class="container">
-    <h1>Make this your about page!</h1>
-    <p>Use this page to tell your visitors about you. Or scrape it, and make a new one!</p>
-  </div>
+
+<div class="team">
+	<div class="row">
+		<h1>Meet The CodeBase Team</h1>
+
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/abhi.jpg" alt="Firstname LastName" height="150" width="150">
+			<h2>Abhishyant Khare</h2>
+			<h4>President, Founding Member</h4>
+		</div>
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Tim Foster</h2>
+			<h4>Treasurer, Founding Member</h4>
+		</div>
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Firstname Lastname</h2>
+			<h4>Role</h4>
+		</div>
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Firstname Lastname</h2>
+			<h4>Role</h4>
+		</div>
+	</div>
+	<div class="row">
+
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Firstname Lastname</h2>
+			<h4>Role</h4>
+		</div>
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Firstname Lastname</h2>
+			<h4>Role</h4>
+		</div>
+		<div class="col-lg-3 team-member">
+			<img src="../static/images/team/blank.svg" alt="Firstname LastName" height="150" width="150">
+			<h2>Firstname Lastname</h2>
+			<h4>Role</h4>
+		</div>
+	</div>
 </div>
 {% endblock %}

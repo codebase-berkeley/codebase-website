@@ -1,22 +1,63 @@
+body {
+	background-color: #B8D8E3;
+}
 
+.welcome-banner {
+	background: url("../images/keyboard.jpeg") no-repeat center center scroll;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	background-size: cover;
+	text-align: center;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.welcome-banner h1 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
+.welcome-banner p {
+	color: white;
+}
 
+.about-banner {
+	background-color: lightblue;
+	text-align: center;
+	margin: 0px;
+}
 
+.team {
+	text-align: center;
+	background-color: white;
+}
 
+.team-member {
+	padding-bottom: 20px;
+}
 
+.div-image {
+	padding-top: 15%;
+	padding-bottom: 15%;
+	background-size: cover;
+}
 
+.office {
+	background: url("../images/office.jpg") no-repeat center center scroll;
+}
 
+.bridge {
+	background: url("../images/bridge.jpeg") no-repeat center center scroll;
+}
 
+.info-box {
+	background-color: white;
+	text-align: center;
+}
 
+.foot {
+	background-color: #B8D8E3;
+	text-align: center;
+}
 
-
-
-
-
-
-
-
+.jumbotron {
+	margin: 0px;
+}

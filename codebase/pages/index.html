@@ -1,36 +1,30 @@
 {% extends "base.html" %} {% block body %}
-<div class="jumbotron">
+<div class="jumbotron welcome-banner">
 	<div class="container">
-		<h1>Welcome to CodeBase!</h1>
-		<p>This is the homepage of our site. I'm using cactus because I am lazy</p>
+		<h1>Welcome to CodeBase</h1>
+		<p>Providing Up-And-Comming Buisnesses With the Techecal Tools Needed to Succeed</p>
 	</div>
 </div>
 
-<div class="container">
-	<!-- Example row of columns -->
+<div class="info-box">
 	<div class="row">
-
-		<div class="col-lg-3">
-			<h2>Full featured template engine</h2>
-			<p>Cactus uses and extends Django's templating engine. If you've built sites using Django before, you'll feel right at home.</p>
+		<div class="col-xl-1">
+			<h2>Who We Are</h2>
+			<h3>We are a team of experienced UC Berkeley undergraduates working to help startups find the tools they need to suceed</h3>
 		</div>
-
-		<div class="col-lg-3">
-			<h2>Pretty URLs</h2>
-			<p>Cactus can prettify URLs, so you can turn <code>/about.html</code> into a fancier <code>/about/</code>.</p>
-		</div>
-
-		<div class="col-lg-3">
-			<h2>Minification & Fingerprinting</h2>
-			<p>For maximum performance, Cactus can minify and fingerprint your static assets. As for your pages, Cactus will automatically compress them.</p>
-		</div>
-
-		<div class="col-lg-3">
-			<h2>And much more</h2>
-			<p>There's of course a lot more you can do with Cactus. Plus, Cactus's plugin framework lets you easily extend its functionality.</p>
-		</div>
-
-
 	</div>
 </div>
-{% endblock %}
+
+<div class="jumbotron div-image office"></div>
+
+<div class="jumbotron info-box">
+	<div class="row">
+		<div class="col-xl-1">
+			<h2>What We Do</h2>
+			<p>At CodeBase we offer wide range of development packages for startups ranging from small static websites to large cross platform interactive services.</p>
+		</div>
+	</div>
+</div>
+<div class="jumbotron div-image bridge"></div>
+
+{% endblock %} {% block footer %} {% endblock %}
