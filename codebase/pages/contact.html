@@ -1,10 +1,24 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block body %}
+<div class="jumbotron page-banner contact-banner">
+	<div class="container">
+		<h1>Contact Us</h1>
+	</div>
+</div>
 
-{% block body %}
-<div class="jumbotron">
-  <div class="container">
-    <h1>Make this a contact form!</h1>
-    <p>Give your contact info, or use a SaaS solution to add dynamic contact forms to your static website.</p>
-  </div>
+
+<div class="container-fluid contact">
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2 contact-option">
+			<h1>Companies</h1>
+			<h3>Have an idea that you think we can help with? Reach out to us <a href="{% url '/clients.html' %}">here!</a></h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2 contact-option">
+			<h1>Students</h1>
+			<h3>Think you would be make a great addition to our team? Learn more about membership <a href="{% url '/students.html' %}">here!</a></h3>
+		</div>
+	</div>
 </div>
 {% endblock %}
