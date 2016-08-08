@@ -6,6 +6,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/clients/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/contact/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -17,11 +22,6 @@
     </url>
     <url>
         <loc>/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>/start-ups/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
