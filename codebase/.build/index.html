@@ -2,6 +2,13 @@
 <html class="no-js">
 
 <head>
+	<script type="text/javascript">
+		var url = window.location.href;
+		if (url.substr(url.length - 2) == '//') {
+			console.log(url.length - 1);
+			window.location.href = url.substr(0, url.length - 1);
+		}
+	</script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title></title>
@@ -42,7 +49,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="/students/">Students</a></li>
-							<li><a href="/start-ups.html">Startups</a></li>
+							<li><a href="/clients/">Companies</a></li>
 							<li><a href="/donate/">Donate</a></li>
 							<!--							<li class="divider"></li>-->
 							<!--							<li class="dropdown-header">Nav header</li>-->
@@ -70,35 +77,46 @@
 <div class="jumbotron page-banner welcome-banner">
 	<div class="container">
 		<h1>Welcome to CodeBase</h1>
-		<p>Welcome to CodeBase. We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there. Check out some of our past projects below.</p>
 	</div>
 </div>
 
 <div class="jumbotron info-box">
 	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1">
+		<div class="col-lg-8 col-lg-offset-2">
 			<h2>Who We Are</h2>
-			<h3>We are a team of experienced UC Berkeley undergraduates working to help companies find the tools they need to suceed.</h3>
+			<h3>We are a team of experienced UC Berkeley undergraduates working to help companies find the tools they need to suceed. We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there. Check out some of our past projects below.</h3>
 		</div>
 	</div>
 </div>
 
 <div class="jumbotron div-image office"></div>
 
-<div class="jumbotron info-box">
+
+<div class="jumbotron mission">
 	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1">
-			<h2>What We Do</h2>
-			<p>We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there. Check out some of our past projects below.</p>
+		<div class="col-lg-8 col-lg-offset-2">
+			<h1>Mission</h1>
+			<h3>CodeBase is a non-profit UC Berkeley student organization that develops and designs software, websites, and apps for companies with a vision. We will improve our community by helping businesses take their innovative ideas to concrete production. Furthermore, we will create a fast-paced, project-based working environment for Berkeley students.</h3>
 		</div>
 	</div>
 </div>
+<!--
+<div class="jumbotron info-box">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h2>What We Do</h2>
+			<h3>We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there. Check out some of our past projects below.</h3>
+		</div>
+	</div>
+</div>
+-->
 <div class="jumbotron div-image bridge"></div>
 
 
 	<footer>
 		<div class="jumbotron foot">
-			<p>CodeBase leagaleze will need to go here. and maybe some links to social media</p>
+			<p>CodeBase is a non-profit student organization that stays running due to generous donations.
+				<br /> If you would like to contribute, you can <a href="/donate/">donate here.</a></p>
 		</div>
 	</footer>
 	<script src="/static/js/vendor/jquery-1.10.1.js"></script>

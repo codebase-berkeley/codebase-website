@@ -8,28 +8,34 @@ body {
 }
 
 .welcome-banner {
-	background: url("../images/keyboard.jpeg") no-repeat center center scroll;
-	padding-top: 20%;
-	padding-bottom: 20%;
+	background: url("../images/berkeley.jpg") no-repeat center center scroll;
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 30%;
 }
 
 .welcome-banner h1 {
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: #333;
+	/*	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
-.welcome-banner p {
+.welcome-banner h2 {
 	color: white;
 }
 
 .about-banner {
-	background-color: white;
-	margin: 0px;
+	background: url("../images/startup.jpg") no-repeat center center scroll;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .contact-banner {
 	background: url("../images/office.jpg") no-repeat center center scroll;
 	color: white;
+}
+
+.donate-banner {
+	text-align: center
 }
 
 .team {
@@ -47,7 +53,23 @@ body {
 
 .mission {
 	text-align: center;
-	background-color: lightblue;
+	background-color: aliceblue;
+}
+
+.client-info {
+	text-align: center;
+	background-color: white;
+}
+
+.client-contact {
+	color: white;
+	text-align: center;
+	background: url("../images/keyboard.jpeg") no-repeat center center scroll;
+}
+
+.students {
+	color: #333;
+	text-align: center;
 }
 
 .div-image {
