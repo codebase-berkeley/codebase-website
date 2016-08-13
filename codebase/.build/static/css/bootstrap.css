@@ -6803,3 +6803,6 @@ td.visible-print {
     display: none !important;
   }
 }
+.navbar-inner {
+	background:transparent;
+}

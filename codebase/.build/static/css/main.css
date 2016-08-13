@@ -110,3 +110,6 @@ body {
 	text-align: left;
 	background-color: white
 }
+.navbar-inner {
+	background-color: transparent;
+}
