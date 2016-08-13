@@ -110,6 +110,12 @@ body {
 	text-align: left;
 	background-color: white
 }
-.navbar-inner {
-	background-color: transparent;
+
+.navbar {
+	opacity: 0.75;
+	/* opacity [0-1] */
+	-moz-opacity: 0.75;
+	/* opacity [0-1] */
+	-webkit-opacity: 0.75;
+	/* opacity [0-1] */
 }
