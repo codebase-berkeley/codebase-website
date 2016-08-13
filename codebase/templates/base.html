@@ -50,7 +50,6 @@
 						<ul class="dropdown-menu">
 							<li><a href="{% url '/students.html' %}">Students</a></li>
 							<li><a href="{% url '/clients.html' %}">Companies</a></li>
-							<li><a href="{% url '/donate.html' %}">Donate</a></li>
 							<!--							<li class="divider"></li>-->
 							<!--							<li class="dropdown-header">Nav header</li>-->
 						</ul>
@@ -76,8 +75,7 @@
 	{% block body %} {% endblock %}
 	<footer>
 		<div class="jumbotron foot">
-			<p>CodeBase is a non-profit student organization that stays running due to generous donations.
-				<br /> If you would like to contribute, you can <a href="{% url '/donate.html' %}">donate here.</a></p>
+			<p>&copy; 2016 CodeBase. Have an idea we can help with? Email us <a href="mailto:codebaseberkeley@gmail.com">here</a>!</p>
 		</div>
 	</footer>
 	<script src="{% static '/static/js/vendor/jquery-1.10.1.js' %}"></script>
