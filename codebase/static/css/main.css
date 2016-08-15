@@ -261,3 +261,11 @@ body {
 	border-top-color: #4d6a79;
 	border-bottom-color: #4d6a79;
 }
+
+.footer-text {
+	color: white;
+}
+
+.footer-link {
+	color: #4d6a79;
+}
