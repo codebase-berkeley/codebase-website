@@ -1,3 +1,7 @@
+html {
+	font-family: 'Lato', sans-serif;
+}
+
 body {
 	background-color: #00afcc;
 	color: #191919;
@@ -26,7 +30,7 @@ body {
 }
 
 .about-banner {
-	background	: url("../images/startup.jpg") no-repeat center center scroll;
+	background: url("../images/startup.jpg") no-repeat center center scroll;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-align: center;
@@ -58,6 +62,26 @@ body {
 	text-align: center;
 	background-color: white;
 	color: #191919;
+}
+
+.current-projects {
+	text-align: center;
+	background-color: #a3e7f0;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.project {
+	background-color: #ffffff;
+}
+
+.project-logo img {
+	margin-top: 30px;
+}
+
+.project-description {
+	padding-top: 30px;
 }
 
 .client-info {
