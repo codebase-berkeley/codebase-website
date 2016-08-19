@@ -1,11 +1,36 @@
+html,
+body,
+#master {
+	height: 100%;
+}
+
+body > #master {
+	height: auto;
+	min-height: 100%;
+}
+
 html {
 	font-family: 'Lato', sans-serif;
 }
 
 body {
-	background-color: #00afcc;
+	background-color: #ffffff;
 	color: #191919;
-	padding-bottom: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	padding-bottom: 9.6em;
+	/*	 must be same height as the footer */
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 9.6em;
+	margin-top: -9.66em;
 }
 
 .page-banner {
@@ -18,11 +43,6 @@ body {
 	background-size: cover;
 	padding-top: 10%;
 	padding-bottom: 30%;
-}
-
-.welcome-banner h1 {
-	/*	color: #333;*/
-	/*	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .welcome-banner h2 {
@@ -62,6 +82,7 @@ body {
 	text-align: center;
 	background-color: white;
 	color: #191919;
+	padding-top: 0px;
 }
 
 .current-projects {
@@ -80,6 +101,7 @@ body {
 
 .project-logo img {
 	margin-top: 30px;
+	width: 100%;
 }
 
 .project-description {
@@ -147,6 +169,16 @@ body {
 	text-align: left;
 	background-color: white;
 	padding-bottom: 50px;
+}
+
+.contact-option {
+	text-align: center;
+}
+
+.contact-option h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 400%;
 }
 
 .navbar {
@@ -264,6 +296,9 @@ body {
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 		color: #4d6a79;
 		background-color: #4d6a79;
+	}
+	.project-log img {
+		width: 75%;
 	}
 }
 

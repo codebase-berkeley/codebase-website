@@ -31,33 +31,37 @@
 </head>
 
 <body>
-	<div class="navbar-fixed-top navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">CodeBase</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="/">Home</a></li>
-					<li class=""><a href="/about/">About</a></li>
-					<li class=""><a href="/contact/">Contact</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="/students/">Students</a></li>
-							<li><a href="/clients/">Companies</a></li>
-							<!--							<li class="divider"></li>-->
-							<!--							<li class="dropdown-header">Nav header</li>-->
-						</ul>
-					</li>
-				</ul>
-				<!--			  Login Features Hidden-->
-				<!--				<form class="navbar-form navbar-right">
+	<div id="master">
+		<div class="navbar-fixed-top navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">CodeBase</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/">Home</a></li>
+						<li class=""><a href="/services/">Services</a></li>
+						<li class=""><a href="/team/">Team</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/clients/">Clients</a></li>
+								<li><a href="/students/">Students</a></li>
+								<li><a href="/contact/">General Inquiries</a></li>
+								<!--							<li class="divider"></li>-->
+								<!--							<li class="dropdown-header">Nav header</li>-->
+							</ul>
+						</li>
+						<li class=""><a href="/application/">Join</a></li>
+
+					</ul>
+					<!--			  Login Features Hidden-->
+					<!--				<form class="navbar-form navbar-right">
 				<div class="form-group">
 					<input type="text" placeholder="Email" class="form-control">
 				</div>
@@ -66,29 +70,59 @@
 				</div>
 				<button type="submit" class="btn btn-success">Sign in</button>
 				</form>-->
+				</div>
+				<!--/.navbar-collapse -->
 			</div>
-			<!--/.navbar-collapse -->
 		</div>
-	</div>
-
-
-	
+		<div id="content">
+			
 <div class="jumbotron page-banner welcome-banner">
-	<div class="container">
+	<div class="container-fluid">
 		<h1>Welcome to CodeBase</h1>
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h3>We are a team of experienced UC Berkeley undergraduates working to help companies find the tools they need to suceed. We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there.</h3>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div class="jumbotron info-box">
+
+<div class="jumbotron mission">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
-			<h2>Who We Are</h2>
-			<h3>We are a team of experienced UC Berkeley undergraduates working to help companies find the tools they need to suceed. We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there.</h3>
+			<h1>Our Mission</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h3>CodeBase is a non-profit UC Berkeley student organization that develops and designs software, websites, and apps for companies with a vision. We help businesses take their innovative ideas to concrete production and create a fast-paced, project-based working environment for Berkeley students. CodeBase aims to offer quality feedback on the needs and objectives of startups based in the Bay Area. For startups without technical talent, or for those in need of more, transforming a company from an idea to a business can be difficult. CodeBase alleviates growing pains and accelerates growth by helping startups refine and advance their technical plan.</h3>
 		</div>
 	</div>
 </div>
 
 
+<div class="jumbotron current-projects">
+	<h1 style="padding-bottom:40px;">Current Projects</h1>
+	<div class="row project">
+		<!--		<h1>Project Name</h1>-->
+		<div class="col-lg-6 col-lg-offset-3 project-logo">
+			<img src="../static/images/projects/current/upstream.jpg">
+		</div>
+
+	</div>
+	<div class="row project">
+		<!--		<h1>Project Name</h1>-->
+		<div class="col-lg-2 col-lg-offset-5 project-logo">
+			<img src="../static/images/projects/current/cyrcle.jpg">
+		</div>
+		<!--
+		<div class="col-lg-4 project-description">
+			<h1>Cyrcle Description needed</h1>
+		</div>
+-->
+	</div>
+</div>
 
 <!--<div class="jumbotron mission">
 	<div class="row">
@@ -111,11 +145,16 @@
 <!--<div class="jumbotron div-image bridge"></div>-->
 
 
-	<footer>
+		</div>
+	</div>
+
+	<div id="footer">
 		<div class="jumbotron foot">
 			<p class="footer-text">&copy; 2016 CodeBase. Have an idea we can help with? Email us <a class="footer-link" href="mailto:codebaseberkeley@gmail.com">here</a>!</p>
 		</div>
-	</footer>
+	</div>
+
+
 	<script src="/static/js/vendor/jquery-1.10.1.js"></script>
 	<script src="/static/js/vendor/bootstrap.js"></script>
 	<script src="/static/js/main.js"></script>

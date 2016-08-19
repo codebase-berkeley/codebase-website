@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/about/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>/application/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -31,7 +26,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/join/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/services/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/students/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/team/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
