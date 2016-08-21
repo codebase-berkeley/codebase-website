@@ -137,6 +137,11 @@ body {
 	background-color: #ffffff;
 }
 
+.underline {
+	color: lightgray;
+	border-width: 3px;
+}
+
 .client-contact {
 	color: white;
 	text-align: center;
@@ -146,14 +151,25 @@ body {
 
 .students {
 	text-align: center;
-	background-color: #BCB5BF;
+	background-color: #ffffff;
 	padding-top: 150px;
+	padding-bottom: 0;
 }
 
 .div-image {
 	padding-top: 15%;
 	padding-bottom: 15%;
 	background-size: cover;
+}
+
+.break {
+	padding-bottom: 75px;
+}
+
+.recruitment {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 125px;
 }
 
 .office {
@@ -194,7 +210,8 @@ body {
 
 .contact-option {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .contact-option h1 {
