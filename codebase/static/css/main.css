@@ -36,13 +36,15 @@ body {
 .page-banner {
 	background-size: cover;
 	text-align: center;
+	margin-top: 100px;
 }
 
 .welcome-banner {
-	background: url("../images/berkeley.jpg") no-repeat center center scroll;
+	background: url("../images/welcome-berkeley.svg") no-repeat center center scroll;
+	background-position: left;
 	background-size: cover;
-	padding-top: 10%;
-	padding-bottom: 30%;
+	padding-top: 13%;
+	padding-bottom: 52%;
 }
 
 .welcome-banner h2 {
@@ -54,6 +56,24 @@ body {
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-align: center;
+}
+
+.service {
+	padding-top: 25px;
+}
+
+.service h2 {
+	font-size: 200%;
+}
+
+.service img {
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+.service-description {
+	text-align: left;
+	/*	padding-top: 75px;*/
 }
 
 .contact-banner {
@@ -111,6 +131,7 @@ body {
 .client-info {
 	text-align: center;
 	background-color: #ffffff;
+	padding-bottom: 600px;
 }
 
 .student-info {
@@ -173,6 +194,7 @@ body {
 
 .contact-option {
 	text-align: center;
+	padding-top: 50px;
 }
 
 .contact-option h1 {
@@ -192,30 +214,31 @@ body {
 }
 
 .navbar-default {
-	background-color: #7bdfea;
-	border-color: #00afcc;
+	/*	background-color: #7bdfea;*/
+	background: url("../images/assets/top-bar.svg");
+	/*	border-color: #00afcc;*/
 }
 
 .navbar-default .navbar-brand {
-	color: #008698;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #ffffff;
+	color: #7bdfea;
 }
 
 .navbar-default .navbar-text {
-	color: #008698;
+	color: #7bdfea;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #008698;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ffffff;
+	color: #7bdfea;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
@@ -223,12 +246,12 @@ body {
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-	color: #008698;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-	color: #ffffff;
+	color: #7bdfea;
 	background-color: #00afcc;
 }
 
@@ -239,22 +262,22 @@ body {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-	color: #ffffff;
+	color: #7bdfea;
 	background-color: #00afcc;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: #00afcc;
+	color: #7bdfea;
+	background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	color: #ffffff;
-	background-color: #00afcc;
+	color: #7bdfea;
+	background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
@@ -276,7 +299,7 @@ body {
 }
 
 .navbar-default .navbar-link {
-	color: #ffffff;
+	color: #7bdfea;
 }
 
 .navbar-default .navbar-link:hover {
@@ -285,7 +308,7 @@ body {
 
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-		color: #ffffff;
+		color: #7bdfea;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -306,21 +329,21 @@ body {
 /* caret */
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-	border-top-color: #008698;
-	border-bottom-color: #008698;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-	border-top-color: #ffffff;
-	border-bottom-color: #ffffff;
+	border-top-color: #7bdfea;
+	border-bottom-color: #7bdfea;
 }
 
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-	border-top-color: #ffffff;
-	border-bottom-color: #ffffff;
+	border-top-color: #7bdfea;
+	border-bottom-color: #7bdfea;
 }
 
 .footer-text {
