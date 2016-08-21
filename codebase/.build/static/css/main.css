@@ -36,12 +36,11 @@ body {
 .page-banner {
 	background-size: cover;
 	text-align: center;
-	margin-top: 100px;
 }
 
 .welcome-banner {
 	background: url("../images/welcome-berkeley.svg") no-repeat center center scroll;
-	background-position: left;
+	/*	background-position: left;*/
 	background-size: cover;
 	padding-top: 13%;
 	padding-bottom: 52%;
@@ -53,7 +52,7 @@ body {
 
 .about-banner {
 	background: url("../images/startup.jpg") no-repeat center center scroll;
-	padding-top: 5%;
+	padding-top: 150px;
 	padding-bottom: 5%;
 	text-align: center;
 }
@@ -73,7 +72,7 @@ body {
 
 .service-description {
 	text-align: left;
-	/*	padding-top: 75px;*/
+	padding-top: 75px;
 }
 
 .contact-banner {
@@ -131,24 +130,24 @@ body {
 .client-info {
 	text-align: center;
 	background-color: #ffffff;
-	padding-bottom: 600px;
 }
 
 .student-info {
 	text-align: center;
 	background-color: #ffffff;
-	padding-bottom: 10%;
 }
 
 .client-contact {
 	color: white;
 	text-align: center;
 	background: url("../images/keyboard.jpeg") no-repeat center center scroll;
+	padding-top: 150px;
 }
 
 .students {
 	text-align: center;
-	background-color: #a3e7f0;
+	background-color: #BCB5BF;
+	padding-top: 150px;
 }
 
 .div-image {
@@ -172,7 +171,7 @@ body {
 }
 
 .foot {
-	background-color: #00afcc;
+	background-color: #5478A3;
 	text-align: center;
 	/*	color: white;*/
 }
@@ -190,6 +189,7 @@ body {
 	text-align: left;
 	background-color: white;
 	padding-bottom: 50px;
+	padding-top: 20px;
 }
 
 .contact-option {
@@ -203,6 +203,51 @@ body {
 	font-size: 400%;
 }
 
+.nav-home {
+	content: url("../images/assets/home.png")
+}
+
+.nav-home:hover,
+.nav-home:focus {
+	content: url("../images/assets/home-hover.png")
+}
+
+.nav-services {
+	content: url("../images/assets/services.png")
+}
+
+.nav-services:hover,
+.nav-services:focus {
+	content: url("../images/assets/services-hover.png")
+}
+
+.nav-team {
+	content: url("../images/assets/team.png")
+}
+
+.nav-team:hover,
+.nav-team:focus {
+	content: url("../images/assets/team-hover.png")
+}
+
+.nav-contact {
+	content: url("../images/assets/contact.png")
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
+	content: url("../images/assets/contact-hover.png")
+}
+
+.nav-join {
+	content: url("../images/assets/join.png")
+}
+
+.nav-join:hover,
+.nav-join:focus {
+	content: url("../images/assets/join-hover.png")
+}
+
 .navbar {
 	opacity: 1.0;
 	/* opacity [0-1] */
@@ -214,9 +259,9 @@ body {
 }
 
 .navbar-default {
-	/*	background-color: #7bdfea;*/
-	background: url("../images/assets/top-bar.svg");
-	/*	border-color: #00afcc;*/
+	background-color: #5478A3;
+	/*	background: url("../images/assets/top-bar.svg");*/
+	border-color: #00afcc;
 }
 
 .navbar-default .navbar-brand {
@@ -225,7 +270,7 @@ body {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #7bdfea;
+	color: #BCB5BF;
 }
 
 .navbar-default .navbar-text {
@@ -238,11 +283,12 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #7bdfea;
+	color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
-	background-color: #7bdfea;
+	background-color: #5478A3;
+	border-radius: 0px;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
@@ -251,19 +297,19 @@ body {
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-	color: #7bdfea;
-	background-color: #00afcc;
+	color: #ffffff;
+	background-color: #5478A3;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-	background-color: #00afcc;
+	background-color: #5478A3;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-	color: #7bdfea;
-	background-color: #00afcc;
+	color: #ffffff;
+	background-color: #5478A3;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -312,7 +358,7 @@ body {
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-		color: #ffffff;
+		color: #BCB5BF;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -335,15 +381,15 @@ body {
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-	border-top-color: #7bdfea;
-	border-bottom-color: #7bdfea;
+	border-top-color: #BCB5BF;
+	border-bottom-color: #BCB5BF;
 }
 
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
-	border-top-color: #7bdfea;
-	border-bottom-color: #7bdfea;
+	border-top-color: #BCB5BF;
+	border-bottom-color: #BCB5BF;
 }
 
 .footer-text {
@@ -351,7 +397,7 @@ body {
 }
 
 .footer-link {
-	color: #4d6a79;
+	color: #BCB5BF;
 }
 
 .link {
