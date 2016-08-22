@@ -21,7 +21,7 @@ body {
 }
 
 #content {
-	padding-bottom: 9.6em;
+	padding-bottom: 0.6em;
 	/*	 must be same height as the footer */
 }
 
@@ -29,8 +29,8 @@ body {
 	clear: both;
 	position: relative;
 	z-index: 10;
-	height: 9.6em;
-	margin-top: -9.66em;
+	height: 0.6em;
+	margin-top: 0.56em;
 }
 
 .page-banner {
@@ -187,6 +187,8 @@ body {
 }
 
 .foot {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #5478A3;
 	text-align: center;
 	/*	color: white;*/
@@ -301,6 +303,7 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
@@ -315,7 +318,7 @@ body {
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
 	color: #ffffff;
-	background-color: #5478A3;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
@@ -326,21 +329,21 @@ body {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 	color: #ffffff;
-	background-color: #5478A3;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #7bdfea;
-	background-color: transparent;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
 	color: #7bdfea;
-	background-color: transparent;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-toggle {
@@ -349,7 +352,7 @@ body {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: #4d6a79;
+	background-color: #BCB5BF;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -367,6 +370,7 @@ body {
 
 .navbar-default .navbar-link:hover {
 	color: #4d6a79;
+	background-color: #BCB5BF;
 }
 
 @media (max-width: 767px) {
@@ -381,7 +385,7 @@ body {
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 		color: #4d6a79;
-		background-color: #4d6a79;
+		background-color: #BCB5BF;
 	}
 	.project-log img {
 		width: 75%;
