@@ -11,7 +11,7 @@
 <div class="jumbotron student-info">
 	<div class="row">
 		<div class="col-lg-6 col-lg-offset-3">
-			<h2 style="font-size:225%; text-align:left;">What can you do at CodeBase?</h2>
+			<h1 style="font-size:225%; text-align:center;">What can you do at CodeBase?</h1>
 
 			<div class="recruitment">
 				<ul>
@@ -22,7 +22,7 @@
 						<h3>Design, develop, and consult on real world technical challenges, as well as build an impressive portfolio and resume.</h3>
 					</li>
 					<li>
-						<h3>Network with companies and gain professional development.</h3>
+						<h3>Build professional relationships and network with fast-paced companies.</h3>
 					</li>
 					<li>
 						<h3>Be part of a close community of friends at Cal with many social opportunities.</h3>
@@ -35,71 +35,76 @@
 			<!--			<p>CodeBase provides a unique opportunity for you to work with startups and companies on industry projects. You will design, develop, and consult on real world technical challenges, as well as build an impressive portfolio and resume. In addition, there will you will get the chance to network with companies and for professional growth, all while working in a fun, fast-paced environment with your fellow bears.</p>-->
 
 		</div>
-
-		<div class="row" style="padding-top:200px;">
-			<div class="col-lg-6 col-lg-offset-3">
-				<h2 style="font-size:225%; text-align:left;">Recruitment Timeline</h2>
-			</div>
-		</div>
-		<div class="row recruitment">
-			<div class="col-lg-2 col-lg-offset-4">
-				<h3><strong>September 7:</strong></h3>
-			</div>
-			<div class="col-lg-2">
-				<h3>Application Deadline</h3>
-			</div>
-			<div class="col-lg-2 col-lg-offset-4">
-				<h3><strong>September 11-16:</strong></h3>
-			</div>
-			<div class="col-lg-2">
-				<h3>Coffee Chats</h3>
-			</div>
-			<div class="col-lg-2 col-lg-offset-4">
-				<h3><strong>September 16-19:</strong></h3>
-			</div>
-			<div class="col-lg-2">
-				<h3>Technical Interviews</h3>
-			</div>
-			<div class="col-lg-2 col-lg-offset-4">
-				<h3><strong>September 22:</strong></h3>
-			</div>
-			<div class="col-lg-2">
-				<h3>Welcome Night</h3>
-			</div>
-		</div>
-
-		<div class="break"></div>
-
-		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3">
-				<h3>CodeBase is a new club on campus, but it has the potential to be very successful. There is a lot of talent at UC Berkeley and a lot of great companies which can benefit from that talent. CodeBase is trying to be the bridge between the companies and the talent. You will have to work hard, but will gain a lot of experience and a lot of concrete accomplishments. Be part of something great.
-				</h3>
-			</div>
-		</div>
-
-
-		<h2>Apply <a target="_blank" href="{% url '/application.html' %}">here</a>! </h2>
-
-		<h3>Have a question? Contact us below. </h3>
-
-		<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/NztGlg" data-text="Student Contact Form" style="width:80%;height:750px; padding-left:20%; padding-top:50px;"></div>
-		<script>
-			(function () {
-				var qs, js, q, s, d = document,
-					gi = d.getElementById,
-					ce = d.createElement,
-					gt = d.getElementsByTagName,
-					id = 'typef_orm',
-					b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-				if (!gi.call(d, id)) {
-					js = ce.call(d, 'script');
-					js.id = id;
-					js.src = b + 'widget.js';
-					q = gt.call(d, 'script')[0];
-					q.parentNode.insertBefore(js, q)
-				}
-			})()
-		</script>
 	</div>
+
+	<div class="row" style="padding-top:50px;">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h1 style="font-size:225%; text-align:center;">Recruitment Timeline</h1>
+		</div>
+	</div>
+	<div class="row recruitment">
+		<div class="col-lg-2 col-lg-offset-4 deadline">
+			<h3><strong>September 7:</strong></h3>
+		</div>
+		<div class="col-lg-2 event-desc">
+			<h3>Application Deadline</h3>
+		</div>
+	</div>
+	<div class="row recruitment">
+		<div class="col-lg-2 col-lg-offset-4 deadline">
+			<h3><strong>September 11-16:</strong></h3>
+		</div>
+		<div class="col-lg-2 event-desc">
+			<h3>Coffee Chats</h3>
+		</div>
+	</div>
+	<div class="row recruitment">
+		<div class="col-lg-2 col-lg-offset-4 deadline">
+			<h3><strong>September 16-19:</strong></h3>
+		</div>
+		<div class="col-lg-2 event-desc">
+			<h3>Technical Interviews</h3>
+		</div>
+	</div>
+	<div class="row recruitment">
+		<div class="col-lg-2 col-lg-offset-4 deadline">
+			<h3><strong>September 22:</strong></h3>
+		</div>
+		<div class="col-lg-2 event-desc">
+			<h3>Welcome Night</h3>
+		</div>
+	</div>
+
+	<div class="break"></div>
+
+	<div class="row">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h3>CodeBase is new on campus, but we hope we can work together to create a lasting imprint. We aim to bridge companies with Berkeley’s manifest of raw talent. Work hard, learn often, and be a part of something great.</h3>
+		</div>
+	</div>
+
+
+	<h2>Apply <a target="_blank" href="{% url '/application.html' %}">here</a>! </h2>
+
+	<h3>Have a question? Contact us below. </h3>
+
+	<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/NztGlg" data-text="Student Contact Form" style="width:80%;height:750px; padding-left:20%; padding-top:50px;"></div>
+	<script>
+	(function () {
+		var qs, js, q, s, d = document,
+			gi = d.getElementById,
+			ce = d.createElement,
+			gt = d.getElementsByTagName,
+			id = 'typef_orm',
+			b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+		if (!gi.call(d, id)) {
+			js = ce.call(d, 'script');
+			js.id = id;
+			js.src = b + 'widget.js';
+			q = gt.call(d, 'script')[0];
+			q.parentNode.insertBefore(js, q)
+		}
+	})()
+</script>
 </div>
 {% endblock %}

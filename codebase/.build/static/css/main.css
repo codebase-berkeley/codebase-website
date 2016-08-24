@@ -210,6 +210,14 @@ body {
 	padding-top: 20px;
 }
 
+.deadline {
+	text-align: left;
+}
+
+.event-desc {
+	text-align: left;
+}
+
 .contact-option {
 	text-align: center;
 	padding-top: 100px;
