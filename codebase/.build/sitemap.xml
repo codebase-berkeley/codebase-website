@@ -26,6 +26,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/interest-form/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/join/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
