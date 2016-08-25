@@ -1,4 +1,6 @@
-{% extends "base.html" %} {% block body %}
+{% extends "base.html" %} {% block meta %}
+<title>Join - CodeBase</title>
+<meta name="description" content=""> {% endblock %} {% block body %}
 
 <div class="jumbotron students">
 	<div class="container">
@@ -8,7 +10,7 @@
 </div>
 
 
-<div class="jumbotron student-info">
+<div class="container-fluid jumbotron student-info">
 	<div class="row">
 		<div class="col-lg-6 col-lg-offset-3">
 			<h1 style="font-size:225%; text-align:center;">What can you do at CodeBase?</h1>
@@ -44,7 +46,7 @@
 	</div>
 	<div class="row recruitment">
 		<div class="col-lg-2 col-lg-offset-4 deadline">
-			<h3><strong>September 7:</strong></h3>
+			<h3><strong>September 2:</strong></h3>
 		</div>
 		<div class="col-lg-2 event-desc">
 			<h3>Application Deadline</h3>
@@ -52,7 +54,7 @@
 	</div>
 	<div class="row recruitment">
 		<div class="col-lg-2 col-lg-offset-4 deadline">
-			<h3><strong>September 11-16:</strong></h3>
+			<h3><strong>September 6-9:</strong></h3>
 		</div>
 		<div class="col-lg-2 event-desc">
 			<h3>Coffee Chats</h3>
@@ -60,12 +62,13 @@
 	</div>
 	<div class="row recruitment">
 		<div class="col-lg-2 col-lg-offset-4 deadline">
-			<h3><strong>September 16-19:</strong></h3>
+			<h3><strong>September 9-12:</strong></h3>
 		</div>
 		<div class="col-lg-2 event-desc">
 			<h3>Technical Interviews</h3>
 		</div>
 	</div>
+	<!--
 	<div class="row recruitment">
 		<div class="col-lg-2 col-lg-offset-4 deadline">
 			<h3><strong>September 22:</strong></h3>
@@ -74,6 +77,7 @@
 			<h3>Welcome Night</h3>
 		</div>
 	</div>
+-->
 
 	<div class="break"></div>
 
@@ -88,23 +92,23 @@
 
 	<h3>Have a question? Contact us below. </h3>
 
-	<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/NztGlg" data-text="Student Contact Form" style="width:80%;height:750px; padding-left:20%; padding-top:50px;"></div>
+	<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/NztGlg" data-text="Student Contact Form" style="width:80%;height:100vh; padding-left:20%; padding-top:50px;"></div>
 	<script>
-	(function () {
-		var qs, js, q, s, d = document,
-			gi = d.getElementById,
-			ce = d.createElement,
-			gt = d.getElementsByTagName,
-			id = 'typef_orm',
-			b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-		if (!gi.call(d, id)) {
-			js = ce.call(d, 'script');
-			js.id = id;
-			js.src = b + 'widget.js';
-			q = gt.call(d, 'script')[0];
-			q.parentNode.insertBefore(js, q)
-		}
-	})()
-</script>
+		(function () {
+			var qs, js, q, s, d = document,
+				gi = d.getElementById,
+				ce = d.createElement,
+				gt = d.getElementsByTagName,
+				id = 'typef_orm',
+				b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+			if (!gi.call(d, id)) {
+				js = ce.call(d, 'script');
+				js.id = id;
+				js.src = b + 'widget.js';
+				q = gt.call(d, 'script')[0];
+				q.parentNode.insertBefore(js, q)
+			}
+		})()
+	</script>
 </div>
 {% endblock %}

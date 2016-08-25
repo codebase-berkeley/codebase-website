@@ -1,5 +1,6 @@
-{% extends "base.html" %} {% block body %}
-
+{% extends "base.html" %} {% block meta %}
+<title>Services - CodeBase</title>
+<meta name="description" content=""> {% endblock %} {% block body %}
 <div class="jumbotron client-contact">
 	<div class="container">
 		<h1>Services We Offer</h1>
@@ -23,15 +24,16 @@
 
 
 	<div class="row">
-		<div class="col-lg-4 col-lg-offset-3 service-description">
-			<h2>We offer supplemental product development powered by your technology designed to take your products to the next level.
-			</h2>
-		</div>
-		<div class="col-lg-2 service">
+		<div class="col-lg-2 col-lg-offset-3 service">
 			<h2>Product <br />Development</h2>
 			<img src="../static/images/assets/product_development_icon.png" height="150px" width="150px">
 
 		</div>
+		<div class="col-lg-4  service-description">
+			<h2>We offer supplemental product development powered by your technology designed to take your products to the next level.
+			</h2>
+		</div>
+
 	</div>
 
 
@@ -47,20 +49,19 @@
 
 
 	<div class="row">
-		<div class="col-lg-4 col-lg-offset-3 service-description">
-			<h2>If we aren't able to help you with your request, we can connect you with talented UC Berkeley developers who can work with you part or full time to develop your product.</h2>
-		</div>
-		<div class="col-lg-2 service">
+		<div class="col-lg-2 col-lg-offset-3 service">
 			<h2>Recruitment</h2>
 			<img src="../static/images/assets/recruitment_icon.png" height="150px" width="150px">
 
 		</div>
+		<div class="col-lg-4  service-description">
+			<h2>If we aren't able to help you with your request, we can connect you with talented UC Berkeley developers who can work with you part or full time to develop your product.</h2>
+		</div>
+
 	</div>
 
 	<h2 style="padding-top:75px;">If you’re interested in working with us, fill out the form here.</h2>
-
-
-	<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/knvSIa" data-text="Client Contact Form" style="width:80%;height:750px; padding-left:20%; padding-top:50px;"></div>
+	<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/knvSIa" data-text="Client Contact Form" style="width:80%;height:100vh; padding-left:20%; padding-top:50px;"></div>
 	<script>
 		(function () {
 			var qs, js, q, s, d = document,
@@ -78,6 +79,7 @@
 			}
 		})()
 	</script>
-
 </div>
+
+
 {% endblock %}
