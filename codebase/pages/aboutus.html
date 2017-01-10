@@ -1,160 +1,161 @@
-<head>
-  <link rel="stylesheet" href="/static/css/bootstrap.css">
-  <link rel="stylesheet" href="/static/css/about_us.css">
-</head>
-<div class = 'text-center navbar-inverse navbar navbar-fixed'>
-</div>
+{% extends "base.html" %} 
+{% block meta %}
+  <title>About Us</title>
+{% endblock %}
+{% block body %}
 
-<div class = 'container about-us-container '>
-  <div class = 'row text-center p-ud'>
-    <img id = "about-us-img" src='/static/images/about_us.png' alt='About Us Logo' />
-    <h2 class = "h2" id="about-us-heading"> ABOUT US </h2>
-  </div>
-  <div class = "row p-ud">
-    <div class = "text-center col-xs-2">
-      <img src = "/static/images/mission_icon.png" id = "mission-icon" alt="Our Mission" class = "img-responsive"/>
+  <div class = 'container about-us-container '>
+    <div class = 'row text-center p-ud'>
+      <img id = "about-us-img" src='/static/images/about_us.png' alt='About Us Logo' />
+      <h2 class = "h2" id="about-us-heading"> ABOUT US </h2>
     </div>
-    <div class = "col-xs-10">
-      <h3 id = "mission-heading"> OUR MISSION </h3>
+    <div class = "row p-ud">
+      <div class = "text-center col-xs-2">
+        <img src = "/static/images/mission_icon.png" id = "mission-icon" alt="Our Mission" class = "img-responsive"/>
+      </div>
+      <div class = "col-xs-10">
+        <h3 id = "mission-heading"> OUR MISSION </h3>
         <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+      </div>
     </div>
-  </div>
-  <div class = "row">
-    <div class = "col-md-6 col-xs-12 m-t-lg">
+    <div class = "row">
+      <div class = "col-md-6 col-xs-12 m-t-lg">
 
-      <div class = "row m-t-lg p-ud">
-        <img src = "/static/images/culture_icon.png" id = "culture-icon" alt="Our Culture" class = "img-responsive"/>
-        <h3 id = "culture-heading"> OUR CULTURE</h3>
-        <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+        <div class = "row m-t-lg p-ud">
+          <img src = "/static/images/culture_icon.png" id = "culture-icon" alt="Our Culture" class = "img-responsive"/>
+          <h3 id = "culture-heading"> OUR CULTURE</h3>
+          <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+        </div>
+        <div class = "row m-t-lg p-ud">
+          <img src = "/static/images/projects_icon_2.png" id = "projects-icon" alt="Projects" class = "img-responsive"/>
+          <h3 id = "projects-heading"> PROJECTS</h3>
+          <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+        </div>
+        <div class = "row m-t-lg p-ud">
+          <img src = "/static/images/committees_icon_2.png" id = "committees-icon" alt="Committees" class = "img-responsive"/>
+          <h3 id = "committees-heading"> COMMITTEES</h3>
+          <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+        </div>
       </div>
-      <div class = "row m-t-lg p-ud">
-        <img src = "/static/images/projects_icon_2.png" id = "projects-icon" alt="Projects" class = "img-responsive"/>
-        <h3 id = "projects-heading"> PROJECTS</h3>
-        <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+
+    </div>
+    <!-- END TOP HALF -->
+    <!-- MEMBERS -->
+    <div class = 'row text-center p-ud m-t-lg'>
+      <img id = "members-img" src='/static/images/members_icon.png' alt='Members' />
+      <h2 class = "h2" id="members-heading"> MEMBERS</h2>
+    </div>
+    <div class = "row">
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
       </div>
-      <div class = "row m-t-lg p-ud">
-        <img src = "/static/images/committees_icon_2.png" id = "committees-icon" alt="Committees" class = "img-responsive"/>
-        <h3 id = "committees-heading"> COMMITTEES</h3>
-        <p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
       </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
+      <!-- SINGLE MEMBER PANEL -->
+      <div class = "col-md-3 text-center col-xs-12">
+        <div class = "panel panel-member">
+          <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
+          <h4>Abhishyant Khare</h4>
+          <h5>President</h5>
+        </div>
+      </div>
+      <!-- END PANEL -->
     </div>
 
   </div>
-  <!-- END TOP HALF -->
-  <!-- MEMBERS -->
-  <div class = 'row text-center p-ud m-t-lg'>
-    <img id = "members-img" src='/static/images/members_icon.png' alt='Members' />
-    <h2 class = "h2" id="members-heading"> MEMBERS</h2>
-  </div>
-  <div class = "row">
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-    <!-- SINGLE MEMBER PANEL -->
-    <div class = "col-md-3 text-center col-xs-12">
-      <div class = "panel panel-member">
-        <img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class = "img-responsive" />
-        <h4>Abhishyant Khare</h4>
-        <h5>President</h5>
-      </div>
-    </div>
-    <!-- END PANEL -->
-  </div>
-  
-</div>
+
+{% endblock %}
