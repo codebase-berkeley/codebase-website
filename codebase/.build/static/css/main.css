@@ -7,8 +7,16 @@ body,
 body > #master {
 	height: auto;
 	min-height: 100%;
-    background-image: url("../images/LandingPageBackground.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 150px, 100% 150px;
+    background-position: 0 0, 0 bottom;
+    background: repeating-linear-gradient(
+        155deg,
+        #bccddc,
+        #bccddc 800px,
+        #ffffff 800px,
+        #ffffff 1200px
+    );
 
 }
 
