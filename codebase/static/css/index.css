@@ -1,19 +1,35 @@
+
+@font-face {
+    font-family: 'MyriadPro'; /*a name to be used later*/
+    src: url('/static/fonts/MyriadProRegular.ttf'); /*URL to font*/
+}
+
 .mission {
     background-color: rgba(0,0,0,0);
 	color: #2B4A89;
-	margin-top: 220px;
-    margin-left: 40vw;
+	margin-top: 170px;
+    margin-left: 30vw;
+   
 }
-
+.mission-text {
+    font-family: "Avenir Light";
+    font-size:84px;
+}
 .bg {
     background-color: rgba(0,0,0,0);
 	color: #2B4A89;
 	margin-top: 30px;
     margin-left: 35.5vw;
+    
+}
+
+.bg-text {
+    font-family: 'MyriadPro';
+    font-size: 28px;
 }
 
 .apply-container {
-    margin-top: 165px;
+    margin-top: 175px;
     width: 150px;
 }
 
@@ -55,15 +71,23 @@
 
 .card {
   background: #fff;
-  border-radius: 2px;
+  border-radius: 15px;
   display: inline-block;
-  height: 300px;
+  height: 500px;
   margin: 1rem;
   position: relative;
-  width: 300px;
+  width: 350px;
 }
 
 .card-1 {
+    margin-left: 10vw;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    text-align: center;
+}
+
+.card-title {
+    color: #3C8721;
+    font-size: 32px;
+    margin-top: 20px;
 }

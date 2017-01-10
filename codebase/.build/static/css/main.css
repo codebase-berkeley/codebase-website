@@ -13,7 +13,7 @@ body > #master {
     background: repeating-linear-gradient(
         157deg,
         #bccddc,
-        #bccddc 700px,
+        #bccddc 750px,
         #ffffff 700px,
         #ffffff 1400px
     );
@@ -21,7 +21,7 @@ body > #master {
 }
 
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Myriad Pro Regular', sans-serif;
 }
 
 body {
