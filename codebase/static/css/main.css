@@ -18,6 +18,7 @@ body {
 	color: #191919;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 #content {
@@ -39,10 +40,11 @@ body {
 }
 
 .welcome-banner {
-	background: url("../images/welcome-berkeley.jpg") no-repeat scroll;
+	background: url("../images/welcome-berkeley.jpg") no-repeat center center scroll;
 	background-size: cover;
 	padding-top: 13%;
-	height: 95vh;
+	height: 120vh;
+	margin-bottom: -25vh
 }
 
 .welcome-banner h2 {
@@ -58,6 +60,7 @@ body {
 
 .service {
 	padding-top: 25px;
+	padding-right: 50px;
 }
 
 .service h2 {
