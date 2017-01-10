@@ -7,6 +7,9 @@ body,
 body > #master {
 	height: auto;
 	min-height: 100%;
+    background-image: url("../images/LandingPageBackground.png");
+    background-size: cover;
+
 }
 
 html {
@@ -14,8 +17,7 @@ html {
 }
 
 body {
-	background-color: #ffffff;
-	color: #191919;
+    width: 100%
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -40,10 +42,8 @@ body {
 }
 
 .welcome-banner {
-	background: url("../images/welcome-berkeley.jpg") no-repeat center center scroll;
-	background-size: cover;
-	padding-top: 13%;
-	height: 120vh;
+	background: url("../images/LandingPageBackground.png") no-repeat center center scroll;
+    height: 100vh;
 	margin-bottom: -25vh
 }
 
@@ -99,12 +99,7 @@ body {
 	border-radius: 100%;
 }
 
-.mission {
-	text-align: center;
-	background-color: white;
-	color: #191919;
-	padding-top: 0px;
-}
+
 
 .current-projects {
 	text-align: center;
@@ -278,46 +273,49 @@ body {
 }
 
 .navbar {
-	opacity: 1.0;
+	opacity: 1;
 	/* opacity [0-1] */
-	-moz-opacity: 1.0;
+	-moz-opacity: 1;
 	/* opacity [0-1] */
-	-webkit-opacity: 1.0;
+	-webkit-opacity: 1;
 	/* opacity [0-1] */
 	border-bottom: 0px;
 }
 
 .navbar-default {
-	background-color: #5478A3;
+    background-color: rgba(0,0,0,0);
 	/*	background: url("../images/assets/top-bar.svg");*/
 	border-color: #ffffff;
 }
 
 .navbar-default .navbar-brand {
+    background-color: rgba(0,0,0,0);
 	color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #BCB5BF;
+	background-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-text {
-	color: #7bdfea;
+	color: #2B4A89;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #ffffff;
+	color: #2B4A89;
+    font-size: 20px;
+    padding-top:30px;
+    padding-right: 45px
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffff;
-	background-color: #BCB5BF;
+	background-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
-	background-color: #5478A3;
 	border-radius: 0px;
 }
 
@@ -338,15 +336,15 @@ body {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-	color: #ffffff;
-	background-color: #BCB5BF;
+	color: #2B4A89;
+	background-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #7bdfea;
-	background-color: #BCB5BF;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -366,7 +364,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;
+	background-color: #2B4A89;
 }
 
 .navbar-default .navbar-collapse,
@@ -375,7 +373,7 @@ body {
 }
 
 .navbar-default .navbar-link {
-	color: #7bdfea;
+	color: #2B4A89;
 }
 
 .navbar-default .navbar-link:hover {
