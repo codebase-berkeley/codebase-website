@@ -16,6 +16,7 @@ body > #master {
         #bccddc 750px,
         #ffffff 700px,
         #ffffff 1400px
+        
     );
 
 }
@@ -37,6 +38,7 @@ body {
 }
 
 #footer {
+    background-color: rgba(0,0,0,0);
 	clear: both;
 	position: relative;
 	z-index: 10;
@@ -186,16 +188,21 @@ body {
 }
 
 .info-box {
-	background-color: #ffffff;
 	text-align: center;
 	color: #626262;
 }
 
 .foot {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #5478A3;
+    margin-top: -10px;
 	text-align: center;
+    background: repeating-linear-gradient(
+        157deg,
+        #bccddc,
+        #bccddc 750px,
+        #ffffff 700px,
+        #ffffff 1400px
+        
+    );
 	/*	color: white;*/
 }
 
@@ -411,7 +418,7 @@ body {
 }
 
 .footer-text {
-	color: white;
+	color: #2B4A89;
 }
 
 .footer-link {
