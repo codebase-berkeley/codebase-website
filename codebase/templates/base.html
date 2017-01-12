@@ -52,13 +52,19 @@ body {
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="{% if_current_page '/index.html' 'active' '' %}">
-                <a href="{% url '/index.html' %}">About</a>
+                <a href="{% url '/index.html' %}">Home</a>
+              </li>
+              <li class="{% if_current_page '/aboutus.html' 'active' '' %}">
+                <a href="{% url '/aboutus.html' %}">About</a>
               </li>
               <li class="{% if_current_page '/services.html' 'active' '' %}">
-                <a href="{% url '/services/index.html' %}">Past Projects</a>
+                <a href="{% url '/services.html' %}">Services</a>
               </li>
-              <li class="{% if_current_page '/team.html' 'active' '' %}">
-                <a href="{% url '/team/index.html' %}">Join Us</a>
+              <li class="{% if_current_page '/clients.html' 'active' '' %}">
+                <a href="{% url '/clients.html' %}">Past Projects</a>
+              </li>
+              <li class="{% if_current_page '/join.html' 'active' '' %}">
+                <a href="{% url '/join.html' %}">Join Us</a>
               </li>
 
             </ul>
