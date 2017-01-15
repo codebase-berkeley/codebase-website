@@ -9,7 +9,7 @@
 	color: #2B4A89;
 	margin-top: 190px;
     margin-left: 30vw;
-   
+
 }
 .mission-text {
     font-family: "Avenir Light";
@@ -20,7 +20,7 @@
 	color: #2B4A89;
 	margin-top: 10px;
     margin-left: 35.5vw;
-    
+
 }
 
 .bg-text {
@@ -92,11 +92,25 @@
     margin-top: 50px;
 }
 
-.project-desc {
+.card-subtitle {
+    color: #566573;
+    font-size: 18px;
+}
+
+.project-desc-old {
     margin-top: 50px;
     display: inline-flex;
     margin-right: 30px;
     font-size: 16px;
+}
+
+.project-desc {
+    margin: 30px;
+    display: inline-flex;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .circle1 {
@@ -121,6 +135,11 @@
     margin-top: 50px;
 }
 
+.card-subtitle-2 {
+    color: #566573;
+    font-size: 18px;
+}
+
 .circle2 {
     height: 100px;
     width: 100px;
@@ -141,6 +160,11 @@
     color: #6D3BAD;
     font-size: 26px;
     margin-top: 50px;
+}
+
+.card-subtitle-3 {
+    color: #566573;
+    font-size: 18px;
 }
 
 .circle3 {
@@ -229,12 +253,3 @@
     font-size: 26px;
     margin-top: 0px;
 }
-
-
-
-
-
-
-
-
-
