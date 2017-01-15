@@ -3,64 +3,177 @@
 <meta name="description" content=""> {% endblock %} {% block body %}
 <div style="padding-top:5vh;"></div>
 <link rel="stylesheet" href="{% static '/static/css/index.css' %}">
-<div class="bg">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
+	<link rel="stylesheet" href="{% static '/static/css/main.css' %}">
+	<link rel="stylesheet" href="{% static '/static/font-awesome/css/font-awesome.min.css' %}">
 
 
-<div class="jumbotron mission">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h1>Our Mission</h1>
+
+
+		<div class="mission">
+			<div class="mission-text">Berkeley CodeBase</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h3>We are a team of experienced UC Berkeley undergraduates working to help companies find the tools they need to suceed. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there.</h3>
+
+
+		<div class="bg">
+			<div class="bg-text">tech consulting for high-growth startups</div>
 		</div>
-	</div>
+
+
+
+
+<div class="apply-container">
+
+    <a class="apply" href="{% url '/team/index.html' %}">
+           APPLY
+    </a>
 </div>
 
 
-<div class="jumbotron current-projects">
-	<h1 style="padding-bottom:40px;">Current Projects</h1>
-	<div class="row project">
-		<!--		<h1>Project Name</h1>-->
-		<div class="col-lg-6 col-lg-offset-3 project-logo">
-			<img src="/static/images/projects/current/upstream.jpg">
-		</div>
+    <img class="gear" src="/static/images/ProjectsIcon.png"/>
 
-	</div>
-	<div class="row project">
-		<!--		<h1>Project Name</h1>-->
-		<div class="col-lg-2 col-lg-offset-5 project-logo">
-			<a href="http://www.cyrcle.co"> <img src="/static/images/projects/current/cyrcle.jpg">
-			</a>
-		</div>
-		<!--
-		<div class="col-lg-4 project-description">
-			<h1>Cyrcle Description needed</h1>
-		</div>
--->
-	</div>
+
+<div class="projects-wrapper">
+    <div class="projects">
+        THIS SEMESTER'S PROJECTS
+    </div>
 </div>
-</div>
-<!--<div class="jumbotron mission">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h1>Mission</h1>
-			<h3>CodeBase is a non-profit UC Berkeley student organization that develops and designs software, websites, and apps for companies with a vision. We will improve our community by helping businesses take their innovative ideas to concrete production. Furthermore, we will create a fast-paced, project-based working environment for Berkeley students.</h3>
+<div>
+
+<div class="card card-1">
+    <div class="card-title">
+        Ongo
+    </div>
+		<div class="card-subtitle">
+			IoT
 		</div>
-	</div>
-</div>-->
-<!--
-<div class="jumbotron info-box">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h2>What We Do</h2>
-			<h3>We design and develop custom websites and apps. We believe there’s a tech-enabled solution to just about everything. So let’s work together! You provide the vision and we’ll provide the technical expertise to help you get there. Check out some of our past projects below.</h3>
-		</div>
-	</div>
+    <div class="project-desc">
+				Ongo is a startup helping health and fitness experts create mobile learning experiences.
+				Its app provides users with interactive courses and tutorials that integrate with other devices,
+				creating a personalized data-driven experience. This semester, we're working to integrate Ongo's
+				platform with various devices, such as Amazon Alexa.
+    </div>
+    <div class="circle1">
+
+    </div>
 </div>
--->
-<!--<div class="jumbotron div-image bridge"></div>-->
+
+<div class="card card-2">
+    <div class="card-title-2">
+        Sutro
+		</div>
+		<div class="card-subtitle-2">
+				App Development
+		</div>
+    <div class="project-desc">
+      Based out of San Francisco, Sutro is a hardware startup developing a smart pool monitor that
+			automatically measures pool chemistry and delivers the appropriate pool chemicals as they're
+			depleted. CodeBase is working with Sutro to develop a cross-platform mobile application that
+			lets the owners of Sutro devices monitor and control their pool chemistry, view pool analytics,
+			and easily order materials.
+    </div>
+    <div class="circle2">
+
+    </div>
+</div>
+
+<div class="card card-3">
+    <div class="card-title-3">
+				Crowdbotics
+    </div>
+		<div class="card-subtitle-3">
+				NLP/AI Chatbot
+		</div>
+    <div class="project-desc">
+        Crowdbotics is a startup automating the process of connecting clients with developing needs
+				with capable engineers. We're working with Crowdbotics to develop a chatbot that interviews
+				potential engineers for a project and applies NLP algorithms to choose which engineers are the
+				right fit for a software development project.
+    </div>
+		<div class="circle3">
+
+    </div>
+</div>
+
+
+
+<img class="tie" src="/static/images/CommitteesIcon.png"/>
+
+
+<div class="projects-wrapper">
+    <div class="projects">
+        PROFESSIONAL COMMITTEES
+    </div>
+</div>
+
+<div class="card-comm card-comm-1">
+    <div class="card-title">
+        FINANCE
+    </div>
+    <div class="comm-desc">
+        <ul class="comm-list">
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+        </ul>
+    </div>
+    <img class="comm-img" src="/static/images/FinanceIcon.png"/>
+</div>
+
+<div class="card-comm card-comm-2">
+    <div class="card-title-2">
+        MARKETING
+    </div>
+    <div class="comm-desc">
+        <ul class="comm-list">
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+        </ul>
+    </div>
+    <img class="comm-img" src="/static/images/MarketingIcon.png"/>
+</div>
+
+<div class="card-comm card-comm-2">
+    <div class="card-title-4-1">
+        PROFESSIONAL
+    </div>
+    <div class="card-title-4">
+        DEVELOPMENT
+    </div>
+    <div class="comm-desc-4">
+        <ul class="comm-list">
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+        </ul>
+    </div>
+    <img class="comm-img" src="/static/images/ProfessionalDevelopmentIcon.png"/>
+</div>
+
+
+<div class="card-comm card-comm-2">
+    <div class="card-title-5-1">
+        INTERNAL
+    </div>
+    <div class="card-title-5">
+        RELATIONS
+    </div>
+    <div class="comm-desc-4">
+        <ul class="comm-list">
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+            <li>Committee Description</li>
+        </ul>
+    </div>
+    <img class="comm-img" src="/static/images/InternalRelationsIcon.png"/>
+</div>
+
+
 
 {% endblock %}
