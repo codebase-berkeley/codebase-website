@@ -1,255 +1,255 @@
-
 @font-face {
-    font-family: 'MyriadPro'; /*a name to be used later*/
-    src: url('/static/fonts/MyriadProRegular.ttf'); /*URL to font*/
+	font-family: 'MyriadPro';
+	/*a name to be used later*/
+	src: url('/static/fonts/MyriadProRegular.ttf');
+	/*URL to font*/
 }
 
 .mission {
-    background-color: rgba(0,0,0,0);
+	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
 	margin-top: 190px;
-    margin-left: 30vw;
+	margin-left: 30vw;
+}
 
-}
 .mission-text {
-    font-family: "Avenir Light";
-    font-size:84px;
+	font-family: "Avenir Light";
+	font-size: 84px;
 }
+
 .bg {
-    background-color: rgba(0,0,0,0);
+	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
 	margin-top: 10px;
-    margin-left: 35.5vw;
-
+	margin-left: 35.5vw;
 }
 
 .bg-text {
-    font-family: 'MyriadPro';
-    font-size: 28px;
+	font-family: 'MyriadPro';
+	font-size: 28px;
 }
 
 .apply-container {
-    margin-top: 175px;
-    width: 150px;
+	margin-top: 175px;
+	width: 150px;
 }
 
 .apply {
-    border: 1.1px solid #2B4A89;
-    border-radius: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    color: #2B4A89;
-    margin-left: 45vw;
-    text-decoration: none;
+	border: 1.1px solid #2B4A89;
+	border-radius: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	color: #2B4A89;
+	margin-left: 45vw;
+	text-decoration: none;
 }
 
 .apply:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: #2B4A89;
+	text-decoration: none;
+	color: #ffffff;
+	background: #2B4A89;
 }
 
 .gear {
-    margin-top: 350px;
-    margin-left: 46vw;
-    width: 100px;
+	margin-top: 350px;
+	margin-left: 46vw;
+	width: 100px;
 }
 
 .projects-wrapper {
-    margin-top: 3px;
-    text-align: center;
+	margin-top: 3px;
+	text-align: center;
 }
 
 .projects {
-    font-size: 30px;
-    color: #2B4A89;
-    display: inline;
+	font-size: 30px;
+	color: #2B4A89;
+	display: inline;
 }
 
 .card {
-  background: #fff;
-  border-radius: 15px;
-  display: inline-block;
-  height: 450px;
-  margin: 1rem;
-  position: relative;
-  width: 325px;
+	background: #fff;
+	border-radius: 15px;
+	display: inline-block;
+	height: 450px;
+	margin: 1rem;
+	position: relative;
+	width: 325px;
 }
 
 .card-1 {
-    margin-top: 30px;
-    margin-left: 10vw;
- box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
+	margin-top: 30px;
+	margin-left: 10vw;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	text-align: center;
 }
 
 .card-title {
-    color: #3C8721;
-    font-size: 26px;
-    margin-top: 50px;
+	color: #3C8721;
+	font-size: 26px;
+	margin-top: 50px;
 }
 
 .card-subtitle {
-    color: #566573;
-    font-size: 18px;
+	color: #566573;
+	font-size: 18px;
 }
 
 .project-desc-old {
-    margin-top: 50px;
-    display: inline-flex;
-    margin-right: 30px;
-    font-size: 16px;
+	margin-top: 50px;
+	display: inline-flex;
+	margin-right: 30px;
+	font-size: 16px;
 }
 
 .project-desc {
-    margin: 30px;
-    display: inline-flex;
-    text-align: left;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin: 30px;
+	display: inline-flex;
+	text-align: left;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .circle1 {
-    height: 100px;
-    width: 100px;
-    margin-left: 110px;
-    border: 1px solid #3C8721;
-    border-radius: 50%;
-    margin-top: 30px;
+	height: 100px;
+	width: 100px;
+	margin-left: 110px;
+	border: 1px solid #3C8721;
+	border-radius: 50%;
+	margin-top: 30px;
 }
 
 .card-2 {
-    margin-top: 30px;
-    margin-left: 5vw;
- box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
+	margin-top: 30px;
+	margin-left: 5vw;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	text-align: center;
 }
 
 .card-title-2 {
-    color: #D38742;
-    font-size: 26px;
-    margin-top: 50px;
+	color: #D38742;
+	font-size: 26px;
+	margin-top: 50px;
 }
 
 .card-subtitle-2 {
-    color: #566573;
-    font-size: 18px;
+	color: #566573;
+	font-size: 18px;
 }
 
 .circle2 {
-    height: 100px;
-    width: 100px;
-    margin-left: 110px;
-    border: 1px solid #D38742;
-    border-radius: 50%;
-    margin-top: 30px;
+	height: 100px;
+	width: 100px;
+	margin-left: 110px;
+	border: 1px solid #D38742;
+	border-radius: 50%;
+	margin-top: 30px;
 }
 
 .card-3 {
-    margin-top: 30px;
-    margin-left: 5vw;
- box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
+	margin-top: 30px;
+	margin-left: 5vw;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	text-align: center;
 }
 
 .card-title-3 {
-    color: #6D3BAD;
-    font-size: 26px;
-    margin-top: 50px;
+	color: #6D3BAD;
+	font-size: 26px;
+	margin-top: 50px;
 }
 
 .card-subtitle-3 {
-    color: #566573;
-    font-size: 18px;
+	color: #566573;
+	font-size: 18px;
 }
 
 .circle3 {
-    height: 100px;
-    width: 100px;
-    margin-left: 110px;
-    border: 1px solid #6D3BAD;
-    border-radius: 50%;
-    margin-top: 30px;
+	height: 100px;
+	width: 100px;
+	margin-left: 110px;
+	border: 1px solid #6D3BAD;
+	border-radius: 50%;
+	margin-top: 30px;
 }
 
 .tie {
-    margin-top: 210px;
-    margin-left: 46vw;
-    width: 100px;
+	margin-top: 210px;
+	margin-left: 46vw;
+	width: 100px;
 }
 
 .card-comm {
-  background: #fff;
-  border-radius: 15px;
-  display: inline-block;
-  height: 475px;
-  margin: 1rem;
-  position: relative;
-  width: 295px;
+	background: #fff;
+	border-radius: 15px;
+	display: inline-block;
+	height: 475px;
+	margin: 1rem;
+	position: relative;
+	width: 295px;
 }
 
 .card-comm-1 {
-    margin-top: 30px;
-    margin-left: 5vw;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
+	margin-top: 30px;
+	margin-left: 6.25vw;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	text-align: center;
 }
 
 .comm-desc {
-    margin-top: 50px;
-    display: inline-flex;
-    margin-right: 50px;
-    font-size: 16px;
+	margin-top: 50px;
+	display: inline-flex;
+	margin-right: 50px;
+	font-size: 16px;
 }
 
 .comm-list {
-    list-style: none;
+	list-style: none;
 }
 
 .comm-img {
-    height: 100px;
-    width: auto;
-    margin-top: 100px;
+	height: 100px;
+	width: auto;
+	margin-top: 100px;
 }
 
-
 .card-comm-2 {
-    margin-top: 30px;
-    margin-left: 2vw;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    text-align: center;
+	margin-top: 30px;
+	margin-left: 2vw;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	text-align: center;
 }
 
 .card-title-4-1 {
-    color: #436CD1;
-    font-size: 26px;
-    margin-top: 50px;
+	color: #436CD1;
+	font-size: 26px;
+	margin-top: 50px;
 }
 
 .card-title-4 {
-    color: #436CD1;
-    font-size: 26px;
-    margin-top: 0px;
+	color: #436CD1;
+	font-size: 26px;
+	margin-top: 0px;
 }
 
 .comm-desc-4 {
-    margin-top: 15px;
-    margin-right: 50px;
-    font-size: 16px;
+	margin-top: 15px;
+	margin-right: 50px;
+	font-size: 16px;
 }
 
 .card-title-5-1 {
-    color: #6D3BAD;
-    font-size: 26px;
-    margin-top: 50px;
+	color: #6D3BAD;
+	font-size: 26px;
+	margin-top: 50px;
 }
 
 .card-title-5 {
-    color: #6D3BAD;
-    font-size: 26px;
-    margin-top: 0px;
+	color: #6D3BAD;
+	font-size: 26px;
+	margin-top: 0px;
 }
