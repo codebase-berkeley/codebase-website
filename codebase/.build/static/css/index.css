@@ -89,7 +89,7 @@
 
 .card-title {
 	color: #3C8721;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
@@ -109,18 +109,9 @@
 	margin: 30px;
 	display: inline-flex;
 	text-align: left;
-	font-size: 16px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.circle1 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #3C8721;
-	border-radius: 50%;
+	font-size: 15px;
 	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .card-2 {
@@ -132,22 +123,13 @@
 
 .card-title-2 {
 	color: #D38742;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-subtitle-2 {
 	color: #566573;
 	font-size: 18px;
-}
-
-.circle2 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #D38742;
-	border-radius: 50%;
-	margin-top: 30px;
 }
 
 .card-3 {
@@ -159,22 +141,13 @@
 
 .card-title-3 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-subtitle-3 {
 	color: #566573;
 	font-size: 18px;
-}
-
-.circle3 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #6D3BAD;
-	border-radius: 50%;
-	margin-top: 30px;
 }
 
 .tie {
@@ -212,9 +185,9 @@
 }
 
 .comm-img {
-	height: 100px;
+	height: 50px;
 	width: auto;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .card-comm-2 {
@@ -226,13 +199,13 @@
 
 .card-title-4-1 {
 	color: #436CD1;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-title-4 {
 	color: #436CD1;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 0px;
 }
 
@@ -244,12 +217,12 @@
 
 .card-title-5-1 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-title-5 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 0px;
 }
