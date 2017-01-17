@@ -11,6 +11,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/apply/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/clients/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
