@@ -9,12 +9,12 @@
 	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
 	margin-top: -80vh;
-    position: relative;
+	position: relative;
 	margin-left: 30vw;
 }
 
 .mission-text {
-	font-family: "Avenir Light";
+	/*	font-family: "Avenir Light";*/
 	font-size: 84px;
 }
 
@@ -36,13 +36,11 @@
 	width: 150px;
 }
 
-
 .topbgimg {
-    background: url('../images/bg.png');
-    height: 100vh;
-    z-index: 10;
-    margin-top: .5vh;
-   
+	background: url('../images/bg.png');
+	height: 100vh;
+	z-index: 10;
+	margin-top: -5vh;
 }
 
 .apply {
@@ -213,6 +211,7 @@
 	width: auto;
 	margin-top: 58px;
 }
+
 .comm-img-3 {
 	height: 50px;
 	width: auto;
@@ -224,6 +223,7 @@
 	width: auto;
 	margin-top: 110px;
 }
+
 .card-comm-2 {
 	margin-top: 30px;
 	margin-left: 2vw;
