@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'MyriadPro';
+  /*a name to be used later*/
+  src: url('/static/fonts/MyriadProRegular.ttf');
+  /*URL to font*/
+}
+
+ul {
+  margin: 0; padding: 0;
+}
+
+.event-name {
+  font-size: 20px;
+  color: #3A64AF;
+}
+
+.info {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.dates {
+  font-size: 20px;
+}
+
+.schedule {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.join-us-container {
+  margin-bottom: 200px;
+  font-family: 'MyriadPro';
+}
+
+#join-us-img {
+  margin-top: 50px;
+}
+
+#join-us-heading {
+  color: #3A64AF;
+}
+
+.recruitment-text {
+  font-weight: bold;
+  color: #3A64AF;
+}
+
+.apply-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 150px;
+}
+
+.apply {
+  border: 1.1px solid #2B4A89;
+  border-radius: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #2B4A89;
+  text-decoration: none;
+  font-family: 'MyriadPro';
+  font-size: 20px;
+}
+
+.apply:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background: #2B4A89;
+}
