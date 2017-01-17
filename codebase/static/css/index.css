@@ -10,11 +10,12 @@
 	color: #2B4A89;
 	margin-top: -70vh;
 	position: relative;
-	margin-left: 28vw;
+	margin-left: 0px;
 }
 
 .mission-text {
 	/*	font-family: "Avenir Light";*/
+	text-align: center;
 	font-size: 84px;
 }
 
@@ -22,12 +23,12 @@
 	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
 	margin-top: 10px;
-	margin-left: 35.5vw;
 }
 
 .bg-text {
 	font-family: 'MyriadPro';
 	font-size: 28px;
+	text-align: center;
 }
 
 .apply-container {
@@ -190,10 +191,10 @@
 }
 
 .comm-desc {
-	margin-top: 50px;
+	margin: 30px;
 	display: inline-flex;
-	margin-right: 50px;
-	font-size: 16px;
+	text-align: left;
+	font-size: 15px;
 }
 
 .comm-list {
@@ -215,13 +216,13 @@
 .comm-img-3 {
 	height: 50px;
 	width: auto;
-	margin-top: 85px;
+	margin-top: 65px;
 }
 
 .comm-img-4 {
 	height: 50px;
 	width: auto;
-	margin-top: 110px;
+	margin-top: 65px;
 }
 
 .card-comm-2 {
@@ -244,9 +245,10 @@
 }
 
 .comm-desc-4 {
+	margin: 30px;
 	margin-top: 15px;
-	margin-right: 50px;
-	font-size: 16px;
+	text-align: left;
+	font-size: 15px;
 }
 
 .card-title-5-1 {
