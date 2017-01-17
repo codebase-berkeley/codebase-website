@@ -8,9 +8,9 @@
 .mission {
 	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
-	margin-top: -80vh;
+	margin-top: -70vh;
 	position: relative;
-	margin-left: 30vw;
+	margin-left: 28vw;
 }
 
 .mission-text {
@@ -65,8 +65,8 @@
 }
 
 .gear {
-	margin-top: 350px;
-	margin-left: 46vw;
+	margin-top: 200px;
+	margin-left: 47vw;
 	margin-bottom: 10px;
 	width: 80px;
 }
@@ -165,8 +165,8 @@
 }
 
 .tie {
-	margin-top: 210px;
-	margin-left: 46vw;
+	margin-top: 100px;
+	margin-left: 47vw;
 	margin-bottom: 10px;
 	width: 80px;
 }
