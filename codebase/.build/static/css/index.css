@@ -37,14 +37,16 @@
 .apply {
 	border: 1.1px solid #2B4A89;
 	border-radius: 7px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
 	text-align: center;
 	color: #2B4A89;
 	margin-left: 45vw;
 	text-decoration: none;
+	font-family: 'MyriadPro';
+	font-size: 20px;
 }
 
 .apply:hover {
@@ -56,7 +58,8 @@
 .gear {
 	margin-top: 350px;
 	margin-left: 46vw;
-	width: 100px;
+	margin-bottom: 10px;
+	width: 80px;
 }
 
 .projects-wrapper {
@@ -68,6 +71,7 @@
 	font-size: 30px;
 	color: #2B4A89;
 	display: inline;
+	font-family: 'MyriadPro';
 }
 
 .card {
@@ -78,6 +82,7 @@
 	margin: 1rem;
 	position: relative;
 	width: 325px;
+	font-family: 'MyriadPro';
 }
 
 .card-1 {
@@ -89,7 +94,7 @@
 
 .card-title {
 	color: #3C8721;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
@@ -109,18 +114,9 @@
 	margin: 30px;
 	display: inline-flex;
 	text-align: left;
-	font-size: 16px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.circle1 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #3C8721;
-	border-radius: 50%;
+	font-size: 15px;
 	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .card-2 {
@@ -132,22 +128,13 @@
 
 .card-title-2 {
 	color: #D38742;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-subtitle-2 {
 	color: #566573;
 	font-size: 18px;
-}
-
-.circle2 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #D38742;
-	border-radius: 50%;
-	margin-top: 30px;
 }
 
 .card-3 {
@@ -159,7 +146,7 @@
 
 .card-title-3 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
@@ -168,19 +155,11 @@
 	font-size: 18px;
 }
 
-.circle3 {
-	height: 100px;
-	width: 100px;
-	margin-left: 110px;
-	border: 1px solid #6D3BAD;
-	border-radius: 50%;
-	margin-top: 30px;
-}
-
 .tie {
 	margin-top: 210px;
 	margin-left: 46vw;
-	width: 100px;
+	margin-bottom: 10px;
+	width: 80px;
 }
 
 .card-comm {
@@ -190,7 +169,8 @@
 	height: 475px;
 	margin: 1rem;
 	position: relative;
-	width: 295px;
+	width: 285px;
+	font-family: 'MyriadPro';
 }
 
 .card-comm-1 {
@@ -212,9 +192,9 @@
 }
 
 .comm-img {
-	height: 100px;
+	height: 50px;
 	width: auto;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .card-comm-2 {
@@ -226,13 +206,13 @@
 
 .card-title-4-1 {
 	color: #436CD1;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-title-4 {
 	color: #436CD1;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 0px;
 }
 
@@ -244,12 +224,12 @@
 
 .card-title-5-1 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 50px;
 }
 
 .card-title-5 {
 	color: #6D3BAD;
-	font-size: 26px;
+	font-size: 22px;
 	margin-top: 0px;
 }

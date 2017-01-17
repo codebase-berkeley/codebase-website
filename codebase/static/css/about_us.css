@@ -1,10 +1,18 @@
+@font-face {
+  font-family: 'MyriadPro';
+  /*a name to be used later*/
+  src: url('/static/fonts/MyriadProRegular.ttf');
+  /*URL to font*/
+}
 
 .about-us-container {
   padding: 20px 50px;
+  margin-bottom: 100px;
+  font-family: 'MyriadPro';
 }
 
 .m-t-lg {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .p-ud {
@@ -18,7 +26,16 @@
 }
 
 #about-us-img, #members-img{ 
-  width: 10vw;
+  width: 5vw;
+}
+
+#about-us-img {
+  margin-top: 50px;
+}
+
+
+#workshops-heading {
+  color: #6D3BAD;
 }
 
 #committees-heading {
@@ -38,11 +55,23 @@
 }
 
 #culture-icon{ 
-  width: 5vw;
+  width: 3vw;
 }
 
-#committees-icon, #projects-icon {
-  width: 5vw;
+#projects-icon {
+  width: 3vw;
+}
+
+#committees-icon {
+  width: 2vw;
+}
+
+#workshops-icon {
+  width: 2vw;
+}
+
+#mission-icon {
+  width: 8vw;
 }
 
 .panel-member {
