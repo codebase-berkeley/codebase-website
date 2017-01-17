@@ -1,14 +1,15 @@
 @font-face {
 	font-family: 'MyriadPro';
 	/*a name to be used later*/
-	src: url('/static/fonts/MyriadProRegular.ttf');
+	src: url('../fonts/MyriadProRegular.ttf');
 	/*URL to font*/
 }
 
 .mission {
 	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
-	margin-top: 190px;
+	margin-top: -80vh;
+    position: relative;
 	margin-left: 30vw;
 }
 
@@ -34,17 +35,28 @@
 	width: 150px;
 }
 
+
+.topbgimg {
+    background: url('../images/bg.png');
+    height: 100vh;
+    z-index: 10;
+    margin-top: .5vh;
+   
+}
+
 .apply {
 	border: 1.1px solid #2B4A89;
 	border-radius: 7px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
 	text-align: center;
 	color: #2B4A89;
 	margin-left: 45vw;
 	text-decoration: none;
+	font-family: 'MyriadPro';
+	font-size: 20px;
 }
 
 .apply:hover {
@@ -56,7 +68,8 @@
 .gear {
 	margin-top: 350px;
 	margin-left: 46vw;
-	width: 100px;
+	margin-bottom: 10px;
+	width: 80px;
 }
 
 .projects-wrapper {
@@ -68,6 +81,7 @@
 	font-size: 30px;
 	color: #2B4A89;
 	display: inline;
+	font-family: 'MyriadPro';
 }
 
 .card {
@@ -78,6 +92,7 @@
 	margin: 1rem;
 	position: relative;
 	width: 325px;
+	font-family: 'MyriadPro';
 }
 
 .card-1 {
@@ -153,7 +168,8 @@
 .tie {
 	margin-top: 210px;
 	margin-left: 46vw;
-	width: 100px;
+	margin-bottom: 10px;
+	width: 80px;
 }
 
 .card-comm {
@@ -163,7 +179,8 @@
 	height: 475px;
 	margin: 1rem;
 	position: relative;
-	width: 295px;
+	width: 285px;
+	font-family: 'MyriadPro';
 }
 
 .card-comm-1 {
@@ -184,12 +201,28 @@
 	list-style: none;
 }
 
-.comm-img {
+.comm-img-1 {
 	height: 50px;
 	width: auto;
-	margin-top: 120px;
+	margin-top: 60px;
 }
 
+.comm-img-2 {
+	height: 50px;
+	width: auto;
+	margin-top: 58px;
+}
+.comm-img-3 {
+	height: 50px;
+	width: auto;
+	margin-top: 85px;
+}
+
+.comm-img-4 {
+	height: 50px;
+	width: auto;
+	margin-top: 110px;
+}
 .card-comm-2 {
 	margin-top: 30px;
 	margin-left: 2vw;
