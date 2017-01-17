@@ -79,7 +79,7 @@
 .projects {
 	font-size: 30px;
 	color: #2B4A89;
-	display: inline;
+	display: block;
 	font-family: 'MyriadPro';
 }
 
@@ -163,7 +163,6 @@
 
 .tie {
 	margin-top: 100px;
-	margin-left: 47vw;
 	margin-bottom: 10px;
 	width: 80px;
 }
