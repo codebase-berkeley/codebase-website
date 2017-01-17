@@ -97,7 +97,6 @@
 
 .card-1 {
 	margin-top: 30px;
-	margin-left: 10vw;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	text-align: center;
 }
@@ -131,7 +130,6 @@
 
 .card-2 {
 	margin-top: 30px;
-	margin-left: 5vw;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	text-align: center;
 }
@@ -149,7 +147,6 @@
 
 .card-3 {
 	margin-top: 30px;
-	margin-left: 5vw;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	text-align: center;
 }
@@ -185,7 +182,6 @@
 
 .card-comm-1 {
 	margin-top: 30px;
-	margin-left: 6.25vw;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	text-align: center;
 }
@@ -227,7 +223,6 @@
 
 .card-comm-2 {
 	margin-top: 30px;
-	margin-left: 2vw;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	text-align: center;
 }
