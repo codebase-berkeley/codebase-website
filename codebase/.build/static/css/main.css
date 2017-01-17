@@ -5,6 +5,7 @@ body,
 }
 
 body > #master {
+    z-index: 1;
 	height: auto;
 	min-height: 100%;
     background-repeat: no-repeat;

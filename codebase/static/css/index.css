@@ -1,14 +1,15 @@
 @font-face {
 	font-family: 'MyriadPro';
 	/*a name to be used later*/
-	src: url('/static/fonts/MyriadProRegular.ttf');
+	src: url('../fonts/MyriadProRegular.ttf');
 	/*URL to font*/
 }
 
 .mission {
 	background-color: rgba(0, 0, 0, 0);
 	color: #2B4A89;
-	margin-top: 190px;
+	margin-top: -80vh;
+    position: relative;
 	margin-left: 30vw;
 }
 
@@ -32,6 +33,15 @@
 .apply-container {
 	margin-top: 175px;
 	width: 150px;
+}
+
+
+.topbgimg {
+    background: url('../images/bg.png');
+    height: 100vh;
+    z-index: 10;
+    margin-top: .5vh;
+   
 }
 
 .apply {
