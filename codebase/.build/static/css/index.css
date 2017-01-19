@@ -34,7 +34,8 @@
 .apply-container {
 	margin-top: 175px;
 	margin-left: 0;
-	width: 150px;
+	width: 100%;
+        text-align:center;
 }
 
 .topbgimg {
@@ -53,7 +54,6 @@
 	padding-right: 70px;
 	text-align: center;
 	color: #2B4A89;
-	margin-left: 45vw;
 	text-decoration: none;
 	font-family: 'MyriadPro';
 	font-size: 20px;
@@ -67,7 +67,6 @@
 
 .gear {
 	margin-top: 35vh;
-	margin-left: 47vw;
 	margin-bottom: 10px;
 	width: 80px;
 }
@@ -80,7 +79,7 @@
 .projects {
 	font-size: 30px;
 	color: #2B4A89;
-	display: inline;
+	display: block;
 	font-family: 'MyriadPro';
 }
 
@@ -164,7 +163,6 @@
 
 .tie {
 	margin-top: 100px;
-	margin-left: 47vw;
 	margin-bottom: 10px;
 	width: 80px;
 }
