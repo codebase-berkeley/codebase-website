@@ -30,15 +30,6 @@ body {
 	/*	 must be same height as the footer */
 }
 
-#footer {
-	background-color: rgba(0, 0, 0, 0);
-	clear: both;
-	position: relative;
-	z-index: 10;
-	height: 0.6em;
-	margin-top: 0.56em;
-}
-
 .page-banner {
 	background-size: cover;
 	text-align: center;
@@ -183,13 +174,7 @@ body {
 	color: #626262;
 }
 
-.foot {
-	margin-top: -10px;
-	text-align: center;
-	/*	background: repeating-linear-gradient( 157deg, #bccddc, #bccddc 750px, #ffffff 700px, #ffffff 1400px);*/
-	background: white;
-	/*	color: white;*/
-}
+
 
 .jumbotron {
 	margin: 0px;
@@ -419,14 +404,6 @@ body {
 .navbar-default .navbar-nav > .open > a:focus .caret {
 	border-top-color: #BCB5BF;
 	border-bottom-color: #BCB5BF;
-}
-
-.footer-text {
-	color: #2B4A89;
-}
-
-.footer-link {
-	color: #BCB5BF;
 }
 
 .link {
