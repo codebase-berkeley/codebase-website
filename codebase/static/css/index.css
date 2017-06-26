@@ -14,32 +14,26 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
 	transform: translate(-50%, -50%);
 }
 
 .mission {
 	background-color: rgba(0, 0, 0, 0);
-	color: #2B4A89;	
+	color: #2B4A89;
 	margin-left: 0px;
 }
 
 .mission-text {
 	color: #0A0A0A;
-	text-align: center;
+	margin: 0 auto;
 	font: condensed bold 72px/150% 'Roboto Condensed', Arial, sans-serif;
 }
 
-.bg {
-	background-color: rgba(0, 0, 0, 0);
+.mission-subtitle {
 	margin-top: 10px;
-}
-
-.bg-text {
 	color: #0A0A0A;
 	font: bold 18px/150% 'Roboto', Arial, sans-serif;
 	font-size: 28px;
-	text-align: center;
 }
 
 .btn-container {
@@ -50,7 +44,7 @@ section {
 }
 
 .topbgimg {
-	background: url('../images/bg.png') no-repeat center/1200px;
+	background: url('../images/bg.png') no-repeat center/1440px;
 	height: 100vh;
 	z-index: 10;
 	margin-top: -5vh;

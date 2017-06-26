@@ -16,7 +16,7 @@ body > #master {
 }
 
 html {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -313,8 +313,13 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
+	/*
+	Navbar links.
+	*/
 	color: #2E3C40;
 	font: lighter 12px/150% 'Roboto', Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: .2em;
 	margin: 30px 20px;
 	padding: 0;
 	-moz-transition: color .4s ease;

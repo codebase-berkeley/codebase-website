@@ -1,10 +1,5 @@
 .container-fluid {
-    padding-left:5vh;
-    padding-right:2.5vh;
-}
-
-.navbar-brand {
-    font-size:300%;
+    padding: 10px 10%;
 }
 
 #footer {

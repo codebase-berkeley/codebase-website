@@ -18,23 +18,10 @@
 <meta name="description" content=""> 
 
         <meta name="viewport" content="width=500">
-  
+
 
 	<link rel="stylesheet" href="/static/css/bootstrap.css">
-	<!--
-      <style>
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-      </style>
-      -->
-	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-	<link rel="stylesheet" href="/static/css/bootstrap-theme.css">
-	<link rel="stylesheet" href="/static/css/about_us.css">
-	<link rel="stylesheet" href="/static/css/join_us.css">
-	<link rel="stylesheet" href="/static/css/main.css">
-	<link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Muli|Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="/static/css/base.css">
 
 	<link rel="icon" type="image/png" href="/static/images/favicon-32x32.png" sizes="32x32" />
@@ -48,7 +35,9 @@ body {
 		<div class="navbar-fixed-top navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="/"><img src="/static/images/Logo.png" height="50vh" /></a>
+					<div class="navbar-brand">
+						<a href="/"><img src="/static/images/nav_logo.png" height="60vh" /></a>
+					</div>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -57,15 +46,22 @@ body {
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active">
-							<a href="/">Home</a>
+						<li class="">
+							<a href="/aboutus/">ABOUT</a>
+						</li>
+						<li>
+							<a>PORTFOLIO</a>
+						</li>
+						<li>
+							<a>SERVICES</a>
+						</li>
+						<li>
+							<a>CONTACT US</a>
 						</li>
 						<li class="">
-							<a href="/aboutus/">About</a>
+							<a href="/join/">JOIN US</a>
 						</li>
-						<li class="">
-							<a href="/join/">Join Us</a>
-						</li>
+						<li
 					</ul>
 				</div>
 				<!--/.navbar-collapse -->
@@ -75,37 +71,26 @@ body {
 			
 <div style="padding-top:5vh;"></div>
 <link rel="stylesheet" href="/static/css/index.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
 <link rel="stylesheet" href="/static/css/main.css">
 <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
 
 
+<section id="main">
+	<div class="topbgimg"></div>
 
-<div class="topbgimg">
+	<div class="centered-absolute">
+		<div class="mission">
+			<div class="mission-text">Berkeley CodeBase</div>
+			<div class="mission-subtitle">tech consulting for high-growth startups</div>
+		</div>
 
-
-</div>
-
-
-<div class="mission">
-	<div class="mission-text">Berkeley CodeBase</div>
-</div>
-
-
-<div class="bg">
-	<div class="bg-text">tech consulting for high-growth startups</div>
-</div>
-
-
-
-
-<div class="apply-container">
-
-	<a class="apply" href="/join/">
-           APPLY
-    </a>
-</div>
+		<div class="btn-container">
+			<a class="about">About Us</a>
+			<a class="apply" href="/join/">Apply</a>
+		</div>
+	</div>
+</section>
 
  <div class="span4 offset4 text-center">
 <img class="gear" src="/static/images/ProjectsIcon.png" />
@@ -141,8 +126,8 @@ body {
 			App Development
 		</div>
 		<div class="project-desc">
-			Based out of San Francisco, Sutro is a hardware startup developing a smart pool monitor that measures pool chemistry and delivers the appropriate pool chemicals as they're depleted. CodeBase is working with Sutro to develop a cross-platform mobile application that allows users to monitor their pool chemistry, view pool analytics, and easily order materials.
-		</div>
+			Based out of San Francisco, Sutro is a hardware startup developing a smart pool monitor that measures water chemistry and delivers the appropriate chemicals as they're depleted. CodeBase is working with Sutro to develop a cross-platform mobile application that allows pool boys to plan and track their route for the day, send status reports and statistics to their customers, and check billing information.
+		</div	>
 		<div class="circle2">
 
 		</div>
