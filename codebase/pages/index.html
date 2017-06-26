@@ -3,37 +3,29 @@
 <meta name="description" content=""> {% endblock %} {% block body %}
 <div style="padding-top:5vh;"></div>
 <link rel="stylesheet" href="{% static '/static/css/index.css' %}">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
 <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
 <link rel="stylesheet" href="{% static '/static/font-awesome/css/font-awesome.min.css' %}">
 
 
+<section id="main">
+	<div class="topbgimg"></div>
 
-<div class="topbgimg">
+	<div class="centered-absolute">
+		<div class="mission">
+			<div class="mission-text">Berkeley CodeBase</div>
+		</div>
 
+		<div class="bg">
+			<div class="bg-text">tech consulting for high-growth startups</div>
+		</div>
 
-</div>
-
-
-<div class="mission">
-	<div class="mission-text">Berkeley CodeBase</div>
-</div>
-
-
-<div class="bg">
-	<div class="bg-text">tech consulting for high-growth startups</div>
-</div>
-
-
-
-
-<div class="apply-container">
-
-	<a class="apply" href="{% url '/join.html' %}">
-           APPLY
-    </a>
-</div>
+		<div class="btn-container">
+			<a class="about">About Us</a>
+			<a class="apply" href="{% url '/join.html' %}">Apply</a>
+		</div>
+	</div>
+</section>
 
  <div class="span4 offset4 text-center">
 <img class="gear" src="/static/images/ProjectsIcon.png" />
