@@ -161,14 +161,6 @@ body {
 	padding-left: 125px;
 }
 
-.office {
-	background: url("../images/office.jpg") no-repeat center center scroll;
-}
-
-.bridge {
-	background: url("../images/bridge.jpeg") no-repeat center center scroll;
-}
-
 .info-box {
 	text-align: center;
 	color: #626262;
@@ -258,6 +250,7 @@ body {
 }
 
 .navbar {
+	margin: 0 0;
 	opacity: 1;
 	/* opacity [0-1] */
 	-moz-opacity: 1;
