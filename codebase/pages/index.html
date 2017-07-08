@@ -8,13 +8,13 @@
 <link rel="stylesheet" href="{% static '/static/font-awesome/css/font-awesome.min.css' %}">
 
 
-<section id="hero">
+<div class="hero">
 	<div class="topbgimg"></div>
 
 	<div class="centered-absolute">
 		<div class="mission">
 			<div class="mission-text">Berkeley CodeBase</div>
-			<div class="mission-subtitle">tech consulting for high-growth startups</div>
+			<div class="mission-subtitle">software consulting for high growth startups</div>
 		</div>
 
 		<div class="btn-container">
@@ -22,7 +22,7 @@
 			<a class="apply" href="{% url '/join.html' %}">Apply</a>
 		</div>
 	</div>
-</section>
+</div>
 
 <div class="event-banner">
 	<div class="container-fluid event-banner-body">
@@ -43,26 +43,74 @@
 	</div>
 </div>
 
-<div class="what-we-do">
-	<div class="section-body">
-		<div class="section-img">
-		</div>
-		<div class="section-title">
-			What We Do
+<div class="container-fluid">
+	<div class="what-we-do">
+		<img src="static/images/fork-illustration-left.png" />
+		<div class="section-body">
+			<img class="section-img" src="static/images/calhacks.png" />
+			<div class="section-title">
+				What We Do
+			</div>
+			<div class="section-desc">
+				We build exceptional technical solutions for businesses collaboratively in a way that
+				brings our mix of disciplines, people, and technology together to tackle challenges on any scale.
+				Our results-driven process gets right to the point: we promise to deliver a tangible, testable
+				product within 3 months. Learn more about the key services we provide:
+			</div>
+			<div class="section-more">
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_CATPHONE.png" />
+						<div class="infobox-title">
+							App Development
+						</div>
+						<div class="infobox-btn">
+							Learn More
+						</div>
+					</div>
+				</div>
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_CLOUDSERVER.png" />
+						<div class="infobox-title">
+							API Development
+						</div>
+						<div class="infobox-btn">
+							Learn More
+						</div>
+					</div>
+				</div>
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_LIGHTBULB.png" />
+						<div class="infobox-title">
+							Product Prototyping
+						</div>
+						<div class="infobox-btn">
+							Learn More
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="who-we-are">
-	<div class="section-body">
-		<div class="section-img">
+	<div class="who-we-are">
+		<div class="section-body">
+			<img class="section-img" src="static/images/whoweare.png" />
+			<div class="section-title">
+				Who We Are
+			</div>
+			<div class="section-desc">
+				We are a community of hackers, designers, and inventors who code. Something about our group’s
+				culture work hard play hard shit like that filler text filler text filler text filler text
+				filler text filler text filler text filler text filler text filler text filler text filler
+				text filler text filler text filler text filler text filler text filler text filler text filler text
+			</div>
 		</div>
-		<div class="section-title">
-			Who We Are
-		</div>
+		<img src="static/images/fork-illustration-right.png" />
 	</div>
 </div>
-
 
 
 {% endblock %}

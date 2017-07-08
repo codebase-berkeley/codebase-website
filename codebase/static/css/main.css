@@ -16,7 +16,7 @@ body > #master {
 }
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'robotolight';
 }
 
 body {
@@ -261,8 +261,7 @@ body {
 }
 
 .navbar-default {
-	background-color: white;
-	/*	background: url("../images/assets/top-bar.svg");*/
+	background-color: transparent;
 	border-color: #ffffff;
 }
 
@@ -295,8 +294,7 @@ body {
 	Navbar links.
 	*/
 	color: #2E3C40;
-	font: lighter 12px/150% 'Roboto', Arial, sans-serif;
-	font-weight: 300;
+	font: 12px/150% 'robotolight';
 	letter-spacing: .2em;
 	margin: 30px 20px;
 	padding: 0;
