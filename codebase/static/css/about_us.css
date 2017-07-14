@@ -1,92 +1,123 @@
-@font-face {
-  font-family: 'MyriadPro';
-  /*a name to be used later*/
-  src: url('/static/fonts/MyriadProRegular.ttf');
-  /*URL to font*/
+.top-section-content {
+  margin: 4em 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 400px;
+}
+.top-section-body {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 400px;
+  height: 100%;
+  padding-bottom: 2em;
+  width: 60%;
+}
+.top-section-title {
+  color: #0A0A0A;
+  font: 80px/150% 'roboto_condensedbold';
+}
+.top-section-desc {
+  color: #2E3C40;
+	font: 16px/175% 'robotolight';
+}
+.top-section-img {
+  order: 2;
 }
 
-.about-us-container {
-  padding: 20px 50px;
-  margin-bottom: 100px;
-  font-family: 'MyriadPro';
+.carousel-container {
+  background: url("../images/tiled_tiny_doodles.png");
+  width: 100%;
+  height: 650px;
 }
 
-.m-t-lg {
-  margin-top: 5px;
+#carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  cursor: -webkit-grab;
+  cursor: grab;
+  height: inherit;
+  padding-left: 5em;
+}
+#carousel > img {
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin-left: 2em;
+}
+#carousel::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
-.p-ud {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.meet-the-team {
+  margin-bottom: 5em;
+}
+.meet-the-team-headline {
+  padding-left: 1.5em;
+  color: #0A0A0A;
+  font: 48px/150% 'roboto_condensedbold';
+}
+.member-row {
+  margin-top: 2em;
+  padding: 0 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.member {
+  width: 209px;
+  height: 209px;
+}
+.member-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+.member:hover > .member-details {
+  visibility: visible;
+  opacity: 1;
+}
+.member-name {
+  color: #0A0A0A;
+  font: 20px/150% 'roboto_condensedbold';
+}
+.member-title {
+  letter-spacing: 0.1em;
+  color: #0A0A0A;
+	font: 12px/150% 'robotobold';
+  text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
-#about-us-heading, #members-heading {
-  font-weight: bold;
-  color: #3A64AF;
-}
+/*MOBILE*/
 
-#about-us-img, #members-img{ 
-  width: 5vw;
-}
-
-#about-us-img {
-  margin-top: 50px;
-}
-
-#what-we-do {
-  font-size: 18px;
-}
-
-.descriptions {
-  font-size: 18px;
-}
-
-#workshops-heading {
-  color: #6D3BAD;
-}
-
-#committees-heading {
-  color: #3C8721;
-}
-
-#projects-heading {
-  color: #3A64AF;
-}
-
-#culture-heading {
-  color: #D38742;
-}
-
-#mission-heading {
-  color: #D86488;
-}
-
-#culture-icon{ 
-  width: 3vw;
-}
-
-#projects-icon {
-  width: 3vw;
-}
-
-#committees-icon {
-  width: 2vw;
-}
-
-#workshops-icon {
-  width: 2vw;
-}
-
-#mission-icon {
-  width: 8vw;
-}
-
-.panel-member {
-  border: 1px solid #e6e6e6;
-  padding: 20px;
-  margin: 20px 10px;
-}
-
-.panel-member h4, .panel-member h5 {
-  color: #3A64AF;
+@media (max-width: 767px) {
+  .top-section-content {
+    margin: 4em 0;
+    flex-direction: column-reverse;
+  }
+  .top-section-body {
+    width: 100%;
+  }
+  .member-row {
+    padding: 0;
+  }
 }

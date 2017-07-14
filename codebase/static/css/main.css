@@ -25,11 +25,6 @@ body {
 	overflow-x: hidden;
 }
 
-#content {
-	padding-bottom: 0.6em;
-	/*	 must be same height as the footer */
-}
-
 .page-banner {
 	background-size: cover;
 	text-align: center;

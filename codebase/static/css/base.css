@@ -7,8 +7,7 @@
 }
 
 .footer {
-	margin-top: 1em;
-    padding-top: 2em;
+  padding-top: 2em;
 	background: #00B0DA;
 	color: #FFFFFF;
 }
@@ -38,7 +37,7 @@
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 1.5em;
-    font: lighter 16px/200% 'Roboto Condensed', Arial, sans-serif;
+    font: 16px/200% 'roboto_condensedregular';
 }
 
 .footer-section-links > a {
