@@ -37,37 +37,7 @@
 	margin-top: -5vh;
 }
 
-.btn-container {
-	border: 1px solid #00B0DA;
-	display: inline-block;
-	padding: 8px 20px;
-	color: #00B0DA;
-	background-color: white;
-	text-align: center;
-	font: 15px/150% 'robotolight';
-	-moz-transition: color .3s ease, background-color .3s ease;
-	-o-transition: color .3s ease, background-color .3s ease;
-	-webkit-transition: color .3s ease, background-color .3s ease;
-	transition: color .3s ease, background-color .3s ease;
-}
 
-.btn-container:hover {
-	color: white;
-	background-color: #00B0DA;
-}
-
-.btn-hero {
-	/* Add this to a btn-container for hero styling. */
-	font: 20px/150% 'robotobold';
-	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
-}
-
-.btn-negative {
-	/* Add this to a btn-container for hero styling. */
-	color: white;
-	background-color: #00B0DA;
-	border: 1px solid white;
-}
 
 
 .event-banner {
@@ -112,6 +82,9 @@
 	text-align: right;
 }
 
+.section-body {
+	overflow-x: hidden;
+}
 .section-title {
 	color: #00B0DA;
 	font: 64px/150% 'roboto_condensedbold';
@@ -129,7 +102,8 @@
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 3em 3em;
 }
 
 .what-we-do {
@@ -150,7 +124,7 @@
 .infobox {
 	border: 1px solid #DDD5C7;
 	width: 240px;
-	height: 200px;
+	height: 160px;
 	text-align: center;
 	overflow-y: visible;
 }
@@ -268,11 +242,30 @@
 	.project-box {
 		height: 380px;
 	}
-}
-@media (max-width: 767px) {
+
 	/* hide fork decorations */
 	.fork-decoration {
 		display: none;
+	}
+
+	.section-body {
+		margin-bottom: 6em;
+	}
+}
+@media (max-width: 767px) {
+	/* align "what we do" infoboxes to center */
+	.section-more {
+		align-items: center;
+		padding: 3em 0;
+	}
+
+	/* hide fork decorations */
+	.fork-decoration {
+		display: none;
+	}
+
+	.section-body {
+		margin-bottom: 6em;
 	}
 
 	/* align event details vertically */

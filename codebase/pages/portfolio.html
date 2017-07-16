@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block meta %}
+<title>Portfolio - CodeBase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/portfolio.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					What We've Done
+				</div>
+				<div class="top-section-desc">
+					Code is our craft - we’ve built many projects helping companies across many industries. See some of our recent partnerships below.
+				</div>
+			</div>
+			<img class="top-section-img" src="../static/images/PLACEHOLDER_MEDIUM_DOODLE.png" />
+		</div>
+	</div>
+</div>
+
+<div class="portfolio">
+    <div class="container-fluid">
+        <ul class="flex-list portfolio-cards">
+            <li class="flex-list-item company-card">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/crowdbotics.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    Api Development
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                </div>
+            </li>
+            <li class="flex-list-item company-card">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/sutro.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    App Development
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                </div>
+            </li>
+            <li class="flex-list-item company-card">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/cyrcle.jpg);">
+                </div>
+                <div class="company-card-subtitle">
+                    App Development
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                </div>
+            </li>
+            <li class="flex-list-item company-card">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/cyrcle.jpg);">
+                </div>
+                <div class="company-card-subtitle">
+                    App Development
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="next-steps">
+	<div class="split-container">
+		<div class="split-left">
+			<div class="next-step-subtitle">
+				For companies
+			</div>
+			<div class="next-step-title">
+				Have a project for us?
+			</div>
+			<a href="#">
+				<div class="btn-container btn-black">
+					Contact Us &rarr;
+				</div>
+			</a>
+		</div>
+		<div class="split-right">
+			<div class="next-step-subtitle">
+				For students
+			</div>
+			<div class="next-step-title">
+				Want to be a part of our team?
+			</div>
+			<a href="#">
+				<div class="btn-container btn-black">
+					Join Us &rarr;
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

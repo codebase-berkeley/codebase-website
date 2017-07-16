@@ -74,6 +74,7 @@
 .member {
   width: 209px;
   height: 209px;
+  margin: 3em 3em;
 }
 .member-details {
   display: flex;
@@ -109,6 +110,15 @@
 
 /*MOBILE*/
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .top-section-content {
+      margin: 4em 0;
+      flex-direction: column-reverse;
+    }
+    .top-section-body {
+      width: 100%;
+    }
+}
 @media (max-width: 767px) {
   .top-section-content {
     margin: 4em 0;
