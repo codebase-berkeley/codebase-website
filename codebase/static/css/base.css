@@ -92,6 +92,10 @@
 	background-color: #00B0DA;
 	border: 1px solid white;
 }
+.btn-negative:hover {
+    color: #00B0DA;
+    background-color: white;
+}
 
 .flex-list {
     display: flex;
