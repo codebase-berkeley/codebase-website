@@ -253,10 +253,14 @@ body {
 	-webkit-opacity: 1;
 	/* opacity [0-1] */
 	border-bottom: 0px;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: white;
 	border-color: #ffffff;
 }
 
