@@ -19,7 +19,8 @@
 }
 .top-section-title {
   color: #0A0A0A;
-  font: 80px/150% 'roboto_condensedbold';
+  margin-top: 2em;
+  font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-quote-body {
     font-size: 24px;
@@ -47,11 +48,12 @@
     margin: 4em 5em;
 }
 .services-title {
-    font: 64px/150% 'roboto_condensedbold';
+    font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 1em;
+    margin-top: 2em;
 }
 .services-boxes {
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
@@ -80,15 +82,38 @@
 	font: 15px/150% 'robotolight';
 }
 
+/*
 .project-structure-content {
     margin: 4em 5em;
 }
 .project-structure-title {
-    font: 64px/150% 'roboto_condensedbold';
+    font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 0.5em;
 }
 .project-structure-desc {
     padding-right: 10em;
     color: #2E3C40;
     font: 16px/175% 'robotolight';
+}*/
+
+.faqs-content {
+    margin: 4em 5em;
+}
+.faqs-title {
+    font: 40px/150% 'roboto_condensedbold';
+    margin-bottom: 0.5em;
+}
+.faqs-question {
+    padding-right: 10em;
+    color: #2E3C40;
+    font: 18px/175% 'roboto';
+    font-weight: bolder;
+    margin-top: 2em;
+    margin-bottom: 10px;
+}
+
+.faqs-answer {
+    padding-right: 10em;
+    color: #2E3C40;
+    font: 16px/175% 'roboto';
 }

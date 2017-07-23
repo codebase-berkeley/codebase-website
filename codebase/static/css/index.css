@@ -88,7 +88,7 @@
 }
 .section-title {
 	color: #00B0DA;
-	font: 64px/150% 'roboto_condensedbold';
+	font: 40px/150% 'roboto_condensedbold';
 }
 .section-img {
 	margin-bottom: 1em;
@@ -138,7 +138,7 @@
 .infobox-title {
 	font: 18px/150% 'roboto_condensedbold';
 }
-.infobox-btn {
+.infobox- {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -157,7 +157,7 @@
 }
 
 .projects-headline {
-	font: 64px/150% 'roboto_condensedbold';
+	font: 40px/150% 'roboto_condensedbold';
 	margin-bottom: 0.2em;
 }
 
@@ -233,7 +233,7 @@
 }
 .next-step-title {
 	color: #0A0A0A;
-	font: 36px/200% 'roboto_condensedbold';
+	font: 30px/200% 'roboto_condensedbold';
 	text-transform: uppercase;
 }
 
