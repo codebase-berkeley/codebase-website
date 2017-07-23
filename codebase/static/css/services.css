@@ -23,8 +23,9 @@
   font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-quote-body {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 0.6em;
+    font-style: italic;
 }
 .top-section-quote-subtitle {
     letter-spacing: 0.1em;
