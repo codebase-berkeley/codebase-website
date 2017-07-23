@@ -19,7 +19,8 @@
 }
 .top-section-title {
   color: #0A0A0A;
-  font: 80px/150% 'roboto_condensedbold';
+  margin-top: 2em;
+  font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-desc {
   color: #2E3C40;
