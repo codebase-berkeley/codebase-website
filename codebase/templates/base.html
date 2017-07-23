@@ -33,7 +33,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<div class="navbar-brand">
-						<a href="{% url '/index.html' %}"><img src="/static/images/nav-logo.png" height="50vh" /></a>
+						<a href="{% url '/index.html' %}"><img src="/static/images/nav-logo.png" height="40vh" /></a>
 					</div>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon-bar"></span>
@@ -47,16 +47,16 @@
 							<a href="{% url '/aboutus.html' %}">ABOUT</a>
 						</li>
 						<li class="{% if_current_page '/portfolio.html' 'active' '' %}">
-							<a href="{% url '/portfolio.html' %}">PORTFOLIO</a>
+							<a href="{% url '/portfolio.html' %}">PROJECTS</a>
 						</li>
 						<li class="{% if_current_page '/services.html' 'active' '' %}">
 							<a href="{% url '/services.html' %}">SERVICES</a>
 						</li>
 						<li class="{% if_current_page '/contact.html' 'active' '' %}">
-							<a href="{% url '/contact.html' %}">CONTACT US</a>
+							<a href="{% url '/contact.html' %}">CONTACT</a>
 						</li>
 						<li class="{% if_current_page '/join.html' 'active' '' %}">
-							<a href="{% url '/join.html' %}">JOIN US</a>
+							<a href="{% url '/join.html' %}">APPLY</a>
 						</li>
 						<li
 					</ul>
@@ -73,7 +73,7 @@
 		<div class="container-fluid">
 			<div class="footer-body">
 				<div class="footer-section">
-					<a href="{% url '/index.html' %}"><img src="/static/images/footer-logo.png" height="50vh" /></a>
+					<a href="{% url '/index.html' %}"><img src="/static/images/footer-logo.png" height="40vh" /></a>
 				</div>
 				<div class="footer-section">
 					<div class="footer-section-title">
@@ -92,7 +92,6 @@
 					</div>
 					<div class="footer-section-links">
 						<a href="#">Apply</a>
-						<a href="#">Process</a>
 						<a href="#">FAQs</a>
 					</div>
 				</div>
@@ -101,8 +100,8 @@
 						Companies
 					</div>
 					<div class="footer-section-links">
-						<a href="#">Apply</a>
-						<a href="#">Process</a>
+						<a href="#">Services</a>
+						<a href="#">Contact</a>
 						<a href="#">FAQs</a>
 					</div>
 				</div>
@@ -111,7 +110,7 @@
 						Get In Touch
 					</div>
 					<div class="footer-section-links">
-						<a href="#">General Inquiries</a>
+						<a href="#">Email</a>
 						<a href="#">Facebook</a>
 						<a href="#">Github</a>
 					</div>

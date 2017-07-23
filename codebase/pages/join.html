@@ -1,11 +1,29 @@
-{% extends "base.html" %} {% block meta %}
-<title>Join Us</title>
-{% endblock %} {% block body %}
+{% extends "base.html" %}
+{% block meta %}
+<title>Services - CodeBase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/services.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					Join Us
+				</div>
+				<div class="top-section-desc">
+					Description needed?
+				</div>
+			</div>
+			<img class="top-section-img" src="../static/images/PLACEHOLDER_MEDIUM_DOODLE.png" />
+		</div>
+	</div>
+</div>
 
 <div class='container join-us-container '>
 	<div class='row text-center p-ud'>
-		<img id="join-us-img" src='/static/images/JoinUsIcon.png' alt='Join Us Logo' />
-		<h2 class="h2" id="join-us-heading"> JOIN US </h2>
 	</div>
 
 	<table class="schedule">
@@ -56,6 +74,46 @@
 	           APPLY
 	    </a>
 	</div>
+</div>
+
+<div class="faqs">
+    <div class="container-fluid">
+        <div class="faqs-content">
+            <div class="faqs-title">
+                Frequently Asked Questions
+            </div>
+            <div class="faqs-question">
+                What is CodeBase’s project structure?
+            </div>
+            <div class="faqs-answer">
+                CodeBase's project structure consists of 4-5 project teams, each with a project manager and 6-8 developers on the team. The project manager serves as the main point of contact between the team and the client.
+            </div>
+            <div class="faqs-question">
+                What is the typical project timeline?
+            </div>
+            <div class="faqs-answer">
+                Although it may vary slightly depending on the project, each project typically spans about 12 weeks and includes a mid-semester deliverable at around Week 5 and a final deliverable at around Week 10. It also includes a 2 week period at the end of the project after development ends for Q&A and Technical Handoff. 
+            </div>
+            <div class="faqs-question">
+                What is the difference between a mentored project and consulting project?
+            </div>
+            <div class="faqs-answer">
+                ??
+            </div>
+            <div class="faqs-question">
+                What resources does CodeBase have that ensures success?
+            </div>
+            <div class="faqs-answer">
+                Something about what we provide like workshops and stuff
+            </div>
+            <div class="faqs-question">
+                What kind of developers is CodeBase looking for?
+            </div>
+            <div class="faqs-answer">
+                ??
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
