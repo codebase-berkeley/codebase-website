@@ -47,7 +47,7 @@
 							<a href="{% url '/aboutus.html' %}">ABOUT</a>
 						</li>
 						<li class="{% if_current_page '/portfolio.html' 'active' '' %}">
-							<a href="{% url '/portfolio.html' %}">PROJECTS</a>
+							<a href="{% url '/portfolio.html' %}">PORTFOLIO</a>
 						</li>
 						<li class="{% if_current_page '/services.html' 'active' '' %}">
 							<a href="{% url '/services.html' %}">SERVICES</a>
@@ -80,10 +80,10 @@
 						General
 					</div>
 					<div class="footer-section-links">
-						<a href="#">About</a>
-						<a href="#">Team</a>
-						<a href="#">Projects</a>
-						<a href="#">Contact</a>
+						<a href="{% url '/aboutus.html' %}">About</a>
+						<a href="{% url '/aboutus.html' %}#team-section">Team</a>
+						<a href="{% url '/portfolio.html' %}">Portfolio</a>
+						<a href="{% url '/contact.html' %}">Contact</a>
 					</div>
 				</div>
 				<div class="footer-section">
@@ -91,8 +91,8 @@
 						Students
 					</div>
 					<div class="footer-section-links">
-						<a href="#">Apply</a>
-						<a href="#">FAQs</a>
+						<a href="{% url '/join.html' %}">Apply</a>
+						<a href="{% url '/join.html' %}#faqs-section">FAQs</a>
 					</div>
 				</div>
 				<div class="footer-section">
@@ -100,9 +100,9 @@
 						Companies
 					</div>
 					<div class="footer-section-links">
-						<a href="#">Services</a>
-						<a href="#">Contact</a>
-						<a href="#">FAQs</a>
+						<a href="{% url '/services.html' %}">Services</a>
+						<a href="{% url '/contact.html' %}">Contact</a>
+						<a href="{% url '/services.html' %}#faqs-section">FAQs</a>
 					</div>
 				</div>
 				<div class="footer-section">

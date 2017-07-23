@@ -49,10 +49,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.1);
     height: 280px;
     overflow-y: hidden;
+    transition: all .2s;
 }
+
+.company-card:hover {
+  transform: scale(1.1);
+}
+
 .company-card-logo {
     width: 100%;
     height: 70px;
@@ -60,6 +66,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.sutro-logo {
+  width: 50%;
+}
+
+.upstream-logo {
+  width: 70%;
+}
+
 .company-card-subtitle {
     letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -67,10 +82,19 @@
     margin-top: 1em;
     text-align: center;
 }
+
+
 .company-card-desc {
     margin-top: 1em;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
+}
+
+.fill-card li a {
+  display: block;
+  height: 100%
+  width: 100%
+  text-decoration: none;
 }
 
 .next-steps {
