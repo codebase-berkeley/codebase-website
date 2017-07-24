@@ -25,44 +25,44 @@
 <div class="portfolio">
     <div class="container-fluid">
         <ul class="flex-list portfolio-cards">
-            <li class="flex-list-item company-card">
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/crowdbotics.html' %}';" style= "cursor: pointer;">
                 <div class="company-card-logo" style="background-image: url(../static/images/projects/crowdbotics.png);">
                 </div>
                 <div class="company-card-subtitle">
                     Api Development
                 </div>
                 <div class="company-card-desc">
-                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                    Codebase worked with Crowdbotics to develop a chatbot that applies NLP algorithms to choose which engineers are the right fit for a software development project.
                 </div>
             </li>
-            <li class="flex-list-item company-card">
-                <div class="company-card-logo" style="background-image: url(../static/images/projects/sutro.png);">
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/ongo.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/ongo.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    IOT
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup that helps health and fitness experts create mobile learning experiences. Codebase helped integrate Ongo's platform with Amazon Echo, Fitbit, and Withings devices.
+                </div>
+            </li>
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/sutro.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo sutro-logo" style="background-image: url(../static/images/projects/sutro.png);">
                 </div>
                 <div class="company-card-subtitle">
                     App Development
                 </div>
                 <div class="company-card-desc">
-                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                    Codebase worked with Sutro to develop a cross-platform mobile application for monitoring pool chemistry.
                 </div>
             </li>
-            <li class="flex-list-item company-card">
-                <div class="company-card-logo" style="background-image: url(../static/images/projects/upstream.jpg);">
-                </div>
-                <div class="company-card-subtitle">
-                    Product Prototyping
-                </div>
-                <div class="company-card-desc">
-                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
-                </div>
-            </li>
-            <li class="flex-list-item company-card">
-                <div class="company-card-logo" style="background-image: url(../static/images/projects/cyrcle.jpg);">
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/upstream.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo upstream-logo" style="background-image: url(../static/images/projects/upstream.png);">
                 </div>
                 <div class="company-card-subtitle">
                     App Development
                 </div>
                 <div class="company-card-desc">
-                    Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+                    Codebase worked with Upstream to design and develop a website to match cancer patients with clinical trials.
                 </div>
             </li>
         </ul>
@@ -78,7 +78,7 @@
 			<div class="next-step-title">
 				Have a project for us?
 			</div>
-			<a href="#">
+			<a href="{% url '/contact.html' %}">
 				<div class="btn-container btn-black">
 					Contact Us &rarr;
 				</div>
@@ -91,7 +91,7 @@
 			<div class="next-step-title">
 				Want to be a part of our team?
 			</div>
-			<a href="#">
+			<a href="{% url '/join.html' %}">
 				<div class="btn-container btn-black">
 					Join Us &rarr;
 				</div>

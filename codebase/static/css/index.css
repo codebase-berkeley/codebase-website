@@ -1,6 +1,7 @@
 .hero {
 	height: 90vh;
 	position: relative;
+	background-color: #00B0DA;
 }
 
 .centered-absolute {
@@ -15,19 +16,22 @@
 	color: #2B4A89;
 	margin-left: 0px;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 .mission-text {
-	color: #0A0A0A;
+	color: white;
 	margin: 0 auto;
-	font: 72px/150% 'roboto_condensedbold';
+	font: 60px/150% 'roboto_condensedbold';
+	text-shadow: 3px 3px #008DAE;
 }
 
 .mission-subtitle {
 	margin-top: 10px;
-	color: #0A0A0A;
-	font: 18px/150% 'robotobold';
+	color: white;
+	font: 18px/150% 'roboto';
 	font-size: 28px;
+	text-shadow: 2px 2px #008DAE;
 }
 
 .topbgimg {
@@ -39,11 +43,9 @@
 }
 
 
-
-
 .event-banner {
 	width: 100%;
-	background-color: #00B0DA;
+	background-color: #028FBC;
 	color: #FFFFFF;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.12);
 }
@@ -75,7 +77,8 @@
 .event-title {
 	flex: 1;
 	text-align: center;
-	font: 36px/150% 'roboto_condensedbold';
+	font: 30px/150% 'roboto_condensedbold';
+	text-shadow: 2px 2px #01728E;
 }
 
 .event-link {
@@ -87,7 +90,7 @@
 	overflow-x: hidden;
 }
 .section-title {
-	color: #00B0DA;
+	color: #00728E;
 	font: 40px/150% 'roboto_condensedbold';
 }
 .section-img {
@@ -97,7 +100,7 @@
 	margin-top: 1em;
 	margin-bottom: 4em;
 	color: #2E3C40;
-	font: 15px/200% 'robotolight';
+	font: 16px/200% 'roboto';
 }
 .section-more {
 	display: flex;
@@ -154,11 +157,13 @@
 	background-color: #00B0DA;
 	color: #FFFFFF;
 	padding: 4em 0;
+	font:18px/125% 'roboto';
 }
 
 .projects-headline {
 	font: 40px/150% 'roboto_condensedbold';
 	margin-bottom: 0.2em;
+	text-shadow: 2px 2px #008DAE;
 }
 
 .projects-row {
@@ -180,7 +185,8 @@
 	padding: 0 2em;
 }
 .project-box-title {
-	color: #FFE83C;
+	color: #01728E;
+	text-shadow: 1px 1px white;
 	font: 24px/100% 'robotobold';
 	text-transform: uppercase;
 	text-align: left;
@@ -189,7 +195,8 @@
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	text-align: left;
-	font-size: 12px;
+	font-size: 16px;
+	margin-top: .5em;
 }
 .project-box-desc {
 	margin-top: 1em;
@@ -206,7 +213,7 @@
 }
 
 .next-steps {
-	background-color: #F7CA18;
+	background-color: #028FBC;
 	padding: 2em 5em;
 }
 
@@ -230,11 +237,13 @@
 .next-step-subtitle {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	color: #00586E;
+	font-weight: bolder;
 }
 .next-step-title {
-	color: #0A0A0A;
+	color: white;
+	text-shadow: 2px 2px #01728E;
 	font: 30px/200% 'roboto_condensedbold';
-	text-transform: uppercase;
 }
 
 /*MOBILE*/

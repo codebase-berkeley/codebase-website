@@ -1,73 +1,78 @@
-@font-face {
-  font-family: 'MyriadPro';
-  /*a name to be used later*/
-  src: url('/static/fonts/MyriadProRegular.ttf');
-  /*URL to font*/
+.top-section {
+  background-color: white;
 }
 
-ul {
-  margin: 0; padding: 0;
+.top-section-content {
+  margin: 4em 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 400px;
+}
+.top-section-body {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 400px;
+  height: 100%;
+  padding-bottom: 2em;
+  width: 60%;
+}
+.top-section-title {
+  color: #00728E;
+  margin-top: 2em;
+  font: 40px/150% 'roboto_condensedbold';
+}
+.top-section-desc {
+  margin-top: 2em;
+  color: #2E3C40;
+  font: 20px/175% 'robotolight';
+}
+.top-section-img {
+  order: 2;
 }
 
-.event-name {
-  font-size: 20px;
-  color: #3A64AF;
-}
-
-.info {
-  padding: 20px;
-  font-size: 16px;
+ul { 
+  display: inline-block;
+  vertical-align: top;
 }
 
 .dates {
-  font-size: 20px;
+  text-align: right;
+  font: 22px/150% 'roboto_condensedbold';
+  padding-bottom:3.5em;
+  color: #00B0DA;
 }
 
-.schedule {
-  margin: 0 auto;
-  margin-top: 20px;
+.event-name {
+  font: 28px/150% 'roboto_condensedbold';
 }
 
-.join-us-container {
-  margin-bottom: 200px;
-  font-family: 'MyriadPro';
+.event {
+    margin-bottom: 2.5em;
 }
 
-#join-us-img {
-  margin-top: 70px;
-  width: 5vw;
+.faqs-content {
+    margin: 4em 5em;
+}
+.faqs-title {
+    font: 40px/150% 'roboto_condensedbold';
+    margin-bottom: 0.5em;
+    color: #00728E;
+}
+.faqs-question {
+    padding-right: 10em;
+    color: #2E3C40;
+    font: 18px/175% 'roboto';
+    font-weight: bolder;
+    margin-top: 2em;
+    margin-bottom: 10px;
 }
 
-#join-us-heading {
-  color: #3A64AF;
-}
-
-.recruitment-text {
-  font-weight: bold;
-  color: #3A64AF;
-}
-
-.apply-container {
-  margin: 0 auto;
-  margin-top: 100px;
-  width: 150px;
-}
-
-.apply {
-  border: 1.1px solid #2B4A89;
-  border-radius: 7px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 70px;
-  padding-right: 70px;
-  color: #2B4A89;
-  text-decoration: none;
-  font-family: 'MyriadPro';
-  font-size: 20px;
-}
-
-.apply:hover {
-  text-decoration: none;
-  color: #ffffff;
-  background: #2B4A89;
+.faqs-answer {
+    padding-right: 10em;
+    color: #2E3C40;
+    font: 16px/175% 'roboto';
 }
