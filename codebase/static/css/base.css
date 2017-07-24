@@ -25,7 +25,7 @@
 }
 
 .footer-section-title {
-    font: bold 16px/150% 'Roboto', Arial, sans-serif;
+    font: bold 16px/150% 'roboto_condensedbold', Arial, sans-serif;
     margin-top: 1.5em; /*TODO: find a reliable way to align footer section titles with the logo on the left*/
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 1.5em;
-    font: 16px/200% 'roboto_condensedregular';
+    font: 16px/200% 'roboto';
 }
 
 .footer-section-links > a {
@@ -52,6 +52,7 @@
 }
 
 .footer-legal-text {
+    margin-top: 4em;
     flex: 1;
     font: 10px/150% 'roboto_condensedregular';
 }
@@ -62,22 +63,21 @@
 }
 
 .btn-container {
-	border: 1px solid #00B0DA;
 	display: inline-block;
 	padding: 8px 20px;
 	color: #00B0DA;
-	background-color: white;
 	text-align: center;
+    border: 1px #00B0DA;
+    background-color: white;
 	font: 15px/150% 'robotolight';
-	-moz-transition: color .3s ease, background-color .3s ease;
-	-o-transition: color .3s ease, background-color .3s ease;
-	-webkit-transition: color .3s ease, background-color .3s ease;
-	transition: color .3s ease, background-color .3s ease;
+	-moz-transition: color .1s ease;
+	-o-transition: color .1s ease;
+	-webkit-transition: color .1s ease;
+	transition: color .1s ease;
 }
 
 .btn-container:hover {
-	color: white;
-	background-color: #00B0DA;
+    color: #008DAE;
 }
 
 .btn-hero {
@@ -89,7 +89,7 @@
 .btn-negative {
 	/* Add this to a btn-container for hero styling. */
 	color: white;
-	background-color: #00B0DA;
+	background-color: transparent;
 	border: 1px solid white;
 }
 .btn-negative:hover {

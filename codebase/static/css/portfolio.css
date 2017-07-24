@@ -1,3 +1,7 @@
+.top-section {
+  background-color: white;
+}
+
 .top-section-content {
   margin: 4em 5em;
   display: flex;
@@ -11,24 +15,26 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   min-height: 400px;
   height: 100%;
   padding-bottom: 2em;
   width: 60%;
 }
 .top-section-title {
-  color: #0A0A0A;
+  color: #00728E;
   margin-top: 2em;
   font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-desc {
   color: #2E3C40;
-	font: 16px/175% 'robotolight';
+  margin-top: 2em;
+	font: 20px/175% 'robotolight';
 }
 .top-section-img {
   order: 2;
 }
+
+
 
 
 .portfolio {
@@ -56,7 +62,7 @@
 }
 
 .company-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .company-card-logo {
@@ -98,7 +104,7 @@
 }
 
 .next-steps {
-	background-color: #F7CA18;
+	background-color: #028FBC;
 	padding: 2em 5em;
 }
 
@@ -122,11 +128,12 @@
 .next-step-subtitle {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+  font-weight: bolder;
 }
 .next-step-title {
-	color: #0A0A0A;
+	color: white;
+  text-shadow: 2px 2px #01728E;
 	font: 36px/200% 'roboto_condensedbold';
-	text-transform: uppercase;
 }
 
 /*MOBILE*/

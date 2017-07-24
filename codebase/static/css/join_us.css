@@ -1,3 +1,7 @@
+.top-section {
+  background-color: white;
+}
+
 .top-section-content {
   margin: 4em 5em;
   display: flex;
@@ -11,20 +15,20 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   min-height: 400px;
   height: 100%;
   padding-bottom: 2em;
   width: 60%;
 }
 .top-section-title {
-  color: #0A0A0A;
+  color: #00728E;
   margin-top: 2em;
   font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-desc {
+  margin-top: 2em;
   color: #2E3C40;
-  font: 16px/175% 'robotolight';
+  font: 20px/175% 'robotolight';
 }
 .top-section-img {
   order: 2;
@@ -56,6 +60,7 @@ ul {
 .faqs-title {
     font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 0.5em;
+    color: #00728E;
 }
 .faqs-question {
     padding-right: 10em;

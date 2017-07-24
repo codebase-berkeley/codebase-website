@@ -1,3 +1,7 @@
+.top-section {
+  background-color: white;
+}
+
 .top-section-content {
   margin: 4em 5em;
   display: flex;
@@ -18,12 +22,13 @@
   width: 60%;
 }
 .top-section-title {
-  color: #0A0A0A;
+  color: #00728E;
   margin-top: 2em;
   font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-quote-body {
     font-size: 20px;
+    margin-top: 2em;
     margin-bottom: 0.6em;
     font-style: italic;
 }
@@ -34,7 +39,8 @@
 }
 .top-section-desc {
   color: #2E3C40;
-  font: 16px/175% 'robotolight';
+  margin-top: 2em;
+  font: 20px/175% 'robotolight';
 }
 .top-section-img {
   order: 2;
@@ -52,6 +58,7 @@
     font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 1em;
     margin-top: 2em;
+    text-shadow: 3px 3px #008DAE;
 }
 .services-boxes {
     margin-bottom: 1em;
@@ -103,6 +110,7 @@
 .faqs-title {
     font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 0.5em;
+    color: #00728E;
 }
 .faqs-question {
     padding-right: 10em;
