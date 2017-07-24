@@ -67,7 +67,7 @@
 	padding: 8px 20px;
 	color: #00B0DA;
 	text-align: center;
-    border: 1px #00B0DA;
+    border: 1px solid #00B0DA;
     background-color: white;
 	font: 15px/150% 'robotolight';
 	-moz-transition: color .1s ease;
