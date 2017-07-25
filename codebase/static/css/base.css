@@ -67,8 +67,8 @@
 	padding: 8px 20px;
 	color: #00B0DA;
 	text-align: center;
-    border: 1px #00B0DA;
-    background-color: white;
+    border: 1px solid #00B0DA;
+    background-color: transparent;
 	font: 15px/150% 'robotolight';
 	-moz-transition: color .1s ease;
 	-o-transition: color .1s ease;
@@ -84,6 +84,9 @@
 	/* Add this to a btn-container for hero styling. */
 	font: 20px/150% 'robotobold';
 	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: .5em;
+    background-color: white;
 }
 
 .btn-negative {
@@ -96,6 +99,24 @@
     color: #00B0DA;
     background-color: white;
 }
+
+.btn-learn:hover {
+    background-color: #00B0DA;
+    color: white;
+}
+
+.btn-join {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 1em;
+}
+
+.btn-join:hover {
+    color: #00B0DA;
+    background-color: white;
+}
+
 
 .flex-list {
     display: flex;

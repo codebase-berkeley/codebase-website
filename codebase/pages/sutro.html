@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block meta %}
+<title>Sutro - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/sutro.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					<img src="../static/images/projects/sutro.png">
+				</div>
+				<div class="top-section-desc">
+					Sutro is a hardware startup developing a smart pool monitor that measures water chemistry and delivers the appropriate chemicals as they're depleted.
+					Codebase's Sutro team used react.js to create an iPhone and Android app to monitor pool chemical content and prescribe additional chemicals to maintain pH balance.
+				</div>
+				<img src="../static/images/sutro-app.png" class="sutro-app">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
