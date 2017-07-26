@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block meta %}
+<title>Ongo - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/ongo.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					<img src="../static/images/projects/ongo.png">
+				</div>
+				<div class="top-section-desc">
+					Ongo is a fitness company that attempts to provide highly tailored, crowdsourced workout routines to people. The Ongo project focused on integrating their app with 3 different devices - Amazon’s Alexa (using the Echo), the Fitbit and Withings devices. 
+					For Fitbit and Withings we first had to establish the oAuth flow. While Fitbit was well documented, the Withings integration was much more problematic because Withings only implemented a janky version of oAuth1. The next stage for both projects was setting up data schemas to store the data collected. The final stage was to prevent conflicting data from getting recorded, so the data store was consistent on the user end.
+					The Alexa project was complex because it required interfacing with Ongo’s API and extracting Audio streams from the workout sessions. These were then delivered through extensible AWS Lambda functions to Alexa which said them out loud to the user. Separate functionality to scrape workout statistics about a user was also implemented.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
