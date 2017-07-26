@@ -46,15 +46,15 @@
 
 .footer-legal {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
     flex-direction: row;
 }
 
 .footer-legal-text {
     margin-top: 4em;
-    flex: 1;
-    font: 10px/150% 'roboto_condensedregular';
+    flex: 2;
+    font: 10px/150% 'roboto';
 }
 
 .footer-ocf {

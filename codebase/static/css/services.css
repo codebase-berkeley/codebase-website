@@ -90,39 +90,21 @@
 	font: 15px/150% 'robotolight';
 }
 
-/*
-.project-structure-content {
+.proj-structure-content {
     margin: 4em 5em;
 }
-.project-structure-title {
-    font: 40px/150% 'roboto_condensedbold';
-    margin-bottom: 0.5em;
-}
-.project-structure-desc {
-    padding-right: 10em;
-    color: #2E3C40;
-    font: 16px/175% 'robotolight';
-}*/
-
-.faqs-content {
-    margin: 4em 5em;
-}
-.faqs-title {
+.proj-structure-title {
     font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 0.5em;
     color: #00728E;
 }
-.faqs-question {
-    padding-right: 10em;
-    color: #2E3C40;
-    font: 18px/175% 'roboto';
-    font-weight: bolder;
-    margin-top: 2em;
-    margin-bottom: 10px;
-}
 
-.faqs-answer {
+.proj-structure-answer {
     padding-right: 10em;
     color: #2E3C40;
     font: 16px/175% 'roboto';
+}
+
+.proj-structure-pic {
+  margin-top: 2em;
 }

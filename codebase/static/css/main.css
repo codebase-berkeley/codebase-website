@@ -282,7 +282,7 @@ body {
 
 .navbar-default .navbar-brand > a {
 	color: #00B0DA;
-	font: lighter 24px/150% 'roboto', Arial, sans-serif;
+	font: lighter 24px/150% 'roboto_condensedbold', Arial, sans-serif;
 }
 
 .navbar-default .navbar-text {
