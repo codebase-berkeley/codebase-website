@@ -255,7 +255,8 @@ body {
 	border-bottom: 0px;
 	top: 0;
 	overflow: hidden;
-	position: fixed;
+	/* position: fixed */
+	/* eww, sticky navbars are so 2012 */
 	width: 100%;
 }
 
