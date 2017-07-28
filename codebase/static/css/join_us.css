@@ -28,7 +28,7 @@
 .top-section-desc {
   margin-top: 2em;
   color: #2E3C40;
-  font: 20px/175% 'robotolight';
+  font: 18px/200% 'roboto';
 }
 .top-section-img {
   order: 2;
@@ -38,7 +38,7 @@
   padding-top: 6em;
 }
 
-ul { 
+ul {
   display: inline-block;
   vertical-align: top;
 }
