@@ -23,7 +23,7 @@
 }
 .top-section-title {
   color: #00728E;
-  margin-top: 2em;
+  margin-top: 1em;
   font: 40px/150% 'roboto_condensedbold';
 }
 .top-section-desc {
@@ -62,6 +62,7 @@
 }
 
 .meet-the-team {
+  padding-top: 5em;
   margin-bottom: 5em;
   background-color: white;
 }
@@ -69,6 +70,7 @@
   padding-left: 1.5em;
   color: #0A0A0A;
   font: 40px/150% 'roboto_condensedbold';
+  margin-bottom: .5em;
 }
 .member-row {
   margin-top: 2em;
