@@ -25,178 +25,46 @@ body {
 	overflow-x: hidden;
 }
 
+.top-section {
+  background-color: white;
+}
+
+.top-section-content {
+  margin: 4em 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 400px;
+}
+.top-section-body {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 400px;
+  height: 100%;
+  padding-bottom: 2em;
+  width: 60%;
+}
+.top-section-title {
+  color: #00728E;
+  margin-top: 1em;
+  font: 40px/150% 'roboto_condensedbold';
+}
+.top-section-desc {
+  color: #2E3C40;
+  margin-top: 2em;
+  font: 18px/200% 'roboto';
+}
+.top-section-img {
+  order: 2;
+}
+
 .page-banner {
 	background-size: cover;
 	text-align: center;
-}
-
-.welcome-banner {
-	background: url("../images/LandingPageBackground.png") no-repeat center center scroll;
-	height: 100vh;
-	margin-bottom: -25vh
-}
-
-.welcome-banner h2 {
-	color: white;
-}
-
-.about-banner {
-	background: url("../images/startup.jpg") no-repeat center center scroll;
-	padding-top: 150px;
-	padding-bottom: 5%;
-	text-align: center;
-}
-
-.service {
-	padding-top: 25px;
-	padding-right: 50px;
-}
-
-.service h2 {
-	font-size: 200%;
-}
-
-.service img {
-	border-radius: 100%;
-	margin-top: 10px;
-}
-
-.service-description {
-	text-align: left;
-	padding-top: 75px;
-}
-
-.contact-banner {
-	background: url("../images/office.jpg") no-repeat center center scroll;
-	color: #ffffff;
-}
-
-.donate-banner {
-	text-align: center
-}
-
-.team {
-	text-align: center;
-	background-color: white;
-}
-
-.team-member {
-	padding-bottom: 20px;
-}
-
-.team-member img {
-	border-radius: 100%;
-}
-
-.current-projects {
-	text-align: center;
-	background-color: #008698;
-	color: #ffffff;
-	padding: 0px;
-	padding-top: 10px;
-}
-
-.project {
-	background-color: #ffffff;
-	padding-bottom: 50px;
-	color: #191919;
-}
-
-.project-logo img {
-	margin-top: 30px;
-	width: 100%;
-}
-
-.project-description {
-	padding-top: 30px;
-}
-
-.client-info {
-	text-align: center;
-	background-color: #ffffff;
-}
-
-.student-info {
-	text-align: center;
-	background-color: #ffffff;
-}
-
-.underline {
-	color: lightgray;
-	border-width: 3px;
-}
-
-.client-contact {
-	color: white;
-	text-align: center;
-	background: url("../images/keyboard.jpeg") no-repeat center center scroll;
-	padding-top: 100px;
-}
-
-.students {
-	text-align: center;
-	background-color: #ffffff;
-	padding-top: 150px;
-	padding-bottom: 0;
-}
-
-.div-image {
-	padding-top: 15%;
-	padding-bottom: 15%;
-	background-size: cover;
-}
-
-.break {
-	padding-bottom: 75px;
-}
-
-.recruitment {
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 125px;
-}
-
-.info-box {
-	text-align: center;
-	color: #626262;
-}
-
-
-
-.jumbotron {
-	margin: 0px;
-}
-
-.contact-blurb {
-	text-align: center;
-	padding-bottom: 40px;
-}
-
-.contact {
-	text-align: left;
-	background-color: white;
-	padding-bottom: 50px;
-	padding-top: 20px;
-}
-
-.deadline {
-	text-align: left;
-}
-
-.event-desc {
-	text-align: left;
-}
-
-.contact-option {
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 50px;
-}
-
-.contact-option h1 {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 400%;
 }
 
 .nav-home {
@@ -405,7 +273,23 @@ body {
 
 /*MOBILE*/
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .top-section-content {
+      margin: 4em 0;
+      flex-direction: column-reverse;
+    }
+    .top-section-body {
+      width: 100%;
+    }
+}
 @media (max-width: 767px) {
+	.top-section-content {
+      margin: 4em 0;
+      flex-direction: column-reverse;
+    }
+    .top-section-body {
+      width: 100%;
+    }
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: #7bdfea;
 	}

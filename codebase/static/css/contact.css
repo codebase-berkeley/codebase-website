@@ -1,0 +1,11 @@
+.top-section-body {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 400px;
+  height: 100%;
+  padding-bottom: 2em;
+  width: 60%;
+}

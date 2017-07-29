@@ -42,6 +42,11 @@
 
 .footer-section-links > a {
     color: #FFFFFF;
+    border-bottom: 1px solid transparent;
+}
+.footer-section-links > a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .footer-legal {

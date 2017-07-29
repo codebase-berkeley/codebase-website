@@ -1,15 +1,3 @@
-.top-section {
-  background-color: white;
-}
-
-.top-section-content {
-  margin: 4em 5em;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  min-height: 400px;
-}
 .top-section-body {
   order: 1;
   display: flex;
@@ -36,14 +24,6 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 12px;
-}
-.top-section-desc {
-  color: #2E3C40;
-  margin-top: 2em;
-  font: 18px/200% 'roboto';
-}
-.top-section-img {
-  order: 2;
 }
 
 .services {
