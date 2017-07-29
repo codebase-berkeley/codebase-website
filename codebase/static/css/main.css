@@ -25,6 +25,10 @@ body {
 	overflow-x: hidden;
 }
 
+a:hover, a:focus {
+	text-decoration: none;
+}
+
 .top-section {
   background-color: white;
 }
