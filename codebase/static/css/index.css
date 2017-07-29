@@ -1,3 +1,23 @@
+.navbar {
+	background-color: #00B0DA;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+	color: white;
+	border-bottom: 1px solid white;
+}
+.logo-reg {
+	display: none;
+}
+.logo-white {
+	display: inline-block;
+}
+
+
 .hero {
 	height: 90vh;
 	position: relative;

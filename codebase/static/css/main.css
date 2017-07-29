@@ -67,6 +67,9 @@ body {
 	text-align: center;
 }
 
+.logo-white {
+	display: none;
+}
 .nav-home {
 	content: url("../images/assets/home.png")
 }
@@ -167,6 +170,7 @@ body {
 	letter-spacing: .2em;
 	margin: 30px 20px;
 	padding: 0;
+	border-bottom: 1px solid transparent;
 	-moz-transition: color .1s ease;
 	-o-transition: color .1s ease;
 	-webkit-transition: color .1s ease;
@@ -175,8 +179,12 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
+
 	color: #00B0DA;
+	/*
 	background-color: rgba(0, 0, 0, 0);
+	*/
+	border-bottom: 1px solid #00B0DA;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
