@@ -24,3 +24,12 @@
 .general-email > a:hover, a:focus {
     border-bottom: 1px solid white;
 }
+
+/*MOBILE*/
+
+@media (max-width: 1024px) {
+    .general-content {
+      margin: 4em 0;
+      flex-direction: column-reverse;
+    }
+}
