@@ -15,15 +15,34 @@
 				</div>
 				<div class="top-section-title">
 					The Challenge
-				</div>	
+				</div>
 				<div class="top-section-desc">
-					Add description here
+					Crowdbotics is a startup automating the process of connecting clients with developing needs with capable engineers.
+					Crowdbotics tasked us with building an automated onboarding and technical interviewing slackbot to interview potential
+					developer candidates for their platform; essentially, we had to model the dynamics of a tech interview, processing
+					natural language input to rank interviewee performance on a variety of technical questions, all while providing a
+					robust, conversational experience for users - all in all a terrifically open-ended problem.
 				</div>
 				<div class="top-section-title">
 					The Solution
 				</div>
 				<div class="top-section-desc">
-					Add description here
+					<p>
+						Conversational AI is an active area of research, and successfully building a chatbot that can hold simple
+						conversations like Microsoft’s Zo requires substantial resources and is regarded as something of an accomplishment.
+						Luckily, technical interviews are a forgivingly tiny slice of the entire space of natural language conversations.
+						We decided to model the interview through intent trees - a scheme where the chatbot traverses graph nodes depending
+						on user input to determine what response to send - and following advice from Professor Denero, used a bag-of-words
+						technique for the MVP solution. Technical interview data was crowdsourced.
+					</p>
+					<p>
+						Actually deploying our solution proved to be an unexpectedly challenging engineering problem. Crowdbotics
+						asked to use serverless technology like AWS Lambda to bring down costs and enable scalability, but after careful
+						evaluation we concluded that loading our NLP models onto AWS Lambda was simply not possible because the stateless
+						nature of serverless technology meant we would simply be transferring costs to a whole new
+						(slower and more expensive) caching layer. Instead, we worked out a solution where we ran the models on traditional
+						EC2 servers and stored conversation data in RDS.
+					</p>
 				</div>
 			</div>
 		</div>
