@@ -10,13 +10,20 @@
 	<div class="container-fluid">
 		<div class="top-section-content">
 			<div class="top-section-body">
+				<img src="../static/images/projects/ongo.png" class="top-section-logo">
 				<div class="top-section-title">
-					<img src="../static/images/projects/ongo.png">
+					The Challenge:
 				</div>
 				<div class="top-section-desc">
-					Ongo is a fitness company that attempts to provide highly tailored, crowdsourced workout routines to people. The Ongo project focused on integrating their app with 3 different devices - Amazon’s Alexa (using the Echo), the Fitbit and Withings devices. 
-					For Fitbit and Withings we first had to establish the oAuth flow. While Fitbit was well documented, the Withings integration was much more problematic because Withings only implemented a janky version of oAuth1. The next stage for both projects was setting up data schemas to store the data collected. The final stage was to prevent conflicting data from getting recorded, so the data store was consistent on the user end.
-					The Alexa project was complex because it required interfacing with Ongo’s API and extracting Audio streams from the workout sessions. These were then delivered through extensible AWS Lambda functions to Alexa which said them out loud to the user. Separate functionality to scrape workout statistics about a user was also implemented.
+					Ongo is a fitness company that attempts to provide highly tailored, crowdsourced workout routines to people. The Ongo project focused on integrating their app with 3 different devices - Amazon’s Alexa (using the Echo), the Fitbit and Withings devices.
+				</div>
+				<div class="top-section-title">
+					Our Solution:
+				</div>
+				<div class="top-section-desc">
+					For the Fitbit and Withings devices we first had to establish an authentication flow; the specified flow was to follow OAuth, an openly defined and widely used authentication standard. While the Fitbit authentication API was well documented, the Withings integration was much more problematic because Withings had only an incomplete version of OAuth 1.0. The next stage for both projects was to store the data collected - we developed a common data schema for the different formats provided by Fitbit and Withings. The final stage was to prevent conflicting data from getting recorded, so the data store was consistent on the user end.
+					<br></br>
+					The Alexa project was the most complex because it required interfacing with Ongo’s API and extracting audio streams from the workout sessions. These were then delivered through extensible AWS Lambda functions (which enabled us to roll our own API without provisioning and maintaining expensive API servers!) to Alexa which spoke them out loud to the user. Separate functionality to scrape workout statistics about a user was also implemented.
 				</div>
 			</div>
 		</div>

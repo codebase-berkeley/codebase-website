@@ -1,20 +1,24 @@
-.top-section-content {
-  margin-left: 12em;
-  margin-right: 12em;
-  margin-top: 8em;
+.top-section-body {
+  width: 80%;
+  margin-left: 6em;
+}
+
+.top-section-logo {
+  margin-bottom: 2em;
 }
 
 .top-section-title {
   color: #0A0A0A;
-  font: 40px/150% 'roboto_condensedbold';
-  margin-bottom: 1em;
+  font: 30px/150% 'roboto_condensedbold';
 }
+
 .top-section-desc {
-  color: #2E3C40;
-  font: 16px/175% 'robotolight';
-  margin-bottom: 5em;
+  color: #6A6A6A;
+  margin-top: 1em;
+  font: 18px/175% 'robotolight';
 }
 
 .sutro-app {
+  margin-top: 5em;
   margin-bottom: 10em;
 }
