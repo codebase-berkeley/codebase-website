@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block meta %}
+<title>Portfolio - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/portfolio.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					What We've Done
+				</div>
+				<div class="top-section-desc">
+					Code is our craft - we’ve built many projects helping companies across many industries. See some of our recent partnerships below.
+				</div>
+			</div>
+			<img class="top-section-img" src="../static/images/med_brain_crane.png" width="33%" />
+		</div>
+	</div>
+</div>
+
+<div class="portfolio">
+    <div class="container-fluid">
+        <ul class="flex-list portfolio-cards">
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/crowdbotics.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/crowdbotics.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    Api Development
+                </div>
+                <div class="company-card-desc">
+                    We developed a chatbot that applies NLP algorithms to choose which engineers are the right fit for a software development project.
+                </div>
+            </li>
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/ongo.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo" style="background-image: url(../static/images/projects/ongo.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    IOT
+                </div>
+                <div class="company-card-desc">
+                    Ongo is a startup that creates mobile learning experiences for health and fitness experts. We integrated Ongo's platform with Amazon Echo, Fitbit, and Withings devices.
+                </div>
+            </li>
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/sutro.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo sutro-logo" style="background-image: url(../static/images/projects/sutro.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    App Development
+                </div>
+                <div class="company-card-desc">
+                    We built a cross-platform mobile application for monitoring and maintaining pool chemistry, integrating with Sutro's ready-made device.
+                </div>
+            </li>
+            <li class="flex-list-item company-card" onclick="location.href='{% url '/upstream.html' %}';" style= "cursor: pointer;">
+                <div class="company-card-logo upstream-logo" style="background-image: url(../static/images/projects/upstream.png);">
+                </div>
+                <div class="company-card-subtitle">
+                    App Development
+                </div>
+                <div class="company-card-desc">
+                    With Upstream, we performed end-to-end design and development of a website to match cancer patients with clinical trials.
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="next-steps">
+	<div class="split-container">
+		<div class="split-left">
+			<div class="next-step-subtitle">
+				For companies
+			</div>
+			<div class="next-step-title">
+				Have a project for us?
+			</div>
+			<a href="{% url '/contact.html' %}">
+				<div class="btn-container btn-join">
+					Contact Us &rarr;
+				</div>
+			</a>
+		</div>
+		<div class="split-right">
+			<div class="next-step-subtitle">
+				For students
+			</div>
+			<div class="next-step-title">
+				Want to be a part of our team?
+			</div>
+			<a href="{% url '/join.html' %}">
+				<div class="btn-container btn-join">
+					Join Us &rarr;
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

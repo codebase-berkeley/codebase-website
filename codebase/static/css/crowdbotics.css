@@ -1,0 +1,19 @@
+.top-section-body {
+  width: 80%;
+  margin-left: 6em;
+}
+
+.top-section-logo {
+  margin-bottom: 1em;
+}
+
+.top-section-title {
+  color: #0A0A0A;
+  font: 30px/150% 'roboto_condensedbold';
+}
+
+.top-section-desc {
+  color: #6A6A6A;
+  margin-top: 1em;
+  font: 18px/175% 'robotolight';
+}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block meta %}
+<title>Sutro - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/sutro.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+					<img src="../static/images/projects/sutro.png" class="top-section-logo">
+				<div class="top-section-title">
+					The Challenge:
+				</div>
+				<div class="top-section-desc">
+					Sutro has built an IoT solution for managing water quality - users simply drop the Sutro device in a body of water to receive water quality information and management instructions. CodeBase enabled Sutro to loop in all this information into a mobile app that users could view anytime, anywhere on Android or iOS devices. 
+
+				</div>
+				<div class="top-section-title">
+					Our Solution:
+				</div>
+				<div class="top-section-desc">
+					Working closely with Sutro’s management, we developed a game plan based on the UI sketches we received and our 3 month deadline. The primary requirement was to have a responsive, cross platform application on both Android and iOS. We quickly realized that constructing two separate native applications with our small team was simply not feasible. Using React Native instead allowed us to rapidly build up a working prototype in a matter of weeks in a highly scalable way; our team of eight developers could work on the same repository of code, using the same language and the same tools.
+					<br></br>
+					The final product was delivered before the end of the spring semester, in an effort that included training developers on React’s declarative programming paradigm as well as writing complete documentation for the integration of the application into Sutro’s in-house API.
+				</div>
+				<img src="../static/images/sutro-app.png" class="sutro-app">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}

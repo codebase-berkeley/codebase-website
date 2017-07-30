@@ -1,92 +1,90 @@
-@font-face {
-  font-family: 'MyriadPro';
-  /*a name to be used later*/
-  src: url('/static/fonts/MyriadProRegular.ttf');
-  /*URL to font*/
+.carousel-container {
+  background: url("../images/tiled_tiny_doodles.png");
+  width: 100%;
+  height: 650px;
 }
 
-.about-us-container {
-  padding: 20px 50px;
-  margin-bottom: 100px;
-  font-family: 'MyriadPro';
+#carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  cursor: -webkit-grab;
+  cursor: grab;
+  height: inherit;
+  padding-left: 5em;
+}
+#carousel > img {
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin-left: 2em;
+}
+#carousel::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
-.m-t-lg {
-  margin-top: 5px;
+.meet-the-team {
+  padding-top: 5em;
+  margin-bottom: 5em;
+  background-color: white;
+}
+.meet-the-team-headline {
+  padding-left: 1.5em;
+  color: #0A0A0A;
+  font: 40px/150% 'roboto_condensedbold';
+  margin-bottom: .5em;
+}
+.member-row {
+  margin-top: 2em;
+  padding: 0 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.member {
+  width: 200px;
+  height: 200px;
+  margin: 2em 2em;
+}
+.member-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+.member:hover > .member-details {
+  visibility: visible;
+  opacity: 1;
+}
+.member-name {
+  color: #0A0A0A;
+  font: 20px/150% 'roboto_condensedbold';
+}
+.member-title {
+  letter-spacing: 0.1em;
+  color: #0A0A0A;
+	font: 12px/150% 'robotobold';
+  text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
-.p-ud {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+/*MOBILE*/
 
-#about-us-heading, #members-heading {
-  font-weight: bold;
-  color: #3A64AF;
-}
 
-#about-us-img, #members-img{ 
-  width: 5vw;
-}
-
-#about-us-img {
-  margin-top: 50px;
-}
-
-#what-we-do {
-  font-size: 18px;
-}
-
-.descriptions {
-  font-size: 18px;
-}
-
-#workshops-heading {
-  color: #6D3BAD;
-}
-
-#committees-heading {
-  color: #3C8721;
-}
-
-#projects-heading {
-  color: #3A64AF;
-}
-
-#culture-heading {
-  color: #D38742;
-}
-
-#mission-heading {
-  color: #D86488;
-}
-
-#culture-icon{ 
-  width: 3vw;
-}
-
-#projects-icon {
-  width: 3vw;
-}
-
-#committees-icon {
-  width: 2vw;
-}
-
-#workshops-icon {
-  width: 2vw;
-}
-
-#mission-icon {
-  width: 8vw;
-}
-
-.panel-member {
-  border: 1px solid #e6e6e6;
-  padding: 20px;
-  margin: 20px 10px;
-}
-
-.panel-member h4, .panel-member h5 {
-  color: #3A64AF;
+@media (max-width: 767px) {
+  .member-row {
+    padding: 0;
+  }
 }

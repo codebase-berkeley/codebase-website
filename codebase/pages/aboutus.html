@@ -1,193 +1,419 @@
-{% extends "base.html" %} {% block meta %}
-<title>About Us</title>
-{% endblock %} {% block body %}
+{% extends "base.html" %}
+{% block meta %}
+<title>About Us - Codebase</title>
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/about_us.css' %}">
+<script src="../static/js/vendor/vanilla.kinetic.js"></script>
 
-<div class='container about-us-container '>
-	<div class='row text-center p-ud'>
-		<img id="about-us-img" src='/static/images/AboutUsIcon.png' alt='About Us Logo' />
-		<h2 class="h2" id="about-us-heading"> ABOUT US </h2>
-	</div>
-	<div class="row p-ud">
-		<!--		<div class="text-center col-xs-2">
-			<img src="/static/images/MissionIcon.png" id="mission-icon" alt="Our Mission" class="img-responsive" />
-		</div> -->
-		<div class="col-md-11 col-md-offset-1">
-			<h3 id="What-we-do-heading"> WHAT WE DO </h3>
-			<p id="what-we-do"> CodeBase is one of Berkeley's first technical consulting groups, spearheading technical challenges for high-growth startups. CodeBase helps companies bridge technical gaps by developing mobile and web applications, assisting companies in setting up scalable infrastructure, providing code review/application testing, and implementing future product features for research and evaluation. </p>
-			<!--		</div>
-			<div class="col-xs-10">
-			<h3 id="mission-heading"> OUR MISSION </h3>
-			<p> Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission Mission mission misssion mission double missionMMission mission misssion mission double mission ission mission misssion mission double mission </p>
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					About Us
+				</div>
+				<div class="top-section-desc">
+					We are a community of hackers, designers, and inventors at Cal, brought together by our love of building and solving problems through code. However, we also take pride in the diversity and wide range of non-technical talents within our CodeBase family. We love to make memories together – from semesterly retreats to boba runs and late-night study sessions. Our work is our passion, but that doesn’t mean we can’t have some fun along the way.
+				</div>
+			</div>
+			<img class="top-section-img" src="../static/images/med_berkelium.png" width="25%" />
 		</div>
-		-->
-		</div>
-		<div class="col-md-11 col-md-offset-1" style="margin-left:107px;">
-			<div class="row m-t-lg p-ud">
-				<img src="/static/images/CultureIcon.png" id="culture-icon" alt="Our Culture" class="img-responsive" />
-				<h3 id="culture-heading"> OUR CULTURE</h3>
-				<p> Besides our shared passion for coding, we are a family that loves to get food and boba and go on retreats together. </p>
-			</div>
-			<div class="row m-t-lg p-ud">
-				<img src="/static/images/ProjectsIcon2.png" id="projects-icon" alt="Projects" class="img-responsive" />
-				<h3 id="projects-heading"> PROJECTS</h3>
-				<p> Each semester we take on projects solving technical challenges for startups, ranging from mobile and app development to IoT, machine learning, and many more.</p>
-			</div>
-			<div class="row m-t-lg p-ud">
-				<img src="/static/images/CommitteesIcon2.png" id="committees-icon" alt="Committees" class="img-responsive" />
-				<h3 id="committees-heading"> COMMITTEES</h3>
-				<p> We have four committees -- Finance, Marketing, Professional Development, and Internal Relations -- to further develop our members professionally and allow them to take an active part in helping the organization run smoothly, whether it be managing finances, recruiting tips, event-planning, and more. </p>
-			</div>
-			<div class="row m-t-lg p-ud">
-				<img src="/static/images/WorkshopsIcon.png" id="committees-icon" alt="Workshops" class="img-responsive" />
-				<h3 id="workshops-heading"> WORKSHOPS</h3>
-				<p>We offer bootcamps for new CodeBase developers, familiarizing them with coding practices, teaching them product management techniques, and giving them development tips. We also run internal and external workshops teaching attendees about technical frameworks and professional development.
-				</p>
-			</div>
-		</div>
-
-		<!-- END TOP HALF -->
-		<!-- MEMBERS -->
-		<div class='row text-center p-ud m-t-lg'>
-			<img id="members-img" src='/static/images/MembersIcon.png' alt='Members' />
-			<h2 class="h2" id="members-heading"> MEMBERS</h2>
-		</div>
-		<div class="row">
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/abhi.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Abhishyant Khare</h4>
-					<h5>President</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/vivek.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Vivek Jain</h4>
-					<h5>VP of Projects</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/kush.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Kush Rastogi</h4>
-					<h5>VP of Professional Development</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/PAL.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Pal Makkar</h4>
-					<h5>VP of Internal Relations</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-		</div>
-		<div class="row">
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/tim.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Tim Foster</h4>
-					<h5>VP of Finance</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/cindy.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Cindy Yuan</h4>
-					<h5>VP of Branding &amp; Marketing</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/hershal2.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Hershal Bhatia</h4>
-					<h5>VP of Branding &amp; Marketing</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/lang.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Lang Tran</h4>
-					<h5>Project Manager</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-		</div>
-		<div class="row">
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/matt.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Matthew Soh</h4>
-					<h5>Project Manager</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/raghav.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Raghav Anand</h4>
-					<h5>Project Manager</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/gokul.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Gokul Swamy</h4>
-					<h5>Project Member</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/navneedh.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Navneedh Maudgalya</h4>
-					<h5>Project Member</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-		</div>
-		<div class="row">
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 col-md-offset-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/aismit.png" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Aismit Das</h4>
-					<h5>Project Member</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-			<!-- SINGLE MEMBER PANEL -->
-			<div class="col-md-3 text-center col-xs-12">
-				<div class="panel panel-member">
-					<img src="/static/images/team/brian.jpg" alt="Abhishyant Khare" class="img-responsive" />
-					<h4>Brian DeLeonardis</h4>
-					<h5>Project Member</h5>
-				</div>
-			</div>
-			<!-- END PANEL -->
-
-		</div>
-
 	</div>
 </div>
+
+<div class="carousel-container">
+	<div id="carousel">
+		<img src="../static/images/thumbs/ficom.png" />
+		<img src="../static/images/thumbs/gang.png" />
+		<img src="../static/images/thumbs/palisdown.png" />
+	</div>
+</div>
+
+<div class="meet-the-team">
+	<div class="container-fluid">
+		<div class="meet-the-team-headline" id="team-section">
+			Meet The Team
+		</div>
+		<ul class="members flex-list">
+			<li class="member flex-list-item" style="background-image: url(../static/images/thumbs/mrpresident.png);">
+				<div class="member-details">
+					<div class="member-name">
+						Abhishyant Khare
+					</div>
+					<div class="member-title">
+						President
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/abhishyantkhare">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://www.github.com/abhishyant">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="www.abhishyant.com">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background-image: url(../static/images/thumbs/kush.png);">
+				<div class="member-details">
+					<div class="member-name">
+						Kush Rastogi
+					</div>
+					<div class="member-title">
+						Projects VP
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/kushrastogi/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/kushrast">
+							<img src="../static/images/github.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/ragstar.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Raghav Anand
+					</div>
+					<div class="member-title">
+						Projects VP
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/raghav-anand-034b89127/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/raghavanand98">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="raghavanand98.com">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background-image: url(../static/images/thumbs/kavita.png);">
+				<div class="member-details">
+					<div class="member-name">
+						Kavita Vijayan
+					</div>
+					<div class="member-title">
+						Internal VP
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/kavita-vijayan-339500126/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/kavitavijayan">
+							<img src="../static/images/github.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/lang.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Lang Tran
+					</div>
+					<div class="member-title">
+						Internal VP
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/lang-tran-753572b9/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/itsbluething/">
+							<img src="../static/images/github.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/pal.png);">
+				<div class="member-details">
+					<div class="member-name">
+						Pal Makkar
+					</div>
+					<div class="member-title">
+						Professional Development VP
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/team/cindy.jpg); background-size: 140%; background-position: 50% 25%;">
+				<div class="member-details">
+					<div class="member-name">
+						Cindy Yuan
+					</div>
+					<div class="member-title">
+						Design VP
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/cindyjyuan">
+							<img src="../static/images/linkedin.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/tim.png);">
+				<div class="member-details">
+					<div class="member-name">
+						Tim Foster
+					</div>
+					<div class="member-title">
+						Operations VP
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/ellen.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Ellen Luo
+					</div>
+					<div class="member-title">
+						Project Manager
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/ellenluo/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/ellenluo">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="http://ellenluo.me">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/sahana.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Sahana Srinivisan
+					</div>
+					<div class="member-title">
+						Project Manager
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/ivon.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Ivon Liu
+					</div>
+					<div class="member-title">
+						Project Manager
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/ivonliu/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/ivonliu">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="http://ivonliu.com">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/saurav.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Saurav Kadavath
+					</div>
+					<div class="member-title">
+						Project Manager
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/saurav-kadavath-808b07132/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/ssss1029">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="http://www.sauravkadavath.com">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/brian.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Brian DeLeonardis
+					</div>
+					<div class="member-title">
+						Mentor Project Manager
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/brian-deleonardis-b49030121/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/bdeleonardis1">
+							<img src="../static/images/github.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/andrew.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Andrew Chan
+					</div>
+					<div class="member-title">
+						Mentor Project Manager
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/andrew-k-chan">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/theandrewchan">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="https://theandrewchan.github.io">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/aismit.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Aismit Das
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/aneesh.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Aneesh Khera
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/aneeshkhera">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/kapleesh">
+							<img src="../static/images/github.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/cynthia.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Cynthia Wang
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+						<a href="https://www.linkedin.com/in/cynthia-wang-4ab743132/">
+							<img src="../static/images/linkedin.png" />
+						</a>
+						<a href="https://github.com/wangcynthia">
+							<img src="../static/images/github.png" />
+						</a>
+						<a href="https://wangcynthia.github.io">
+							<img src="../static/images/personal_site.png" />
+						</a>
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/jaemin.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Jaemin Kim
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/julia.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Julia Luo
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/justin.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Justin Zhong
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/nav.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Navneedh Maudgalya
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/ryan.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Ryan Hoque
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+			<li class="member flex-list-item" style="background: url(../static/images/thumbs/young.png); background-size: cover;">
+				<div class="member-details">
+					<div class="member-name">
+						Young Guo
+					</div>
+					<div class="member-title">
+						Project Developer
+					</div>
+					<div class="member-links">
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	new VanillaKinetic(document.getElementById("carousel"), { cursor: "-webkit-grab" });
+</script>
 
 {% endblock %}

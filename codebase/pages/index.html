@@ -1,165 +1,251 @@
-{% extends "base.html" %} {% block meta %}
-<title>CodeBase</title>
-<meta name="description" content=""> {% endblock %} {% block body %}
+{% extends "base.html" %}
+{% block meta %}
+<title>Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
 <div style="padding-top:5vh;"></div>
 <link rel="stylesheet" href="{% static '/static/css/index.css' %}">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
-<link rel="stylesheet" href="{% static '/static/css/main.css' %}">
 <link rel="stylesheet" href="{% static '/static/font-awesome/css/font-awesome.min.css' %}">
 
 
+<div class="hero">
+	<div class="topbgimg"></div>
 
-<div class="topbgimg">
+	<div class="centered-absolute">
+		<div class="mission">
+			<div class="mission-text">Berkeley Codebase</div>
+			<div class="mission-subtitle">Software Development for High Growth Startups</div>
+		</div>
 
+		<a href="{% url '/aboutus.html' %}">
+			<div class="btn-container btn-hero">
+				About Us
+			</div>
+		</a>
 
-</div>
-
-
-<div class="mission">
-	<div class="mission-text">Berkeley CodeBase</div>
-</div>
-
-
-<div class="bg">
-	<div class="bg-text">tech consulting for high-growth startups</div>
-</div>
-
-
-
-
-<div class="apply-container">
-
-	<a class="apply" href="{% url '/join.html' %}">
-           APPLY
-    </a>
-</div>
-
- <div class="span4 offset4 text-center">
-<img class="gear" src="/static/images/ProjectsIcon.png" />
-<div class="projects-wrapper">
-	<div class="projects">
-		THIS SEMESTER'S PROJECTS
+		<a href="{% url '/join.html' %}">
+			<div class="btn-container btn-hero">
+				Apply
+			</div>
+		</a>
 	</div>
 </div>
-</div>
 
-<div class="row">
-    <div class="span4 offset4 text-center">
-	<div class="card card-1">
-		<div class="card-title">
-			Ongo
+<div class="event-banner">
+	<div class="container-fluid event-banner-body">
+		<div class="event-details">
+			<div class="event-details-date">
+				<!--Thursday, August 24, 4PM-->
+				Date and Time TBD
+			</div>
+			<div class="event-details-loc">
+				Location TBD
+			</div>
 		</div>
-		<div class="card-subtitle">
-			IoT
+		<div class="event-title">
+			Infosession 1
 		</div>
-		<div class="project-desc">
-			Ongo is a startup helping health and fitness experts create mobile learning experiences. Its app provides users with interactive courses and tutorials that integrate with other devices, creating a personalized data-driven experience. This semester, we're working to integrate Ongo's platform with various devices, such as Amazon Echo.
-		</div>
-		<div class="circle1">
-
-		</div>
-	</div>
-
-	<div class="card card-2">
-		<div class="card-title-2">
-			Sutro
-		</div>
-		<div class="card-subtitle-2">
-			App Development
-		</div>
-		<div class="project-desc">
-			Based out of San Francisco, Sutro is a hardware startup developing a smart pool monitor that measures water chemistry and delivers the appropriate chemicals as they're depleted. CodeBase is working with Sutro to develop a cross-platform mobile application that allows pool boys to plan and track their route for the day, send status reports and statistics to their customers, and check billing information.
-		</div	>
-		<div class="circle2">
-
-		</div>
-	</div>
-
-	<div class="card card-3">
-		<div class="card-title-3">
-			Crowdbotics
-		</div>
-		<div class="card-subtitle-3">
-			NLP/AI Chatbot
-		</div>
-		<div class="project-desc">
-			Crowdbotics is a startup automating the process of connecting clients with developing needs with capable engineers. We're working with Crowdbotics to develop a chatbot that interviews potential engineers for a project and applies NLP algorithms to choose which engineers are the right fit for a software development project.
-		</div>
-		<div class="circle3">
-
+		<div class="event-link">
+			<a href="{% url '/join.html' %}">
+				<div class="btn-container btn-negative">
+					See Upcoming Events &rarr;
+				</div>
+			</a>
 		</div>
 	</div>
 </div>
-</div>
 
+<div class="container-fluid">
+	<div class="what-we-do">
+		<img class="fork-decoration" src="static/images/fork-illustration-left.png" />
+		<div class="section-body">
+			<img class="section-img" src="static/images/calhacks.png" />
+			<div class="section-title">
+				What We Do
+			</div>
+			<div class="section-desc">
+				We build exceptional technical solutions for businesses collaboratively in a way that
+				brings our mix of disciplines, people, and technology together to tackle challenges on any scale.
+				Our results-driven process gets right to the point: we promise to deliver a tangible, testable
+				product within 3 months. Learn more about the key services we provide:
+			</div>
+			<div class="section-more">
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_CATPHONE.png" />
+						<div class="infobox-title">
+							App Development
+						</div>
+					</div>
+				</div>
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_CLOUDSERVER.png" />
+						<div class="infobox-title">
+							API Development
+						</div>
+					</div>
+				</div>
+				<div class="infobox">
+					<div class="infobox-content">
+						<img class="infobox-icon" src="static/images/PLACEHOLDER_LIGHTBULB.png" />
+						<div class="infobox-title">
+							Product Prototyping
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="{% url '/services.html' %}">
+				<div class="btn-container btn-learn">
+					Learn More &rarr;
+				</div>
+			</a>
+		</div>
+	</div>
 
-
-
-
-<div class="projects-wrapper">
-<img class="tie" src="/static/images/CommitteesIcon.png" />
-	<div class="projects">
-		PROFESSIONAL COMMITTEES
+	<div class="who-we-are">
+		<div class="section-body">
+			<img class="section-img" src="static/images/whoweare.png" />
+			<div class="section-title">
+				Who We Are
+			</div>
+			<div class="section-desc">
+				We are a community of hackers, designers, and inventors at Cal, brought together by our love of building and solving problems through code.
+			</div>
+			<a href="{% url '/aboutus.html' %}">
+				<div class="btn-container btn-learn">
+					Learn More &rarr;
+				</div>
+			</a>
+		</div>
+		<img class="fork-decoration" src="static/images/fork-illustration-right.png" />
 	</div>
 </div>
-<div class="row">
-    <div class="span4 offset4 text-center">
-	<div class="card-comm card-comm-1">
-		<div class="card-title">
-			FINANCE
-		</div>
-		<div class="comm-desc">
-			<ul class="comm-list">
-				The Finance Committee oversees the club budget and club financial development. If you’re interested in business, the Finance Committee will give you some real world experience!
-			</ul>
-		</div>
-		<img class="comm-img-1" src="/static/images/FinanceIcon.png" />
-	</div>
-	<div class="card-comm card-comm-2">
-		<div class="card-title-2">
-			MARKETING
-		</div>
-		<div class="comm-desc">
-			<ul class="comm-list">
-				The Marketing Committee works on creating promotional material for club events. This committee will give you chance to do some design and gain valuable marketing experience!
-			</ul>
-		</div>
-		<img class="comm-img-2" src="/static/images/MarketingIcon.png" />
-	</div>
-	<div class="card-comm card-comm-2">
 
-		<div class="card-title-4-1">
-			PROFESSIONAL
+<!--
+<div class="projects">
+	<div class="container-fluid">
+		<div class="projects-header">
+			<div class="projects-headline">
+				This Semester's Projects
+			</div>
+			Each semester CodeBase works in teams of 9 to build a project for 3 months. Check out this semester's projects below.
 		</div>
-		<div class="card-title-4">
-			DEVELOPMENT
+		<div class="projects-row">
+			<div class="project-box">
+				<div class="project-box-content">
+					<img class="infobox-icon" src="static/images/PLACEHOLDER_BLUELIGHTBULB.png" />
+					<div class="project-box-title">
+						Ongo
+					</div>
+					<div class="project-box-subtitle">
+						IOT
+					</div>
+					<div class="project-box-desc">
+						Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+					</div>
+				</div>
+			</div>
+			<div class="project-box">
+				<div class="project-box-content">
+					<img class="infobox-icon" src="static/images/PLACEHOLDER_BLUECLOUDSERVER.png" />
+					<div class="project-box-title">
+						Crowdbotics
+					</div>
+					<div class="project-box-subtitle">
+						NLP/AI
+					</div>
+					<div class="project-box-desc">
+						We're working with Crowdbotics to make a chatbot that interviews  engineers for a project and applies NLP algorithms to choose the best fits for a software development project.
+					</div>
+				</div>
+			</div>
+			<div class="project-box">
+				<div class="project-box-content">
+					<img class="infobox-icon" src="static/images/PLACEHOLDER_BLUECATPHONE.png" />
+					<div class="project-box-title">
+						Sutro
+					</div>
+					<div class="project-box-subtitle">
+						App Development
+					</div>
+					<div class="project-box-desc">
+						Sutro is developing a smart pool monitor that delivers pool chemicals as needed. We’re making a cross-platform mobile application integrated with the device.
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="comm-desc-4">
-			<ul class="comm-list">
-				The Professional Development Committee organizes professional events in the club. Help plan resume workshops, company tours, infosessions and more!
-			</ul>
+		<div class="projects-row">
+			<div class="project-box">
+				<div class="project-box-content">
+					<img class="infobox-icon" src="static/images/PLACEHOLDER_BLUELIGHTBULB.png" />
+					<div class="project-box-title">
+						Ongo
+					</div>
+					<div class="project-box-subtitle">
+						IOT
+					</div>
+					<div class="project-box-desc">
+						Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+					</div>
+				</div>
+			</div>
+			<div class="project-box">
+				<div class="project-box-content">
+					<img class="infobox-icon" src="static/images/PLACEHOLDER_BLUELIGHTBULB.png" />
+					<div class="project-box-title">
+						Ongo
+					</div>
+					<div class="project-box-subtitle">
+						IOT
+					</div>
+					<div class="project-box-desc">
+						Ongo is a startup helping health and fitness experts create mobile learning experiences. We're working to integrate Ongo's platform with Amazon Echo.
+					</div>
+				</div>
+			</div>
+			<a href="{% url '/portfolio.html' %}">
+			<div class="btn-container btn-negative">
+				<div>
+					See Past Projects &rarr;
+				</div>
+			</div>
+			</a>
 		</div>
-		<img class="comm-img-3" src="/static/images/ProfessionalDevelopmentIcon.png" />
-	</div>
-	<div class="card-comm card-comm-2">
-
-		<div class="card-title-5-1">
-			INTERNAL
-		</div>
-		<div class="card-title-5">
-			RELATIONS
-		</div>
-		<div class="comm-desc-4">
-			<ul class="comm-list">
-				The Internal Relations Committee works on organizing events within the club. Plan socials, retreat, banquet and be a crucial part of club bonding!
-			</ul>
-		</div>
-		<img class="comm-img-4" src="/static/images/InternalRelationsIcon.png" />
 	</div>
 </div>
+-->
+<div class="next-steps">
+	<div class="split-container">
+		<div class="split-left">
+			<div class="next-step-subtitle">
+				For companies
+			</div>
+			<div class="next-step-title">
+				Have a project for us?
+			</div>
+			<a href="{% url '/contact.html' %}">
+				<div class="btn-container btn-join">
+					Contact Us &rarr;
+				</div>
+			</a>
+		</div>
+		<div class="split-right">
+			<div class="next-step-subtitle">
+				For students
+			</div>
+			<div class="next-step-title">
+				Want to be a part of our team?
+			</div>
+			<a href="{% url '/join.html' %}">
+				<div class="btn-container btn-join">
+					Join Us &rarr;
+				</div>
+			</a>
+		</div>
+	</div>
 </div>
-
 
 
 {% endblock %}

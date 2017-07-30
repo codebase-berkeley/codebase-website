@@ -1,36 +1,38 @@
 {% extends "base.html" %} {% block meta %}
 <title>Contact - CodeBase</title>
 <meta name="description" content=""> {% endblock %} {% block body %}
+<link rel="stylesheet" href="{% static '/static/css/contact.css' %}">
 
-
-<div class="container-fluid contact">
-
-
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 contact-option">
-			<h2>If you're a company interested in working with us, please see the <a href="{% url '/services.html' %}">services</a> page for more information.</h2>
-
-			<h2>Other Questions? Contact us with the form below!</h2>
-			<!-- Change the width and height values to suit you best -->
-			<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/B6FuSO" data-text="Contact Form" style="width:100%;height:100vh;"></div>
-			<script>
-				(function () {
-					var qs, js, q, s, d = document,
-						gi = d.getElementById,
-						ce = d.createElement,
-						gt = d.getElementsByTagName,
-						id = 'typef_orm',
-						b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-					if (!gi.call(d, id)) {
-						js = ce.call(d, 'script');
-						js.id = id;
-						js.src = b + 'widget.js';
-						q = gt.call(d, 'script')[0];
-						q.parentNode.insertBefore(js, q)
-					}
-				})()
-			</script>
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					Contact Us
+				</div>
+				<div class="top-section-desc">
+					Fill out this form so we can learn a little more about your project and your needs.
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
+
+<div class="container-fluid">
+<div class="typeform-widget" data-url="https://codebase1.typeform.com/to/knvSIa" style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com/examples/forms/contact-form-template/?utm_campaign=knvSIa&amp;utm_source=typeform.com-4180176-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-contactform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+</div>
+
+<div class="general">
+	<div class="container-fluid">
+		<div class="general-content">
+			<div class="general-desc">
+				For general enquiries and non-project related matters, email us at
+			</div>
+			<div class="general-email">
+				<a href="mailto:contact@codebase.berkeley.edu">contact@codebase.berkeley.edu</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 {% endblock %}

@@ -2,8 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="no-js">
 
 <head>
-	<script src="{% static '/static/js/vendor/jquery-1.10.1.js' %}"></script>
-	<script src="{% static '/static/js/vendor/bootstrap.js' %}"></script>
 	<script src="{% static '/static/js/main.js' %}"></script>
 	<script type="text/javascript">
 		var url = window.location.href;
@@ -16,24 +14,12 @@
 	<meta property="og:image" content="http://codebase.club/static/images/cover.png" />{% block meta %} {% endblock %}
 
         <meta name="viewport" content="width=500">
-  
+
 
 	<link rel="stylesheet" href="{% static '/static/css/bootstrap.css' %}">
-	<!--
-      <style>
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-      </style>
-      -->
-	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-	<link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
-	<link rel="stylesheet" href="{% static '/static/css/about_us.css' %}">
-	<link rel="stylesheet" href="{% static '/static/css/join_us.css' %}">
-	<link rel="stylesheet" href="{% static '/static/css/main.css' %}">
-	<link rel="stylesheet" href="{% static '/static/font-awesome/css/font-awesome.min.css' %}">
 	<link rel="stylesheet" href="{% static '/static/css/base.css' %}">
+	<link rel="stylesheet" href="{% static '/static/css/main.css' %}">
+	<link rel="stylesheet" href="{% static '/static/css/fonts.css' %}">
 
 	<link rel="icon" type="image/png" href="{% static '/static/images/favicon-32x32.png' %}" sizes="32x32" />
 	<link rel="icon" type="image/png" href="{% static '/static/images/favicon-16x16.png' %}" sizes="16x16" />
@@ -43,10 +29,13 @@ body {
 
 <body>
 	<div id="master">
-		<div class="navbar-fixed-top navbar navbar-default">
+		<div class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{% url '/index.html' %}"><img src="/static/images/Logo.png" height="50vh" /></a>
+					<div class="navbar-brand">
+						<a href="{% url '/index.html' %}"><img class="logo-reg" src="/static/images/nav-logo.png" height="40vh" /></a>
+						<a href="{% url '/index.html' %}"><img class="logo-white" src="/static/images/footer-logo.png" height="40vh" /></a>
+					</div>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -55,15 +44,22 @@ body {
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="{% if_current_page '/index.html' 'active' '' %}">
-							<a href="{% url '/index.html' %}">Home</a>
-						</li>
 						<li class="{% if_current_page '/aboutus.html' 'active' '' %}">
-							<a href="{% url '/aboutus.html' %}">About</a>
+							<a href="{% url '/aboutus.html' %}">ABOUT</a>
+						</li>
+						<li class="{% if_current_page '/portfolio.html' 'active' '' %}">
+							<a href="{% url '/portfolio.html' %}">PORTFOLIO</a>
+						</li>
+						<li class="{% if_current_page '/services.html' 'active' '' %}">
+							<a href="{% url '/services.html' %}">SERVICES</a>
+						</li>
+						<li class="{% if_current_page '/contact.html' 'active' '' %}">
+							<a href="{% url '/contact.html' %}">CONTACT</a>
 						</li>
 						<li class="{% if_current_page '/join.html' 'active' '' %}">
-							<a href="{% url '/join.html' %}">Join Us</a>
+							<a href="{% url '/join.html' %}">APPLY</a>
 						</li>
+						<li
 					</ul>
 				</div>
 				<!--/.navbar-collapse -->
@@ -74,16 +70,64 @@ body {
 		</div>
 	</div>
 
-	<div id="footer">
-		<div class="foot">
-			<p class="footer-text">CodeBase is a non-profit organization created and operated by UC Berkeley students. For questions, email us at codebase@berkeley.edu
-			<p class="footer-text">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
-			</p>
-
-			<a href="https://www.ocf.berkeley.edu">
-				<img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" style="border: 0;" />
-			</a>
-				<br />&copy; 2016 CodeBase. </p>
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="footer-body">
+				<div class="footer-section">
+					<a href="{% url '/index.html' %}"><img src="/static/images/footer-logo.png" height="40vh" /></a>
+				</div>
+				<div class="footer-section">
+					<div class="footer-section-title">
+						General
+					</div>
+					<div class="footer-section-links">
+						<a href="{% url '/aboutus.html' %}">About</a>
+						<a href="{% url '/aboutus.html' %}#team-section">Team</a>
+						<a href="{% url '/portfolio.html' %}">Portfolio</a>
+						<a href="{% url '/contact.html' %}">Contact</a>
+					</div>
+				</div>
+				<div class="footer-section">
+					<div class="footer-section-title">
+						Students
+					</div>
+					<div class="footer-section-links">
+						<a href="{% url '/join.html' %}">Apply</a>
+						<a href="{% url '/join.html' %}#faqs-section">FAQs</a>
+					</div>
+				</div>
+				<div class="footer-section">
+					<div class="footer-section-title">
+						Companies
+					</div>
+					<div class="footer-section-links">
+						<a href="{% url '/services.html' %}">Services</a>
+						<a href="{% url '/contact.html' %}">Contact</a>
+					</div>
+				</div>
+				<div class="footer-section">
+					<div class="footer-section-title">
+						Get In Touch
+					</div>
+					<div class="footer-section-links">
+						<a href="mailto:contact@codebase.berkeley.edu">Email</a>
+						<a href="https://www.facebook.com/berkeleycodebase/">Facebook</a>
+						<a href="https://github.com/codebase-berkeley">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-legal">
+				<p class="footer-legal-text">
+					CodeBase is a non-profit organization created and operated by UC Berkeley students.
+					For questions, email us at codebase@berkeley.edu.
+					We are a student group acting independently of the University of California.
+					We take full responsibility for our organization and this web site.
+					&copy; 2016 CodeBase.
+				</p>
+				<a class="footer-ocf" href="https://www.ocf.berkeley.edu">
+					<img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" style="border: 0;" />
+				</a>
+			</div>
 		</div>
 	</div>
 </body>

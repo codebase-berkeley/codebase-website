@@ -1,61 +1,115 @@
-{% extends "base.html" %} {% block meta %}
-<title>Join Us</title>
-{% endblock %} {% block body %}
+{% extends "base.html" %}
+{% block meta %}
+<title>Join Us - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/join_us.css' %}">
 
-<div class='container join-us-container '>
-	<div class='row text-center p-ud'>
-		<img id="join-us-img" src='/static/images/JoinUsIcon.png' alt='Join Us Logo' />
-		<h2 class="h2" id="join-us-heading"> JOIN US </h2>
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					Join Us
+				</div>
+				<div class="top-section-desc">
+					At CodeBase, you’ll have the unique opportunity to apply what you learn in the classroom
+					to a wide variety of industry projects in tech, working alongside some
+					of the most incredible students you’ll ever meet. We’re a boisterous bunch &mdash;
+					and we’ll have a blast as we work, play, and learn together in the most vibrant
+					coding community at Cal.
+				</div>
+				<!--
+				<a href="#">
+		    		<div class="btn-container btn-learn">
+		        	    Apply &rarr;
+		        	</div>
+		    	</a>
+				-->
+			</div>
+			<img class="top-section-img" src="../static/images/med_motley_crew.png" width="35%" />
+		</div>
 	</div>
+</div>
 
-	<table class="schedule">
-		<tr>
-			<th class="dates"> Friday, Jan. 20 </th>
-			<th class="info">
-				<ul class="event-name"> Infosession 1 </ul>
-				<ul> Cory 400, 4pm </ul>
-				<ul> Come learn about what CodeBase has to offer! </ul>
-			</th>
-		</tr>
-		<tr>
-			<th class="dates"> Monday, Jan. 23 </th>
-			<th class="info">
-				<ul class="event-name"> Infosession 2 </ul>
-				<ul> Location TBA, 7pm </ul>
-				<ul> If you couldn't make Infosession 1 </ul>
-			</th>
-		</tr>
-		<tr>
-			<th class="dates"> Friday, Jan. 27 </th>
-			<th class="info">
-				<ul class="event-name"> Applications Due </ul>
-				<ul> Submit online by 11:59pm </ul>
-			</th>
-		</tr>
-		<tr>
-			<th class="dates"> Sunday, Jan. 29 - Feb. 4 </th>
-			<th class="info">
-				<ul class="event-name"> Coffee Chats and Interviews </ul>
-				<ul> For us to get to know you better. </ul>
-			</th>
-		</tr>
-		<tr>
-			<th class="dates"> Saturday, Feb. 4 </th>
-			<th class="info">
-				<ul class="event-name"> Social Night </ul>
-				<ul> Location, 5pm </ul>
-				<ul> Get to know us in a social setting! </ul>
-			</th>
-		</tr>
-
-	</table>
-
-	<div class="apply-container">
-
-		<a class="apply" href="https://codebase.berkeley.edu/apply">
-	           APPLY
-	    </a>
-	</div>
+<!--
+<div class='container-fluid timeline-section'>
+	<ul class="dates-list" style="list-style: none;">
+			<li class="dates"> Friday, Jan. 20 </li>
+			<li class="dates"> Monday, Jan. 23 </li>
+			<li class="dates"> Friday, Jan. 27 </li>
+			<li class="dates"> Sunday, Jan. 29 - Feb. 4 </li>
+			<li class="dates"> Saturday, Feb. 4 </li>
+	</ul>
+	<ul class="timeline">
+		<img src="../static/images/timeline.png">
+	</ul>
+	<ul class="info-list" style="list-style: none;">
+		<div class="event">
+			<li class="event-name"> Infosession 1 </li>
+			<li class="deets"> Cory 400, 4pm </li>
+			<li class="deets"> Come learn about what CodeBase has to offer! </li>
+		</div>
+		<div class="event">
+			<li class="event-name"> Infosession 2 </li>
+			<li class="deets"> Location TBA, 7pm </li>
+			<li class="deets"> If you couldn't make Infosession 1 </li>
+		</div>
+		<div class="event">
+			<li class="event-name"> Applications Due </li>
+			<li class="deets"> Submit online by 11:59pm </li>
+		</div>
+		<div class="event">
+			<li class="event-name"> Coffee Chats and Interviews </li>
+			<li class="deets"> For us to get to know you better. </li>
+		</div>
+		<div class="event">
+			<li class="event-name"> Social Night </li>
+			<li class="deets"> Location, 5pm </li>
+			<li class="deets"> Get to know us in a social setting! </li>
+		</div>
+	</ul>
+</div>
+-->
+<div class="faqs" id="faqs-section">
+    <div class="container-fluid">
+        <div class="faqs-content">
+            <div class="faqs-title">
+                Frequently Asked Questions
+            </div>
+            <div class="faqs-question">
+                What is a Codebase project and what can I get out of one?
+            </div>
+            <div class="faqs-answer">
+                Each semester, we work with a number of Bay Area tech companies to implement a project together. What the project is can vary - in the past, we’ve done things like build mobile apps and chatbots. What you get out of a project will be a solid grasp of software development, having built and delivered a tangible product with a team of engineers; and depending on what project you work on, you might even gain expertise in awesome fields like machine learning and natural language processing!
+            </div>
+            <div class="faqs-question">
+                What should I expect as a developer on a Codebase project?
+            </div>
+            <div class="faqs-answer">
+                As a developer on a CodeBase project, you’ll be working with 5-7 other members and a manager. Although it may vary slightly depending on the project, each project typically spans about 12 weeks and includes a mid-semester deliverable (you can think of these as “due dates”) at around Week 5, a final deliverable at around Week 10, and 2 more weeks after development ends for Q&A and Technical Handoff. The work you do and the time commitment you put in will be at the discretion of your project managers, but in previous projects, developers could expect to put in anywhere from 3-6 hours of work per week as well as a 1-hour weekly meeting with their project team.
+            </div>
+            <div class="faqs-question">
+                What is the difference between a mentored project and a consulting project?
+            </div>
+            <div class="faqs-answer">
+                A mentored project is intended for bright students with an interest computer science who don’t have a lot of experience yet; it will be an internal project with the goal of teaching students the fundamentals of software development. A consulting project is for students with demonstrated skill in computer science - consulting projects work with startups to deliver a real product by the end of the semester. If you haven’t coded too much but would like to dip your feet into software development, apply for the mentored project. On the other hand, if you’ve worked on larger projects before and would like to gain experience on software for industry, apply for the consulting project.
+            </div>
+            <div class="faqs-question">
+                What resources does Codebase offer to ensure a member’s success?
+            </div>
+            <div class="faqs-answer">
+                In addition to the semester-long project, Codebase offers members a series of workshops throughout the semester on topics such as AWS, Databases, and Machine Learning. Members may also get involved in committees in finance, professional development, internal events, and marketing to engage in the running of the club. Overall, Codebase members have a wide range of skills and interests and form a great community for members to learn and grow as developers.
+            </div>
+            <div class="faqs-question">
+                What kind of candidate is Codebase looking for?
+            </div>
+            <div class="faqs-answer">
+            	Our ideal candidates are tenacious problem solvers, imaginative inventors, and fearless students with a knack for asking the right questions and a willingness to try things that might not work. While an aptitude for computer science is important, we’re not looking for any particular skill set or background - our members come from all sorts of experience levels, have all sorts of passions and interests, and we’re always looking for people to join our motley crew. Surprise us!
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

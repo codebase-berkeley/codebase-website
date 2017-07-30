@@ -1,67 +1,116 @@
-{% extends "base.html" %} {% block meta %}
-<title>Services - CodeBase</title>
-<meta name="description" content=""> {% endblock %} {% block body %}
-<div class="jumbotron client-contact">
-  <div class="container">
-    <h1>Services We Offer</h1>
-  </div>
+{% extends "base.html" %}
+{% block meta %}
+<title>Services - Codebase</title>
+<meta name="description" content="">
+{% endblock %}
+{% block body %}
+<link rel="stylesheet" href="{% static '/static/css/services.css' %}">
+
+<div class="top-section">
+	<div class="container-fluid">
+		<div class="top-section-content">
+			<div class="top-section-body">
+				<div class="top-section-title">
+					Our Services
+				</div>
+                <div class="top-section-quote">
+                    <div class="top-section-quote-body">
+                        “Codebase was awesome to work with... Our point of contact took the extra step to really understand our core functionality of the application.”
+                    </div>
+                    <div class="top-section-quote-subtitle">
+                        -- Ravi Kurani, CEO of Sutro
+                    </div>
+                </div>
+				<div class="top-section-desc">
+					Our members come from a variety of software backgrounds, with expertise in Full-stack Development, UI/UX, Data Science,
+                    and more. Learn more about how our range of skillsets and experience can add value to your company through the services below.
+				</div>
+			</div>
+			<img class="top-section-img" src="../static/images/med_data_doodle.png" width="35%" />
+		</div>
+	</div>
 </div>
 
-
-<div class="jumbotron client-info">
-
-  <div class="row">
-    <div class="col-lg-2 col-lg-offset-3 service">
-      <h2>Consulting</h2>
-      <img src="/static/images/assets/consulting_icon.png" height="150px" width="150px">
+<div class="services">
+    <div class="container-fluid">
+        <div class="services-content">
+            <div class="services-title">
+                Three Service Packages
+            </div>
+            <div class="services-boxes">
+                <div class="service-box">
+                    <div class="service-box-content">
+                        <img class="service-box-icon" src="../static/images/PLACEHOLDER_BLUELIGHTBULB.png" />
+    					<div class="service-box-title">
+    						Product Prototyping
+    					</div>
+    					<div class="service-box-desc">
+    						Test and evolve a software product through rapid iterations informed by regular feedback. Build from a rough sketch to a working proof of concept.
+    					</div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-box-content">
+                        <img class="service-box-icon" src="../static/images/PLACEHOLDER_BLUECLOUDSERVER.png" />
+    					<div class="service-box-title">
+    						API Development
+    					</div>
+    					<div class="service-box-desc">
+    						Understand constraints and requirements for a platform. Evaluate data models, design interactions, and build a tested, quality-assured API.
+    					</div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-box-content">
+                        <img class="service-box-icon" src="../static/images/PLACEHOLDER_BLUECATPHONE.png" />
+    					<div class="service-box-title">
+    						App Development
+    					</div>
+    					<div class="service-box-desc">
+    						Delivery of a viable mobile or web application to market within 3 months. Systems integration, documentation, and technical handoff to your in-house team.
+    					</div>
+                    </div>
+                </div>
+            </div>
+            <a href="{% url '/portfolio.html' %}">
+                <div class="btn-container btn-negative">
+                    See Past Projects &rarr;
+                </div>
+            </a>
+        </div>
     </div>
-    <div class="col-lg-3 col-lg-offset-1 service-description">
-      <h2>Need some guidance? We can help you develop a technical plan, development outlines, discover potential markets, and more.
-      </h2>
-
+</div>
+<!--
+<div class="project-structure">
+    <div class="container-fluid">
+        <div class="project-structure-content">
+            <div class="project-structure-title">
+                Project Structure
+            </div>
+            <div class="project-structure-desc">
+                CodeBase projects consist of 9 students: 8 Project Members, and
+                1 Project Manager who is the point of contact for development on the project.
+                Each project will run for about 12 weeks, including a 2 week period at the end
+                of the project after development ends for Q&amp;A and Technical Handoff.
+            </div>
+            <div class="project-structure-body">
+            </div>
+        </div>
     </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-lg-2 col-lg-offset-3 service">
-      <h2>Product <br />Development</h2>
-      <img src="/static/images/assets/product_development_icon.png" height="150px" width="150px">
-
+</div>
+-->
+<div class="proj-structure" id="proj-structure-section">
+    <div class="container-fluid">
+        <div class="proj-structure-content">
+            <div class="proj-structure-title">
+                Project Structure
+            </div>
+            <div class="proj-structure-answer">
+                Codebase projects usually consist of 7-9 students: 6-8 Project Developers and 1 Project Manager who serves as the main point of contact between the team and the client. Project teams meet with clients at the project start to align project goals and scope, a mid-semester deliverable, and a final presentation to deliver the project. Each project typically runs for about 12 weeks, including a 2 week period at the end of the project after development ends for Q&amp;A and Technical Handoff. Project teams communicate and meet with the client on a weekly basis to discuss project updates and progress.
+            </div>
+            <img class="proj-structure-pic" src="../static/images/proj-structure-sutro.png" style="width: 50%"/>
+        </div>
     </div>
-    <div class="col-lg-3 col-lg-offset-1 service-description">
-      <h2>We offer supplemental product development powered by your technology designed to take your products to the next level.
-      </h2>
-    </div>
-
-  </div>
-
-
-  <div class="row">
-    <div class="col-lg-2 col-lg-offset-3 service">
-      <h2>Quality <br />Assurance</h2>
-      <img src="/static/images/assets/quality_assurance_icon.png" height="150px" width="150px">
-    </div>
-    <div class="col-lg-3 col-lg-offset-1 service-description">
-      <h2>Have some code or an app but aren’t sure if it’s up to par? Our team can provide bug testing and user feedback to make you confident in your product.</h2>
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-lg-2 col-lg-offset-3 service">
-      <h2>Recruitment</h2>
-      <img src="/static/images/assets/recruitment_icon.png" height="150px" width="150px">
-
-    </div>
-    <div class="col-lg-3 col-lg-offset-1 service-description">
-      <h2>If we aren't able to help you with your request, we can connect you with talented UC Berkeley developers who can work with you part or full time to develop your product.</h2>
-    </div>
-
-  </div>
-
-  <h2 style="padding-top:75px;">If you’re interested in working with us, fill out the form <a target="_blank" href="{% url '/interest-form.html' %}"> here.</a></h2>
-
 </div>
 
 

@@ -1,0 +1,35 @@
+.top-section-content {
+    min-height: auto;
+}
+.top-section-body {
+  min-height: auto;
+}
+.general {
+    background-color: #028FBC;
+}
+.general-content {
+    margin: 4em 5em;
+}
+.general-desc {
+    color: white;
+    font: 18px/200% 'robotobold';
+    text-shadow: 2px 2px #01728E;
+}
+.general-email {
+    font: 24px/200% 'roboto';
+}
+.general-email > a {
+    color: white;
+}
+.general-email > a:hover, a:focus {
+    border-bottom: 1px solid white;
+}
+
+/*MOBILE*/
+
+@media (max-width: 1024px) {
+    .general-content {
+      margin: 4em 0;
+      flex-direction: column-reverse;
+    }
+}

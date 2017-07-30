@@ -1,12 +1,156 @@
 .container-fluid {
-    padding-left:5vh;
-    padding-right:2.5vh;
+    padding: 10px 10%;
 }
 
-.navbar-brand {
-    font-size:300%;
+.container {
+    width: 1170px;
 }
 
-#footer {
-	padding-top: 100px;
+.footer {
+  padding-top: 2em;
+	background: #00B0DA;
+	color: #FFFFFF;
+}
+
+.footer-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section-title {
+    font: bold 16px/150% 'roboto_condensedbold', Arial, sans-serif;
+    margin-top: 1.5em; /*TODO: find a reliable way to align footer section titles with the logo on the left*/
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.footer-section-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 1.5em;
+    font: 16px/200% 'roboto';
+}
+
+.footer-section-links > a {
+    color: #FFFFFF;
+    border-bottom: 1px solid transparent;
+}
+.footer-section-links > a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-legal {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-legal-text {
+    margin-top: 4em;
+    flex: 2;
+    font: 10px/150% 'roboto';
+}
+
+.footer-ocf {
+    text-align: right;
+    flex: 1;
+}
+
+.btn-container {
+	display: inline-block;
+	padding: 8px 20px;
+	color: #00B0DA;
+	text-align: center;
+    border: 1px solid #00B0DA;
+    background-color: transparent;
+	font: 15px/150% 'robotolight';
+	-moz-transition: color .1s ease;
+	-o-transition: color .1s ease;
+	-webkit-transition: color .1s ease;
+	transition: color .1s ease;
+}
+
+.btn-container:hover {
+    color: #008DAE;
+}
+
+.btn-hero {
+	/* Add this to a btn-container for hero styling. */
+	font: 20px/150% 'robotobold';
+	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: .5em;
+    background-color: white;
+}
+
+.btn-negative {
+	/* Add this to a btn-container for hero styling. */
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+}
+.btn-negative:hover {
+    color: #00B0DA;
+    background-color: white;
+}
+
+.btn-learn:hover {
+    background-color: #00B0DA;
+    color: white;
+}
+
+.btn-join {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 1em;
+}
+
+.btn-join:hover {
+    color: #00B0DA;
+    background-color: white;
+}
+
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex-list-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 25%;
+}
+
+/*MOBILE*/
+@media (max-width: 1024px) and (min-width: 768px) {
+    .flex-list-item {
+        width: 33.33%;
+    }
+}
+@media (max-width: 767px) {
+    .flex-list-item {
+        width: 50%;
+    }
+}
+@media (max-width: 440px) {
+    .flex-list-item {
+        width: 100%;
+    }
 }
