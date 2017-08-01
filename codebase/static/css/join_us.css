@@ -44,3 +44,18 @@ ul {
     color: #2E3C40;
     font: 16px/175% 'roboto';
 }
+
+@media (max-width: 768px) {
+    .faqs-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .faqs-question {
+        padding-right: 0px;
+    }
+
+    .faqs-answer {
+        padding-right: 0px;
+    }
+}
