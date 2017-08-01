@@ -120,19 +120,22 @@ a:hover, a:focus {
 }
 
 .navbar {
-	margin: 0 0;
+	margin: 0 0 0 0;
 	opacity: 1;
 	/* opacity [0-1] */
 	-moz-opacity: 1;
 	/* opacity [0-1] */
 	-webkit-opacity: 1;
 	/* opacity [0-1] */
-	border-bottom: 0px;
-	top: 0;
+	border-bottom: none;
+    border-top: none;
 	overflow: hidden;
 	/* position: fixed */
 	/* eww, sticky navbars are so 2012 */
-	width: 100%;
+	border-left: none;
+    border-right: none;
+    margin-left: -10px;
+    width: 100vw;
 }
 
 .navbar-default {
