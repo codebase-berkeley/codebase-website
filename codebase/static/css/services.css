@@ -108,4 +108,13 @@
   .proj-structure-pic {
       width:100%;
   }
+
+  .services-boxes {
+      flex-direction: column;
+  }
+
+  .services-content {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
 }
