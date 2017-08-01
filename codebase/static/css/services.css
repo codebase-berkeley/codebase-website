@@ -87,4 +87,25 @@
 
 .proj-structure-pic {
   margin-top: 2em;
+  width:50%;
+}
+
+@media(max-width : 768px) {
+  .top-section-body {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .proj-structure-content {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
+  .proj-structure-answer {
+      padding-right: 0px;
+  }
+
+  .proj-structure-pic {
+      width:100%;
+  }
 }
