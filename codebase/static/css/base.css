@@ -148,6 +148,29 @@
     .flex-list-item {
         width: 50%;
     }
+
+/* Make the footer look nice on mobile */
+    .footer-body { 
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-section-links a{
+        width: 100%;
+    }
+
+    .footer-legal {
+        flex-direction: column;
+    }
+
+    .footer-ocf {
+        width: 100%;
+        text-align: center;
+    }
 }
 @media (max-width: 440px) {
     .flex-list-item {
