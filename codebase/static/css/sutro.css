@@ -22,3 +22,10 @@
   margin-top: 5em;
   margin-bottom: 10em;
 }
+
+@media(max-width : 768px) {
+  .top-section-body {
+    width: 100%;
+    margin-left: 0px;
+  }
+}

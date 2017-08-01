@@ -23,3 +23,10 @@
   margin-bottom: 10em;
   border: 1px solid grey;
 }
+
+@media(max-width : 768px) {
+  .top-section-body {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
