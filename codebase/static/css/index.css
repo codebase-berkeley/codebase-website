@@ -285,9 +285,19 @@
 }
 @media (max-width: 767px) {
 	/* align "what we do" infoboxes to center */
+	.section-img {
+		width: 100%;
+	}
+
 	.section-more {
 		align-items: center;
 		padding: 3em 0;
+		flex-direction: column;
+	}
+
+	.infobox {
+		height: auto;
+		margin-bottom: 80px;
 	}
 
 	/* hide fork decorations */
