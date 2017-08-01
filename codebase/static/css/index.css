@@ -289,15 +289,44 @@
 		width: 100%;
 	}
 
+	.event-title {
+		margin-bottom: 20px;
+	}
+
 	.section-more {
 		align-items: center;
-		padding: 3em 0;
+		padding: 0px;
 		flex-direction: column;
 	}
 
 	.infobox {
 		height: auto;
-		margin-bottom: 80px;
+		margin-bottom: 20px;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	.infobox-inner {
+		display: inline;
+	}
+
+	.infobox-icon-wrapper {
+		float: left;
+		margin-left: -30px;
+	}
+
+	.infobox-content {
+		transform: none;
+	}
+
+	.infobox-title {
+		float: right;
+		vertical-align: middle;
+		margin: auto;
+		height: 100%;
+		position: relative;
+		width: 50%;
+		top: 30px;
 	}
 
 	/* hide fork decorations */
