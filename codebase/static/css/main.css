@@ -127,13 +127,11 @@ a:hover, a:focus {
 	/* opacity [0-1] */
 	-webkit-opacity: 1;
 	/* opacity [0-1] */
-	border-bottom: none;
-  border-top: none;
 	overflow: hidden;
 	/* position: fixed */
 	/* eww, sticky navbars are so 2012 */
-	border-left: none;
-  border-right: none;
+	border: 0px;
+	border-radius: 0;
   width: 100vw;
 }
 
