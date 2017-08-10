@@ -11,9 +11,8 @@
     margin: 4em 5em;
 }
 .general-desc {
-    color: white;
+    color: #00586E;
     font: 18px/200% 'robotobold';
-    text-shadow: 2px 2px #01728E;
 }
 .general-email {
     font: 24px/200% 'roboto';

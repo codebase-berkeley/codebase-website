@@ -2,6 +2,14 @@
   padding-top: 6em;
 }
 
+.timeline-title {
+  font: 40px/150% 'roboto_condensedbold';
+  margin-bottom: 2em;
+  color: #00728E;
+  padding-left: 1.8em;
+
+}
+
 ul {
   display: inline-block;
   vertical-align: top;

@@ -130,6 +130,7 @@
 }
 .next-step-subtitle {
 	letter-spacing: 0.1em;
+  color: #00586E;
 	text-transform: uppercase;
   font-weight: bolder;
 }
