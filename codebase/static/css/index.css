@@ -191,7 +191,7 @@
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
-	padding: 5em 0;
+	padding: 2em 0;
 }
 
 .project-box {
@@ -201,23 +201,28 @@
 	text-align: center;
 	overflow-y: visible;
 }
+
+.project-box-empty {
+	border: none;
+}
+
 .project-box-content {
 	transform: translateY(-50px);
 	padding: 0 2em;
+	padding-top: 5em;
 }
 .project-box-title {
 	color: #01728E;
-	text-shadow: 1px 1px white;
-	font: 24px/100% 'robotobold';
-	text-transform: uppercase;
+	font: 20px/100% 'roboto';
 	text-align: left;
 }
 .project-box-subtitle {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	text-align: left;
-	font-size: 16px;
+	font-size: 22px/100% 'robotobold';
 	margin-top: .5em;
+	color: #FFE83C;
 }
 .project-box-desc {
 	margin-top: 1em;
