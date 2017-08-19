@@ -209,7 +209,7 @@
 .project-box-content {
 	transform: translateY(-50px);
 	padding: 0 2em;
-	padding-top: 5em;
+	padding-top: 5.5em;
 }
 .project-box-title {
 	color: #01728E;
@@ -225,9 +225,9 @@
 	color: #FFE83C;
 }
 .project-box-desc {
-	margin-top: 1em;
+	margin-top: 1.5em;
 	text-align: left;
-	font: 15px/150% 'robotolight';
+	font: 16px/150% 'robotolight';
 }
 
 .see-past-projects {
