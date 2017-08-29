@@ -8,6 +8,7 @@
 
 .timeline-section {
   padding-top: 6em;
+  width: 2000px;
 }
 
 .timeline-title {
@@ -18,24 +19,45 @@
 
 }
 
+.info-list {
+  margin-top: .5em;
+}
+
+.timeline {
+  padding-left: 5em;
+}
+
 ul {
   display: inline-block;
   vertical-align: top;
 }
 
 .dates {
-  text-align: right;
-  font: 22px/150% 'roboto_condensedbold';
-  padding-bottom:3.5em;
+  font: 18px 'roboto_condensedbold';
   color: #00B0DA;
+  padding-left: 1em;
 }
 
 .event-name {
-  font: 28px/150% 'roboto_condensedbold';
+  font: 28px 'roboto_condensedbold';
+  padding-bottom: .5em;
 }
 
 .event {
-    margin-bottom: 2em;
+    margin-bottom: 3.2em;
+}
+
+#invite {
+  font-style: italic;
+}
+
+#time-loc {
+  font-family: 'robotobold';
+  font-size: 16px;
+}
+
+.deets {
+  font: 14px 'roboto';
 }
 
 .faqs-content {
