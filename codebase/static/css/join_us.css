@@ -32,23 +32,34 @@ ul {
   vertical-align: top;
 }
 
-.dates {
-  font: 18px 'roboto_condensedbold';
-  color: #00B0DA;
-  padding-left: 1em;
-}
-
 .event-name {
   font: 28px 'roboto_condensedbold';
   padding-bottom: .5em;
 }
 
 .event {
-    margin-bottom: 3.2em;
+    margin-bottom: 2.6em;
 }
 
-#invite {
-  font-style: italic;
+.dates {
+  font: 18px 'roboto_condensedbold';
+  color: #00B0DA;
+  padding-left: 1em;
+}
+
+.dates:hover {
+  color: #00B0DA;
+}
+
+.fb-link {
+  margin-left: 1em;
+  border: 1px solid #BED9F8;;
+  padding: 0 .5em;
+}
+
+.deets {
+  font: 14px 'roboto';
+  padding-top: .3em;
 }
 
 #time-loc {
@@ -56,13 +67,14 @@ ul {
   font-size: 16px;
 }
 
-.deets {
-  font: 14px 'roboto';
+#invite {
+  font-style: italic;
 }
 
 .faqs-content {
     margin: 4em 5em;
 }
+
 .faqs-title {
     font: 40px/150% 'roboto_condensedbold';
     margin-bottom: 0.5em;
