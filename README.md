@@ -14,7 +14,6 @@ https://docs.google.com/document/d/1Ity9jStuSoBxKO62tLzRFjfBg-VXPMVzbOQYAxYKv7E
 # Developing for mobile
 
 The best way to test the website on mobile is by actually testing on a mobile device:
-1. Find out your local ip adress:
- - Run `ipconfig` on terminal and write down the IPv4 address. (e.g. `10.0.0.227`)
+1. Find out your local ip adress: run `ipconfig` on terminal and write down the IPv4 address. (e.g. `10.0.0.227`)
 2. `cactus serve`
 3. Go to `http://<ip_address>:8000` from any device on your home network to view the working site.
