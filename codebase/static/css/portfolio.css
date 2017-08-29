@@ -35,15 +35,11 @@
   order: 2;
 }
 
-
-
-
 .portfolio {
     background: url("../images/tiled_tiny_doodles.png");
-    background-repeat: repeat space;
+    background-repeat: repeat;
     width: 100%;
     min-height: 650px;
-    margin-bottom: 8em;
 }
 .portfolio-cards {
     margin: 3em 5em;
@@ -85,8 +81,8 @@
 
 .company-card-subtitle {
     letter-spacing: 0.1em;
-	text-transform: uppercase;
-	font-size: 15px;
+  text-transform: uppercase;
+  font-size: 15px;
     margin-top: 1em;
     text-align: center;
 }
@@ -107,42 +103,52 @@
 }
 
 .next-steps {
-	background-color: #028FBC;
-	padding: 2em 5em;
+  background-color: #028FBC;
+  padding: 2em 5em;
 }
 
 .split-container {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .split-left {
-	flex: 1;
-	padding: 2em 5em;
-	border-right: 1px solid #E8E8E8;
-	text-align: right;
+  flex: 1;
+  padding: 2em 5em;
+  border-right: 1px solid #E8E8E8;
+  text-align: right;
 }
 .split-right {
-	flex: 1;
-	padding: 2em 5em;
-	border-left: 1px solid #E8E8E8;
-	text-align: left;
+  flex: 1;
+  padding: 2em 5em;
+  border-left: 1px solid #E8E8E8;
+  text-align: left;
 }
 .next-step-subtitle {
-	letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
   color: #00586E;
-	text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: bolder;
 }
 .next-step-title {
-	color: white;
+  color: white;
   text-shadow: 2px 2px #01728E;
-	font: 36px/200% 'roboto_condensedbold';
+  font: 36px/200% 'roboto_condensedbold';
 }
 
 /*MOBILE*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 980px) and (max-width: 1350px) {
+  .company-card {
+    height: 350px;
+  }
+  
+  .portfolio-cards {
+        margin: 3em 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
     .top-section-content {
       margin: 4em 0;
       flex-direction: column-reverse;
@@ -151,9 +157,17 @@
       width: 100%;
     }
     .portfolio-cards {
-        margin: 4em 0;
+        margin: 3em 0;
+    }
+
+    .company-card { 
+      height: auto;
+      margin: 1em;
+      width: 50%;
+      max-width: 400px;
     }
 }
+
 @media (max-width: 767px) {
   .top-section-content {
     margin: 4em 0;
@@ -164,7 +178,7 @@
   }
 
   .portfolio-cards {
-      margin: 4em 0;
+      margin: 2em 0;
   }
 
   .next-steps {
@@ -181,5 +195,10 @@
   .split-right {
       border-left: 0px;
       padding: 2em 2em;
+  }
+
+  .company-card {
+    width: 75%;
+    height:auto;
   }
 }
