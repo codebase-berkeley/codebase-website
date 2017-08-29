@@ -276,7 +276,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.project-box {
-		height: 380px;
+		height: 420px;
 	}
 
 	/* hide fork decorations */
@@ -288,6 +288,13 @@
 		margin-bottom: 6em;
 	}
 }
+
+@media (min-width: 767px) and (max-width: 903px) {
+	.project-box {
+		height: 500px;
+	}
+}
+
 @media (max-width: 767px) {
 	/* align "what we do" infoboxes to center */
 	.section-img {
@@ -376,4 +383,9 @@
 		border-left: 0px;
 		padding: 2em 2em;
 	}
+
+	.project-box-empty {
+		display: none;
+	}
 }
+

@@ -108,3 +108,48 @@ ul {
         padding-right: 0px;
     }
 }
+
+@media (max-width: 780px) {
+  /* This is where the stuff starts breaking */
+  .timeline-section {
+    padding: 10px 2%;
+  }
+
+  #timeline-title {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left:0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 655px) {
+  .timeline {
+    display: none;
+  }
+
+  .info-list .event {
+    text-align: center;
+  }
+
+  .info-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
+    padding: 20px 20px;
+  }
+
+  .event-name {
+    padding-bottom: 3px;
+  }
+}
+
+@media (min-width: 655px) {
+  .inline_big_screen {
+    display: inline;
+  }
+}
+
+.top-section-content {
+  flex-direction: row;
+}
