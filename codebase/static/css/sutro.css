@@ -29,3 +29,7 @@
     margin-left: 0px;
   }
 }
+
+.top-section-content {
+  flex-direction: row;
+}
