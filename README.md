@@ -17,3 +17,9 @@ Testing on a mobile device:
 1. Find out your local ip adress: run `ipconfig` on terminal and write down the IPv4 address. (e.g. `10.0.0.227`)
 2. `cactus serve`
 3. Go to `http://<ip_address>:8000` from any device on your home network to view the working site.
+
+Alternatively, you can follow the instructions to remote debug the website on a USB-connected phone here:
+
+https://developers.google.com/web/tools/chrome-devtools/remote-debugging/
+
+This method lets you use Google Chrome's developer tools to inspect the website being rendered on your phone.
