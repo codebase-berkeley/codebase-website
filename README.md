@@ -22,4 +22,4 @@ Alternatively, you can follow the instructions to remote debug the website on a 
 
 https://developers.google.com/web/tools/chrome-devtools/remote-debugging/
 
-This method lets you use Google Chrome's developer tools to inspect the website being rendered on your phone.
+This method lets you use Google Chrome's developer tools on your laptop to inspect the website being rendered on your phone.
