@@ -6,7 +6,7 @@ install:
 script:
 - cd codebase
 - cactus build
-- scp -i id_rsa -a .build/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
+- scp -i id_rsa -rp .build/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
 before_install:
 - openssl aes-256-cbc -K $encrypted_55361f9c588e_key -iv $encrypted_55361f9c588e_iv
   -in id_rsa.enc -out id_rsa -d
