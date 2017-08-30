@@ -3,6 +3,7 @@ python:
 - '2.7'
 install:
 - sudo easy_install cactus
+- sudo chmod 600 id_rsa
 script:
 - cd codebase
 - cactus build
