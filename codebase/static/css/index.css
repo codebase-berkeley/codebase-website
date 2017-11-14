@@ -25,11 +25,23 @@
 }
 
 .centered-absolute {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.bottom {
+	position: absolute;
+	top: 85%;
 }
 
 .mission {
@@ -272,6 +284,42 @@
 	font: 30px/200% 'roboto_condensedbold';
 }
 
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 10px 10px 0;
+	border-radius: 25%;
+	display: inline-block;
+	padding: 15px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
 /*MOBILE*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
