@@ -299,6 +299,7 @@
 	border-radius: 25%;
 	display: inline-block;
 	padding: 15px;
+	transition: all 0.5s ease-in-out;
 }
 
 .right {
@@ -306,9 +307,19 @@
 	-webkit-transform: rotate(-45deg);
 }
 
+.right:hover {
+	transform: rotate(-45deg) scale(2);
+	-webkit-transform: rotate(-45deg) scale(2);
+}
+
 .left {
 	transform: rotate(135deg);
 	-webkit-transform: rotate(135deg);
+}
+
+.left:hover {
+	transform: rotate(135deg); scale(2);
+	-webkit-transform: rotate(135deg) scale(2);
 }
 
 .down {
@@ -316,9 +327,19 @@
 	-webkit-transform: rotate(45deg);
 }
 
+.down:hover {
+	transform: rotate(45deg) scale(1.5);
+	-webkit-transform: rotate(45deg) scale(1.5);
+}
+
 .up {
 	transform: rotate(-135deg);
 	-webkit-transform: rotate(-135deg);
+}
+
+.up:hover {
+	transform: rotate(-135deg) scale(2);
+	-webkit-transform: rotate(-135deg) scale(2);
 }
 /*MOBILE*/
 
