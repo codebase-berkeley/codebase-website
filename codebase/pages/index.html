@@ -30,6 +30,17 @@
 			</div>
 		</a>
 	</div>
+
+	<div class="bottom center">
+		<i class="arrow down" id="down"></i>
+		<script type="text/javascript">
+			document.getElementById("down").addEventListener('click', function() {
+				$('html,body').animate({
+		    			scrollTop: $(".second").offset().top},
+	    				'slow');
+			});
+		</script>
+	</div>
 </div>
 
 <div class="event-banner">
@@ -55,7 +66,7 @@
 	</div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid second">
 	<div class="what-we-do">
 		<img class="fork-decoration" src="static/images/fork-illustration-left.png" />
 		<div class="section-body">
