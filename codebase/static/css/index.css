@@ -216,6 +216,9 @@
 	font: 20px/100% 'roboto';
 	text-align: left;
 }
+#colink {
+	color: #01728E;
+}
 .project-box-subtitle {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
