@@ -25,11 +25,23 @@
 }
 
 .centered-absolute {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.bottom {
+	position: absolute;
+	top: 85%;
 }
 
 .mission {
@@ -216,6 +228,9 @@
 	font: 20px/100% 'roboto';
 	text-align: left;
 }
+#colink {
+	color: #01728E;
+}
 .project-box-subtitle {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -272,6 +287,63 @@
 	font: 30px/200% 'roboto_condensedbold';
 }
 
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 10px 10px 0;
+	border-radius: 25%;
+	display: inline-block;
+	padding: 15px;
+	transition: all 0.5s ease-in-out;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.right:hover {
+	transform: rotate(-45deg) scale(2);
+	-webkit-transform: rotate(-45deg) scale(2);
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.left:hover {
+	transform: rotate(135deg); scale(2);
+	-webkit-transform: rotate(135deg) scale(2);
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.down:hover {
+	transform: rotate(45deg) scale(1.5);
+	-webkit-transform: rotate(45deg) scale(1.5);
+}
+
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+.up:hover {
+	transform: rotate(-135deg) scale(2);
+	-webkit-transform: rotate(-135deg) scale(2);
+}
 /*MOBILE*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
