@@ -17,6 +17,29 @@
 	display: inline-block;
 }
 
+.scroll-to-top {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-to-top .arrow.up {
+	border-width: 0 5px 5px 0;
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 0;
+}
+
+.scroll-to-top .arrow.up:hover {
+	transform: rotate(-135deg);
+}
 
 .hero {
 	height: 90vh;
