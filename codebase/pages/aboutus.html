@@ -36,8 +36,8 @@
         </div>
 
         <div class="members flex-list" id="member-ul">
-
-        </ul>
+            <!-- Populated with JS -->
+        </div>
 
 
 
@@ -56,7 +56,7 @@ String.prototype.format = function () {
         });
 };
 
-/* People */
+/* People. Any value of 0 indicates that they have not provided this info. */
 people = [
     {
         name : "Abhishyant Khare",
@@ -248,35 +248,33 @@ function generate_person_showase(name, title, image, linkedin, github, personal_
         title = "Project Developer"
     }
 
-    if (linkedin == 0) {
-        linkedin = "#"
-    }
-
-    if (github == 0) {
-        github = "#"
-    }
-
-    if (personal_site == 0) {
-        personal_site = "#"
-    }
-
     if (image == 0) {
         image = "http://via.placeholder.com/250x250"
     }
-
-    return_str =   "<div class=\"member flex-list-item\" style=\"background-image: url({0});\">\
+    
+    return_str = "<div class=\"member flex-list-item\" style=\"background-image: url({0});\">\
                         <div class=\"member-details\">\
                             <div class=\"member-details-wrapper\">\
                                 <div class=\"inner-member-details inner-member-details member-name\">{1}</div>\
                                 <div class=\"inner-member-details inner-member-details member-title\">{2}</div>\
-                                <div class=\"inner-member-details inner-member-details member-links\">\
-                                    <a href=\"{3}\"><img src=\"../static/images/linkedin.png\" /></a>\
-                                    <a href=\"{4}\"><img src=\"../static/images/github.png\" /></a>\
-                                    <a href=\"{5}\"><img src=\"../static/images/personal_site.png\" /></a>\
-                                </div>\
+                                <div class=\"inner-member-details inner-member-details member-links\">".format(image, name, title)
+
+    if (linkedin != 0) {
+        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/linkedin.png\" /></a>".format(linkedin)
+    }
+
+    if (github != 0) {
+        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/github.png\" /></a>".format(github)
+    }
+
+    if (personal_site != 0) {
+        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/personal_site.png\" /></a>".format(personal_site)
+    }
+
+    return_str += "             </div>\
                             </div>\
                         </div>\
-                    </div>".format(image, name, title, linkedin, github, personal_site)
+                    </div>"
 
     console.log(return_str)
     return return_str
