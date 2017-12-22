@@ -48,12 +48,16 @@
   justify-content: space-between;
 }
 
+.members {
+  justify-content: center;
+}
+
 .member {
   width: 250px;
   height: 250px;
+  margin: 15px;
   margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 0px;
 }
 
 .member-details {
