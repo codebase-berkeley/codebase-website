@@ -119,16 +119,6 @@
   margin-bottom: 1em;
 }
 
-/*MOBILE*/
-
-
-@media (max-width: 767px) {
-  .member-row {
-    padding: 0;
-  }
-}
-
-
 .members {
   text-align: center;
 }
@@ -136,4 +126,24 @@
 .members .col-md-3 {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Hacky Override */
+.meet-the-team > div {
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+  .member-row {
+    padding: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .meet-the-team > div {
+    padding:0px;
+  }
 }
