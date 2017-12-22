@@ -15,10 +15,12 @@
   height: inherit;
   padding-left: 5em;
 }
+
 #carousel > img {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0, 0, 0, 0.15);
   margin-left: 2em;
 }
+
 #carousel::-webkit-scrollbar {
   width: 0px;
   background: transparent;
@@ -29,12 +31,14 @@
   margin-bottom: 5em;
   background-color: white;
 }
+
 .meet-the-team-headline {
   padding-left: 1.5em;
   color: #0A0A0A;
   font: 40px/150% 'roboto_condensedbold';
   margin-bottom: .5em;
 }
+
 .member-row {
   margin-top: 2em;
   padding: 0 5em;
@@ -43,35 +47,66 @@
   align-items: flex-start;
   justify-content: space-between;
 }
+
 .member {
-  width: 200px;
-  height: 200px;
-  margin: 2em 2em;
+  width: 250px;
+  height: 250px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .member-details {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-
   position: absolute;
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   visibility: hidden;
   opacity: 0;
-  width: inherit;
-  height: inherit;
-  transition: visibility 0s, opacity 0.2s linear;
+  width: 250px;
+  height: 250px;
+  margin-left: 0px;
+  margin-top: 0px;
+  transition: visibility 0.2s, opacity 0.2s ease-in, margin-left 0.2s ease-in, margin-top 0.2s ease-in, width 0.2s ease-in, height 0.2s ease-in;
+  overflow: hidden;
 }
+
+.member-details-wrapper {
+  padding:10px;
+}
+
 .member:hover > .member-details {
   visibility: visible;
   opacity: 1;
+  width: 220px;
+  height: 220px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
+
+.member-details div {
+  cursor: default;
+}
+
+.inner-member-details {
+  position: relative;
+  left: 20em;
+}
+
+.member:hover .inner-member-details {
+  left: 0em;
+  transition: left 0.2s;
+}
+
 .member-name {
   color: #0A0A0A;
   font: 20px/150% 'roboto_condensedbold';
 }
+
 .member-title {
   letter-spacing: 0.1em;
   color: #0A0A0A;
@@ -87,4 +122,14 @@
   .member-row {
     padding: 0;
   }
+}
+
+
+.members {
+  text-align: center;
+}
+
+.members .col-md-3 {
+  margin-left: auto;
+  margin-right: auto;
 }

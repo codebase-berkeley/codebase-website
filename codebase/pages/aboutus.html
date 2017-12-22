@@ -35,39 +35,169 @@
             Meet The Team
         </div>
 
-        <ul class="members flex-list">
-            <div class="col-md-3">
-                <li class="member flex-list-item" style="background-image: url(../static/images/thumbs/mrpresident.png);">
-                    <div class="member-details">
-                        <div class="member-name">
-                            Abhishyant Khare
-                        </div>
-                        <div class="member-title">
-                            President
-                        </div>
-                        <div class="member-links">
-                            <a href="https://www.linkedin.com/in/abhishyantkhare">
-                                <img src="../static/images/linkedin.png" />
-                            </a>
-                            <a href="https://www.github.com/abhishyantkhare">
-                                <img src="../static/images/github.png" />
-                            </a>
-                            <a href="http://www.abhishyant.com">
-                                <img src="../static/images/personal_site.png" />
-                            </a>
-                        </div>
-                    </div>
-                </li>
-            </div>
+        <div class="members flex-list" id="member-ul">
+
         </ul>
+
+
 
     </div>
 </div>
 
 <script>
-    new VanillaKinetic(document.getElementById("carousel"), {
-        cursor: "-webkit-grab"
-    });
+new VanillaKinetic(document.getElementById("carousel"), {
+    cursor: "-webkit-grab"
+});
+
+String.prototype.format = function () {
+        var args = [].slice.call(arguments);
+        return this.replace(/(\{\d+\})/g, function (a){
+            return args[+(a.substr(1,a.length-2))||0];
+        });
+};
+
+/* People */
+people = [
+    {
+        name : "Abhishyant Khare",
+        title : "President",
+        linkedin : "https://www.linkedin.com/in/abhishyantkhare",
+        github : "https://www.github.com/abhishyantkhare",
+        personal_site : "http://www.abhishyant.com",
+        image : "../static/images/thumbs/abhi.png"
+    }, {
+        name : "Kush Rastogi",
+        title : "VP of Projects",
+        linkedin : "https://www.linkedin.com/in/kushrastogi/",
+        github : "https://github.com/kushrast",
+        personal_site : 0,
+        image : "../static/images/thumbs/kush.png"
+    }, {
+        name : "Raghav Anand",
+        title : "VP of Projects",
+        linkedin : "https://www.linkedin.com/in/raghav-anand-034b89127/",
+        github : "https://github.com/raghavanand98",
+        personal_site : "http://raghavanand98.com/",
+        image : 0
+    }, {
+        name : "Kavita Vijayan",
+        title : "Internal VP",
+        linkedin : "https://www.linkedin.com/in/kavita-vijayan-339500126/",
+        github : "https://github.com/kavitavijayan",
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Lang Tran",
+        title : "Internal VP",
+        linkedin : "https://www.linkedin.com/in/lang-tran-753572b9/",
+        github : "https://github.com/itsbluething/",
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Pal Makkar",
+        title : "Professional Development VP",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Cindy Yuan",
+        title : "Design VP",
+        linkedin : "https://www.linkedin.com/in/cindyjyuan",
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Tim Foster",
+        title : "Operations VP",
+        linkedin : "https://www.linkedin.com/in/cindyjyuan",
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Ellen Luo",
+        title : "Project Manager",
+        linkedin : "https://www.linkedin.com/in/ellenluo/",
+        github : "https://github.com/ellenluo",
+        personal_site : "http://ellenluo.me/",
+        image : 0
+    }, {
+        name : "Sahana Srinivasan",
+        title : "Project Manager",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Ivon Liu",
+        title : "Project Manager",
+        linkedin : "https://www.linkedin.com/in/ivonliu/",
+        github : "https://github.com/ivonliu",
+        personal_site : "http://ivonliu.com/",
+        image : 0
+    }, {
+        name : "Saurav Kadavath",
+        title : "Project Manager",
+        linkedin : "https://www.linkedin.com/in/saurav-kadavath-808b07132/",
+        github : "https://github.com/ssss1029",
+        personal_site : "http://www.sauravkadavath.com/",
+        image : 0
+    }
+]
+
+
+/* Populate the about page */ 
+$(document).ready(function() {
+    for (i = 0; i < people.length; i++) {
+        current = people[i];
+        $("#member-ul").append(generate_person_showase(current.name, current.title, current.image, current.linkedin, current.github, current.personal_site));
+    }
+}); 
+
+
+function generate_person_showase(name, title, image, linkedin, github, personal_site) {
+    if (name == 0) {
+        name = "Default Name"
+    }
+
+    if (title == 0) {
+        title = "Project Developer"
+    }
+
+    if (linkedin == 0) {
+        linkedin = "#"
+    }
+
+    if (github == 0) {
+        github = "#"
+    }
+
+    if (personal_site == 0) {
+        personal_site = "#"
+    }
+
+    if (image == 0) {
+        image = "http://via.placeholder.com/250x250"
+    }
+
+    return_str =   "<div class=\"member flex-list-item\" style=\"background-image: url({0});\">\
+                        <div class=\"member-details\">\
+                            <div class=\"member-details-wrapper\">\
+                                <div class=\"inner-member-details inner-member-details member-name\">{1}</div>\
+                                <div class=\"inner-member-details inner-member-details member-title\">{2}</div>\
+                                <div class=\"inner-member-details inner-member-details member-links\">\
+                                    <a href=\"{3}\"><img src=\"../static/images/linkedin.png\" /></a>\
+                                    <a href=\"{4}\"><img src=\"../static/images/github.png\" /></a>\
+                                    <a href=\"{5}\"><img src=\"../static/images/personal_site.png\" /></a>\
+                                </div>\
+                            </div>\
+                        </div>\
+                    </div>".format(image, name, title, linkedin, github, personal_site)
+
+    console.log(return_str)
+    return return_str
+}
+
 </script>
 
 {% endblock %}
