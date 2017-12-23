@@ -22,10 +22,10 @@
 
 <div class="carousel-container">
     <div id="carousel">
-        <img src="../static/images/thumbs/group-cb.jpg" />
-        <img src="../static/images/thumbs/brianaward.jpg" />
-        <img src="../static/images/thumbs/riffyn.jpg" />
-        <img src="../static/images/thumbs/karaoke.JPG" />
+        <img src="../static/images/group-cb.jpg" />
+        <img src="../static/images/brianaward.jpg" />
+        <img src="../static/images/riffyn.jpg" />
+        <img src="../static/images/karaoke.JPG" />
     </div>
 </div>
 
@@ -56,126 +56,175 @@ String.prototype.format = function () {
         });
 };
 
-/* People. Any value of 0 indicates that they have not provided this info. */
-people = [
+/* *
+ * People. Any value of 0 indicates that they have not provided this info. 
+ * The rese will be handled in generate_person_showcase()
+ * */
+people = [  // EXEC ------------------------------------------------------------- ######################################################################
     {
         name : "Abhishyant Khare",
         title : "President",
         linkedin : "https://www.linkedin.com/in/abhishyantkhare",
         github : "https://www.github.com/abhishyantkhare",
         personal_site : "http://www.abhishyant.com",
-        image : "../static/images/thumbs/abhi.png"
-    }, {
-        name : "Kush Rastogi",
-        title : "VP of Projects",
-        linkedin : "https://www.linkedin.com/in/kushrastogi/",
-        github : "https://github.com/kushrast",
-        personal_site : 0,
-        image : "../static/images/thumbs/kush.png"
-    }, {
-        name : "Raghav Anand",
-        title : "VP of Projects",
-        linkedin : "https://www.linkedin.com/in/raghav-anand-034b89127/",
-        github : "https://github.com/raghavanand98",
-        personal_site : "http://raghavanand98.com/",
-        image : 0
+        image : "../static/images/thumbs-sp2018/abhishyant300.jpg"
     }, {
         name : "Kavita Vijayan",
-        title : "Internal VP",
+        title : "VP of Marketing",
         linkedin : "https://www.linkedin.com/in/kavita-vijayan-339500126/",
         github : "https://github.com/kavitavijayan",
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-sp2018/kavita300.jpg"
+    }, {
+        name : "Ellen Luo",
+        title : "VP of Projects",
+        linkedin : "https://www.linkedin.com/in/ellenluo/",
+        github : "https://github.com/ellenluo",
+        personal_site : "http://ellenluo.me/",
+        image : "../static/images/thumbs-sp2018/ellen300.jpg"
+    }, {
+        name : "Sahana Srinivasan",
+        title : "VP of Professional Development",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/sahana300.jpg"
     }, {
         name : "Lang Tran",
         title : "Internal VP",
         linkedin : "https://www.linkedin.com/in/lang-tran-753572b9/",
         github : "https://github.com/itsbluething/",
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-sp2018/Lang300.jpg"
     }, {
-        name : "Pal Makkar",
-        title : "Professional Development VP",
+        name : "Sorjo Banerjee",
+        title : "Internal VP",
         linkedin : 0,
         github : 0,
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-fa2017/sorjo.jpg"
     }, {
-        name : "Cindy Yuan",
-        title : "Design VP",
-        linkedin : "https://www.linkedin.com/in/cindyjyuan",
+        name : "Julia Luo",
+        title : "VP of Operations",
+        linkedin : 0,
         github : 0,
         personal_site : 0,
-        image : 0
-    }, {
-        name : "Tim Foster",
-        title : "Operations VP",
-        linkedin : "https://www.linkedin.com/in/cindyjyuan",
-        github : 0,
-        personal_site : 0,
-        image : 0
-    }, {
-        name : "Ellen Luo",
-        title : "Project Manager",
-        linkedin : "https://www.linkedin.com/in/ellenluo/",
-        github : "https://github.com/ellenluo",
-        personal_site : "http://ellenluo.me/",
-        image : 0
-    }, {
-        name : "Sahana Srinivasan",
+        image : "../static/images/thumbs-sp2018/julia300.jpg"
+    }, 
+            // PROJECT MANAGERS -------------------------------------------------------------
+     {
+        name : "Young Guo",
         title : "Project Manager",
         linkedin : 0,
         github : 0,
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-fa2017/young.png"
     }, {
-        name : "Ivon Liu",
+        name : "Cynthia Wang",
         title : "Project Manager",
-        linkedin : "https://www.linkedin.com/in/ivonliu/",
-        github : "https://github.com/ivonliu",
-        personal_site : "http://ivonliu.com/",
-        image : 0
+        linkedin : "https://www.linkedin.com/in/cynthia-wang-4ab743132/",
+        github : "https://github.com/wangcynthia",
+        personal_site : "https://wangcynthia.github.io/",
+        image : "../static/images/thumbs-sp2018/cynthia300.jpg"
     }, {
-        name : "Saurav Kadavath",
+        name : "Brian Levis",
         title : "Project Manager",
-        linkedin : "https://www.linkedin.com/in/saurav-kadavath-808b07132/",
-        github : "https://github.com/ssss1029",
-        personal_site : "http://www.sauravkadavath.com/",
-        image : 0
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/brianlevis300.jpg"
+    }, {
+        name : "Cody Zeng",
+        title : "Project Manager",
+        linkedin : "https://www.linkedin.com/in/cynthia-wang-4ab743132/",
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/cody300.jpg"
     }, {
         name : "Brian DeLeonardis",
         title : "Mentored Project Manager",
         linkedin : "https://www.linkedin.com/in/brian-deleonardis-b49030121/",
         github : "https://github.com/bdeleonardis1",
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-fa2017/brian.png"
     }, {
         name : "Andrew Chan",
         title : "Mentored Project Manager",
         linkedin : "https://www.linkedin.com/in/andrew-k-chan",
         github : "https://github.com/theandrewchan",
         personal_site : "https://theandrewchan.github.io/",
-        image : 0
-    }, {
-        name : "Aismit Das",
+        image : "../static/images/thumbs-sp2018/andrew300.jpg"
+    },
+            // PROJECT DEVELOPERS ---------------------------------------------- #############################################################
+    {
+        name : "Amitav Baruah",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Aneesh Khera",
+        name : "Anjana Srinivas",
         title : "Project Developer",
-        linkedin : "https://www.linkedin.com/in/aneeshkhera",
-        github : "https://github.com/kapleesh",
+        linkedin : 0,
+        github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Cynthia Wang",
+        name : "Bradley Chee",
         title : "Project Developer",
-        linkedin : "https://www.linkedin.com/in/cynthia-wang-4ab743132/",
-        github : "https://github.com/wangcynthia",
-        personal_site : "https://wangcynthia.github.io/",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Daniel Grimshaw",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/daniel300.jpg"
+    }, {
+        name : "Divya Vijayan",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/divya300.jpg"
+    }, {
+        name : "Elise Xu",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/elise300.jpg"
+    }, {
+        name : "George Zhang",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/george300.jpg"
+    }, {
+        name : "Hans Zheng",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-fa2017/hans.jpg"
+    }, {
+        name : "Hermish Mehta",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/hermish300.jpg"
+    }, {
+        name : "Isabelle Ju",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
         image : 0
     }, {
         name : "Jaemin Kim",
@@ -183,50 +232,213 @@ people = [
         linkedin : 0,
         github : 0,
         personal_site : 0,
-        image : 0
+        image : "../static/images/thumbs-fa2017/jaemin.png"
     }, {
-        name : "Julia Luo",
+        name : "Jared Rosner",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Navneedh Maudgalya",
+        name : "Jonathan Fung",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/jonathanfung300.jpg"
+    }, {
+        name : "Justin Kim",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/justinkim300.jpg"
+    }, {
+        name : "Justin Lu",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Ryan Hoque",
+        name : "Kelly Chen",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/kelly300.jpg"
+    }, {
+        name : "Kunal Kak",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Young Guo",
+        name : "Kunal Kak",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Hans Zheng",
+        name : "Kush Khanolkar",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
     }, {
-        name : "Sorjo Banerjee",
+        name : "Mary Xu",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/mary300.jpg"
+    }, {
+        name : "Neha Kompella",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/neha300.jpg"
+    }, {
+        name : "Nilay Khatore",
         title : "Project Developer",
         linkedin : 0,
         github : 0,
         personal_site : 0,
         image : 0
-    }
+    }, {
+        name : "Olivia Shiah",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/olivia300.jpg"
+    }, {
+        name : "Prathiba Sriram",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/pratibha300.jpg"
+    }, {
+        name : "Rahul Balakrishnan",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Raymond Guo",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/raymond300.jpg"
+    }, {
+        name : "Sarah Hammond",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Sera Yang",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/sera300.jpg"
+    }, {
+        name : "Simarjeev Singh",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/simar300.jpg"
+    }, {
+        name : "Skyler Ruesga",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, {
+        name : "Stephanie He",
+        title : "Project Developer",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : 0
+    }, 
+            // ADVISORS --------------------------------------------------------- #############################################################
+    {
+        name : "Kush Rastogi",
+        title : "Advisor",
+        linkedin : "https://www.linkedin.com/in/kushrastogi/",
+        github : "https://github.com/kushrast",
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/kushrastogi300.jpg"
+    }, {
+        name : "Raghav Anand",
+        title : "Advisor",
+        linkedin : "https://www.linkedin.com/in/raghav-anand-034b89127/",
+        github : "https://github.com/raghavanand98",
+        personal_site : "http://raghavanand98.com/",
+        image : "../static/images/thumbs-sp2018/raghav300.jpg"
+    },  {
+        name : "Pal Makkar",
+        title : "Advisor",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/pal300.jpg"
+    }, {
+        name : "Ivon Liu",
+        title : "Advisor",
+        linkedin : "https://www.linkedin.com/in/ivonliu/",
+        github : "https://github.com/ivonliu",
+        personal_site : "http://ivonliu.com/",
+        image : "../static/images/thumbs-sp2018/ivon300.jpg"
+    }, {
+        name : "Saurav Kadavath",
+        title : "Advisor",
+        linkedin : "https://www.linkedin.com/in/saurav-kadavath-808b07132/",
+        github : "https://github.com/ssss1029",
+        personal_site : "http://www.sauravkadavath.com/",
+        image : "../static/images/thumbs-sp2018/saurav300.jpg"
+    }, {
+        name : "Cindy Yuan",
+        title : "Advisor",
+        linkedin : "https://www.linkedin.com/in/cindyjyuan",
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-sp2018/cindy300.jpg"
+    }, {
+        name : "Tim Foster",
+        title : "Advisor",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/thumbs-fa2017/tim.png"
+    }, {
+        name : "Hershal Bhatia",
+        title : "Advisor",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/team/hershal2.jpg"
+    }, {
+        name : "Mattew Soh",
+        title : "Advisor",
+        linkedin : 0,
+        github : 0,
+        personal_site : 0,
+        image : "../static/images/team/matt.jpg"
+    }, 
 ]
 
 
@@ -249,7 +461,8 @@ function generate_person_showase(name, title, image, linkedin, github, personal_
     }
 
     if (image == 0) {
-        image = "http://via.placeholder.com/250x250"
+        image = "../static/images/user-default.png"
+        return;
     }
     
     return_str = "<div class=\"member flex-list-item\" style=\"background-image: url({0});\">\
@@ -260,15 +473,15 @@ function generate_person_showase(name, title, image, linkedin, github, personal_
                                 <div class=\"inner-member-details inner-member-details member-links\">".format(image, name, title)
 
     if (linkedin != 0) {
-        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/linkedin.png\" /></a>".format(linkedin)
+        return_str +=           "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/linkedin.png\" /></a>".format(linkedin)
     }
 
     if (github != 0) {
-        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/github.png\" /></a>".format(github)
+        return_str +=           "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/github.png\" /></a>".format(github)
     }
 
     if (personal_site != 0) {
-        return_str += "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/personal_site.png\" /></a>".format(personal_site)
+        return_str +=           "<a href=\"{0}\"><img class=\"member-link-image\" src=\"../static/images/personal_site.png\" /></a>".format(personal_site)
     }
 
     return_str += "             </div>\
