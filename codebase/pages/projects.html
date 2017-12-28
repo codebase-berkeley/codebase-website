@@ -1,30 +1,124 @@
 {% extends "base.html" %}
 {% block meta %}
-<title>Portfolio | CodeBase</title>
+<title>Projects | CodeBase</title>
 <meta name="description" content="">
 {% endblock %}
 {% block body %}
-<link rel="stylesheet" href="{% static '/static/css/portfolio.css' %}">
+<link rel="stylesheet" href="{% static '/static/css/projects.css' %}">
+
+
+
+<div class="curr-projects" id="curr-projects">
+    <div class="container-fluid">
+        <div class="projects-header">
+			<div class="curr-projects-headline">
+				This Semester's Projects
+			</div>
+			Every semester we work on a variety of exciting projects. Check out what we have this semester!
+		</div>
+        <div class="curr-projects-row">
+			<div class="curr-project-box">
+				<div class="curr-project-box-content">
+					<div class="curr-project-box-title">
+						<a href="https://www.visumenu.com/" id="colink" target="_blank">Project</a>
+					</div>
+					<div class="curr-project-box-subtitle">
+						Category
+					</div>
+					<div class="curr-project-box-desc">
+						We're doing machine learning big data neural networks on IoT responsive web devices so that we can run Tensorflow on the biggest and deepest self driving cars.
+					</div>
+				</div>
+			</div>
+			<div class="curr-project-box">
+				<div class="curr-project-box-content">
+					<div class="curr-project-box-title">
+						<a href="http://skydeck.berkeley.edu/portfolio_page/yituux/" id="colink" target="_blank">Project</a>
+					</div>
+					<div class="curr-project-box-subtitle">
+						Category
+					</div>
+					<div class="curr-project-box-desc">
+					We're doing machine learning big data neural networks on IoT responsive web devices so that we can run Tensorflow on the biggest and deepest self driving cars.
+					</div>
+				</div>
+			</div>
+			<div class="curr-project-box">
+				<div class="curr-project-box-content">
+					<div class="curr-project-box-title">
+						<a href="https://www.resultcare.com/" id="colink" target="_blank">Project</a>
+					</div>
+					<div class="curr-project-box-subtitle">
+						Category
+					</div>
+					<div class="curr-project-box-desc">
+						We're doing machine learning big data neural networks on IoT responsive web devices so that we can run Tensorflow on the biggest and deepest self driving cars.
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="curr-projects-row">
+            <div class="curr-project-box">
+                <div class="curr-project-box-content">
+                    <div class="curr-project-box-title">
+                        <a href="https://riffyn.com/" id="colink" target="_blank"> Project </a>
+                    </div>
+                    <div class="curr-project-box-subtitle">
+                        Category
+                    </div>
+                    <div class="curr-project-box-desc">
+                        	We're doing machine learning big data neural networks on IoT responsive web devices so that we can run Tensorflow on the biggest and deepest self driving cars.
+                    </div>
+                </div>
+            </div>
+            <div class="curr-project-box">
+                <div class="curr-project-box-content">
+                    <div class="curr-project-box-title">
+                        <a href="https://github.com/codebase-berkeley-mentored-project-fa17/ApplicationPortal" id="colink" target="_blank"> Mentored Project </a>
+                    </div>
+                    <div class="curr-project-box-subtitle">
+                        App Development
+                    </div>
+                    <div class="curr-project-box-desc">
+                        Mentored project members will be learn the basics of software engineering and web application development through building an admissions management app for the club.
+                    </div>
+                </div>
+            </div>
+            <div class="curr-project-box curr-project-box-empty">
+                <div class="curr-project-box-content">
+                    <div class="curr-project-box-title">
+
+                    </div>
+                    <div class="curr-project-box-subtitle">
+
+                    </div>
+                    <div class="curr-project-box-desc">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="top-section">
 	<div class="container-fluid">
 		<div class="top-section-content">
 			<div class="top-section-body">
 				<div class="top-section-title">
-					What We've Done
+					Past Projects
 				</div>
 				<div class="top-section-desc">
-					Code is our craft - we’ve built many projects helping companies across many industries. See some of our recent partnerships below.
+                    Code is our craft - we’ve built many projects helping companies across many industries. See some of our recent partnerships below
 				</div>
 			</div>
 			<img onMouseOver="this.src='../static/images/litbulb.png'" onMouseOut="this.src='../static/images/unlitbulb.png'" class="top-section-img" src="../static/images/unlitbulb.png" width="35%" />
 		</div>
 	</div>
 </div>
-
-<div class="portfolio">
+<div class="projects">
     <div class="container-fluid">
-        <ul class="flex-list portfolio-cards">
+        <ul class="flex-list projects-cards">
             <li class="flex-list-item company-card" style= "cursor: pointer;">
                 <div class="company-card-logo" style="background-image: url(../static/images/projects/resultcare1.png);">
                 </div>
@@ -32,7 +126,7 @@
                     App Development & Web Backend
                 </div>
                 <div class="company-card-desc">
-                    ResultCare is developing a data platform for medical professionals. We’re upgrading their mobile apps with new designs integrating social network features with their backend.
+                    ResultCare is developing a data platform for medical professionals. We upgraded their mobile apps with new designs integrating social network features with their backend.
                 </div>
             </li>
             <li class="flex-list-item company-card" style= "cursor: pointer;">
@@ -42,7 +136,7 @@
                     Data Analytics
                 </div>
                 <div class="company-card-desc">
-                    Riffyn creates collaborative software for biotech and chemical industries. We’re developing data analytics and visualization software for Riffyn’s users.
+                    Riffyn creates collaborative software for biotech and chemical industries. We developed data analytics and visualization software for Riffyn’s users.
                 </div>
             </li>
             <li class="flex-list-item company-card" style= "cursor: pointer;">
@@ -52,7 +146,7 @@
                     Chatbot & Backend
                 </div>
                 <div class="company-card-desc">
-                    VisuMenu is a search engine for automated phone menus. We’re providing a backend implementation for UC Berkeley’s phone systems and building a Facebook chatbot for users to interact with the menus.
+                    VisuMenu is a search engine for automated phone menus. We provided a backend implementation for UC Berkeley’s phone systems and building a Facebook chatbot for users to interact with the menus.
                 </div>
             </li>
             <li class="flex-list-item company-card" style= "cursor: pointer;">
@@ -62,7 +156,7 @@
                     Cloud Computing
                 </div>
                 <div class="company-card-desc">
-                    YiTuuX is creating AI-driven healthcare solutions. We’re building backend solutions to help YiTuux scale and manage the deployment of their diabetes detection algorithm.
+                    YiTuuX is creating AI-driven healthcare solutions. We built backend solutions to help YiTuux scale and manage the deployment of their diabetes detection algorithm.
                 </div>
             </li>
             <li class="flex-list-item company-card" style= "cursor: pointer;">
@@ -72,7 +166,7 @@
                     App Development
                 </div>
                 <div class="company-card-desc">
-                    Mentored project members will be learn the basics of software engineering and web application development through building an admissions management app for the club.
+                    Mentored project members will learn the basics of software engineering and web application development through building an admissions management app for the club.
                 </div>
             </li>
             <li class="flex-list-item company-card" onclick="location.href='{% url '/crowdbotics.html' %}';" style= "cursor: pointer;">

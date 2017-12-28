@@ -35,13 +35,13 @@
   order: 2;
 }
 
-.portfolio {
+.projects {
     background: url("../images/tiled_tiny_doodles.png");
     background-repeat: repeat;
     width: 100%;
     min-height: 650px;
 }
-.portfolio-cards {
+.projects-cards {
     margin: 3em 5em;
     justify-content: center;
 }
@@ -142,8 +142,8 @@
   .company-card {
     height: 350px;
   }
-  
-  .portfolio-cards {
+
+  .projects-cards {
         margin: 3em 0;
   }
 }
@@ -156,11 +156,11 @@
     .top-section-body {
       width: 100%;
     }
-    .portfolio-cards {
+    .projects-cards {
         margin: 3em 0;
     }
 
-    .company-card { 
+    .company-card {
       height: auto;
       margin: 1em;
       width: 50%;
@@ -177,7 +177,7 @@
     width: 100%;
   }
 
-  .portfolio-cards {
+  .projects-cards {
       margin: 2em 0;
   }
 
@@ -201,4 +201,66 @@
     width: 75%;
     height:auto;
   }
+}
+
+.curr-projects {
+    background-color: #00B0DA;
+	color: #FFFFFF;
+	padding: 4em 0;
+	font:18px/125% 'roboto';
+}
+
+.curr-projects-headline {
+    font: 40px/150% 'roboto_condensedbold';
+    margin-bottom: 0.2em;
+    text-shadow: 2px 2px #008DAE;
+}
+/* align project boxes vertically */
+.curr-projects-row {
+    display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 2em 0;
+}
+.curr-project-box {
+    border: 1px solid white;
+	width: 300px;
+	height: 340px;
+	text-align: center;
+	overflow-y: visible;
+}
+.curr-project-box-empty {
+	border: none;
+}
+.curr-project-box-content {
+    transform: translateY(-50px);
+	padding: 0 2em;
+	padding-top: 5.5em;
+}
+
+.curr-project-box-title {
+	color: #01728E;
+	font: 20px/100% 'roboto';
+	text-align: left;
+}
+
+.curr-project-box-title:hover {
+	text-decoration: underline;
+}
+
+#colink {
+	color: #01728E;
+}
+.curr-project-box-subtitle {
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 22px/100% 'robotobold';
+	margin-top: .5em;
+	color: #FFE83C;
+}
+.curr-project-box-desc {
+	margin-top: 1.5em;
+	text-align: left;
+	font: 16px/150% 'robotolight';
 }
