@@ -1,30 +1,9 @@
-{{ define "main" }}
-
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
-
-{{end}}
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-    <title>{{ $.Site.Title }}</title>
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
   <body>
-
-    {{ block "header" . }}{{ partial "header" . }}{{end}}
-
-    {{ block "main" . }}{{end}}
-
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-    <script src="js/app.js"></script>
-
+    {{ block "nav" . }}{{ partial "nav" . }}{{end}}
+    {{ block "main" . }}{{ partial "main" . }}{{end}}
   </body>
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 </html>
