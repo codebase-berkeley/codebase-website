@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
+  <body>
+    {{ block "nav" . }}{{ partial "nav" . }}{{end}}
+    {{ block "main" . }}{{end}}
+  </body>
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+</html>
