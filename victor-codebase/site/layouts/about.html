@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+		<title>{{ $.Site.Title }}</title>
+		<link rel="stylesheet" href="css/main.css"/>
+	</head>
+	<body>
+
+	{{ block "navbar" . }}{{ partial "navbar" . }}{{end}}
+
+	<div class="container">
+
+		<!-- Landing Section -->
+
+		<div class="section">
+			<div class="landing-title">
+			  {{ .Site.Data.about.landing.title }}
+			</div>
+			<hr>
+			<div class="landing-description">
+				{{ .Site.Data.about.landing.description }}
+			</div>
+		</div>
+
+		<!-- Mission and Values Section -->
+
+		<div class="section">
+			<div class="section-title">
+			  {{ .Site.Data.about.missionSection.title1 }}
+			</div>
+			<div class="section-description">
+				{{ .Site.Data.about.missionSection.description }}
+			</div>
+			<div class="section-title">
+			  {{ .Site.Data.about.missionSection.title2 }}
+			</div>
+			<div class="values-container">
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value1 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription1 }}
+					</div>
+				</div>
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value2 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription2 }}
+					</div>
+				</div>
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value3 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription3 }}
+					</div>
+				</div>
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value4 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription4 }}
+					</div>
+				</div>
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value5 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription5 }}
+					</div>
+				</div>
+				<div class="value-container">
+					<img src="" class="value-icon">
+					<div class="value-title">
+						{{ .Site.Data.about.missionSection.value6 }}
+					</div>
+					<div class="value-description">
+						{{ .Site.Data.about.missionSection.valueDescription6 }}
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Photos Carousel Section -->
+
+		<div class="section">
+		</div>
+
+
+		<!-- Team Section -->
+
+		<div class="section">
+			<div class="section-title">
+				{{ .Site.Data.about.team.title1 }}
+			</div>
+			<div class="members-container">
+				<div class="member-card">
+				</div>
+			</div>
+			<div class="section-title">
+				{{ .Site.Data.about.team.title2 }}
+			</div>
+			<div class="members-container">
+				<div class="member-card">
+				</div>
+			</div>
+			<div class="section-title">
+				{{ .Site.Data.about.team.title3 }}
+			</div>
+			<div class="members-container">
+				<div class="member-card">
+				</div>
+			</div>
+		</div>
+
+		<!-- Alumni Placement Section -->
+
+		<div class="section">
+			<div class="section-title">
+				{{ .Site.Data.about.alumni.title }}
+			</div>
+			<div class="section-description">
+				{{ .Site.Data.about.alumni.description}}
+			</div>
+			<div class="company-logos-container">
+				<img src="" class="company-logo">
+				<img src="" class="company-logo">
+				<img src="" class="company-logo">
+			</div>
+		</div>
+
+	{{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+	</body>
+</html>

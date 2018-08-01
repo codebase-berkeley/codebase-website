@@ -9,7 +9,7 @@
 	</head>
 	<body>
 
-	{{ block "header" . }}{{ partial "header" . }}{{end}}
+	{{ block "navbar" . }}{{ partial "navbar" . }}{{end}}
 
 	<div class="container">
 
@@ -24,10 +24,10 @@
 				{{ .Site.Data.home.landing.description }}
 			</div>
 			<button class="button">
-				{{ .Site.Data.home.landing.button }}
+				{{ .Site.Data.home.landing.button1 }}
 			</button>
 			<button class="button">
-				{{ .Site.Data.home.landing.button }}
+				{{ .Site.Data.home.landing.button2 }}
 			</button>
 		</div>
 
@@ -84,7 +84,7 @@
 			  {{ .Site.Data.home.projectsSection.title }}
 			</div>
 			<div class="section-description">
-				{{ .Site.Data.home.projects.description }}
+				{{ .Site.Data.home.projectsSection.description }}
 			</div>
 			<div class="project-cards-container">
 				<div class="project-card">
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 			<button class="button">
-				{{ .Site.Data.home.landing.button }}
+				{{ .Site.Data.home.projectsSection.button }}
 			</button>
 		</div>
 

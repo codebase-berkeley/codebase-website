@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/header/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <priority>0</priority>
   </url>
