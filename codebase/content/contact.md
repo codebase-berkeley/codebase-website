@@ -1,7 +1,6 @@
 ---
 title: "Contact"
 url: "/contact"
-type: "page"
+layout: "contact"
 nav: true
 ---
-Contact CodeBase

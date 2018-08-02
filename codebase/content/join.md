@@ -1,7 +1,6 @@
 ---
 title: "Join"
 url: "/join"
-type: "page"
+layout: "join"
 nav: true
 ---
-Join CodeBase

@@ -1,7 +1,6 @@
 ---
 title: "About"
 url: "/about"
-type: "page"
+layout: "about"
 nav: true
 ---
-About CodeBase

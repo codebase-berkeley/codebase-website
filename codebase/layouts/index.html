@@ -1,9 +1,7 @@
-<!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
-  {{ block "header" . }}{{ partial "header" . }}{{end}}
-  <body>
-    {{ block "nav" . }}{{ partial "nav" . }}{{end}}
-    {{ block "main" . }}{{ partial "main" . }}{{end}}
-  </body>
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-</html>
+{{ define "main" }}
+
+<h1>CodeBase</h1>
+<img src="assets/logo.png" width="50px"/>
+<p>Hooray 🎉 - Welcome to the CodeBase website 3.0!</p>
+
+{{ end }}

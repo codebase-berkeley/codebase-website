@@ -1,4 +1,7 @@
 # CodeBase Website 3.0 (WIP)
+### Before You Begin
+Check out this awesome guide on the [Hugo directory structure](https://www.jakewiesler.com/blog/hugo-directory-structure/)
+
 ### Run Instructions
 1. Install [Hugo](https://gohugo.io/getting-started/quick-start/)
 ```
