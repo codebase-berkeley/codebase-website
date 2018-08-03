@@ -1,0 +1,204 @@
+{
+  "Executive Team": [
+    {
+      "first": "Young",
+      "last": "Guo",
+      "position": "President"
+    },
+    {
+      "first": "Cynthia",
+      "last": "Wang",
+      "position": "VP of Projects"
+    },
+    {
+      "first": "Sahana",
+      "last": "Srinivasan",
+      "position": "VP of Projects"
+    },
+    {
+      "first": "George",
+      "last": "Zhang",
+      "position": "VP of Professional Development"
+    },
+    {
+      "first": "Julia",
+      "last": "Luo",
+      "position": "VP of Professional Development"
+    },
+    {
+      "first": "Cody",
+      "last": "Zeng",
+      "position": "VP of Internal"
+    },
+    {
+      "first": "Ellen",
+      "last": "Luo",
+      "position": "VP of Internal"
+    },
+    {
+      "first": "Jonathan",
+      "last": "Fung",
+      "position": "VP of Operations"
+    },
+    {
+      "first": "Cindy",
+      "last": "Yuan",
+      "position": "VP of Marketing"
+    }
+  ],
+  "Project Managers": [
+    {
+      "first": "Hans",
+      "last": "Zheng",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Amitav",
+      "last": "Baruah",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Felicia",
+      "last": "Lin",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Justin",
+      "last": "Lu",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Forest",
+      "last": "Hu",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Jihan",
+      "last": "Yin",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Skyler",
+      "last": "Ruesga",
+      "position": "PM - [Company]"
+    },
+    {
+      "first": "Anjana",
+      "last": "Srinivas",
+      "position": "PM - [Company]"
+    }
+  ],
+  "General Members": [
+    {
+      "first": "Boris",
+      "last": "Yue",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Edric",
+      "last": "Xiang",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Matt",
+      "last": "Jeng",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Nilay",
+      "last": "Khatore",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Simarjeev",
+      "last": "Singh",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Steven",
+      "last": "Tsay",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Erica",
+      "last": "Kong",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Mary",
+      "last": "Xu",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Olivia",
+      "last": "Shiah",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Pratibha",
+      "last": "Sriram",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Selina",
+      "last": "Feng",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Sophia",
+      "last": "Lau",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Aditya",
+      "last": "Srivastava",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Daniel",
+      "last": "Grimshaw",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Nagaganesh",
+      "last": "Jaladanki",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Ishan",
+      "last": "Vachhani",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Kush",
+      "last": "Khanolkar",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Raymond",
+      "last": "Guo",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Raymond",
+      "last": "Xu",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Sarah",
+      "last": "Hammond",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "Trevor",
+      "last": "Aquino",
+      "position": "Developer - [Company]"
+    },
+    {
+      "first": "William",
+      "last": "Zhou",
+      "position": "Developer - [Company]"
+    }
+  ]
+}
+
