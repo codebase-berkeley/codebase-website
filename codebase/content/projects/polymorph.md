@@ -1,4 +1,4 @@
 ---
-title: "Polymorph"
+title: "polymorph"
 url: "/projects/polymorph"
 ---

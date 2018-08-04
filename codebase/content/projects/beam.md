@@ -1,4 +1,4 @@
 ---
-title: "Beam"
+title: "beam"
 url: "/projects/beam"
 ---

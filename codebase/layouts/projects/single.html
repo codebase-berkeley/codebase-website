@@ -1,5 +1,16 @@
 {{ define "main" }}
 
-{{ .Params.title }}
+{{ $project := index .Site.Data.projects.data .Params.title }}
+
+<h1>{{ $project.full }}</h1>
+<img src={{ $project.logo }}>
+<p>{{ $project.semester }}</p>
+<p>{{ $project.year }}</p>
+<h1>The Challenge</h1>
+<p>{{ $project.challenge }}</p>
+<h1>The Solution</h1>
+<p>{{ $project.solution }}</p>
+<h1>More</h1>
+<p>{{ $project.additional }}</p>
 
 {{ end }}
