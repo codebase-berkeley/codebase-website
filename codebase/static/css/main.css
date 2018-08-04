@@ -1,5 +1,9 @@
-body{
-  font-family: sans-serif;
+body {
   font-size: 1em;
   text-align: center;
+}
+
+#main {
+  width: 75%;
+  margin: 0 auto;
 }

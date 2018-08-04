@@ -1,0 +1,5 @@
+<h1>Frequently Asked Questions</h1>
+{{ range .Site.Data.faq.data }}
+<strong>{{ .question }}</strong>
+<p>{{ .answer }}</p>
+{{ end }}

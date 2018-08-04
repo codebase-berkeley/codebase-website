@@ -3,7 +3,9 @@
   {{ block "header" . }}{{ partial "header" . }}{{end}}
   <body>
     {{ block "nav" . }}{{ partial "nav" . }}{{end}}
-    {{ block "main" . }}{{end}}
+    <div id="main">
+      {{ block "main" . }}{{end}}
+    </div>
   </body>
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 </html>
