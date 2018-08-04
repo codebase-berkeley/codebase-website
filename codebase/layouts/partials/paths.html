@@ -1,0 +1,17 @@
+<div class="row">
+  {{ range $path, $data := .Site.Data.paths.data }}
+    <div class="col-lg-6">
+      <img src="assets/placeholder.png" style="width: 150px">
+      <h5 class="card-title">{{ $data.full }}</h5>
+      <h5>Who we're looking for:</h5>
+      {{ range $data.lookingFor }}
+        <p>{{ .}}</p>
+      {{ end }}
+      <h5>What you'll get:</h5>
+      {{ range $data.whatYouGet }}
+        <p>{{ .}}</p>
+      {{ end }}
+      <a href="#" class="btn btn-primary">Apply</a>
+    </div>
+  {{ end }}
+</div>
