@@ -1,15 +1,52 @@
 {{ define "main" }}
 
-<div>
-  {{ range .Pages }}
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="{{ .Params.url }}" class="btn btn-primary">{{ .Params.title }}</a>
-      </div>
+<h1>This Semester's Projects</h1>
+<h1>Consulting Projects</h1>
+<div class="row">
+{{ range .Pages }}
+  {{ if and (eq .Params.current true) (eq .Params.consulting true) }}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{ .Params.logo }} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ .Params.full }}</h5>
+      <p>{{ .Params.area }}</p>
     </div>
+    <a href="{{ .Params.url }}" class="btn btn-primary">Details</a>
+  </div>
   {{ end }}
+{{ end }}
+</div>
+
+<h1>Mentored Project</h1>
+<div class="row">
+{{ range .Pages }}
+  {{ if and (eq .Params.current true) (eq .Params.consulting false) }}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{ .Params.logo }} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ .Params.full }}</h5>
+      <p>{{ .Params.area }}</p>
+    </div>
+    <a href="{{ .Params.url }}" class="btn btn-primary">Details</a>
+  </div>
+  {{ end }}
+{{ end }}
+</div>
+
+<h1>Past Projects</h1>
+<div class="row">
+{{ range .Pages }}
+  {{ if (eq .Params.current false) }}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src={{ .Params.logo }} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ .Params.full }}</h5>
+      <p>{{ .Params.area }}</p>
+    </div>
+    <a href="{{ .Params.url }}" class="btn btn-primary">Details</a>
+  </div>
+  {{ end }}
+{{ end }}
 </div>
 
 {{ end }}
