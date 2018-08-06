@@ -2,6 +2,8 @@
 ### Before You Begin
 First and foremost, thank you so much for helping out with the CodeBase website! Before getting started, it'd be helpful to check out this awesome guide on the [Hugo directory structure](https://www.jakewiesler.com/blog/hugo-directory-structure/) and the [Bootstrap docs](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
+---
+
 ### Run Instructions
 1. Install [Hugo](https://gohugo.io/getting-started/quick-start/)
 ```
@@ -13,6 +15,8 @@ hugo version
 hugo server -D
 ```
 Feel free to reach out to Cindy or Young with any questions about anything at all!
+
+---
 
 ### Hugo Crash Course
 
@@ -36,7 +40,7 @@ The directory structure is hopefully easy to jump into! _Hopefully_ you don't ne
 **Miscellaneous**
 - There's a lot of _magic_ going on here. If you're confused, pattern matching existing skeleton code will be your friend
 
-
+---
 
 ### FAQ
 **What's happening to the old website?**
