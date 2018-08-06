@@ -20,13 +20,13 @@ The directory structure is hopefully easy to jump into! _Hopefully_ you don't ne
 
 
 **Templating**
-- The `/layouts` directory is _very_ important. We've set up most of the structure already, and it should be intuitive to jump in, but I would _highly_ recommend gaining some understanding of [Hugo Templates](https://gohugo.io/getting-started/quick-start/) first
+- The `layouts/` directory is _very_ important. We've set up most of the structure already, and it should be intuitive to jump in, but I would _highly_ recommend gaining some understanding of [Hugo Templates](https://gohugo.io/getting-started/quick-start/) first
 - Every page inherits from `layouts/_default/baseof.html` **if** you wrap things in `{{ define "main" }}`/ `{{ end }}`
 
 **Content**
 - Content pages are defined in `content/`
 - These define the _pages_ that exist on our website
-- More concretely, `nav.html` iterates over the `{{ .Pages }}` site variable (derived from `content/`), and each `.md` file defines its own `url` value in it's [Front Matter](https://gohugo.io/content-management/front-matter/)
+- More concretely, `nav.html` iterates over the `{{ .Pages }}` site variable (derived from `content/`), and each `.md` file defines its own `url` value in its [Front Matter](https://gohugo.io/content-management/front-matter/)
 
 **Data**
 - We're utilizing the `data/` folder for all of our wonderful data needs
