@@ -25,17 +25,24 @@ The directory structure is hopefully easy to jump into! _Hopefully_ you don't ne
 
 **Templating**
 - The `layouts/` directory is _very_ important. We've set up most of the structure already, and it should be intuitive to jump in, but I would _highly_ recommend gaining some understanding of [Hugo Templates](https://gohugo.io/getting-started/quick-start/) first
+- Layouts contains the html files that define the structure of each page
 - Every page inherits from `layouts/_default/baseof.html` **if** you wrap things in `{{ define "main" }}`/ `{{ end }}`
+- We have a "partials" directory to contain repeated pieces of code, e.g. the navbar, header, footer, etc.
+- Styling works as usual with CSS - we have bootstrap set up but feel free to use or not use it
 
 **Content**
 - Content pages are defined in `content/`
 - These define the _pages_ that exist on our website
+- Content is primarily used to 1) map the directory structure to the site structure and 2) define basic page attributes
 - More concretely, `nav.html` iterates over the `{{ .Pages }}` site variable (derived from `content/`), and each `.md` file defines its own `url` value in its [Front Matter](https://gohugo.io/content-management/front-matter/)
 
 **Data**
 - We're utilizing the `data/` folder for all of our wonderful data needs
+- These can be toml or json files
+- Put all titles/body text in `data/` rather than directly in the html files for ease of access and maintenance
 - Information in these values are accessed through `{{ .Site.data.FILE_NAME.KEY_NAME }}`
   - There are plenty examples of this in the core page templates!
+- You can also do cool things like loop over elements in a list [(see more here)](https://gohugo.io/templates/data-templates/)
 
 **Miscellaneous**
 - There's a lot of _magic_ going on here. If you're confused, pattern matching existing skeleton code will be your friend
@@ -50,7 +57,7 @@ The directory structure is hopefully easy to jump into! _Hopefully_ you don't ne
 **Why are we using Hugo?**
  - It's got a _great_ templating engine and is relatively easy to use
 
-**I'm really exicted. How can I contribute more?**
+**I'm really excited. How can I contribute more?**
  - Please message Cindy! We would love all the help we can get on building the site!
 
 **I'm Stuck. What should I do?**
