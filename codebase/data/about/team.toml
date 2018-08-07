@@ -1,0 +1,21 @@
+title1 = "Executive Team"
+title2 = "Project Members"
+title3 = "Senior Advisors & Alumni"
+
+exec = [
+	"alice",
+	"bob",
+	"carl"
+]
+
+members = [
+	"alice",
+	"bob",
+	"carl"
+]
+
+alumni = [
+	"alice",
+	"bob",
+	"carl"
+]
