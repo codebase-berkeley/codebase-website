@@ -1,44 +1,46 @@
-<div class="consulting-project-cards">
-  <div class="row">
-    {{ range first 2 (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
-      <div class="col-6">
-        <div class="card project-card">
-          <img class="project-card-img" src={{ .Params.logo }}>
-          <div class="card-body">
-            <b>{{ .Params.area }}</b>
-            <p>{{ .Params.blurb }}</p>
+<div class="container">
+  <div class="consulting-project-cards">
+    <div class="row">
+      {{ range first 2 (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
+        <div class="col-6">
+          <div class="card project-card">
+            <img class="project-card-img" src={{ .Params.logo }}>
+            <div class="card-body">
+              <b>{{ .Params.area }}</b>
+              <p>{{ .Params.blurb }}</p>
+            </div>
           </div>
         </div>
-      </div>
-    {{ end }}
-  </div>
-  <div class="row">
-    {{ range last 2 (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
-      <div class="col-6">
-        <div class="card project-card">
-          <img class="project-card-img" src={{ .Params.logo }}>
-          <div class="card-body">
-            <b>{{ .Params.area }}</b>
-            <p>{{ .Params.blurb }}</p>
+      {{ end }}
+    </div>
+    <div class="row">
+      {{ range last 2 (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
+        <div class="col-6">
+          <div class="card project-card">
+            <img class="project-card-img" src={{ .Params.logo }}>
+            <div class="card-body">
+              <b>{{ .Params.area }}</b>
+              <p>{{ .Params.blurb }}</p>
+            </div>
           </div>
         </div>
-      </div>
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
-</div>
 
-<div class="mentored-project-card">
-  <div class="row justify-content-md-center">
-    {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
-      <div class="col-6">
-        <div class="card project-card">
-          <img class="project-card-img" src={{ .Params.logo }}>
-          <div class="card-body">
-            <b>{{ .Params.area }}</b>
-            <p>{{ .Params.blurb }}</p>
+  <div class="mentored-project-card">
+    <div class="row justify-content-md-center">
+      {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
+        <div class="col-6">
+          <div class="card project-card">
+            <img class="project-card-img" src={{ .Params.logo }}>
+            <div class="card-body">
+              <b>{{ .Params.area }}</b>
+              <p>{{ .Params.blurb }}</p>
+            </div>
           </div>
         </div>
-      </div>
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
 </div>

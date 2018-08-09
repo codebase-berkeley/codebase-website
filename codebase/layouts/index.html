@@ -1,14 +1,10 @@
 {{ define "main" }}
 
-<h1>CodeBase</h1>
-<img src="assets/logo.png" width="50px"/>
-<p>Hooray 🎉 - Welcome to the CodeBase website 3.0!</p>
-
 <div class="container">
 
   <!-- Landing Section -->
 
-  <div class="section">
+  <div class="section blue-section full-width-section">
     <div class="landing-title">
       {{ .Site.Data.home.landing.title }}
     </div>
@@ -16,10 +12,10 @@
     <div class="landing-description">
       {{ .Site.Data.home.landing.description }}
     </div>
-    <button class="button">
+    <button class="btn btn-light">
       {{ .Site.Data.home.landing.button1 }}
     </button>
-    <button class="button">
+    <button class="btn btn-light">
       {{ .Site.Data.home.landing.button2 }}
     </button>
   </div>
@@ -72,9 +68,13 @@
 
   <!-- Projects Section -->
 
-  <div class="section">
-    <h1 class="section-title">{{ .Site.Data.home.projectsSection.title }}</h1>
-    <h4 class="section-description">{{ .Site.Data.home.projectsSection.description }}</h4>
+  <div class="section gray-section full-width-section">
+    <div class="section-title">
+      {{ .Site.Data.home.projectsSection.title }}
+    </div>
+    <div class="section-description">
+      {{ .Site.Data.home.projectsSection.description }}
+    </div>
     {{ partial "projectCardGrid" . }}
   </div>
 
@@ -112,7 +112,7 @@
 
   <!-- Client Testimonials Section -->
 
-  <div class="section">
+  <div class="section gray-section full-width-section">
     <div class="section-title">
       {{ .Site.Data.home.testimonialsSection.title }}
     </div>

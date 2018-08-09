@@ -5,10 +5,35 @@ body {
 }
 
 #main {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .section-title {
+  color: #A4A4A4;
   font-weight: bold;
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
+}
+.section-description {
+  color: #5C5C5C;
+  font-size: 20px;
+}
+
+.gray-section {
+  background-color: #F5F5F5;
+}
+
+.blue-section {
+  color: white;
+  background-color: #2F3B79;
+}
+
+.full-width-section {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
