@@ -5,6 +5,13 @@
 <p>{{ .Params.semester }}</p>
 <p>{{ .Params.year }}</p>
 
-{{ .Content }}
+{{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
+
+<h1>The Problem</h1>
+{{ $project.challenge }}
+<h1>The Solution</h1>
+{{ $project.solution }}
+<h1>More</h1>
+{{ $project.extra }}
 
 {{ end }}

@@ -1,5 +1,5 @@
 <div class="row">
-  {{ range $path, $data := .Site.Data.paths.data }}
+  {{ range $path, $data := .Site.Data.apply.paths.data }}
     <div class="col-lg-6">
       <img src="assets/placeholder.png" style="width: 150px">
       <h5 class="card-title">{{ $data.full }}</h5>

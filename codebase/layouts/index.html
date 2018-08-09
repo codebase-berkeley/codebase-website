@@ -4,140 +4,138 @@
 <img src="assets/logo.png" width="50px"/>
 <p>Hooray 🎉 - Welcome to the CodeBase website 3.0!</p>
 
-	<div class="container">
+<div class="container">
 
-		<!-- Landing Section -->
+  <!-- Landing Section -->
 
-		<div class="section">
-			<div class="landing-title">
-			  {{ .Site.Data.home.landing.title }}
-			</div>
-			<hr>
-			<div class="landing-description">
-				{{ .Site.Data.home.landing.description }}
-			</div>
-			<button class="button">
-				{{ .Site.Data.home.landing.button1 }}
-			</button>
-			<button class="button">
-				{{ .Site.Data.home.landing.button2 }}
-			</button>
-		</div>
+  <div class="section">
+    <div class="landing-title">
+      {{ .Site.Data.home.landing.title }}
+    </div>
+    <hr>
+    <div class="landing-description">
+      {{ .Site.Data.home.landing.description }}
+    </div>
+    <button class="button">
+      {{ .Site.Data.home.landing.button1 }}
+    </button>
+    <button class="button">
+      {{ .Site.Data.home.landing.button2 }}
+    </button>
+  </div>
 
-		<!-- About Section -->
+  <!-- About Section -->
 
-		<div class="section">
-			<div class="section-title">
-			  {{ .Site.Data.home.aboutSection.title }}
-			</div>
-			<hr>
-			<div class="section-description">
-				{{ .Site.Data.home.aboutSection.description }}
-			</div>
-			<div class="stats-container">
-				<div class="stat-container">
-					<div class="stats-number">
-						{{ .Site.Data.home.aboutSection.statsNumber1 }}
-					</div>
-					<div class="stats-description">
-						{{ .Site.Data.home.aboutSection.statsDescription1 }}
-					</div>
-				</div>
-				<div class="stat-container">
-					<div class="stats-number">
-						{{ .Site.Data.home.aboutSection.statsNumber2 }}
-					</div>
-					<div class="stats-description">
-						{{ .Site.Data.home.aboutSection.statsDescription2 }}
-					</div>
-				</div>
-				<div class="stat-container">
-					<div class="stats-number">
-						{{ .Site.Data.home.aboutSection.statsNumber3 }}
-					</div>
-					<div class="stats-description">
-						{{ .Site.Data.home.aboutSection.statsDescription3 }}
-					</div>
-				</div>
-				<div class="stat-container">
-					<div class="stats-number">
-						{{ .Site.Data.home.aboutSection.statsNumber4 }}
-					</div>
-					<div class="stats-description">
-						{{ .Site.Data.home.aboutSection.statsDescription4 }}
-					</div>
-				</div>
-			</div>
-		</div>
+  <div class="section">
+    <div class="section-title">
+      {{ .Site.Data.home.aboutSection.title }}
+    </div>
+    <hr>
+    <div class="section-description">
+      {{ .Site.Data.home.aboutSection.description }}
+    </div>
+    <div class="stats-container">
+      <div class="stat-container">
+        <div class="stats-number">
+          {{ .Site.Data.home.aboutSection.statsNumber1 }}
+        </div>
+        <div class="stats-description">
+          {{ .Site.Data.home.aboutSection.statsDescription1 }}
+        </div>
+      </div>
+      <div class="stat-container">
+        <div class="stats-number">
+          {{ .Site.Data.home.aboutSection.statsNumber2 }}
+        </div>
+        <div class="stats-description">
+          {{ .Site.Data.home.aboutSection.statsDescription2 }}
+        </div>
+      </div>
+      <div class="stat-container">
+        <div class="stats-number">
+          {{ .Site.Data.home.aboutSection.statsNumber3 }}
+        </div>
+        <div class="stats-description">
+          {{ .Site.Data.home.aboutSection.statsDescription3 }}
+        </div>
+      </div>
+      <div class="stat-container">
+        <div class="stats-number">
+          {{ .Site.Data.home.aboutSection.statsNumber4 }}
+        </div>
+        <div class="stats-description">
+          {{ .Site.Data.home.aboutSection.statsDescription4 }}
+        </div>
+      </div>
+    </div>
+  </div>
 
-		<!-- Projects Section -->
+  <!-- Projects Section -->
 
-		<div class="section">
-			<div class="section-title">
-			  {{ .Site.Data.home.projectsSection.title }}
-			</div>
-			<div class="section-description">
-				{{ .Site.Data.home.projectsSection.description }}
-			</div>
-			<div class="project-cards-container">
-				<div class="project-card">
-				</div>
-				<div class="project-card">
-				</div>
-				<div class="project-card">
-				</div>
-			</div>
-			<button class="button">
-				{{ .Site.Data.home.projectsSection.button }}
-			</button>
-		</div>
+  <div class="section">
+    <div class="section-title">
+      {{ .Site.Data.home.projectsSection.title }}
+    </div>
+    <div class="section-description">
+      {{ .Site.Data.home.projectsSection.description }}
+    </div>
+    <div class="project-cards-container">
+      <div class="project-card">
+      </div>
+      <div class="project-card">
+      </div>
+      <div class="project-card">
+      </div>
+    </div>
+    <button class="button">
+      {{ .Site.Data.home.projectsSection.button }}
+    </button>
+  </div>
 
-		<!-- Get Involved Section -->
+  <!-- Get Involved Section -->
 
-		<div class="section">
-			<div class="section-title">
-			  {{ .Site.Data.home.getInvolvedSection.title }}
-			</div>
-			<div class="col-container">
-				<img src="">
-				<div class="subsection-title">
-					{{ .Site.Data.home.getInvolvedSection.studentsHeading }}
-				</div>
-				<div class="subsection-description">
-					{{ .Site.Data.home.getInvolvedSection.studentsDescription }}
-				</div>
-				<button class="button">
-					{{ .Site.Data.home.getInvolvedSection.button }}
-				</button>
-			</div>
-			<div class="col-container">
-				<img src="">
-				<div class="subsection-title">
-					{{ .Site.Data.home.getInvolvedSection.companiesHeading }}
-				</div>
-				<div class="subsection-description">
-					{{ .Site.Data.home.getInvolvedSection.companiesDescription }}
-				</div>
-				<button class="button">
-					{{ .Site.Data.home.getInvolvedSection.button }}
-				</button>
-			</div>
-		</div>
+  <div class="section">
+    <div class="section-title">
+      {{ .Site.Data.home.getInvolvedSection.title }}
+    </div>
+    <div class="col-container">
+      <img src="">
+      <div class="subsection-title">
+        {{ .Site.Data.home.getInvolvedSection.studentsHeading }}
+      </div>
+      <div class="subsection-description">
+        {{ .Site.Data.home.getInvolvedSection.studentsDescription }}
+      </div>
+      <button class="button">
+        {{ .Site.Data.home.getInvolvedSection.button }}
+      </button>
+    </div>
+    <div class="col-container">
+      <img src="">
+      <div class="subsection-title">
+        {{ .Site.Data.home.getInvolvedSection.companiesHeading }}
+      </div>
+      <div class="subsection-description">
+        {{ .Site.Data.home.getInvolvedSection.companiesDescription }}
+      </div>
+      <button class="button">
+        {{ .Site.Data.home.getInvolvedSection.button }}
+      </button>
+    </div>
+  </div>
 
-		<!-- Client Testimonials Section -->
+  <!-- Client Testimonials Section -->
 
-		<div class="section">
-			<div class="section-title">
-			  {{ .Site.Data.home.testimonialsSection.title }}
-			</div>
-			<div class="testimonials-container">
-				<div class="testimonial-container">
-				</div>
-			</div>
-		</div>
-
-
-	{{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
+  <div class="section">
+    <div class="section-title">
+      {{ .Site.Data.home.testimonialsSection.title }}
+    </div>
+    <div class="testimonials-container">
+      <div class="testimonial-container">
+        {{ .Site.Data.home.testimonialsSection.company1Description }}
+      </div>
+    </div>
+  </div>
+</div>
 
 {{ end }}

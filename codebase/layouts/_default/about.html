@@ -4,142 +4,111 @@
   <p>url: {{ .Params.url}}</p>
   <p>title: {{ .Params.title }}</p>
 
-	<div class="container">
+  <div class="container">
 
-		<!-- Landing Section -->
+    <!-- Landing Section -->
 
-		<div class="section">
-			<div class="landing-title">
-			  {{ .Site.Data.about.landing.title }}
-			</div>
-			<hr>
-			<div class="landing-description">
-				{{ .Site.Data.about.landing.description }}
-			</div>
-		</div>
+    <div class="section">
+      <div class="landing-title">
+        {{ .Site.Data.about.landing.title }}
+      </div>
+      <hr>
+      <div class="landing-description">
+        {{ .Site.Data.about.landing.description }}
+      </div>
+    </div>
 
-		<!-- Mission and Values Section -->
+    <!-- Mission and Values Section -->
 
-		<div class="section">
-			<div class="section-title">
-			  {{ .Site.Data.about.missionSection.title1 }}
-			</div>
-			<div class="section-description">
-				{{ .Site.Data.about.missionSection.description }}
-			</div>
-			<div class="section-title">
-			  {{ .Site.Data.about.missionSection.title2 }}
-			</div>
-			<div class="values-container">
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value1 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription1 }}
-					</div>
-				</div>
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value2 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription2 }}
-					</div>
-				</div>
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value3 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription3 }}
-					</div>
-				</div>
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value4 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription4 }}
-					</div>
-				</div>
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value5 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription5 }}
-					</div>
-				</div>
-				<div class="value-container">
-					<img src="" class="value-icon">
-					<div class="value-title">
-						{{ .Site.Data.about.missionSection.value6 }}
-					</div>
-					<div class="value-description">
-						{{ .Site.Data.about.missionSection.valueDescription6 }}
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="section">
+      <div class="section-title">
+        {{ .Site.Data.about.missionSection.title1 }}
+      </div>
+      <div class="section-description">
+        {{ .Site.Data.about.missionSection.description }}
+      </div>
+      <div class="section-title">
+        {{ .Site.Data.about.missionSection.title2 }}
+      </div>
+      <div class="values-container">
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value1 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription1 }}
+          </div>
+        </div>
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value2 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription2 }}
+          </div>
+        </div>
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value3 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription3 }}
+          </div>
+        </div>
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value4 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription4 }}
+          </div>
+        </div>
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value5 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription5 }}
+          </div>
+        </div>
+        <div class="value-container">
+          <img src="" class="value-icon">
+          <div class="value-title">
+            {{ .Site.Data.about.missionSection.value6 }}
+          </div>
+          <div class="value-description">
+            {{ .Site.Data.about.missionSection.valueDescription6 }}
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- Photos Carousel Section -->
+    <!-- Photos Carousel Section -->
 
-		<div class="section">
-		</div>
+    <div class="section">
+    </div>
 
+    {{ partial "memberList" . }}
 
-		<!-- Team Section -->
+    <!-- Alumni Placement Section -->
 
-		<div class="section">
-			<div class="section-title">
-				{{ .Site.Data.about.team.title1 }}
-			</div>
-			<div class="members-container">
-				<div class="member-card">
-				</div>
-			</div>
-			<div class="section-title">
-				{{ .Site.Data.about.team.title2 }}
-			</div>
-			<div class="members-container">
-				<div class="member-card">
-				</div>
-			</div>
-			<div class="section-title">
-				{{ .Site.Data.about.team.title3 }}
-			</div>
-			<div class="members-container">
-				<div class="member-card">
-				</div>
-			</div>
-		</div>
-
-		<!-- Alumni Placement Section -->
-
-		<div class="section">
-			<div class="section-title">
-				{{ .Site.Data.about.alumni.title }}
-			</div>
-			<div class="section-description">
-				{{ .Site.Data.about.alumni.description}}
-			</div>
-			<div class="company-logos-container">
-				<img src="" class="company-logo">
-				<img src="" class="company-logo">
-				<img src="" class="company-logo">
-			</div>
-		</div>
-
-	{{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-</div>
-
-{{ partial "memberList" . }}
-
+    <div class="section">
+      <div class="section-title">
+        {{ .Site.Data.about.alumni.title }}
+      </div>
+      <div class="section-description">
+        {{ .Site.Data.about.alumni.description}}
+      </div>
+      <div class="company-logos-container">
+        <img src="" class="company-logo">
+        <img src="" class="company-logo">
+        <img src="" class="company-logo">
+      </div>
+    </div>
+  </div>
 {{ end }}
