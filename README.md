@@ -38,7 +38,7 @@ The directory structure is hopefully easy to jump into! _Hopefully_ you don't ne
 
 **Data**
 - We're utilizing the `data/` folder for all of our wonderful data needs
-- These can be toml or json files
+- Please use yaml rather than toml or json
 - Put all titles/body text in `data/` rather than directly in the html files for ease of access and maintenance
 - Information in these values are accessed through `{{ .Site.data.FILE_NAME.KEY_NAME }}`
   - There are plenty examples of this in the core page templates!
