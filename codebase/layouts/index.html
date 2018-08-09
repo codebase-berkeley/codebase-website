@@ -73,23 +73,9 @@
   <!-- Projects Section -->
 
   <div class="section">
-    <div class="section-title">
-      {{ .Site.Data.home.projectsSection.title }}
-    </div>
-    <div class="section-description">
-      {{ .Site.Data.home.projectsSection.description }}
-    </div>
-    <div class="project-cards-container">
-      <div class="project-card">
-      </div>
-      <div class="project-card">
-      </div>
-      <div class="project-card">
-      </div>
-    </div>
-    <button class="button">
-      {{ .Site.Data.home.projectsSection.button }}
-    </button>
+    <h1 class="section-title">{{ .Site.Data.home.projectsSection.title }}</h1>
+    <h4 class="section-description">{{ .Site.Data.home.projectsSection.description }}</h4>
+    {{ partial "projectCardGrid" . }}
   </div>
 
   <!-- Get Involved Section -->
