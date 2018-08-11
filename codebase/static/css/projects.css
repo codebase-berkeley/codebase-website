@@ -1,12 +1,41 @@
+/* Cards */
+.project-cards {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.project-cards .section-title {
+  color: #A4A4A4;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.project-card {
+  height: 400px;
+  margin: 25px 25px;
+  padding: 50px 50px;
+  box-shadow:0px 0px 20px rgb(0, 0, 0, 0.25);
+}
+
+.project-card-area {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card-content {
+  color: #5C5C5C;
+  font-size: 18px;
+}
+
 .project-card-img {
   width: 200px;
   margin: 0 auto;
 }
 
-.mentored-project-card {
-  margin: 0 auto;
-}
-
+/* Project-specific pages */
 .project-section .section-title {
   color: #414040;
   font-weight: bold;

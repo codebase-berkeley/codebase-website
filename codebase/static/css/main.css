@@ -5,7 +5,7 @@ body {
 }
 
 #main {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -19,11 +19,13 @@ body {
   font-weight: bold;
   font-size: 60px;
   font-family: 'Roboto Slab', serif;
+  margin-bottom: 25px;
 }
 
 .section-description {
   color: #5C5C5C;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .gray-section {

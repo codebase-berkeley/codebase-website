@@ -5,7 +5,7 @@ consulting: false
 full: "Mentored Project Spring 2018"
 area: "Web Application"
 blurb: "This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb"
-logo: "assets/logo.png"
+logo: "assets/codebase-text-logo.png"
 semester: "Spring"
 year: "2018"
 title: "mentored-sp18"
