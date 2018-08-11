@@ -1,5 +1,5 @@
 ---
-url: "./projects/bettercloud"
+url: "./projects/bettercloud/"
 current: true
 consulting: true
 full: "BetterCloud"

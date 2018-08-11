@@ -1,5 +1,5 @@
 ---
-url: "./projects/bossanova"
+url: "./projects/bossanova/"
 current: true
 consulting: true
 full: "Bossa Nova"

@@ -1,5 +1,5 @@
 ---
-url: "./projects/mentored-sp18"
+url: "./projects/mentored-sp18/"
 current: false
 consulting: false
 full: "Mentored Project Spring 2018"
