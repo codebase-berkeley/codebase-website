@@ -35,10 +35,8 @@
       <div class="col-6">
         <div class="card project-card">
           <img class="project-card-img" src={{ .Params.logo }}>
-          <div class="card-body">
-            <b>{{ .Params.area }}</b>
-            <p>{{ .Params.blurb }}</p>
-          </div>
+          <div class="project-card-area">{{ .Params.area }}</div>
+          <div class="project-card-content">{{ .Params.blurb }}</div>
         </div>
       </div>
     {{ end }}
