@@ -6,3 +6,26 @@
 .mentored-project-card {
   margin: 0 auto;
 }
+
+.project-section .section-title {
+  color: #414040;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 50px;
+}
+
+.project-section .section-content {
+  color: #5C5C5C;
+  font-size: 18px;
+}
+
+.project-section .section-icon {
+  width: 150px;
+}
+
+.project-section .section-full-image {
+  width: 75%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

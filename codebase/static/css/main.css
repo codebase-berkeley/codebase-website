@@ -5,8 +5,13 @@ body {
 }
 
 #main {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -15,6 +20,7 @@ body {
   font-size: 60px;
   font-family: 'Roboto Slab', serif;
 }
+
 .section-description {
   color: #5C5C5C;
   font-size: 20px;
