@@ -20,7 +20,7 @@
 
     <!-- Mission and Values Section -->
 
-    <div class="section">
+    <div class="section mission-section">
       <div class="section-title">
         {{ .Site.Data.about.missionSection.title1 }}
       </div>
@@ -30,62 +30,7 @@
       <div class="section-title">
         {{ .Site.Data.about.missionSection.title2 }}
       </div>
-      <div class="values-container">
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value1 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription1 }}
-          </div>
-        </div>
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value2 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription2 }}
-          </div>
-        </div>
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value3 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription3 }}
-          </div>
-        </div>
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value4 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription4 }}
-          </div>
-        </div>
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value5 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription5 }}
-          </div>
-        </div>
-        <div class="value-container">
-          <img src="" class="value-icon">
-          <div class="value-title">
-            {{ .Site.Data.about.missionSection.value6 }}
-          </div>
-          <div class="value-description">
-            {{ .Site.Data.about.missionSection.valueDescription6 }}
-          </div>
-        </div>
-      </div>
+      {{ partial "valueCards" . }}
     </div>
 
     <!-- Photos Carousel Section -->

@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="grid-cards">
+    <div class="row">
+      {{ range .Site.Data.about.missionSection.values }}
+        <div class="col-4">
+          <div class="card grid-card">
+            <div class="card-body">
+              <img class="card-img-top" src="assets/dummy-icon.png">
+              <div class="grid-card-area card-title">{{ .value }}</div>
+              <div class="grid-card-content card-text">{{ .description }}</div>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div> 
+  </div>
+</div>
