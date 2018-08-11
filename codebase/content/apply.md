@@ -1,6 +1,6 @@
 ---
 title: "Apply"
-url: "/apply"
+url: "./apply"
 layout: "apply"
 nav: true
 ---

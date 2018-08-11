@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-url: "/contact"
+url: "./contact"
 layout: "contact"
 nav: true
 ---

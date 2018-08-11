@@ -1,5 +1,5 @@
 ---
-url: "/projects/propelx"
+url: "./projects/propelx"
 current: false
 consulting: true
 full: "Propel(x)"

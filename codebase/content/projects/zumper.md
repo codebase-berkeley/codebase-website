@@ -1,5 +1,5 @@
 ---
-url: "/projects/zumper"
+url: "./projects/zumper"
 current: true
 consulting: true
 full: "Zumper"

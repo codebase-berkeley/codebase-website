@@ -1,5 +1,5 @@
 ---
-url: "/projects/polymorph"
+url: "./projects/polymorph"
 current: false
 consulting: true
 full: "Polymorph"

@@ -1,5 +1,5 @@
 ---
-url: "/projects/aptiv"
+url: "./projects/aptiv"
 type: projects
 current: true
 consulting: true
