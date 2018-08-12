@@ -1,0 +1,57 @@
+.landing__title {
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: 8px;
+	color: white;
+	font-family: 'Roboto Slab', sans-serif;
+	margin: 14px auto 18px auto;
+}
+
+.landing__title--dark {
+	color: #5b5b5b;
+}
+
+.landing__description {
+	font-size: 22px;
+	font-weight: 100;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	padding: 14px 0px;
+}
+
+.landing__description--dark {
+	color: #5b5b5b;
+}
+
+.landing__description--title {
+	font-weight: 600;
+}
+
+.landing__description-border {
+	border: 0;
+	border-top: 3px solid rgba(255, 255, 255, 0.5);
+	margin: 6px auto;
+}
+
+.landing__description-border--dark {
+	border-color: #5c5c5c;
+}
+
+.btn--landing {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #2F3B79;
+	border-radius: 2px;
+	padding: 8px 14px;
+	margin: 30px 16px 0px 16px;
+}
+
+.downward-arrow {
+	display: block;
+	margin: 70px auto -18px auto;
+}
+
+.project-icon {
+	margin: 20px auto 50px auto;
+}

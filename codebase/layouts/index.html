@@ -5,19 +5,21 @@
   <!-- Landing Section -->
 
   <div class="section blue-section full-width-section">
-    <div class="landing-title">
+    <div class="landing__title">
       {{ .Site.Data.home.landing.title }}
     </div>
-    <hr>
-    <div class="landing-description">
+    <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <div class="landing__description col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
       {{ .Site.Data.home.landing.description }}
     </div>
-    <button class="btn btn-light">
+    <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <button class="btn btn-light btn--landing">
       {{ .Site.Data.home.landing.button1 }}
     </button>
-    <button class="btn btn-light">
+    <button class="btn btn-light btn--landing">
       {{ .Site.Data.home.landing.button2 }}
     </button>
+    <img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">
   </div>
 
   <!-- About Section -->
