@@ -23,16 +23,16 @@ If you're looking to implement something, check first in case there's some prior
 
 **Sections**
 - `.section`, `.section-title`, `.section-description`
- - Section padding and font styling for sections
+  - Section padding and font styling for sections
 - `.gray-section`, `.blue-section`
- - Background color and font color for major `.section` blocks
+  - Background color and font color for major `.section` blocks
 - `.full-width-section`
- - Pulls a section to be full width so that background can extend the entire width of the screen
- - Please place a `.container` for content in `.full-width-section`s
+  - Pulls a section to be full width so that background can extend the entire width of the screen
+  - Please place a `.container` for content in `.full-width-section`s
 
 **Grid Cards**
 - Check out `gridCard.css`
- - Very useful for any sort of grid-styled content
+  - Very useful for any sort of grid-styled content
 
 ### Hugo Crash Course
 
