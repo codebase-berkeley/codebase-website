@@ -1,0 +1,23 @@
+footer {
+  padding: 50px 100px;
+  border-top: 1px solid #C4C4C4;
+}
+
+footer img {
+  width: 250px;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #2F3B79;
+  text-decoration: none;
+}
+
+.footer-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}

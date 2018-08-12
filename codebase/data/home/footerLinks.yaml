@@ -1,0 +1,32 @@
+- header: GENERAL
+  links:
+    - text: About
+      url: ./about/
+    - text: Team
+      url: ./about/
+    - text: Projects
+      url: ./projects/
+    - text: Contact
+      url: ./contact/
+- header: STUDENTS
+  links:
+    - text: Apply
+      url: ./apply/
+    - text: FAQs
+      url: ./about/
+- header: COMPANIES
+  links:
+    - text: Past Projects
+      url: ./projects/
+    - text: Contact
+      url: ./contact/
+- header: LEARN MORE
+  links:
+    - text: Email
+      url: mailto:contact@codebase.berkeley.edu
+    - text: Facebook
+      url: https://www.facebook.com/berkeleycodebase/
+    - text: Blog
+      url: https://medium.com/@codebase
+    - text: GitHub
+      url: https://github.com/codebase-berkeley
