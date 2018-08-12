@@ -8,5 +8,6 @@ blurb: "This is as short blurb. This is as short blurb. This is as short blurb. 
 logo: "assets/bettercloud-logo.svg"
 semester: "Fall"
 year: "2018"
+navcolor: "light"
 title: "bettercloud"
 ---

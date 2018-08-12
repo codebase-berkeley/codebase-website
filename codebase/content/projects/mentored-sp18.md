@@ -8,5 +8,6 @@ blurb: "This is as short blurb. This is as short blurb. This is as short blurb. 
 logo: "assets/codebase-text-logo.png"
 semester: "Spring"
 year: "2018"
+navcolor: "light"
 title: "mentored-sp18"
 ---

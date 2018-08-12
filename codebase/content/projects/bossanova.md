@@ -8,5 +8,6 @@ blurb: "This is as short blurb. This is as short blurb. This is as short blurb. 
 logo: "assets/bossanova-logo.png"
 semester: "Fall"
 year: "2018"
+navcolor: "light"
 title: "bossanova"
 ---

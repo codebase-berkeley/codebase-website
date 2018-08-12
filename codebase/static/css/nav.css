@@ -1,0 +1,48 @@
+/* Base navbar */
+.navbar {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item {
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 2px;
+}
+
+/* Dark navbar */
+.codebase-dark-navbar {
+  background-color: #2F3B79;
+}
+
+.codebase-dark-navbar a {
+  color: white;
+}
+
+.codebase-dark-navbar .highlighted-nav-item {
+  background-color: white;
+  border-radius: 2px;
+}
+
+.codebase-dark-navbar .highlighted-nav-item a {
+  color: #2F3B79;
+}
+
+/* Light navbar */
+.codebase-light-navbar {
+  background-color: white;
+}
+
+.codebase-light-navbar a {
+  color: #2F3B79;
+}
+
+.codebase-light-navbar .highlighted-nav-item {
+  background-color: #2F3B79;
+  border-radius: 2px;
+}
+
+.codebase-light-navbar .highlighted-nav-item a {
+  color: white;
+}
