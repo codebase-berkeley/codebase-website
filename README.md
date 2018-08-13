@@ -18,6 +18,22 @@ Feel free to reach out to Cindy or Young with any questions about anything at al
 
 ---
 
+### CSS Crash Course
+If you're looking to implement something, check first in case there's some prior art for it. Here are some commonly used CSS classes that might help you out:
+
+**Sections**
+- `.section`, `.section-title`, `.section-description`
+  - Section padding and font styling for sections
+- `.gray-section`, `.blue-section`
+  - Background color and font color for major `.section` blocks
+- `.full-width-section`
+  - Pulls a section to be full width so that background can extend the entire width of the screen
+  - Please place a `.container` for content in `.full-width-section`s
+
+**Grid Cards**
+- Check out `gridCard.css`
+  - Very useful for any sort of grid-styled content
+
 ### Hugo Crash Course
 
 The directory structure is hopefully easy to jump into! _Hopefully_ you don't need to worry about a lot of the implementation details (described below), but if you're blocked on progress or curious about how things work, then feel free to take a gander.
