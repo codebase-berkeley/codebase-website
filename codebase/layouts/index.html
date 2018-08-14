@@ -102,7 +102,7 @@
                 <img class="card-img-top" src="assets/dummy-icon.png">
                 <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
                 <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
-                <a   class="grid-card-button" href='{{ with .Site.GetPage "/about" }}{{ .Params.navUrl }}{{ end }}'>
+                <a   class="grid-card-button" href='{{ with .Site.GetPage "/projects/_index.md" }}{{ .Params.navUrl }}{{ end }}'>
                   {{ .Site.Data.home.getInvolvedSection.button }}
                 </a>
               </div>
