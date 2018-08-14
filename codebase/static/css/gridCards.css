@@ -57,6 +57,10 @@
   padding: 0px 0px;
 }
 
+.involved-section .card-img-top {
+  max-width: 150px;
+}
+
 .involved-section .grid-card-area {
   color: #5C5C5C;
   font-weight: bold;
