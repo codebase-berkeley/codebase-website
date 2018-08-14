@@ -1,1 +1,44 @@
+.stats-container {
+	width: 120%;
+	margin-left: -10%;
+	margin-bottom: 20px;
+}
 
+.stat-container {
+	display: inline-block;
+	vertical-align: text-top;
+	width: 100%;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	margin-top: -10px;
+}
+
+.stats-number {
+	color: #2F3B79;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 120px;
+	font-weight: 900;
+}
+
+.stats-description {
+	color: #5C5C5C;
+	font-size: 18px;
+}
+
+.about-border--dark {
+	border: 0;
+	border-bottom: 3px solid #2F3B79;
+	margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+	.stat-container {
+		width: 49.5%;
+	}
+}
+
+@media (min-width: 768px) {
+	.stat-container {
+		width: 24.5%;
+	}
+}
