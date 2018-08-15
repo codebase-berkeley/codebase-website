@@ -1,13 +1,13 @@
 ---
-url: "./projects/aptiv/"
-current: true
+url: "./projects/resultcare/"
+current: false
 consulting: true
-full: "Aptiv"
+full: "ResultCare"
 area: "Machine Learning"
 blurb: "This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb"
-logo: "assets/aptiv-logo.png"
+logo: "assets/resultcare-logo.png"
 semester: "Fall"
-year: "2018"
+year: "2017"
 navcolor: "light"
-title: "aptiv"
+title: "resultcare"
 ---
