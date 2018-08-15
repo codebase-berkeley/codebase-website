@@ -1,57 +1,57 @@
 .alumni-company-logo {
-	height: 90px;
-	padding: 20px;
-	box-sizing: border-box;
+  height: 90px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .stats-container {
-	width: 100%;
-	margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .stat-container {
-	display: inline-block;
-	vertical-align: text-top;
-	width: 100%;
-	padding: 0px 15px;
-	box-sizing: border-box;
-	margin-top: -10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 100%;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  margin-top: -10px;
 }
 
 .stats-number {
-	color: #2F3B79;
-	font-family: "Roboto Slab", sans-serif;
-	font-size: 120px;
-	font-weight: 900;
+  color: #2F3B79;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 120px;
+  font-weight: 900;
 }
 
 .stats-description {
-	color: #5C5C5C;
-	font-size: 16px;
+  color: #5C5C5C;
+  font-size: 16px;
 }
 
 .about-border--dark {
-	border: 0;
-	border-bottom: 3px solid #2F3B79;
-	margin-bottom: 40px;
+  border: 0;
+  border-bottom: 3px solid #2F3B79;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 576px) {
-	.stat-container {
-		width: 49.5%;
-	}
+  .stat-container {
+    width: 49.5%;
+  }
 }
 
 @media (min-width: 768px) {
-	.stat-container {
-		width: 24.5%;
-	}
+  .stat-container {
+    width: 24.5%;
+  }
 }
 
 @media (max-width: 680px) {
-	.alumni-company-logo {
-		width: 49%;
-		height: auto;
-	  padding: 15px;
+  .alumni-company-logo {
+    width: 49%;
+    height: auto;
+    padding: 15px;
   }
 }
