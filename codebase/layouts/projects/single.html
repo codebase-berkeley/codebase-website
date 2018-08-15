@@ -14,27 +14,52 @@
 {{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
 
 <div class="section project-section">
-  <img src="assets/dummy-icon.png" class="section-icon">
   <div class="section-title">
-    The Challenge
+    Introduction
   </div>
   <div class="section-content">
-    {{ $project.challenge }}
+    {{ $project.intro }}
   </div>
 </div>
 
 <div class="section project-section">
-  <img src="assets/dummy-icon.png" class="section-icon">
   <div class="section-title">
-    The Solution
+    Problem Statement
   </div>
   <div class="section-content">
-    {{ $project.solution }}
+    {{ $project.problem }}
+  </div>
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Implementation
+  </div>
+  <div class="section-content">
+    {{ $project.implementation }}
+  </div>
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Technical Challenges
+  </div>
+  <div class="section-content">
+    {{ $project.challenges }}
   </div>
 </div>
 
 <div class="section project-section gray-section full-width-section">
   <img src="assets/beam-fun.png" class="section-full-image">
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Key Takeaways
+  </div>
+  <div class="section-content">
+    {{ $project.takeaways }}
+  </div>
 </div>
 
 <div class="section project-section">
