@@ -49,11 +49,10 @@
       <div class="section-description">
         {{ .Site.Data.about.alumni.description}}
       </div>
-      {{ partial "companyLogos" . }}
       <div class="company-logos-container">
-        <img src="" class="company-logo">
-        <img src="" class="company-logo">
-        <img src="" class="company-logo">
+        {{ range $Company := .Site.Data.about.companies}}
+        <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
+        {{ end }}
       </div>
     </div>
   </div>
