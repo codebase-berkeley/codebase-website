@@ -17,11 +17,11 @@
   {{ partial "projectCardGrid" . }}
 </div>
 
-<div class="past-projects">
+<div class="section gray-section full-width-section">
   <div class="section-title">
     Past Projects
   </div>
-  <div class="row">
+  <div class="row past-projects">
   {{ range .Pages }}
     {{ if (eq .Params.current false) }}
     <a href="{{ .Params.url }}" class="project-card-link">
