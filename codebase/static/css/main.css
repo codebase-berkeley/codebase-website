@@ -21,14 +21,22 @@ body {
 .section-title {
   color: #A4A4A4;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 25px;
 }
 
+.section-subtitle {
+  color: #A4A4A4;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 12px;
+}
+
 .section-description {
   color: #5C5C5C;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 50px;
 }
 

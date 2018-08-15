@@ -6,7 +6,7 @@
     {{ .Site.Data.home.projectsSection.description }}
   </div>
   <div class="grid-cards">
-    <div class="section-title">Client Projects</div>
+    <div class="section-subtitle">Client Projects</div>
     <div class="row">
       {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
         <div class="col-6">
@@ -19,7 +19,7 @@
       {{ end }}
     </div>
 
-    <div class="section-title">Mentored Project</div>
+    <div class="section-subtitle">Mentored Project</div>
     <div class="row justify-content-md-center">
       {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
         <div class="col-6">

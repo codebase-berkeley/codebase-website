@@ -17,20 +17,25 @@
   {{ partial "projectCardGrid" . }}
 </div>
 
-<h1>Past Projects</h1>
-<div class="row">
-{{ range .Pages }}
-  {{ if (eq .Params.current false) }}
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src={{ .Params.logo }} alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">{{ .Params.full }}</h5>
-      <p>{{ .Params.area }}</p>
-    </div>
-    <a href="{{ .Params.url }}" class="btn btn-primary">Details</a>
+<div class="past-projects">
+  <div class="section-title">
+    Past Projects
   </div>
+  <div class="row">
+  {{ range .Pages }}
+    {{ if (eq .Params.current false) }}
+    <a href="{{ .Params.url }}">
+      <div class="grid-card card" style="width: 18rem;">
+        <img class="grid-card-img card-img-top" src={{ .Params.logo }} alt="Card image cap">
+        <div class="grid-card-content card-body">
+          <p>{{ .Params.area }}</p>
+          <p>{{ .Params.blurb }}</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
   {{ end }}
-{{ end }}
+  </div>
 </div>
 
 {{ end }}
