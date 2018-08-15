@@ -97,7 +97,7 @@
 }
 
 
-a:hover {
+.project-card-link:hover {
   text-decoration: none;
   padding: 0px 0px;
 }

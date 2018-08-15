@@ -24,7 +24,7 @@
   <div class="row">
   {{ range .Pages }}
     {{ if (eq .Params.current false) }}
-    <a href="{{ .Params.url }}">
+    <a href="{{ .Params.url }}" class="project-card-link">
       <div class="grid-card card" style="width: 18rem;">
         <img class="grid-card-img card-img-top" src={{ .Params.logo }} alt="Card image cap">
         <div class="grid-card-content card-body">

@@ -9,6 +9,19 @@
   padding-left: 15px;
   padding-right: 15px;
   letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.nav-item:hover {
+  opacity: 1;
+}
+
+.navbar-brand {
+  opacity: 0.8;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
 }
 
 /* Dark navbar */
