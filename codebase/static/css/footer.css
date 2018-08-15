@@ -3,10 +3,6 @@ footer {
   border-top: 1px solid #C4C4C4;
 }
 
-footer img {
-  width: 250px;
-}
-
 footer a {
   color: #555;
 }
@@ -17,7 +13,11 @@ footer a:hover {
 }
 
 .footer-header {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #555;
+}
+
+.footer-text {
+	font-size: 14px;
 }

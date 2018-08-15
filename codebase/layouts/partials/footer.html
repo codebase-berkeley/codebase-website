@@ -6,14 +6,14 @@
   <div class="container text-center text-md-left">
     <div class="row">
       <div class="col-md-5 mx-auto">
-        <img src="assets/codebase-text-logo.png">
+        <img src="assets/codebase-text-logo.png" height="40">
       </div>
       <div class="col-md-7 mx-auto">
         <div class="row">
           {{ range .Site.Data.home.footerLinks }}
             <div class="col-md-3 mx-auto">
               <div class="footer-header mt-3 mb-4">{{ .header }}</div>
-              <ul class="list-unstyled">
+              <ul class="list-unstyled footer-text">
                 {{ range .links }}
                   <li>
                     <a href={{ .url }}>{{ .text }}</a>
