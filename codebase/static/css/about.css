@@ -1,6 +1,5 @@
 .stats-container {
-	width: 120%;
-	margin-left: -10%;
+	width: 100%;
 	margin-bottom: 20px;
 }
 
@@ -22,7 +21,7 @@
 
 .stats-description {
 	color: #5C5C5C;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .about-border--dark {
