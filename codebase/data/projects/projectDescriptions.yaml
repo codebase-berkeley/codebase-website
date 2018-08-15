@@ -142,7 +142,7 @@ yituux:
   challenges: >
     One of the interesting technical challenges we ran into was trying to get SLAs to work reliably for different tiers of users. After looking extensively at YiTuuX’s particular case, we determined that this would be nearly impossible to do cost-effectively without autoscaling our EC2 instance clusters. Since designing and developing a robust autoscaling backend unfortunately required time that we did not have for the project, we decided to go with the next best thing - designing a custom job-choosing scheme that favored jobs with higher priority.
   takeaways: >
-    
+    Overall this project was a successful learning experience - our developers were able to pick up new skills from each other and the clients were able to build a relationship with Codebase. As a team, we learned a lot about what kinds of things are important for a project to run smoothly - from team internals to client engagement and communication. Overall, the team was able to deliver a working, successful product, while also gaining a lot of insight into software development at startup companies and engineering consulting as a whole. YiTuuX will be able to build off of our ideas and prototype product when deploying their models for customers.
   extra:
 crowdbotics:
   intro: >
