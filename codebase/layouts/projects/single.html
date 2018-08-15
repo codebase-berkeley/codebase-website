@@ -1,34 +1,65 @@
 {{ define "main" }}
 
-<h1>{{ .Params.full }}</h1>
-<img src={{ .Params.logo }}>
-<p>{{ .Params.semester }} {{ .Params.year }}</p>
-<p>{{ .Params.blurb }}</p>
+<div class="section full-width-section">
+  <img class="project-icon col-xl-3 col-lg-5 col-md-7 col-sm-9 col-9 mx-auto" src={{ .Params.logo }}>
+  <hr class="landing__description-border landing__description-border--dark col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <div class="landing__description landing__description--dark col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+    <p class="landing__description--title">{{ .Params.semester }} {{ .Params.year }}</p>
+    <p>{{ .Params.blurb }}</p>
+  </div>
+  <hr class="landing__description-border landing__description-border--dark col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">
+</div>
 
 {{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
 
 <div class="section project-section">
-  <img src="assets/dummy-icon.png" class="section-icon">
   <div class="section-title">
-    The Challenge
+    Introduction
   </div>
   <div class="section-content">
-    {{ $project.challenge }}
+    {{ $project.intro }}
   </div>
 </div>
 
 <div class="section project-section">
-  <img src="assets/dummy-icon.png" class="section-icon">
   <div class="section-title">
-    The Solution
+    Problem Statement
   </div>
   <div class="section-content">
-    {{ $project.solution }}
+    {{ $project.problem }}
+  </div>
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Implementation
+  </div>
+  <div class="section-content">
+    {{ $project.implementation }}
   </div>
 </div>
 
 <div class="section project-section gray-section full-width-section">
   <img src="assets/beam-fun.png" class="section-full-image">
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Technical Challenges
+  </div>
+  <div class="section-content">
+    {{ $project.challenges }}
+  </div>
+</div>
+
+<div class="section project-section">
+  <div class="section-title">
+    Key Takeaways
+  </div>
+  <div class="section-content">
+    {{ $project.takeaways }}
+  </div>
 </div>
 
 <div class="section project-section">

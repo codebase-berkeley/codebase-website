@@ -4,7 +4,7 @@ current: true
 consulting: true
 full: "Bossa Nova"
 area: "Machine Learning"
-blurb: "This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb"
+blurb: "Bossanova builds robots to automate services in the retail industry. We will develop a web-based map annotation creation and manipulation tool with a database backend."
 logo: "assets/bossanova-logo.png"
 semester: "Fall"
 year: "2018"

@@ -1,23 +1,41 @@
 {{ define "main" }}
+<!-- Landing Section -->
+
+<div class="section blue-section full-width-section">
+  <div class="landing__title">
+  {{ .Site.Data.projects.landing.title }}
+  </div>
+  <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+    {{ .Site.Data.projects.landing.description }}
+  </div>
+  <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">
+</div>
 
 <div class="section full-width-section">
   {{ partial "projectCardGrid" . }}
 </div>
 
-<h1>Past Projects</h1>
-<div class="row">
-{{ range .Pages }}
-  {{ if (eq .Params.current false) }}
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src={{ .Params.logo }} alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">{{ .Params.full }}</h5>
-      <p>{{ .Params.area }}</p>
-    </div>
-    <a href="{{ .Params.url }}" class="btn btn-primary">Details</a>
+<div class="past-projects">
+  <div class="section-title">
+    Past Projects
   </div>
+  <div class="row">
+  {{ range .Pages }}
+    {{ if (eq .Params.current false) }}
+    <a href="{{ .Params.url }}">
+      <div class="grid-card card" style="width: 18rem;">
+        <img class="grid-card-img card-img-top" src={{ .Params.logo }} alt="Card image cap">
+        <div class="grid-card-content card-body">
+          <p>{{ .Params.area }}</p>
+          <p>{{ .Params.blurb }}</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
   {{ end }}
-{{ end }}
+  </div>
 </div>
 
 {{ end }}

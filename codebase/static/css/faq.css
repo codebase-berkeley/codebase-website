@@ -1,0 +1,12 @@
+.faq-question {
+  color: #555555;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.faq-answer {
+  font-size: 18px;
+}

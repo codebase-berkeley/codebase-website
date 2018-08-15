@@ -1,19 +1,24 @@
 /* Project-specific pages */
 .project-section .section-title {
-  color: #414040;
+  color: #A4A4A4;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 30px;
   font-family: 'Roboto Slab', serif;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .project-section .section-content {
   color: #5C5C5C;
-  font-size: 18px;
+  font-size: 16px;
+  max-width: 60vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.2vw;
 }
 
 .project-section .section-icon {
-  width: 150px;
+  width: 100px;
 }
 
 .project-section .section-full-image {
