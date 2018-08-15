@@ -26,3 +26,10 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.section-border {
+  margin-top: 10vw;
+  color: #F5F5F5;
+  background-color: #F5F5F5;
+  height: 4px;
+}
