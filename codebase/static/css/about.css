@@ -1,3 +1,9 @@
+.alumni-company-logo {
+	height: 90px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
 .stats-container {
 	width: 100%;
 	margin-bottom: 20px;
@@ -40,4 +46,12 @@
 	.stat-container {
 		width: 24.5%;
 	}
+}
+
+@media (max-width: 680px) {
+	.alumni-company-logo {
+		width: 49%;
+		height: auto;
+	  padding: 15px;
+  }
 }
