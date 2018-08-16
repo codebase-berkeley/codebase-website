@@ -2,119 +2,158 @@ Executive Team:
 - first: Young
   last: Guo
   position: President
+  photo: assets/memberPhotos/young.jpg
 - first: Cynthia
   last: Wang
   position: VP of Projects
+  photo: assets/memberPhotos/cynthia.jpg
 - first: Sahana
   last: Srinivasan
   position: VP of Projects
+  photo: assets/memberPhotos/sahana.jpg
 - first: George
   last: Zhang
   position: VP of Professional Development
+  photo: assets/memberPhotos/george.jpg
 - first: Julia
   last: Luo
   position: VP of Professional Development
+  photo: assets/memberPhotos/julia.jpg
 - first: Cody
   last: Zeng
   position: VP of Internal
+  photo: assets/memberPhotos/cody.jpg
 - first: Ellen
   last: Luo
   position: VP of Internal
+  photo: assets/memberPhotos/ellen.jpg
 - first: Jonathan
   last: Fung
   position: VP of Operations
+  photo: assets/memberPhotos/jonathan.jpg
 - first: Cindy
   last: Yuan
   position: VP of Marketing
+  photo: assets/memberPhotos/cindy.jpg
 Project Managers:
 - first: Hans
   last: Zheng
   position: PM - Zumper
+  photo: assets/memberPhotos/hans.jpg
 - first: Amitav
   last: Baruah
   position: PM - Zumper
+  photo: assets/memberPhotos/amitav.jpg
 - first: Felicia
   last: Lin
   position: PM - Bettercloud
+  photo: assets/memberPhotos/felicia.jpg
 - first: Justin
   last: Lu
   position: PM - Bettercloud
+  photo: assets/memberPhotos/justin.jpg
 - first: Forest
   last: Hu
   position: PM - Bossa Nova
+  photo: assets/memberPhotos/forest.jpg
 - first: Jihan
   last: Yin
   position: PM - Bossa Nova
+  photo: assets/memberPhotos/jihan.jpg
 - first: Skyler
   last: Ruesga
   position: PM - Aptiv
+  photo: assets/memberPhotos/skyler.jpg
 - first: Anjana
   last: Srinivas
   position: PM - Aptiv
+  photo: assets/memberPhotos/anjana.jpg
 General Members:
 - first: Boris
   last: Yue
   position: Developer - [Company]
+  photo: assets/memberPhotos/boris.jpg
 - first: Edric
   last: Xiang
   position: Developer - [Company]
+  photo: assets/memberPhotos/edric.jpg
 - first: Matt
   last: Jeng
   position: Developer - [Company]
+  photo: assets/memberPhotos/matt.jpg
 - first: Nilay
   last: Khatore
   position: Developer - [Company]
+  photo: assets/memberPhotos/nilay.jpg
 - first: Simarjeev
   last: Singh
   position: Developer - [Company]
+  photo: assets/memberPhotos/simar.jpg
 - first: Steven
   last: Tsay
   position: Developer - [Company]
+  photo: assets/memberPhotos/steven.jpg
 - first: Erica
   last: Kong
   position: Developer - [Company]
+  photo: assets/memberPhotos/erica.jpg
 - first: Mary
   last: Xu
   position: Developer - [Company]
+  photo: assets/memberPhotos/mary.jpg
 - first: Olivia
   last: Shiah
   position: Developer - [Company]
+  photo: assets/memberPhotos/olivia.jpg
 - first: Pratibha
   last: Sriram
   position: Developer - [Company]
+  photo: assets/memberPhotos/pratibha.jpg
 - first: Selina
   last: Feng
   position: Developer - [Company]
+  photo: assets/memberPhotos/selina.jpg
 - first: Sophia
   last: Lau
   position: Developer - [Company]
+  photo: assets/memberPhotos/sophia.jpg
 - first: Aditya
   last: Srivastava
   position: Developer - [Company]
+  photo: assets/memberPhotos/aditya.jpg
 - first: Daniel
   last: Grimshaw
   position: Developer - [Company]
+  photo: assets/memberPhotos/daniel.jpg
 - first: Nagaganesh
   last: Jaladanki
   position: Developer - [Company]
+  photo: assets/memberPhotos/ganesh.jpg
 - first: Ishan
   last: Vachhani
   position: Developer - [Company]
+  photo: assets/memberPhotos/ishan.jpg
 - first: Kush
   last: Khanolkar
   position: Developer - [Company]
+  photo: assets/memberPhotos/kush.jpg
 - first: Raymond
   last: Guo
   position: Developer - [Company]
+  photo: assets/memberPhotos/raymondg.jpg
 - first: Raymond
   last: Xu
   position: Developer - [Company]
+  photo: assets/memberPhotos/raymondx.jpg
 - first: Sarah
   last: Hammond
   position: Developer - [Company]
+  photo: assets/memberPhotos/sarah.jpg
 - first: Trevor
   last: Aquino
   position: Developer - [Company]
+  photo: assets/memberPhotos/trevor.jpg
 - first: William
   last: Zhou
   position: Developer - [Company]
+  photo: assets/memberPhotos/william.jpg
