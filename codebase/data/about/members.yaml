@@ -29,28 +29,28 @@ Executive Team:
 Project Managers:
 - first: Hans
   last: Zheng
-  position: PM - [Company]
+  position: PM - Zumper
 - first: Amitav
   last: Baruah
-  position: PM - [Company]
+  position: PM - Zumper
 - first: Felicia
   last: Lin
-  position: PM - [Company]
+  position: PM - Bettercloud
 - first: Justin
   last: Lu
-  position: PM - [Company]
+  position: PM - Bettercloud
 - first: Forest
   last: Hu
-  position: PM - [Company]
+  position: PM - Bossa Nova
 - first: Jihan
   last: Yin
-  position: PM - [Company]
+  position: PM - Bossa Nova
 - first: Skyler
   last: Ruesga
-  position: PM - [Company]
+  position: PM - Aptiv
 - first: Anjana
   last: Srinivas
-  position: PM - [Company]
+  position: PM - Aptiv
 General Members:
 - first: Boris
   last: Yue
@@ -118,4 +118,3 @@ General Members:
 - first: William
   last: Zhou
   position: Developer - [Company]
-
