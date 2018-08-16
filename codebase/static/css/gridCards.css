@@ -15,6 +15,7 @@
   box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
 }
 
+
 .grid-card-flat {
   margin: 25px 25px;
   padding: 50px 50px;
@@ -94,6 +95,13 @@
 
 .past-projects .grid-card {
   padding: 50px 0px;
+  transition: all 250ms;
+  -webkit-transition: all 250ms;
+}
+
+.past-projects:hover .grid-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 30px rgb(0, 0, 0, 0.2);
 }
 
 

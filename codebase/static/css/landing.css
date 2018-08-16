@@ -1,3 +1,87 @@
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .landing-section {
   height: 70vh;
 }
@@ -9,6 +93,8 @@
   color: white;
   font-family: 'Roboto Slab', sans-serif;
   margin: 40px auto 40px auto;
+  animation: slideIn 700ms both;
+  -webkit-animation: slideIn 700ms both;
 }
 
 .landing__title--dark {
@@ -22,6 +108,8 @@
   font-family: 'Open Sans', sans-serif;
   padding: 14px 0px;
   max-width: 500px;
+  animation: slideIn 700ms both;
+  -webkit-animation: slideIn 700ms both;
 }
 
 .landing__description--dark {
@@ -36,6 +124,13 @@
   border: 0;
   border-top: 3px solid rgba(255, 255, 255, 0.5);
   margin: 6px auto;
+  animation: slideInRight 1s both;
+  -webkit-animation: slideInRight 1s both;
+}
+
+.landing__description-border--bottom {
+  animation: slideInLeft 1s both;
+  -webkit-animation: slideInLeft 1s both;
 }
 
 .landing__description-border--dark {
@@ -50,13 +145,24 @@
   border-radius: 2px;
   padding: 8px 14px;
   margin: 50px 16px 0px 16px;
+  animation: slideIn 700ms both;
+  -webkit-animation: slideIn 700ms both;
+  transition: margin-top 250ms;
+}
+
+.btn--landing:hover {
+  margin-top: 40px;
 }
 
 .downward-arrow {
   display: block;
   margin: 70px auto -18px auto;
+  animation: slideIn 700ms both;
+  -webkit-animation: slideIn 700ms both;
 }
 
 .project-icon {
   margin: 20px auto 50px auto;
+  animation: slideIn 700ms both;
+  -webkit-animation: slideIn 700ms both;
 }
