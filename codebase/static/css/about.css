@@ -16,10 +16,12 @@
 }
 
 .member-header {
-  margin-top: 60px;
-  margin-bottom : -25px;
+  padding-top: 100px;
+  margin: 0 auto;
   font-size: 40px;
-  margin-left : 10px;
+  /* margin-left : 10px; */
+  font-family: "Roboto Slab";
+  text-align: center;
 }
 
 .member-details {
