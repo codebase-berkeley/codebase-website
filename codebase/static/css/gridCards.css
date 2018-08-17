@@ -89,8 +89,25 @@
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.25);
-  padding: 15px 20px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.25);
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  transition: margin-top 250ms;
+  display: inline-block;
+}
+
+.grid-card-button:hover {
+  text-decoration: none;
+  color: #2F3B79;
+  cursor: pointer;
+  background-color: #FCFCFC;
+  margin-top: -5px;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .past-projects .grid-card {
