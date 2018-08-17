@@ -121,6 +121,9 @@ a:hover {
   box-shadow: 0px 5px 30px rgb(0, 0, 0, 0.2);
 }
 
+.project-card-link {
+  display: inline-flex;
+}
 
 .project-card-link:hover {
   text-decoration: none;
