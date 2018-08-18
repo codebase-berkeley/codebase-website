@@ -2,7 +2,7 @@
   <div class="row">
     {{ range .Site.Data.apply.paths }}
       <div class="col-lg-6">
-        <img src="assets/dummy-icon.png" style="width: 150px">
+        <img src="{{ .icon }}" style="width: 120px">
         <div class="path-title">{{ .full }}</div>
       </div>
     {{ end }}

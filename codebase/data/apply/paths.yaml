@@ -1,5 +1,6 @@
 - client:
   full: Client Team
+  icon: assets/icons/client.png
   content:
   - subheading: For students who have
     points:
@@ -13,6 +14,7 @@
     - Dive into the real-world project development
 - mentored:
   full: Mentored Team
+  icon: assets/icons/mentored.png
   content:
   - subheading: For students who have
     points:
