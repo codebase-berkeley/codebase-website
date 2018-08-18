@@ -59,6 +59,7 @@ body {
 }
 
 .past-projects {
+  justify-content: center;
   max-width: 80vw;
   margin: 0 auto;
 }

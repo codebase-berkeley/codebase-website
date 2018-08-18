@@ -9,7 +9,7 @@
     <div class="section-subtitle">Client Projects</div>
     <div class="row">
       {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
           <div class="card grid-card-flat">
             <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
             <div class="grid-card-area card-title">{{ .Params.area }}</div>
@@ -22,7 +22,7 @@
     <div class="section-subtitle">Mentored Project</div>
     <div class="row justify-content-md-center">
       {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
           <div class="card grid-card-flat">
             <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
             <div class="grid-card-area card-title">{{ .Params.area }}</div>
