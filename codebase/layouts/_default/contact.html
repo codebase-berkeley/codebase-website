@@ -1,8 +1,17 @@
 {{ define "main" }}
 
-<div>
-  <p>url: {{ .Params.url}}</p>
-  <p>title: {{ .Params.title }}</p>
+<!-- Landing Section -->
+
+<div class="section blue-section full-width-section landing-section">
+  <div class="landing__title">
+  {{ .Site.Data.contact.landing.title }}
+  </div>
+  <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+    {{ .Site.Data.contact.landing.description }}
+  </div>
+  <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+  <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
 </div>
 
 {{ end }}
