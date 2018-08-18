@@ -1,0 +1,27 @@
+.path-title {
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  color: #A4A4A4;
+}
+
+.path-heading {
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #555555;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.path-item {
+  font-size: 14px;
+  color: #515151;
+}
+
+.path-box {
+  padding: 0px 50px 50px 50px;
+  border: 1px solid #C4C4C4;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

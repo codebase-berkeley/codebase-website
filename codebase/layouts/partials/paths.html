@@ -1,18 +1,32 @@
 <div class="section">
   <div class="row">
-    {{ range $path, $data := .Site.Data.apply.paths.data }}
+    {{ range .Site.Data.apply.paths }}
       <div class="col-lg-6">
         <img src="assets/dummy-icon.png" style="width: 150px">
-        <h5 class="card-title">{{ $data.full }}</h5>
-        <hr>
-        <h5>Who we're looking for:</h5>
-        {{ range $data.lookingFor }}
-          <p>{{ . }}</p>
-        {{ end }}
-        <h5>What you'll get:</h5>
-        {{ range $data.whatYouGet }}
-          <p>{{ . }}</p>
-        {{ end }}
+        <div class="path-title">{{ .full }}</div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="row row-eq-height">
+    {{ range .Site.Data.apply.paths }}
+      <div class="col-lg-6">
+        <div class="path-box">
+          {{ range .content }}
+            <div class="path-heading">{{ .subheading }}</div>
+            {{ range $index, $value := .points}}
+              {{ if not (eq $index 0) }}
+                <hr>
+              {{ end }}
+              <div class="path-item">{{ $value }}</div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <div class="row">
+    {{ range $path, $data := .Site.Data.apply.paths }}
+      <div class="col-lg-6">
         <a class="grid-card-button" href="#">
           Apply Now
         </a>
