@@ -1,3 +1,37 @@
 title: Client Testimonials
-company1Description: >
-  Our point of contact took the extra step to really understand our core functionality of the application.
+testimonials:
+  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/aptiv-logo.png
+    url: ./projects/aptiv/
+    bottom: 80
+    shadowX: 30
+    shadowY: 20
+    shadowColor: \#2F3B79
+  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/aptiv-logo.png
+    url: ./projects/aptiv/
+    bottom: 20
+    shadowX: -30
+    shadowY: 20
+    shadowColor: \#A4A4A4
+  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/aptiv-logo.png
+    url: ./projects/aptiv/
+    bottom: 60
+    shadowX: 20
+    shadowY: -20
+    shadowColor: \#A4A4A4
+  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/aptiv-logo.png
+    url: ./projects/aptiv/
+    bottom: 20
+    shadowX: -30
+    shadowY: 20
+    shadowColor: \#2F3B79
+  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/aptiv-logo.png
+    url: ./projects/aptiv/
+    bottom: 100
+    shadowX: -20
+    shadowY: -30
+    shadowColor: \#A4A4A4
