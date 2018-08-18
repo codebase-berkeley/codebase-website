@@ -4,8 +4,8 @@
       {{ range .Site.Data.about.missionSection.values }}
         <div class="col-4">
           <div class="card grid-card">
-            <div class="card-body">
-              <img class="card-img-top" src="assets/dummy-icon.png">
+            <div class="card-body value-card">
+              <img class="card-img-top" src="{{ .icon }}" style="height: 100px; width: 100px">
               <div class="grid-card-area card-title">{{ .value }}</div>
               <div class="grid-card-content card-text">{{ .description }}</div>
             </div>

@@ -5,13 +5,16 @@ title2: Base Behaviors
 values:
   - value: Put people first
     description: Build meaningful, lasting relationships with each other
+    icon: assets/icons/peoplefirst.png
   - value: Actively take ownership
     description: Strive to take initiative and trust your peers to do the same
+    icon: assets/icons/activelytakeownership.png
   - value: Seek continuous growth
     description: Remain curous and approach problems with an open mind
+    icon: assets/icons/seekgrowth.png
   - value: Communicate candidly
     description: Speak openly and honestly and offer constructive feedback
+    icon: assets/icons/communicate.png
   - value: Genuinely give back
     description: Believe in the potential of every individual, invest in others
-  - value: Temp temp temp temp
-    description: This is a temporary value description (add something later)
+    icon: assets/icons/giveback.png
