@@ -136,7 +136,7 @@
           </a>
         </div>
         {{ end }}
-        {{ range $Testimonial := last 6 .Site.Data.home.testimonialsSection.testimonials}}
+        {{ range $Testimonial := first 6 .Site.Data.home.testimonialsSection.testimonials}}
         <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
           <a href={{$Testimonial.url}}>
             <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
