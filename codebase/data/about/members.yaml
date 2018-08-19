@@ -130,8 +130,8 @@ Project Managers:
   last: Shah
   position: PM - Mentored
   photo: assets/memberPhotos/parth.jpg
-  linkedin: none
-  github: none
+  linkedin: https://www.linkedin.com/in/parth-shah-4184b270/
+  github: https://github.com/partyshah
   website: none
 Project Developers:
 - first: Boris
@@ -180,8 +180,8 @@ Project Developers:
   last: Kong
   position:
   photo: assets/memberPhotos/erica.jpg
-  linkedin: none
-  github: none
+  linkedin: https://www.linkedin.com/in/erica-kong-085169a1
+  github: https://github.com/ekwkk
   website: none
 - first: Mary
   last: Xu
@@ -194,8 +194,8 @@ Project Developers:
   last: Shiah
   position:
   photo: assets/memberPhotos/olivia.jpg
-  linkedin: none
-  github: none
+  linkedin: http://linkedin.com/in/olivia-shiah/
+  github: http://github.com/oliviaozs
   website: none
 - first: Pratibha
   last: Sriram
@@ -271,8 +271,8 @@ Project Developers:
   last: Hammond
   position:
   photo: assets/memberPhotos/sarah.jpg
-  linkedin: none
-  github: none
+  linkedin: https://www.linkedin.com/in/sarahehammond/
+  github: https://github.com/slizha
   website: none
 - first: Trevor
   last: Aquino
@@ -285,6 +285,6 @@ Project Developers:
   last: Zhou
   position:
   photo: assets/memberPhotos/william.jpg
-  linkedin: none
-  github: none
+  linkedin: https://linkedin.com/in/williamzhouu
+  github: https://github.com/guanlinzhou
   website: none
