@@ -26,10 +26,10 @@
     {{ if (eq .Params.current false) }}
     <a href="{{ .Params.url }}" class="project-card-link">
       <div class="grid-card card" style="width: 18rem;">
-        <img class="grid-card-img card-img-top" src={{ .Params.logo }} alt="Card image cap">
+        <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 3em; width: auto">
         <div class="grid-card-content card-body">
-          <p>{{ .Params.area }}</p>
-          <p>{{ .Params.blurb }}</p>
+          <div class="project-card-title">{{ .Params.area }}</div>
+          <div class="project-card-blurb">{{ .Params.blurb }}</div>
         </div>
       </div>
     </a>

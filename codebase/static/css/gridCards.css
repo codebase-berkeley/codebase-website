@@ -111,7 +111,7 @@ a:hover {
 }
 
 .past-projects .grid-card {
-  padding: 50px 0px;
+  padding: 30px 10px;
   transition: all 250ms;
   -webkit-transition: all 250ms;
 }
@@ -119,6 +119,22 @@ a:hover {
 .past-projects:hover .grid-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 5px 30px rgb(0, 0, 0, 0.2);
+}
+
+.project-card-logo {
+  margin-top: 20px;
+}
+
+.project-card-title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 30px;
+}
+
+.project-card-blurb {
+  font-family: 'Open Sans', sans-serif;
+  color: #5C5C5C;
 }
 
 .project-card-link {
