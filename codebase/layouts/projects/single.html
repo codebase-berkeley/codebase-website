@@ -42,7 +42,11 @@
 </div>
 
 <div class="section project-section gray-section full-width-section">
-  <img src="assets/beam-fun.png" class="section-full-image">
+  {{ if eq $project.image "none" }}
+    <img src="assets/group-lao-table.jpg" class="section-full-image">
+  {{else}}
+    <img src={{$project.image}} class="section-full-image">
+  {{ end }}
 </div>
 
 <div class="section project-section">
