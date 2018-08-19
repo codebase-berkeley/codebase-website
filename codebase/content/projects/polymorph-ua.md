@@ -10,5 +10,5 @@ logo: "assets/polymorph-logo.svg"
 semester: "Spring"
 year: "2018"
 navcolor: "light"
-title: "aptiv"
+title: "polymorph-ua"
 ---

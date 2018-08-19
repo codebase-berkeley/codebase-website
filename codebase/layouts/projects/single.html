@@ -19,7 +19,7 @@
     Introduction
   </div>
   <div class="section-content">
-    {{ $project.intro }}
+    {{ with $project.intro  }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
@@ -28,7 +28,7 @@
     Problem Statement
   </div>
   <div class="section-content">
-    {{ $project.problem }}
+    {{ with $project.problem  }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
@@ -37,7 +37,7 @@
     Implementation
   </div>
   <div class="section-content">
-    {{ $project.implementation }}
+    {{ with $project.implementation  }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
@@ -50,7 +50,7 @@
     Technical Challenges
   </div>
   <div class="section-content">
-    {{ $project.challenges }}
+    {{ with $project.challenges }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
@@ -59,13 +59,13 @@
     Key Takeaways
   </div>
   <div class="section-content">
-    {{ $project.takeaways }}
+    {{ with $project.takeaways }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
 <div class="section project-section">
   <div class="section-content">
-    {{ $project.extra }}
+    {{ with $project.extra }}{{ . | safeHTML }}{{ end }}
   </div>
 </div>
 
