@@ -61,6 +61,10 @@
   padding: 0px 0px;
 }
 
+.involved-section .grid-cards {
+  width: 95%;
+}
+
 .involved-section .grid-card-flat {
   box-shadow: none;
   border: none;
