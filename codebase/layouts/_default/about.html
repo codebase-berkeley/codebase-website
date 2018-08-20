@@ -52,7 +52,7 @@
       </div>
       <div class="company-logos-container">
         {{ range $Company := .Site.Data.about.companies}}
-        <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
+          <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
         {{ end }}
       </div>
     </div>
