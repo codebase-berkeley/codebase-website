@@ -1,3 +1,7 @@
+.members-container {
+  justify-content: center;
+}
+
 .member {
   width: 180px;
   height: 180px;

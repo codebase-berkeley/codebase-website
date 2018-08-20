@@ -1,7 +1,7 @@
 {{ range .Site.Data.about.members }}
   <div class="section">
     <div class="section-title">{{ .group }}</div>
-    <div class="row">
+    <div class="row members-container">
       {{ range .people }}
         <div class="member" style="background-image: url({{.photo}});" >
           <div class="member-details">
