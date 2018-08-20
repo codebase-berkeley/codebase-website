@@ -1,6 +1,7 @@
 /* Cards */
 .grid-cards {
   margin: 0 auto;
+  width: 75%;
 }
 
 .grid-cards .section-title {
@@ -17,6 +18,7 @@
 
 
 .grid-card-flat {
+  width: 350px;
   margin: 25px 25px;
   padding: 50px 50px;
 }
