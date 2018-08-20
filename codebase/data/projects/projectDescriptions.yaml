@@ -75,7 +75,7 @@ polymorph-ua:
     In retrospect, the project was intriguing conceptually, and we had a lot of fun trying to predict CTR, but there were still many roadblocks we faced given the data issues and the fact that with such a large dataset, iterative changes took days.
     <br> <br> Everyone on the team still learned a lot from the experience. Many members did not have much previous exposure to machine learning, and this was a very practical and face-paced, albeit rocky, introduction to machine learning. Learning about the pipeline for creating a working machine learning model was incredibly intellectually stimulating, in that the actual model is only the tip of the iceberg-to create such a model. Hours and hours of data cleaning and examination, parameter tuning, and model training were required. Often times, doing this randomly until the best possible result emerge actually worked the best.
   extra:
-  image: assets/polymorph-ua-1.png
+  image: assets/polymorph-ua-1.jpeg
 
 
 polymorph-dpf:

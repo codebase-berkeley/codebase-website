@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <div>
 
   <div class="container">
@@ -33,6 +32,20 @@
       {{ partial "valueCards" . }}
     </div>
 
+    <div class="carousel-container">
+        <div><img class="group-pic" src="assets/cb-group-sp18.jpg" /></div>
+        <div><img class="group-pic" src="assets/group-salesforce.jpg" /></div>
+        <div><img class="group-pic" src="assets/ice-skating-sp-18.jpg" /></div>
+        <div><img class="group-pic" src="assets/group-lao-table.jpg" /></div>
+        <div><img class="group-pic" src="assets/beach-group.jpg" /></div>
+    </div>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+
     <!-- Photos Carousel Section -->
 
     <div class="section">
@@ -57,4 +70,26 @@
     </div>
   </div>
 </div>
+
+
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('.carousel-container').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      pauseOnHover: true
+    });
+  });
+
+</script>
+
 {{ end }}

@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.group-pic {
+  height: 500px;
+}
+
+.carousel-container {
+  margin-top: 200px;
+  margin-bottom: -50px;
+}
+
 .member {
   width: 180px;
   height: 180px;
@@ -19,7 +28,6 @@
   padding-top: 100px;
   margin: 0 auto;
   font-size: 40px;
-  /* margin-left : 10px; */
   font-family: "Roboto Slab";
   text-align: center;
 }
