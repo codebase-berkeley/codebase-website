@@ -24,15 +24,15 @@
   <div class="row past-projects">
   {{ range .Pages }}
     {{ if (eq .Params.current false) }}
-    <a href="{{ .Params.url }}" class="project-card-link">
-      <div class="grid-card card" style="width: 18rem;">
-        <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
-        <div class="grid-card-content card-body">
-          <div class="project-card-title">{{ .Params.area }}</div>
-          <div class="project-card-blurb">{{ .Params.blurb }}</div>
+      <a href="{{ .Params.url }}" class="project-card-link">
+        <div class="grid-card card" style="width: 18rem;">
+          <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
+          <div class="grid-card-content card-body">
+            <div class="project-card-title">{{ .Params.area }}</div>
+            <div class="project-card-blurb">{{ .Params.blurb }}</div>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
     {{ end }}
   {{ end }}
   </div>
@@ -48,7 +48,6 @@
   <div class="container">
     <div class="grid-cards">
       <div class="row">
-
         <div class="col-sm-12 col-md-6">
           <div class="card grid-card">
             <div class="card-body">

@@ -3,7 +3,7 @@ url: "./projects/bossanova/"
 current: true
 consulting: true
 full: "Bossa Nova"
-area: "Machine Learning"
+area: "Full Stack Web"
 blurb: "Bossa Nova builds robots to automate services in the retail industry. We will develop a web-based map annotation creation and manipulation tool with a database backend for Bossa Nova technicians to use."
 logo: "assets/bossanova-logo.png"
 semester: "Fall"

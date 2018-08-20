@@ -48,7 +48,8 @@
 
     <!-- Photos Carousel Section -->
 
-    <div class="section">
+    <div class="section full-width-section gray-section">
+      (Photo Carousel Goes Here)
     </div>
 
     {{ partial "memberList" . }}
@@ -64,7 +65,7 @@
       </div>
       <div class="company-logos-container">
         {{ range $Company := .Site.Data.about.companies}}
-        <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
+          <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
         {{ end }}
       </div>
     </div>

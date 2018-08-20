@@ -6,30 +6,33 @@
     {{ .Site.Data.home.projectsSection.description }}
   </div>
   <div class="grid-cards">
-    <div class="section-subtitle">Client Projects</div>
-    <div class="row">
-      {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
-        <div class="col-sm-12 col-md-6">
+    <div class="section">
+      <div class="section-subtitle">Client Projects</div>
+      <div class="row justify-content-center">
+        {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
           <div class="card grid-card-flat">
             <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
-            <div class="grid-card-area card-title">{{ .Params.area }}</div>
-            <div class="grid-card-content card-text">{{ .Params.blurb }}</div>
+            <div class="grid-card-content card-body">
+              <div class="project-card-title">{{ .Params.area }}</div>
+              <div class="project-card-blurb">{{ .Params.blurb }}</div>
+            </div>
           </div>
-        </div>
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
-
-    <div class="section-subtitle">Mentored Project</div>
-    <div class="row justify-content-md-center">
-      {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
-        <div class="col-sm-12 col-md-6">
+    <div class="section">
+      <div class="section-subtitle">Mentored Project</div>
+      <div class="row justify-content-md-center">
+        {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" false) }}
           <div class="card grid-card-flat">
             <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
-            <div class="grid-card-area card-title">{{ .Params.area }}</div>
-            <div class="grid-card-content card-text">{{ .Params.blurb }}</div>
+            <div class="grid-card-content card-body">
+              <div class="project-card-title">{{ .Params.area }}</div>
+              <div class="project-card-blurb">{{ .Params.blurb }}</div>
+            </div>
           </div>
-        </div>
-      {{ end }}
+        {{ end }}
+      </div>
     </div>
   </div>
 </div>

@@ -1,93 +1,26 @@
-{{ range $group, $people := .Site.Data.about.members }}
-{{ if eq $group  "Executive Team" }}
-<div class="row">
-  <div class = "member-header">{{ $group }}</div>
-</div>
-<div class="row">
-  {{ range $people }}
-  <div class="member" style="background-image: url({{.photo}});" >
-    <div class="member-details">
-      <div class="member-details-wrapper">
-        <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
-        <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
-        {{ if eq .linkedin  "none" }}
-        {{else}}
-          <a href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
-        {{ end }}
-        {{ if eq .github  "none" }}
-        {{else}}
-          <a href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
-        {{ end }}
-        {{ if eq .website  "none" }}
-        {{else}}
-          <a href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
-        {{ end }}
-      </div>
+{{ range .Site.Data.about.members }}
+  <div class="section">
+    <div class="section-title">{{ .group }}</div>
+    <div class="row">
+      {{ range .people }}
+        <div class="member" style="background-image: url({{.photo}});" >
+          <div class="member-details">
+            <div class="member-details-wrapper">
+              <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
+              <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
+              {{ if not (eq .linkedin "none") }}
+                <a href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
+              {{ end }}
+              {{ if not (eq .github "none") }}
+                <a href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
+              {{ end }}
+              {{ if not (eq .website "none") }}
+                <a href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
     </div>
   </div>
-  {{ end }}
-</div>
-{{end}}
-{{ end }}
-{{ range $group, $people := .Site.Data.about.members }}
-{{ if eq $group  "Project Managers" }}
-<div class="row">
-  <div class = "member-header">{{ $group }}</div>
-</div>
-<div class="row">
-  {{ range $people }}
-  <div class="member" style="background-image: url({{.photo}});" >
-    <div class="member-details">
-      <div class="member-details-wrapper">
-        <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
-        <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
-        {{ if eq .linkedin  "none" }}
-        {{else}}
-          <a href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
-        {{ end }}
-        {{ if eq .github  "none" }}
-        {{else}}
-          <a href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
-        {{ end }}
-        {{ if eq .website  "none" }}
-        {{else}}
-          <a href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-  {{ end }}
-</div>
-{{end}}
-{{ end }}
-{{ range $group, $people := .Site.Data.about.members }}
-{{ if eq $group  "Project Developers" }}
-<div class="row">
-  <div class = "member-header">{{ $group }}</div>
-</div>
-<div class="row">
-  {{ range $people }}
-  <div class="member" style="background-image: url({{.photo}});" >
-    <div class="member-details">
-      <div class="member-details-wrapper">
-        <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
-        <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
-        {{ if eq .linkedin  "none" }}
-        {{else}}
-          <a href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
-        {{ end }}
-        {{ if eq .github  "none" }}
-        {{else}}
-          <a href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
-        {{ end }}
-        {{ if eq .website  "none" }}
-        {{else}}
-          <a href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-  {{ end }}
-</div>
-{{end}}
 {{ end }}
