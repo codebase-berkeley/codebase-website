@@ -151,3 +151,11 @@ a:hover {
 .value-card {
   padding: 0;
 }
+
+.value-grid-card {
+  margin: 25px 20px;
+}
+
+.value-grid-cards {
+  width: 95%;
+}
