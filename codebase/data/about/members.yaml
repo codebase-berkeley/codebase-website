@@ -124,10 +124,10 @@
     - first: Bradley
       last: Chee
       position: PM - Mentored
-      photo: assets/memberPhotos/bradley.jpg
-      linkedin: none
+      photo: assets/memberPhotos/bradley.png
+      linkedin: https://www.linkedin.com/in/bradleychee
       github: none
-      website: none
+      website: https://chee.io
     - first: Parth
       last: Shah
       position: PM - Mentored
@@ -196,7 +196,7 @@
     - first: Olivia
       last: Shiah
       position:
-      photo: assets/memberPhotos/olivia.jpg
+      photo: assets/memberPhotos/olivia.png
       linkedin: http://linkedin.com/in/olivia-shiah/
       github: http://github.com/oliviaozs
       website: none
