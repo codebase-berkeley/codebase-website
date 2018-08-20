@@ -1,9 +1,9 @@
 <div class="container">
-  <div class="grid-cards">
+  <div class="grid-cards value-grid-cards">
     <div class="row justify-content-center">
       {{ range .Site.Data.about.missionSection.values }}
         <div class="col-4">
-          <div class="card grid-card">
+          <div class="card grid-card value-grid-card">
             <div class="card-body value-card">
               <img class="card-img-top" src="{{ .icon }}" style="height: 100px; width: 100px">
               <div class="grid-card-area card-title">{{ .value }}</div>
