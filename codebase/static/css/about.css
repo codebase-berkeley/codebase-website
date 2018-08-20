@@ -1,3 +1,8 @@
+.carousel-section {
+  padding: 100px 0 110px 0;
+  margin-top: 80px;
+}
+
 .alumni-company-logo {
   height: 120px;
   padding: 35px;
@@ -6,11 +11,6 @@
 
 .group-pic {
   height: 500px;
-}
-
-.carousel-container {
-  margin-top: 200px;
-  margin-bottom: -50px;
 }
 
 .member {
