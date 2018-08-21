@@ -4,7 +4,8 @@ footer {
 }
 
 footer a {
-  color: #555;
+  color: #898989;
+  padding-bottom: 10px;
 }
 
 footer a:hover {
@@ -18,6 +19,6 @@ footer a:hover {
   color: #555;
 }
 
-.footer-text {
-	font-size: 14px;
+.footer-link {
+	padding-bottom: 5px;
 }
