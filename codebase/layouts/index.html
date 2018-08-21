@@ -127,24 +127,20 @@
       <div class="testimonials-container-slide">
         {{ range $Testimonial := .Site.Data.home.testimonialsSection.testimonials}}
         <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
-          <a href={{$Testimonial.url}}>
-            <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
-              <p class="quote-text">{{ $Testimonial.quote }}</p>
-              <img class="quote-logo" src={{$Testimonial.logo}}>
-              <div style="clear:both"></div>
-            </div>
-          </a>
+          <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
+            <p class="quote-text">{{ $Testimonial.quote }}</p>
+            <img class="quote-logo" src={{$Testimonial.logo}}>
+            <div style="clear:both"></div>
+          </div>
         </div>
         {{ end }}
         {{ range $Testimonial := first 6 .Site.Data.home.testimonialsSection.testimonials}}
         <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
-          <a href={{$Testimonial.url}}>
-            <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
-              <p class="quote-text">{{ $Testimonial.quote }}</p>
-              <img class="quote-logo" src={{$Testimonial.logo}}>
-              <div style="clear:both"></div>
-            </div>
-          </a>
+          <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
+            <p class="quote-text">{{ $Testimonial.quote }}</p>
+            <img class="quote-logo" src={{$Testimonial.logo}}>
+            <div style="clear:both"></div>
+          </div>
         </div>
         {{ end }}
       </div>

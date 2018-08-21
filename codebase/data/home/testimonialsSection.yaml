@@ -1,37 +1,44 @@
 title: Client Testimonials
 testimonials:
-  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
-    logo: assets/aptiv-logo.png
-    url: ./projects/aptiv/
-    bottom: 80
-    shadowX: 30
-    shadowY: 20
-    shadowColor: \#2F3B79
-  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
-    logo: assets/aptiv-logo.png
-    url: ./projects/aptiv/
-    bottom: 20
-    shadowX: -30
-    shadowY: 20
-    shadowColor: \#A4A4A4
-  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
-    logo: assets/aptiv-logo.png
-    url: ./projects/aptiv/
-    bottom: 60
-    shadowX: 20
-    shadowY: -20
-    shadowColor: \#A4A4A4
-  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
-    logo: assets/aptiv-logo.png
-    url: ./projects/aptiv/
-    bottom: 20
-    shadowX: -30
-    shadowY: 20
-    shadowColor: \#2F3B79
-  - quote: Our point of contact took the extra step to really understand our core functionality of the application.
-    logo: assets/aptiv-logo.png
-    url: ./projects/aptiv/
+  - quote: Bright smart students eager to solve large-scale real world problems... nothing short of what we expected from Cal bears!
+    logo: assets/polymorph-logo.png
+    url: ./projects/polymorph/
     bottom: 100
     shadowX: -20
-    shadowY: -30
-    shadowColor: \#A4A4A4
+    shadowY: -20
+    shadowColor: \#2F3B79
+  - quote: Better work than what we’ve sometimes seen from people with years of industry experience. Team quality was strong and there was clear enthusiasm for the work. 
+    logo: assets/riffyn-logo.png
+    url: ./projects/riffyn/
+    bottom: 60
+    shadowX: -20
+    shadowY: 20
+    shadowColor: \#DADCE7
+  - quote: It was a wonderful experience working with CodeBase. The team members are not only good at programming, but also good at understanding the requirement and managing project scope and timeline.
+    logo: assets/yituux-logo.png
+    url: ./projects/yituux/
+    bottom: 100
+    shadowX: -20
+    shadowY: -20
+    shadowColor: \#2F3B79
+  - quote: CodeBase was awesome to work with. Our point of contact took the extra step to really understand our core functionality of the application.
+    logo: assets/sutro-logo.png
+    url: ./projects/sutro/
+    bottom: 60
+    shadowX: -20
+    shadowY: 20
+    shadowColor: \#DADCE7
+  - quote: Codebase is built of many young, ambitious, and talented individuals and can fulfill the needs of any business big or small.
+    logo: assets/upstream-logo.png
+    url: ./projects/upstream/
+    bottom: 100
+    shadowX: -20
+    shadowY: -20
+    shadowColor: \#2F3B79
+  - quote:     Excellent overall software development effort and results. The scoping and deliverables were on point. The team did an outstanding job of self-learning and incorporating feedback from the mid-project check-in.
+    logo: assets/riffyn-logo.png
+    url: ./projects/sutro/
+    bottom: 60
+    shadowX: -20
+    shadowY: 20
+    shadowColor: \#DADCE7
