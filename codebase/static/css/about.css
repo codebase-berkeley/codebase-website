@@ -79,8 +79,8 @@
 }
 
 .stats-container {
-  width: 100%;
-  margin-bottom: 20px;
+  width: 80%;
+  margin: 0 auto 30px auto;
 }
 
 .stat-container {
