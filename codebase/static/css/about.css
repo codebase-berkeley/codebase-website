@@ -8,9 +8,10 @@
 }
 
 .alumni-company-logo {
-  height: 120px;
-  padding: 35px;
+  height: 110px;
+  padding: 35px 20px;
   box-sizing: border-box;
+  opacity: 0.9;
 }
 
 .group-pic {
