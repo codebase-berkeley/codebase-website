@@ -67,6 +67,10 @@ body {
   margin: 0 auto;
 }
 
+.projects-involved-section {
+  border-top: 1px solid #D2D2D2;
+}
+
 .testimonials-overlay {
   background-image: linear-gradient(to right, #F5F5F5, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, #F5F5F5 100%);
   z-index: 1;
