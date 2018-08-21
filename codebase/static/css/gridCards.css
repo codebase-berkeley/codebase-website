@@ -99,7 +99,7 @@
   padding: 10px 20px;
   border-radius: 2px;
   border: none;
-  transition: margin-top 250ms;
+  transition: transform 250ms;
   display: inline-block;
 }
 
@@ -108,7 +108,7 @@
   color: #2F3B79;
   cursor: pointer;
   background-color: #FCFCFC;
-  margin-top: -5px;
+  transform: translateY(-5px);
   display: inline-block;
 }
 
@@ -168,6 +168,18 @@ a:hover {
   .grid-card {
     margin: 0;
     margin-bottom: 40px;
+  }
+
+  .grid-card-flat {
+    padding: 30px;
+  }
+
+  .grid-card-img {
+    margin-bottom: 15px;
+  }
+
+  .grid-card-button {
+    margin-bottom: 30px;
   }
 
   .card-body {
