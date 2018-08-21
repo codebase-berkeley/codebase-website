@@ -169,6 +169,10 @@
 }
 
 @media (max-width: 768px) {
+  .landing__title {
+    margin-top: 10px;
+  }
+
   .landing-section {
     height: auto;
     padding-bottom: 60px;
