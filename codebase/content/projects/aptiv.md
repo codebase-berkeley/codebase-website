@@ -1,4 +1,5 @@
 ---
+date: 2018-08-03
 url: "./projects/aptiv/"
 current: true
 consulting: true

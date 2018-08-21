@@ -24,7 +24,7 @@
     </section>
   </div>
   <div class="row past-projects">
-  {{ range .Pages }}
+  {{ range .Pages.ByDate.Reverse }}
     {{ if and (eq .Params.current false) (eq .Params.retro true)}}
       <a href="{{ .Params.url }}" class="project-card-link">
         <div class="grid-card card" style="width: 18rem;">

@@ -1,4 +1,5 @@
 ---
+date: 2018-01-04
 url: "./projects/propelx/"
 current: false
 consulting: true
