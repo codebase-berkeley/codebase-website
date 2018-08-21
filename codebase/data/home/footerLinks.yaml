@@ -3,7 +3,7 @@
     - text: About
       url: ./about/
     - text: Team
-      url: ./about/
+      url: ./about/#team
     - text: Projects
       url: ./projects/
     - text: Contact
@@ -11,13 +11,13 @@
 - header: STUDENTS
   links:
     - text: Apply
-      url: ./apply/
+      url: ./apply/#apply-comparison
     - text: FAQs
-      url: ./about/
+      url: ./apply/#faq
 - header: COMPANIES
   links:
     - text: Past Projects
-      url: ./projects/
+      url: ./projects/#past-projects
     - text: Contact
       url: ./contact/
 - header: LEARN MORE

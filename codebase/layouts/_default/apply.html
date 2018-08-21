@@ -12,9 +12,14 @@
   <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
   <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
 </div>
+<section class="past-projects-section" id = "apply-comparison">
+  {{ partial "paths" . }}
+</section>
 
-{{ partial "paths" . }}
 {{ partial "calendar" . }}
-{{ partial "faq" . }}
+
+<section class="team-pic-section" id = "faq">
+  {{ partial "faq" . }}
+</section>
 
 {{ end }}
