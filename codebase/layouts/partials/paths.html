@@ -1,15 +1,9 @@
 <div class="section">
   <div class="row">
     {{ range .Site.Data.apply.paths }}
-      <div class="col-lg-6">
+      <div class="col-md-6">
         <img src="{{ .icon }}" style="width: 120px">
         <div class="path-title">{{ .full }}</div>
-      </div>
-    {{ end }}
-  </div>
-  <div class="row row-eq-height">
-    {{ range .Site.Data.apply.paths }}
-      <div class="col-lg-6">
         <div class="path-box">
           {{ range .content }}
             <div class="path-heading">{{ .subheading }}</div>
@@ -21,12 +15,6 @@
             {{ end }}
           {{ end }}
         </div>
-      </div>
-    {{ end }}
-  </div>
-  <div class="row">
-    {{ range $path, $data := .Site.Data.apply.paths }}
-      <div class="col-lg-6">
         <a class="grid-card-button" href="#">
           Apply Now
         </a>
