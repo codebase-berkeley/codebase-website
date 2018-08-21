@@ -167,7 +167,7 @@ a:hover {
 @media (max-width: 768px) {
   .grid-card {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .card-body {
