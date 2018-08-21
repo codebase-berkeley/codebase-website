@@ -163,3 +163,14 @@ a:hover {
 .value-grid-cards {
   width: 95%;
 }
+
+@media (max-width: 768px) {
+  .grid-card {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+}
