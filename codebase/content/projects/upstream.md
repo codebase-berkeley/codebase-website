@@ -4,6 +4,7 @@ current: false
 consulting: true
 full: "Upstream"
 area: "App Development"
+retro: false
 blurb: "With Upstream, we performed end-to-end design and development of a website to match cancer patients with clinical trials."
 logo: "assets/upstream-logo.png"
 semester: "Fall"

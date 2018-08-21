@@ -4,6 +4,7 @@ current: false
 consulting: false
 full: "Mentored Project Fall 2017"
 area : "Web Application"
+retro: false
 blurb: "This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb. This is as short blurb"
 logo: "assets/codebase-text-logo.png"
 semester: "Fall"

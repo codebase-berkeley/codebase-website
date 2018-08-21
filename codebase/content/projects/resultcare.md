@@ -4,6 +4,7 @@ current: false
 consulting: true
 full: "ResultCare"
 area: "API and Mobile Development"
+retro: true
 blurb: "ResultCare is developing a data platform for medical professionals. We implemented social features on Resultcare's backend and native Android application."
 logo: "assets/resultcare-logo.png"
 semester: "Fall"
