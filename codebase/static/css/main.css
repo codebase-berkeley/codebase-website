@@ -47,6 +47,10 @@ body {
   background-color: #F5F5F5;
 }
 
+.dark-gray-section {
+  background-color: #DADADA;
+}
+
 .blue-section {
   color: white;
   background-color: #2F3B79;
@@ -72,7 +76,7 @@ body {
 }
 
 .testimonials-overlay {
-  background-image: linear-gradient(to right, #F5F5F5, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, #F5F5F5 100%);
+  background-image: linear-gradient(to right, #DADADA, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, #DADADA 100%);
   z-index: 1;
   position: absolute;
   width: 100%;

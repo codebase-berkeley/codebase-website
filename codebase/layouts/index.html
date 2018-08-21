@@ -13,10 +13,10 @@
       {{ .Site.Data.home.landing.description }}
     </div>
     <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-    <a href="" class="btn btn-light btn--landing">
+    <a href='{{ with .Site.GetPage "/about" }}{{ .Params.navUrl }}{{ end }}' class="btn btn-light btn--landing">
       {{ .Site.Data.home.landing.button1 }}
     </a>
-    <a href="" class="btn btn-light btn--landing">
+    <a href='{{ with .Site.GetPage "/apply" }}{{ .Params.navUrl }}{{ end }}' class="btn btn-light btn--landing">
       {{ .Site.Data.home.landing.button2 }}
     </a>
     <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
@@ -74,51 +74,9 @@
     {{ partial "projectCardGrid" . }}
   </div>
 
-  <!-- Get Involved Section -->
-
-  <div class="section involved-section">
-    <div class="section-title">
-      {{ .Site.Data.home.getInvolvedSection.title }}
-    </div>
-
-    <div class="container">
-      <div class="grid-cards">
-        <div class="row">
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card grid-card">
-              <div class="card-body">
-                <img class="card-img-top" src="assets/icons/forstudents.png">
-                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.studentsHeading }}</div>
-                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.studentsDescription }}</div>
-                <a class="grid-card-button" href='{{ with .Site.GetPage "/about" }}{{ .Params.navUrl }}{{ end }}'>
-                  {{ .Site.Data.home.getInvolvedSection.button }}
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-6">
-            <div class="card grid-card">
-              <div class="card-body">
-                <img class="card-img-top" src="assets/icons/forcompanies.png">
-                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
-                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
-                <a class="grid-card-button" href='{{ with .Site.GetPage "/projects/_index.md" }}{{ .Params.navUrl }}{{ end }}'>
-                  {{ .Site.Data.home.getInvolvedSection.button }}
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Client Testimonials Section -->
 
-  <div class="section gray-section full-width-section">
+  <div class="section gray-section dark-gray-section full-width-section">
     <div class="section-title">
       {{ .Site.Data.home.testimonialsSection.title }}
     </div>
@@ -146,6 +104,49 @@
       </div>
     </div>
   </div>
+
+  <!-- Get Involved Section -->
+
+  <div class="section involved-section">
+    <div class="section-title">
+      {{ .Site.Data.home.getInvolvedSection.title }}
+    </div>
+
+    <div class="container">
+      <div class="grid-cards">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-6">
+            <div class="card grid-card">
+              <div class="card-body">
+                <img class="card-img-top" src="assets/icons/forstudents.png">
+                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.studentsHeading }}</div>
+                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.studentsDescription }}</div>
+                <a class="grid-card-button" href='{{ with .Site.GetPage "/apply" }}{{ .Params.navUrl }}{{ end }}'>
+                  {{ .Site.Data.home.getInvolvedSection.buttonStudents }}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="card grid-card">
+              <div class="card-body">
+                <img class="card-img-top" src="assets/icons/forcompanies.png">
+                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
+                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
+                <a class="grid-card-button" href='{{ with .Site.GetPage "/contact" }}{{ .Params.navUrl }}{{ end }}'>
+                  {{ .Site.Data.home.getInvolvedSection.buttonCompanies }}
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 {{ end }}
