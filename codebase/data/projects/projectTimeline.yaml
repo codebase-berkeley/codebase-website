@@ -2,11 +2,11 @@ sectionTitle: Project Structure
 sectionDescription: Both our Client and Mentored Projects follow a similar development timeline over the course of a semester. Here's a rough weekly breakdown of what they might look like.
 timeline:
 - number: 0
-  title: Formation
-  description: Blah blah blah
+  title: Planning
+  description: Each project team consists of 6-8 Project Developers and 2 Project Managers. These PMs serve as the main point of contact between the team and the client. Before the semester even begins, PMs already have met with clients and extensively discussed project goals, technical scope, and deliverable requirements
 - number: 1
   title: Formation
-  description: Blah blah blah
+  description: Project Developers are matched onto their semester projects. They meet their PMs and fellow developers, get to know each other, and dive into the development process
 - number: 2
   title: ""
   description: ""
@@ -20,8 +20,8 @@ timeline:
   title: ""
   description: ""
 - number: 6
-  title: Formation
-  description: Blah blah blah
+  title: Mid-Semester Deliverable
+  description: Around the halfway point, our teams head over to our Client offices and present an MVP deliverable of the final product. We recap progress so far, outline the next steps, and graciously accept any constructive feedback.
 - number: 7
   title: ""
   description: ""
@@ -38,5 +38,5 @@ timeline:
   title: ""
   description: ""
 - number: 12
-  title: Formation
-  description: Blah blah blah
+  title: Final Deliverable
+  description: Right before finals week, our Projects wrap up with a second, final visit to the Client offices. We present a final, polished version of our product along with the necessary documentation and tooling for our Clients to take full ownership of the product moving forward
