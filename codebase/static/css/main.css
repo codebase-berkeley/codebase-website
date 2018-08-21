@@ -126,6 +126,7 @@ body {
   color: black;
   background-color: white;
   padding: 20px;
+  border-radius: 3px;
 }
 
 .quote-text {
