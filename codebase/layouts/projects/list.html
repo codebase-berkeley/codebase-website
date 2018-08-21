@@ -40,9 +40,12 @@
   </div>
 </div>
 
+<!-- Project Timeline Section -->
+{{ partial "projectTimeline" . }}
+
 <!-- Get Involved Section -->
 
-<div class="section involved-section">
+<div class="section involved-section gray-section full-width-section">
   <div class="section-title">
     {{ .Site.Data.home.getInvolvedSection.title }}
   </div>
@@ -53,7 +56,7 @@
         <div class="col-sm-12 col-md-6">
           <div class="card grid-card">
             <div class="card-body">
-              <img class="card-img-top" src="assets/dummy-icon.png">
+              <img class="card-img-top" src="assets/icons/cutetree.png">
               <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.studentsHeading }}</div>
               <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.studentsDescription }}</div>
               <a class="grid-card-button" href='{{ with .Site.GetPage "/about" }}{{ .Params.navUrl }}{{ end }}'>
@@ -66,7 +69,7 @@
         <div class="col-sm-12 col-md-6">
           <div class="card grid-card">
             <div class="card-body">
-              <img class="card-img-top" src="assets/dummy-icon.png">
+              <img class="card-img-top" src="assets/icons/cutetree.png">
               <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
               <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
               <a class="grid-card-button" href='{{ with .Site.GetPage "/projects/_index.md" }}{{ .Params.navUrl }}{{ end }}'>

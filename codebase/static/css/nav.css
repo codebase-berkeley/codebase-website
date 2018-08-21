@@ -59,3 +59,7 @@
 .codebase-light-navbar .highlighted-nav-item a {
   color: white;
 }
+
+.navbar-toggler {
+  color: #2F3B79;
+}

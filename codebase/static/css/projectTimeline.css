@@ -1,0 +1,35 @@
+.project-timeline-item {
+  padding: 50px 50px;
+  border: 1px solid #D2D2D2;
+  margin: 25px 25px;
+}
+
+.project-timeline-item-title {
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  color: #464646;
+}
+
+.project-timeline-item-description {
+  font-size: 18px;
+  color: #5C5C5C;
+}
+
+.project-timeline-empty {
+  height: 100%;
+  width: 0px;
+  float: left;
+  left: 50%;
+  border-left: 6px solid #D2D2D2;
+  margin-left: -3px;
+}
+
+.vertical-line {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #D2D2D2;
+  background-color: #D2D2D2;
+}

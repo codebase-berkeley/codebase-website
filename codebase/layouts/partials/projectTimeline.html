@@ -1,0 +1,18 @@
+<div class="section project-timeline-section">
+  <div class="section-title">
+    {{ .Site.Data.projects.projectTimeline.sectionTitle }}
+  </div>
+  <div class="section-description">
+    {{ .Site.Data.projects.projectTimeline.sectionDescription }}
+  </div>
+  {{ range .Site.Data.projects.projectTimeline.timeline }}
+    {{ if and (not (eq .title "" )) (not (eq .description "")) }}
+      <div class="project-timeline-item">
+        <div class="project-timeline-item-title">Week {{ .number }} - {{ .title }}</div>
+        <div class="project-timeline-item-description">{{ .description }}</div>
+      </div>
+    {{ else }}
+      <hr class="vertical-line" width="1" style="height: 30px;">
+    {{ end }}
+  {{ end }}
+</div>
