@@ -14,7 +14,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  line-height: 2.2vw;
+  line-height: 2em;
 }
 
 .project-section .section-icon {
@@ -32,4 +32,11 @@
   color: #F5F5F5;
   background-color: #F5F5F5;
   height: 4px;
+}
+
+@media (max-width: 768px) {
+  .project-section .section-content {
+    max-width: 100vw;
+    line-height: 1.75em;
+  }
 }
