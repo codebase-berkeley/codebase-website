@@ -167,3 +167,10 @@
   animation: slideIn 700ms both;
   -webkit-animation: slideIn 700ms both;
 }
+
+@media (max-width: 768px) {
+  .landing-section {
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
