@@ -35,7 +35,7 @@ testimonials:
     shadowX: -20
     shadowY: -20
     shadowColor: \#2F3B79
-  - quote:     Excellent overall software development effort and results. The scoping and deliverables were on point. The team did an outstanding job of self-learning and incorporating feedback from the mid-project check-in.
+  - quote: Excellent overall software development effort and results. The scoping and deliverables were on point. The team did an outstanding job of self-learning and incorporating feedback from the mid-project check-in.
     logo: assets/riffyn-logo.png
     url: ./projects/sutro/
     bottom: 60
