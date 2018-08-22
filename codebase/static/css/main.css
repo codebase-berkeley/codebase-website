@@ -183,4 +183,8 @@ body {
   .section-description {
     width: 100%;
   }
+
+  .testimonials-overlay {
+    background-image: linear-gradient(to right, #DADADA, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, #DADADA 100%);
+  }
 }
