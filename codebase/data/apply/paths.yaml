@@ -2,27 +2,27 @@
   full: Client Team
   icon: assets/icons/client.png
   content:
-  - subheading: For students who have
+  - subheading: For students with
     points:
-    - Worked on larger projects before
+    - Solid experience through projects and internships
     - A desire to gain industry software experience
-    - An eagerness for a bigger challenge
-  - subheading: You'll get a chance to
+    - An eagerness to tackle a challenge
+  - subheading: You'll have the chance to
     points:
-    - Meet and work directly with startups in the Bay Area
+    - Work closely with industry partners
+    - Dive into the real-world software development
     - Deliver a completed, large-scale product
-    - Dive into the real-world project development
 - mentored:
   full: Mentored Team
   icon: assets/icons/mentored.png
   content:
-  - subheading: For students who have
+  - subheading: For students with
     points:
-    - A strong interest in computer science
-    - Little experience in the field
+    - Primarily academic experience
+    - A demonstrated passion for computer science
     - An eagerness to learn
-  - subheading: You'll get a chance to
+  - subheading: You'll have the chance to
     points:
     - Learn the fundamentals of software development
-    - Work in small groups of students with similar experience
-    - Get a taste of the real-world project development
+    - Receive guidance and mentorship from project leaders
+    - Build a product from start to finish
