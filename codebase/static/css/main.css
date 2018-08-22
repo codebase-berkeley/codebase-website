@@ -145,6 +145,13 @@ body {
   width: auto;
 }
 
+.recruitment-timeline {
+  max-width: 70vw;
+  display: inline;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 @keyframes moveTestimonials {
   100% {
     -webkit-transform: translateX(-1700px);
@@ -155,5 +162,18 @@ body {
 @media (max-width: 768px) {
   #main {
     width: 90%;
+  }
+
+  .timeline-wrapper {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .recruitment-timeline {
+    max-width: 250vw;
+    display: inline;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
