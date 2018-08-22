@@ -14,61 +14,65 @@
 
 {{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
 
-<div class="section project-section">
-  <div class="section-title">
-    Introduction
-  </div>
-  <div class="section-content">
-    {{ with $project.intro  }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
+{{ if eq .Params.retro true }}
 
-<div class="section project-section">
-  <div class="section-title">
-    Problem Statement
+  <div class="section project-section">
+    <div class="section-title">
+      Introduction
+    </div>
+    <div class="section-content">
+      {{ with $project.intro  }}{{ . | safeHTML }}{{ end }}
+    </div>
   </div>
-  <div class="section-content">
-    {{ with $project.problem  }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
 
-<div class="section project-section">
-  <div class="section-title">
-    Implementation
+  <div class="section project-section">
+    <div class="section-title">
+      Problem Statement
+    </div>
+    <div class="section-content">
+      {{ with $project.problem  }}{{ . | safeHTML }}{{ end }}
+    </div>
   </div>
-  <div class="section-content">
-    {{ with $project.implementation  }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
 
-{{ if in $project "image" }}
-  <div class="section project-section gray-section full-width-section">
-    <img src={{$project.image}} class="section-full-image">
+  <div class="section project-section">
+    <div class="section-title">
+      Implementation
+    </div>
+    <div class="section-content">
+      {{ with $project.implementation  }}{{ . | safeHTML }}{{ end }}
+    </div>
   </div>
+
+  {{ if in $project "image" }}
+    <div class="section project-section gray-section full-width-section">
+      <img src={{$project.image}} class="section-full-image">
+    </div>
+  {{ end }}
+
+  <div class="section project-section">
+    <div class="section-title">
+      Technical Challenges
+    </div>
+    <div class="section-content">
+      {{ with $project.challenges }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+
+  <div class="section project-section">
+    <div class="section-title">
+      Key Takeaways
+    </div>
+    <div class="section-content">
+      {{ with $project.takeaways }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+
+  <div class="section project-section">
+    <div class="section-content">
+      {{ with $project.extra }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+
 {{ end }}
-
-<div class="section project-section">
-  <div class="section-title">
-    Technical Challenges
-  </div>
-  <div class="section-content">
-    {{ with $project.challenges }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
-
-<div class="section project-section">
-  <div class="section-title">
-    Key Takeaways
-  </div>
-  <div class="section-content">
-    {{ with $project.takeaways }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
-
-<div class="section project-section">
-  <div class="section-content">
-    {{ with $project.extra }}{{ . | safeHTML }}{{ end }}
-  </div>
-</div>
 
 {{ end }}
