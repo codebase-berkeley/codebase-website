@@ -173,6 +173,11 @@
 @media (max-width: 768px) {
   .landing__title {
     margin-top: 10px;
+    font-size: 45px;
+  }
+
+  .landing__description {
+    padding: 14px 40px;
   }
 
   .landing-section {
