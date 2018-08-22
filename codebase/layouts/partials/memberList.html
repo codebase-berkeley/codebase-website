@@ -3,19 +3,19 @@
     <div class="section-title">{{ .group }}</div>
     <div class="row members-container">
       {{ range .people }}
-        <div class="member" style="background-image: url({{.photo}});" >
+        <div ontouchstart="" class="member" style="background-image: url({{.photo}});" >
           <div class="member-details">
             <div class="member-details-wrapper">
               <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
               <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
               {{ if not (eq .linkedin "none") }}
-                <a href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
+                <a ontouchstart="" href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
               {{ end }}
               {{ if not (eq .github "none") }}
-                <a href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
+                <a ontouchstart="" href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
               {{ end }}
               {{ if not (eq .website "none") }}
-                <a href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
+                <a ontouchstart="" href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
               {{ end }}
             </div>
           </div>
