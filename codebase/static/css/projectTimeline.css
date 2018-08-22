@@ -1,17 +1,19 @@
 .project-timeline-item {
-  padding: 50px 50px;
+  padding: 40px 40px;
   border: 1px solid #D2D2D2;
-  margin: 25px 25px;
+  max-width: 80%;
+  margin: 20px auto 20px auto;
 }
 
 .project-timeline-item-title {
-  font-size: 28px;
+  font-size: 22px;
   font-family: 'Roboto Slab', serif;
-  color: #464646;
+  color: #5C5C5C;
+  margin-bottom: 10px;
 }
 
 .project-timeline-item-description {
-  font-size: 16px;
+  font-size: 14px;
   color: #5C5C5C;
 }
 
@@ -30,6 +32,12 @@
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #D2D2D2;
+  border: 1px solid #D2D2D2;
   background-color: #D2D2D2;
+}
+
+@media (max-width: 768px) {
+  .project-timeline-item {
+    max-width: 90%;
+  }
 }

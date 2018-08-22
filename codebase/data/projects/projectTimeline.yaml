@@ -3,10 +3,10 @@ sectionDescription: Both our Client and Mentored Projects follow a similar devel
 timeline:
 - number: 0
   title: Planning
-  description: Each project team consists of 6-8 Project Developers and 2 Project Managers. These PMs serve as the main point of contact between the team and the client. Before the semester even begins, PMs already have met with clients and extensively discussed project goals, technical scope, and deliverable requirements
+  description: Each project team consists of 6-8 Project Developers and 2 Project Managers. These PMs serve as the main point of contact between the team and the client. Before the semester even begins, PMs already have met with clients and extensively discussed project goals, technical scope, and deliverable requirements.
 - number: 1
   title: Formation
-  description: Project Developers are matched onto their semester projects. They meet their PMs and fellow developers, get to know each other, and dive into the development process
+  description: Project Developers are matched onto their semester projects. They meet their PMs and fellow developers, get to know each other, and dive into the development process.
 - number: 2
   title: ""
   description: ""
@@ -39,4 +39,4 @@ timeline:
   description: ""
 - number: 12
   title: Final Deliverable
-  description: Right before finals week, our Projects wrap up with a second, final visit to the Client offices. We present a final, polished version of our product along with the necessary documentation and tooling for our Clients to take full ownership of the product moving forward
+  description: Right before finals week, our Projects wrap up with a second, final visit to the Client offices. We present a final, polished version of our product along with the necessary documentation and tooling for our Clients to take full ownership of the product moving forward.
