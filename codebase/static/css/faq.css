@@ -17,3 +17,13 @@
   max-width: 60vw;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .faq-question {
+    max-width: 85vw;
+  }
+
+  .faq-answer {
+    max-width: 85vw;
+  }
+}

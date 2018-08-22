@@ -15,7 +15,7 @@ body {
 
 .section {
   padding-top: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -62,6 +62,11 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+}
+
+.alumni-section {
+  margin-top: 50px;
+  border-top: 1px solid #D2D2D2;
 }
 
 .past-projects {

@@ -173,6 +173,10 @@ a:hover {
     margin-bottom: 40px;
   }
 
+  .grid-cards {
+    width: 90%;
+  }
+
   .grid-card-flat {
     padding: 30px;
   }
