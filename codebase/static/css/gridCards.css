@@ -20,7 +20,7 @@
 .grid-card-flat {
   width: 350px;
   margin: 25px 25px;
-  padding: 50px 50px;
+  padding: 40px 20px;
 }
 
 .grid-card-area {
@@ -32,7 +32,8 @@
 }
 
 .grid-card-img {
-  max-width: 70%;
+  max-height: 2.5em;
+  width: auto;
   display: block;
   margin: auto;
   text-align: center;

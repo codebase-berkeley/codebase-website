@@ -9,7 +9,7 @@
 .path-heading {
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #555555;
   margin-top: 40px;
   margin-bottom: 25px;
@@ -18,10 +18,15 @@
 .path-item {
   font-size: 14px;
   color: #707070;
+  line-height: 1em;
 }
 
 .path-box {
   padding: 0px 30px 40px 30px;
   border: 1px solid #C4C4C4;
   margin: 30px 20px 30px 20px;
+}
+
+.apply-section {
+  margin-bottom: 30px;
 }
