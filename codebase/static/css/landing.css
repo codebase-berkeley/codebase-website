@@ -84,6 +84,8 @@
 
 .landing-section {
   height: 70vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 .landing__title {
