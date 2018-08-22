@@ -80,4 +80,11 @@
     width: 120px;
     height: 120px;
   }
+
+  .member:active > .member-details {
+    visibility: visible;
+    opacity: 1;
+    width: 120px;
+    height: 120px;
+  }
 }
