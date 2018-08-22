@@ -40,7 +40,6 @@ body {
   margin-bottom: 50px;
   width: 70%;
   display: inline-block;
-
 }
 
 .gray-section {
@@ -179,5 +178,9 @@ body {
     display: inline;
     margin-top: 60px;
     margin-bottom: 60px;
+  }
+
+  .section-description {
+    width: 100%;
   }
 }

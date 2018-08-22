@@ -53,3 +53,10 @@
   width: 180px;
   height: 180px;
 }
+
+@media (max-width: 768px) {
+ 
+  .member {
+    margin: 10px;
+  }
+}

@@ -61,8 +61,8 @@
       position: VP of Marketing
       photo: assets/memberPhotos/cindy.jpg
       linkedin: http://linkedin.com/in/cindyjyuan
-      github: none
-      website: https://www.cindyyuan.com/
+      github: https://github.com/cindyjyuan
+      website: none
 - group: Project Managers
   people:
     - first: Hans
