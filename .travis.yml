@@ -5,7 +5,7 @@ install:
 - sudo easy_install tornado==4.5.2
 - sudo easy_install cactus
 - wget https://github.com/gohugoio/hugo/releases/download/v0.45.1/hugo_0.45.1_Linux-64bit.deb
-- dpkg -i hugo_0.45.1_Linux-64bit.deb
+- sudo dpkg -i hugo_0.45.1_Linux-64bit.deb
 - sudo chmod 600 id_rsa
 script:
 - cd codebase
