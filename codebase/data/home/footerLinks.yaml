@@ -7,7 +7,7 @@
     - text: Projects
       url: ./projects/
     - text: Contact
-      url: ./contact/
+      url: mailto:contact@codebase.berkeley.edu
 - header: STUDENTS
   links:
     - text: Apply
