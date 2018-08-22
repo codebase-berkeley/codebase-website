@@ -7,7 +7,7 @@ full: "Mentored Project Fall 2017"
 area : "Web Application"
 retro: false
 blurb: "We created an internal web application for CodeBase to use when reviewing club applications."
-logo: "assets/codebase-text-logo.png"
+logo: "./assets/codebase-text-logo.png"
 semester: "Fall"
 year: "2017"
 navcolor: "light"

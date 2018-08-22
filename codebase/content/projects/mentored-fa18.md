@@ -7,7 +7,7 @@ full: "Mentored Project Fall 2018"
 area: "Full Stack Web"
 retro: false
 blurb: "We will be creating a student tracking tool for teachers at Ygnacio Valley High School to effectively measure and monitor student data."
-logo: "assets/codebase-text-logo.png"
+logo: "./assets/codebase-text-logo.png"
 semester: "Fall"
 year: "2018"
 navcolor: "light"
