@@ -58,5 +58,26 @@
  
   .member {
     margin: 10px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .member-details {
+    width: 120px;
+    height: 120px;
+  }
+
+  .member:hover > .member-details {
+    visibility: visible;
+    opacity: 1;
+    width: 120px;
+    height: 120px;
+  }
+
+  .member:focus > .member-details {
+    visibility: visible;
+    opacity: 1;
+    width: 120px;
+    height: 120px;
   }
 }
