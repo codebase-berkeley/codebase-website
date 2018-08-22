@@ -4,14 +4,15 @@ python:
 install:
 - sudo easy_install tornado==4.5.2
 - sudo easy_install cactus
+- wget https://github.com/gohugoio/hugo/releases/download/v0.45.1/hugo_0.45.1_Linux-64bit.deb
+- dpkg -i hugo_0.45.1_Linux-64bit.deb
 - sudo chmod 600 id_rsa
 script:
 - cd codebase
-- cactus build
-- scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ../id_rsa -rp .build/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
+- hugo
 before_install:
 - openssl aes-256-cbc -K $encrypted_55361f9c588e_key -iv $encrypted_55361f9c588e_iv
   -in id_rsa.enc -out id_rsa -d
 branches:
   only:
-  - master
+  - rebrand-2018
