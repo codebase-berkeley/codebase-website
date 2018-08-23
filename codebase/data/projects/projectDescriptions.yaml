@@ -92,11 +92,11 @@ resultcare:
   image: assets/resultcare-screenshot.png
 
 riffyn:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+  intro: Riffyn aims to make the development process easier for researchers in industry and academia by providing a cloud-based suite of products for analytics and experimentation. The objective of our project was to create an analytics web app where users could upload csv files of data and visualize the results of different kinds of statistical analysis.
+  problem: Typically, to do any kind of statistical analysis on their data, Riffyn users would have to use excel or download expensive and complicated software like JUMP. Riffyn wanted us to create an easy to use platform where their users could conduct and visualize some simple analytics like linear regression and lasso regression without the need for these external tools.
+  implementation: The web app was built in Dash and used Plot.ly for the visualizations. As the app’s initial use was intended to for quick visualizations that did not need to be saved, we did not need to connect to a database. We used numpy to perform the statistical analysis.
+  challenges: The primary challenge in this project was figuring out the best way to visualize the statistical analyses. We needed to provide the visualizations in a way that was meaningful for the users, and not difficult to comprehend. For the regressions, we decided to show a separate visualization for each independent variable so the users could easily see which variable was significant and focus on that particular graph.
+  takeaways: We had an awesome experience working with Riffyn! Everyone on the Riffyn team was an expert in their field (ranging from software to chemistry and biology) and we learned a lot from interacting with them. On the development side, the team learned a lot about different kinds of statistical analysis and also how real researchers would use this kind of product.
   extra: ""
   image: none
 
