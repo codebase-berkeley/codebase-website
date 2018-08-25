@@ -11,7 +11,7 @@ values:
     description: Strive to take initiative and trust your peers to do the same
     icon: assets/icons/activelytakeownership.png
   - value: Seek continuous growth
-    description: Remain curous and approach problems with an open mind
+    description: Remain curious and approach problems with an open mind
     icon: assets/icons/seekgrowth.png
   - value: Communicate candidly
     description: Speak openly and honestly and offer constructive feedback
