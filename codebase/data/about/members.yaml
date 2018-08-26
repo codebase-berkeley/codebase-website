@@ -190,9 +190,9 @@
       last: Xu
       position:
       photo: assets/memberPhotos/mary.jpg
-      linkedin: none
-      github: none
-      website: none
+      linkedin: https://www.linkedin.com/in/ruili-xu/
+      github: https://github.com/rlxu
+      website: https://rlxu.github.io/
     - first: Olivia
       last: Shiah
       position:
@@ -218,9 +218,9 @@
       last: Lau
       position:
       photo: assets/memberPhotos/sophia.jpg
-      linkedin: none
-      github: none
-      website: none
+      linkedin: https://www.linkedin.com/in/lausophia
+      github: https://github.com/lausophia
+      website: https://sophialau.me/
     - first: Aditya
       last: Srivastava
       position:
