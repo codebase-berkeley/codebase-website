@@ -65,19 +65,19 @@
       website: none
 - group: Project Managers
   people:
-    - first: Hans
-      last: Zheng
-      position: PM - Zumper
-      photo: assets/memberPhotos/hans.jpg
-      linkedin: none
+    - first: Anjana
+      last: Srinivas
+      position: PM - Aptiv
+      photo: assets/memberPhotos/anjana.jpg
+      linkedin: https://www.linkedin.com/in/anjana-srinivas-34268010a/
       github: none
       website: none
-    - first: Amitav
-      last: Baruah
-      position: PM - Zumper
-      photo: assets/memberPhotos/amitav.jpg
-      linkedin: none
-      github: none
+    - first: Skyler
+      last: Ruesga
+      position: PM - Aptiv
+      photo: assets/memberPhotos/skyler.jpg
+      linkedin: https://www.linkedin.com/in/sruesga/
+      github: https://github.com/sruesga/
       website: none
     - first: Felicia
       last: Lin
@@ -107,18 +107,18 @@
       linkedin: none
       github: none
       website: none
-    - first: Skyler
-      last: Ruesga
-      position: PM - Aptiv
-      photo: assets/memberPhotos/skyler.jpg
-      linkedin: https://www.linkedin.com/in/sruesga/
-      github: https://github.com/sruesga/
+    - first: Amitav
+      last: Baruah
+      position: PM - Zumper
+      photo: assets/memberPhotos/amitav.jpg
+      linkedin: none
+      github: none
       website: none
-    - first: Anjana
-      last: Srinivas
-      position: PM - Aptiv
-      photo: assets/memberPhotos/anjana.jpg
-      linkedin: https://www.linkedin.com/in/anjana-srinivas-34268010a/
+    - first: Hans
+      last: Zheng
+      position: PM - Zumper
+      photo: assets/memberPhotos/hans.jpg
+      linkedin: none
       github: none
       website: none
     - first: Bradley
@@ -137,6 +137,13 @@
       website: none
 - group: Project Developers
   people:
+    - first: Aditya
+      last: Srivastava
+      position:
+      photo: assets/memberPhotos/aditya.jpg
+      linkedin: https://www.linkedin.com/in/aditya-srivastava/
+      github: https://github.com/indianwolverine
+      website: https://aditya-srivastava.herokuapp.com/
     - first: Boris
       last: Yue
       position:
@@ -144,38 +151,17 @@
       linkedin: https://www.linkedin.com/in/borisyue1/
       github: http://github.com/borisyue1
       website: none
+    - first: Daniel
+      last: Grimshaw
+      position:
+      photo: assets/memberPhotos/daniel.jpg
+      linkedin: https://linkedin.com/in/daniel-grimshaw
+      github: https://github.com/danielgrimshaw
+      website: none
     - first: Edric
       last: Xiang
       position:
       photo: assets/memberPhotos/edric.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Matt
-      last: Jeng
-      position:
-      photo: assets/memberPhotos/matt.jpg
-      linkedin: https://www.linkedin.com/in/matthewjeng/
-      github: https://github.com/mjeng
-      website: https://mjeng.github.io/
-    - first: Nilay
-      last: Khatore
-      position:
-      photo: assets/memberPhotos/nilay.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Simarjeev
-      last: Singh
-      position:
-      photo: assets/memberPhotos/simar.jpg
-      linkedin: https://www.linkedin.com/in/simarjeev-singh-113b1513b/
-      github: https://github.com/singhsimarjeev
-      website: none
-    - first: Steven
-      last: Tsay
-      position:
-      photo: assets/memberPhotos/steven.jpg
       linkedin: none
       github: none
       website: none
@@ -185,62 +171,6 @@
       photo: assets/memberPhotos/erica.jpg
       linkedin: https://www.linkedin.com/in/erica-kong-085169a1
       github: https://github.com/ekwkk
-      website: none
-    - first: Mary
-      last: Xu
-      position:
-      photo: assets/memberPhotos/mary.jpg
-      linkedin: https://www.linkedin.com/in/ruili-xu/
-      github: https://github.com/rlxu
-      website: https://rlxu.github.io/
-    - first: Olivia
-      last: Shiah
-      position:
-      photo: assets/memberPhotos/olivia.png
-      linkedin: http://linkedin.com/in/olivia-shiah/
-      github: http://github.com/oliviaozs
-      website: none
-    - first: Pratibha
-      last: Sriram
-      position:
-      photo: assets/memberPhotos/pratibha.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Selina
-      last: Feng
-      position:
-      photo: assets/memberPhotos/selina.jpg
-      linkedin: http://www.linkedin.com/in/selina-feng
-      github: http://github.com/selinafeng
-      website: http://selinafeng.github.io
-    - first: Sophia
-      last: Lau
-      position:
-      photo: assets/memberPhotos/sophia.jpg
-      linkedin: https://www.linkedin.com/in/lausophia
-      github: https://github.com/lausophia
-      website: https://sophialau.me/
-    - first: Aditya
-      last: Srivastava
-      position:
-      photo: assets/memberPhotos/aditya.jpg
-      linkedin: https://www.linkedin.com/in/aditya-srivastava/
-      github: https://github.com/indianwolverine
-      website: https://aditya-srivastava.herokuapp.com/
-    - first: Daniel
-      last: Grimshaw
-      position:
-      photo: assets/memberPhotos/daniel.jpg
-      linkedin: https://linkedin.com/in/daniel-grimshaw
-      github: https://github.com/danielgrimshaw
-      website: none
-    - first: Nagaganesh
-      last: Jaladanki
-      position:
-      photo: assets/memberPhotos/ganesh.jpg
-      linkedin: https://www.linkedin.com/in/nagaganesh/
-      github: http://github.com/njaladan
       website: none
     - first: Ishan
       last: Vachhani
@@ -253,6 +183,48 @@
       last: Khanolkar
       position:
       photo: assets/memberPhotos/kush.jpg
+      linkedin: none
+      github: none
+      website: none
+    - first: Mary
+      last: Xu
+      position:
+      photo: assets/memberPhotos/mary.jpg
+      linkedin: https://www.linkedin.com/in/ruili-xu/
+      github: https://github.com/rlxu
+      website: https://rlxu.github.io/
+    - first: Matt
+      last: Jeng
+      position:
+      photo: assets/memberPhotos/matt.jpg
+      linkedin: https://www.linkedin.com/in/matthewjeng/
+      github: https://github.com/mjeng
+      website: https://mjeng.github.io/
+    - first: Nagaganesh
+      last: Jaladanki
+      position:
+      photo: assets/memberPhotos/ganesh.jpg
+      linkedin: https://www.linkedin.com/in/nagaganesh/
+      github: http://github.com/njaladan
+      website: none
+    - first: Nilay
+      last: Khatore
+      position:
+      photo: assets/memberPhotos/nilay.jpg
+      linkedin: none
+      github: none
+      website: none
+    - first: Olivia
+      last: Shiah
+      position:
+      photo: assets/memberPhotos/olivia.png
+      linkedin: http://linkedin.com/in/olivia-shiah/
+      github: http://github.com/oliviaozs
+      website: none
+    - first: Pratibha
+      last: Sriram
+      position:
+      photo: assets/memberPhotos/pratibha.jpg
       linkedin: none
       github: none
       website: none
@@ -276,6 +248,34 @@
       photo: assets/memberPhotos/sarah.jpg
       linkedin: https://www.linkedin.com/in/sarahehammond/
       github: https://github.com/slizha
+      website: none
+    - first: Selina
+      last: Feng
+      position:
+      photo: assets/memberPhotos/selina.jpg
+      linkedin: http://www.linkedin.com/in/selina-feng
+      github: http://github.com/selinafeng
+      website: http://selinafeng.github.io
+    - first: Simarjeev
+      last: Singh
+      position:
+      photo: assets/memberPhotos/simar.jpg
+      linkedin: https://www.linkedin.com/in/simarjeev-singh-113b1513b/
+      github: https://github.com/singhsimarjeev
+      website: none
+    - first: Sophia
+      last: Lau
+      position:
+      photo: assets/memberPhotos/sophia.jpg
+      linkedin: https://www.linkedin.com/in/lausophia
+      github: https://github.com/lausophia
+      website: https://sophialau.me/
+    - first: Steven
+      last: Tsay
+      position:
+      photo: assets/memberPhotos/steven.jpg
+      linkedin: none
+      github: none
       website: none
     - first: Trevor
       last: Aquino
