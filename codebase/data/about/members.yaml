@@ -165,6 +165,20 @@
       linkedin: none
       github: none
       website: none
+    - first: Elise
+      last: Xu
+      position:
+      photo: assets/memberPhotos/elise.jpg
+      linkedin: none
+      github: none
+      website: none
+    - first: Emma
+      last: Chiu
+      position:
+      photo: assets/memberPhotos/emma.jpg
+      linkedin: none
+      github: none
+      website: none
     - first: Erica
       last: Kong
       position:
@@ -178,6 +192,13 @@
       photo: assets/memberPhotos/ishan.jpg
       linkedin: none
       github: https://github.com/ishanv1
+      website: none
+    - first: Jaemin
+      last: Kim
+      position:
+      photo: assets/memberPhotos/jaemin.png
+      linkedin: none
+      github: none
       website: none
     - first: Kush
       last: Khanolkar
@@ -290,4 +311,90 @@
       photo: assets/memberPhotos/william.jpg
       linkedin: https://linkedin.com/in/williamzhouu
       github: https://github.com/guanlinzhou
+      website: none
+- group: Alumni
+  people:
+    - first: Abhishyant
+      last: Khare
+      position: President
+      photo: assets/alumniPhotos/abhi.jpg
+      linkedin: https://www.linkedin.com/in/abhishyantkhare
+      github: https://www.github.com/abhishyant
+      website: none
+    - first: Andrew
+      last: Chan
+      position: Project Manager
+      photo: assets/alumniPhotos/andrew.jpg
+      linkedin: https://www.linkedin.com/in/andrew-k-chan
+      github: https://www.github.com/theandrewchan
+      website: http://www.theandrewchan.github.io
+    - first: Brian
+      last: DeLeonardis
+      position: Project Manager
+      photo: assets/alumniPhotos/briand.jpg
+      linkedin: https://www.linkedin.com/in/brian-deleonardis-b49030121/
+      github: https://github.com/bdeleonardis1
+      website: none
+    - first: Ivon
+      last: Liu
+      position: Project Manager
+      photo: assets/alumniPhotos/ivon.jpg
+      linkedin: https://www.linkedin.com/in/ivonliu/
+      github: https://github.com/ivonliu
+      website: http://ivonliu.com
+    - first: Kavita
+      last: Vijayan
+      position: VP of Marketing
+      photo: assets/alumniPhotos/kavita.jpg
+      linkedin: https://www.linkedin.com/in/kavita-vijayan-339500126/
+      github: https://github.com/kavitavijayan
+      website: none
+    - first: Kush
+      last: Rastogi
+      position: VP of Projects
+      photo: assets/alumniPhotos/kushr.jpg
+      linkedin: https://www.linkedin.com/in/kushrastogi/
+      github: https://www.github.com/kushrast
+      website: none
+    - first: Lang
+      last: Tran
+      position: VP of Internal
+      photo: assets/alumniPhotos/lang.jpg
+      linkedin: https://www.linkedin.com/in/lang-tran-753572b9/
+      github: https://www.github.com/itsbluething/
+      website: none
+    - first: Pal
+      last: Makkar
+      position: VP of Professional Development
+      photo: assets/alumniPhotos/pal.jpg
+      linkedin: https://www.linkedin.com/in/pal-makkar-ba7411130/
+      github: none
+      website: none
+    - first: Raghav
+      last: Anand
+      position: Project Manager
+      photo: assets/alumniPhotos/raghav.jpg
+      linkedin: https://www.linkedin.com/in/raghav-anand-034b89127/
+      github: https://www.github.com/raghavanand98
+      website: http://www.raghavanand98.com
+    - first: Saurav
+      last: Kadavath
+      position: Project Manager
+      photo: assets/alumniPhotos/saurav.jpg
+      linkedin: https://www.linkedin.com/in/saurav-kadavath-808b07132/
+      github: https://www.github.com/ssss1029
+      website: http://www.sauravkadavath.com
+    - first: Sorjo
+      last: Banerjee
+      position: VP of Internal
+      photo: assets/alumniPhotos/sorjo.jpg
+      linkedin: none
+      github: none
+      website: none
+    - first: Tim
+      last: Foster
+      position: VP of Finance
+      photo: assets/alumniPhotos/tim.png
+      linkedin: none
+      github: none
       website: none
