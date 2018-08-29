@@ -70,11 +70,19 @@ polymorph-ua:
 
 
 polymorph-dpf:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+  intro: >
+    Polymorph is an ad-tech startup based in SF that maintains a white-label suite for publishers who want to create, manage, and display ads on their own websites and applications. Polymorph focuses on native ads, which are ads that fit within the context of the page. Clients who use Polymorph want to use certain areas of their page to display ads to earn revenue, and Polymorph facilitates this process of choosing which ads to display to maximize revenue. Polymorph’s platform is white-labelled, meaning that the ads appear as if they were created by the site displaying the ads and that these ad insertions feel natural for users. The company’s suite currently serves more than 15,000 sites/apps, and can process billions of ad requests a day.
+  problem: >
+    Polymorph acts as a <a href="https://en.wikipedia.org/wiki/Supply-side_platform">supply-side platform</a> that conducts real-time, second-price auctions on behalf of clients. In a second-price auction, the winner pays the second-highest bid.
+    <br> <br> Polymorph provides publishers the opportunity to set a price floor to protect valuation of inventory and generate additional revenue. In the case of a single RTB auction, a price floor lifts revenue if it falls between the top two bids, and lowers revenue if it falls above the highest bid. For some perspective, a bid might fall in the range $0.0000001 to $0.10.
+    <br> <br> Under the reasonable assumption that a publisher's optimal (highest-revenue) static price floor does not vary significantly day-to-day, revenue may be optimized by manually tweaking the floor on a per-placement basis. However, dynamically adjusting price floor based on past bid amounts and known information about the auction has the potential to not only reduce maintenance time but also to lift publisher revenue.
+  implementation: >
+    Given ad auction data with static reserve prices in effect, we researched, implemented, and evaluated several algorithms for setting dynamic price floors to lift publisher revenue. Some pricing strategies were based off of RTB research papers, while others used ML frameworks such as VW and Tensorflow to inform floors. We created a simulator that ran strategies on our test data in order to calculate statistics for each strategy, and standardize our results.
+  challenges: >
+    We received data recorded with static price floors in place, meaning that bids that would have been below the price floor were not submitted. Because price floors were often engaged, most auctions did not have more than one recorded bid. To accurately simulate the effect of a pricing strategy however, we needed access to a distribution of incoming bids. We chose to assume that we had access to every possible bid. Even though this did not give us a true distribution, making this assumption allowed us to meaningfully compare strategies. There are several ways one might run production tests to compare strategies, but this was not in the scope of our project.
+    <br> <br> Our other technical challenges stem from the nature of the data we were given. The size of one week of auction data is recorded in terabytes of information, so not only did our strategies need to be feasible for very low latency use, but we also had to spend time developing efficient ways to run tests on our massive dataset without running up an astronomical AWS bill.
+  takeaways: >
+    My team really appreciated the freedom we were given to experiment with pricing algorithms. In particular, members with a strong interest in math or machine learning were able to develop some pretty creative techniques (although traditional approaches were generally more effective). I think most of the growth from this project stemmed from its open-endedness, and the requirement that we develop and stick to an effective timeline in the presence of such freedom.
   extra: ""
   image: none
 
