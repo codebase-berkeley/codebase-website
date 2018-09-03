@@ -53,9 +53,9 @@
       last: Fung
       position: VP of Operations
       photo: assets/memberPhotos/jonathan.jpg
-      linkedin: none
-      github: none
-      website: none
+      linkedin: https://www.linkedin.com/in/jonfung1/
+      github: https://github.com/jonfung
+      website: http://www.jonfung.me/
     - first: Cindy
       last: Yuan
       position: VP of Marketing
