@@ -1,4 +1,4 @@
-# CodeBase Website 3.0 (WIP)
+# CodeBase Website 3.0
 ### Before You Begin
 First and foremost, thank you so much for helping out with the CodeBase website! Before getting started, it'd be helpful to check out this awesome guide on the [Hugo directory structure](https://www.jakewiesler.com/blog/hugo-directory-structure/) and the [Bootstrap docs](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
