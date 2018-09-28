@@ -1,99 +1,94 @@
 {{ define "main" }}
-<div>
 
-  <div class="container">
+  <div>
 
-    <!-- Landing Section -->
+    <div class="container">
 
-    <div class="section blue-section full-width-section landing-section">
-      <div class="landing__title">
-      {{ .Site.Data.about.landing.title }}
+      <!-- Landing Section -->
+
+      <div class="section blue-section full-width-section landing-section">
+        <div class="landing__title">
+        {{ .Site.Data.about.landing.title }}
+        </div>
+        <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+        <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+          {{ .Site.Data.about.landing.description }}
+        </div>
+        <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+        <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
       </div>
-      <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-      <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
-        {{ .Site.Data.about.landing.description }}
+
+      <!-- Mission and Values Section -->
+
+      <div class="section mission-section">
+        <div class="section-title">
+          {{ .Site.Data.about.missionSection.title1 }}
+        </div>
+        <div class="section-description">
+          {{ .Site.Data.about.missionSection.description1 }}
+        </div>
+        <div class="section-title">
+          {{ .Site.Data.about.missionSection.title2 }}
+        </div>
+        <div class="section-description">
+          {{ .Site.Data.about.missionSection.description2 }}
+        </div>
+        {{ partial "valueCards" . }}
       </div>
-      <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-      <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
-    </div>
 
-    <!-- Mission and Values Section -->
+      <!-- Photos Carousel Section -->
 
-    <div class="section mission-section">
-      <div class="section-title">
-        {{ .Site.Data.about.missionSection.title1 }}
+      <div class="section gray-section full-width-section carousel-section">
+        <div class="carousel-container">
+            <div><img class="group-pic" src="assets/cb-group-sp18.jpg" /></div>
+            <div><img class="group-pic" src="assets/propel.jpg" /></div>
+            <div><img class="group-pic" src="assets/group-salesforce.jpg" /></div>
+            <div><img class="group-pic" src="assets/beach-group.jpg" /></div>
+            <div><img class="group-pic" src="assets/ice-skating-sp-18.jpg" /></div>
+        </div>
       </div>
-      <div class="section-description">
-        {{ .Site.Data.about.missionSection.description1 }}
-      </div>
-      <div class="section-title">
-        {{ .Site.Data.about.missionSection.title2 }}
-      </div>
-      <div class="section-description">
-        {{ .Site.Data.about.missionSection.description2 }}
-      </div>
-      {{ partial "valueCards" . }}
-    </div>
 
-    <!-- Photos Carousel Section -->
-    <div class="section gray-section full-width-section carousel-section">
-      <div class="carousel-container">
-          <div><img class="group-pic" src="assets/cb-group-sp18.jpg" /></div>
-          <div><img class="group-pic" src="assets/propel.jpg" /></div>
-          <div><img class="group-pic" src="assets/group-salesforce.jpg" /></div>
-          <div><img class="group-pic" src="assets/beach-group.jpg" /></div>
-          <div><img class="group-pic" src="assets/ice-skating-sp-18.jpg" /></div>
-      </div>
-    </div>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="js/slick.min.js"></script>
 
+      <section class="team-pic-section" id = "team">
+        {{ partial "memberList" . }}
+      </section>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+      <!-- Alumni Placement Section -->
 
-
-
-    <section class="team-pic-section" id = "team">
-      {{ partial "memberList" . }}
-    </section>
-
-    <!-- Alumni Placement Section -->
-
-    <div class="section alumni-section">
-      <div class="section-title">
-        {{ .Site.Data.about.alumni.title }}
-      </div>
-      <div class="section-description">
-        {{ .Site.Data.about.alumni.description}}
-      </div>
-      <div class="company-logos-container">
-        {{ range $Company := .Site.Data.about.companies}}
-          <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
-        {{ end }}
+      <div class="section alumni-section">
+        <div class="section-title">
+          {{ .Site.Data.about.alumni.title }}
+        </div>
+        <div class="section-description">
+          {{ .Site.Data.about.alumni.description}}
+        </div>
+        <div class="company-logos-container">
+          {{ range $Company := .Site.Data.about.companies}}
+            <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-
-<script type="text/javascript">
-
-  $(document).ready(function(){
-    $('.carousel-container').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      centerMode: true,
-      variableWidth: true,
-      arrows: false,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      pauseOnHover: true
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true
+      });
     });
-  });
-
-</script>
+  </script>
 
 {{ end }}

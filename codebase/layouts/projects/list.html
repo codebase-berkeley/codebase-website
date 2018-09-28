@@ -1,32 +1,42 @@
 {{ define "main" }}
-<!-- Landing Section -->
 
-<div class="section blue-section full-width-section landing-section">
-  <div class="landing__title">
-  {{ .Site.Data.projects.landing.title }}
-  </div>
-  <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-  <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
-    {{ .Site.Data.projects.landing.description }}
-  </div>
-  <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-  <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
-</div>
+  <!-- Landing Section -->
 
-<div class="section full-width-section">
-  {{ partial "projectCardGrid" . }}
-</div>
-
-<div class="section gray-section full-width-section">
-  <div class="section-title" >
-    <section class="past-projects-section" id = "past-projects">
-      Past Projects
-    </section>
+  <div class="section blue-section full-width-section landing-section">
+    <div class="landing__title">
+      {{ .Site.Data.projects.landing.title }}
+    </div>
+    <hr class="landing__description-border col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <div class="landing__description col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+      {{ .Site.Data.projects.landing.description }}
+    </div>
+    <hr class="landing__description-border landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow.png">-->
   </div>
-  <div class="row past-projects">
-  {{ range .Pages.ByDate.Reverse }}
-    {{ if and (eq .Params.current false) (eq .Params.retro true)}}
-      <a href="{{ .Params.url }}" class="project-card-link">
+
+  <div class="section full-width-section">
+    {{ partial "projectCardGrid" . }}
+  </div>
+
+  <div class="section gray-section full-width-section">
+    <div class="section-title" >
+      <section class="past-projects-section" id = "past-projects">
+        Past Projects
+      </section>
+    </div>
+    <div class="row past-projects">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ if and (eq .Params.current false) (eq .Params.retro true)}}
+        <a href="{{ .Params.url }}" class="project-card-link">
+          <div class="grid-card card" style="width: 18rem;">
+            <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
+            <div class="grid-card-content card-body">
+              <div class="project-card-title">{{ .Params.area }}</div>
+              <div class="project-card-blurb">{{ .Params.blurb }}</div>
+            </div>
+          </div>
+        </a>
+      {{ else if and (eq .Params.current false) (eq .Params.retro false)}}
         <div class="grid-card card" style="width: 18rem;">
           <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
           <div class="grid-card-content card-body">
@@ -34,62 +44,54 @@
             <div class="project-card-blurb">{{ .Params.blurb }}</div>
           </div>
         </div>
-      </a>
-    {{ else if and (eq .Params.current false) (eq .Params.retro false)}}
-      <div class="grid-card card" style="width: 18rem;">
-        <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
-        <div class="grid-card-content card-body">
-          <div class="project-card-title">{{ .Params.area }}</div>
-          <div class="project-card-blurb">{{ .Params.blurb }}</div>
-        </div>
-      </div>
+      {{ end }}
     {{ end }}
-  {{ end }}
-  </div>
-</div>
-
-<!-- Project Timeline Section -->
-{{ partial "projectTimeline" . }}
-
-<!-- Get Involved Section -->
-
-<div class="section involved-section full-width-section projects-involved-section">
-  <div class="section-title">
-    {{ .Site.Data.home.getInvolvedSection.title }}
+    </div>
   </div>
 
-  <div class="container">
-    <div class="grid-cards">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <div class="card grid-card">
-            <div class="card-body">
-              <img class="card-img-top" src="assets/icons/forstudents.png">
-              <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.studentsHeading }}</div>
-              <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.studentsDescription }}</div>
-              <a class="grid-card-button" href='{{ with .Site.GetPage "/apply" }}{{ .Params.navUrl }}{{ end }}'>
-                {{ .Site.Data.projects.getInvolvedSection.buttonStudents }}
-              </a>
+  <!-- Project Timeline Section -->
+
+  {{ partial "projectTimeline" . }}
+
+  <!-- Get Involved Section -->
+
+  <div class="section involved-section full-width-section projects-involved-section">
+    <div class="section-title">
+      {{ .Site.Data.home.getInvolvedSection.title }}
+    </div>
+
+    <div class="container">
+      <div class="grid-cards">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card grid-card">
+              <div class="card-body">
+                <img class="card-img-top" src="assets/icons/forstudents.png">
+                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.studentsHeading }}</div>
+                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.studentsDescription }}</div>
+                <a class="grid-card-button" href='{{ with .Site.GetPage "/apply" }}{{ .Params.navUrl }}{{ end }}'>
+                  {{ .Site.Data.projects.getInvolvedSection.buttonStudents }}
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-12 col-md-6">
-          <div class="card grid-card">
-            <div class="card-body">
-              <img class="card-img-top" src="assets/icons/forcompanies.png">
-              <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
-              <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
-              <a class="grid-card-button" href='{{ with .Site.GetPage "/contact" }}{{ .Params.navUrl }}{{ end }}'>
-                {{ .Site.Data.projects.getInvolvedSection.buttonCompanies }}
-              </a>
+          <div class="col-sm-12 col-md-6">
+            <div class="card grid-card">
+              <div class="card-body">
+                <img class="card-img-top" src="assets/icons/forcompanies.png">
+                <div class="grid-card-area card-title">{{ .Site.Data.home.getInvolvedSection.companiesHeading }}</div>
+                <div class="grid-card-content card-text">{{ .Site.Data.home.getInvolvedSection.companiesDescription }}</div>
+                <a class="grid-card-button" href='{{ with .Site.GetPage "/contact" }}{{ .Params.navUrl }}{{ end }}'>
+                  {{ .Site.Data.projects.getInvolvedSection.buttonCompanies }}
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 {{ end }}

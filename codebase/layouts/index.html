@@ -84,22 +84,22 @@
       <div class="testimonials-overlay"></div>
       <div class="testimonials-container-slide">
         {{ range $Testimonial := .Site.Data.home.testimonialsSection.testimonials}}
-        <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
-          <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
-            <i><p class="quote-text">"{{ $Testimonial.quote }}"</p></i>
-            <img class="quote-logo" src={{$Testimonial.logo}}>
-            <div style="clear:both"></div>
+          <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
+            <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
+              <i><p class="quote-text">"{{ $Testimonial.quote }}"</p></i>
+              <img class="quote-logo" src={{$Testimonial.logo}}>
+              <div style="clear:both"></div>
+            </div>
           </div>
-        </div>
         {{ end }}
         {{ range $Testimonial := first 6 .Site.Data.home.testimonialsSection.testimonials}}
-        <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
-          <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
-            <i><p class="quote-text">"{{ $Testimonial.quote }}"</p></i>
-            <img class="quote-logo" src={{$Testimonial.logo}}>
-            <div style="clear:both"></div>
+          <div class="testimonial-container" style="margin-bottom: {{$Testimonial.bottom}}px;">
+            <div class="quote-container" style="box-shadow: {{$Testimonial.shadowX}}px {{$Testimonial.shadowY}}px {{$Testimonial.shadowColor}}">
+              <i><p class="quote-text">"{{ $Testimonial.quote }}"</p></i>
+              <img class="quote-logo" src={{$Testimonial.logo}}>
+              <div style="clear:both"></div>
+            </div>
           </div>
-        </div>
         {{ end }}
       </div>
     </div>

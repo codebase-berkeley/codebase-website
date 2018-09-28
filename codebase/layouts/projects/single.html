@@ -1,78 +1,78 @@
 {{ define "main" }}
 
-<div class="section full-width-section landing-section">
-  <img class="project-icon col-xl-3 col-lg-5 col-md-7 col-sm-9 col-9 mx-auto" src={{ .Params.logo }}>
-  <hr class="landing__description-border landing__description-border--dark col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-  <div class="landing__description landing__description--dark col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
-    <p class="landing__description--title">{{ .Params.semester }} {{ .Params.year }}</p>
-    <p>{{ .Params.blurb }}</p>
-  </div>
-  <hr class="landing__description-border landing__description-border--dark landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
-  <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow_dark.png">-->
-  <hr class="section-border">
-</div>
-
-{{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
-
-{{ if eq .Params.retro true }}
-
-  <div class="section project-section">
-    <div class="section-title">
-      Introduction
+  <div class="section full-width-section landing-section">
+    <img class="project-icon col-xl-3 col-lg-5 col-md-7 col-sm-9 col-9 mx-auto" src={{ .Params.logo }}>
+    <hr class="landing__description-border landing__description-border--dark col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <div class="landing__description landing__description--dark col-xl-6 col-lg-8 col-md-10 col-sm-10 col-10 mx-auto">
+      <p class="landing__description--title">{{ .Params.semester }} {{ .Params.year }}</p>
+      <p>{{ .Params.blurb }}</p>
     </div>
-    <div class="section-content">
-      {{ with $project.intro  }}{{ . | safeHTML }}{{ end }}
-    </div>
+    <hr class="landing__description-border landing__description-border--dark landing__description-border--bottom col-xl-4 col-lg-6 col-md-8 col-sm-10 col-10 mx-auto">
+    <!--<img class="downward-arrow col-lg-1 col-sm-2 col-3" src="assets/downward_arrow_dark.png">-->
+    <hr class="section-border">
   </div>
 
-  <div class="section project-section">
-    <div class="section-title">
-      Problem Statement
-    </div>
-    <div class="section-content">
-      {{ with $project.problem  }}{{ . | safeHTML }}{{ end }}
-    </div>
-  </div>
+  {{ $project := index .Site.Data.projects.projectDescriptions .Params.title }}
 
-  <div class="section project-section">
-    <div class="section-title">
-      Implementation
-    </div>
-    <div class="section-content">
-      {{ with $project.implementation  }}{{ . | safeHTML }}{{ end }}
-    </div>
-  </div>
+  {{ if eq .Params.retro true }}
 
-  {{ if in $project "image" }}
-    <div class="section project-section gray-section full-width-section">
-      <img src={{$project.image}} class="section-full-image">
+    <div class="section project-section">
+      <div class="section-title">
+        Introduction
+      </div>
+      <div class="section-content">
+        {{ with $project.intro  }}{{ . | safeHTML }}{{ end }}
+      </div>
     </div>
+
+    <div class="section project-section">
+      <div class="section-title">
+        Problem Statement
+      </div>
+      <div class="section-content">
+        {{ with $project.problem  }}{{ . | safeHTML }}{{ end }}
+      </div>
+    </div>
+
+    <div class="section project-section">
+      <div class="section-title">
+        Implementation
+      </div>
+      <div class="section-content">
+        {{ with $project.implementation  }}{{ . | safeHTML }}{{ end }}
+      </div>
+    </div>
+
+    {{ if in $project "image" }}
+      <div class="section project-section gray-section full-width-section">
+        <img src={{$project.image}} class="section-full-image">
+      </div>
+    {{ end }}
+
+    <div class="section project-section">
+      <div class="section-title">
+        Technical Challenges
+      </div>
+      <div class="section-content">
+        {{ with $project.challenges }}{{ . | safeHTML }}{{ end }}
+      </div>
+    </div>
+
+    <div class="section project-section">
+      <div class="section-title">
+        Key Takeaways
+      </div>
+      <div class="section-content">
+        {{ with $project.takeaways }}{{ . | safeHTML }}{{ end }}
+      </div>
+    </div>
+
+    <div class="section project-section">
+      <div class="section-content">
+        {{ with $project.extra }}{{ . | safeHTML }}{{ end }}
+      </div>
+    </div>
+
   {{ end }}
-
-  <div class="section project-section">
-    <div class="section-title">
-      Technical Challenges
-    </div>
-    <div class="section-content">
-      {{ with $project.challenges }}{{ . | safeHTML }}{{ end }}
-    </div>
-  </div>
-
-  <div class="section project-section">
-    <div class="section-title">
-      Key Takeaways
-    </div>
-    <div class="section-content">
-      {{ with $project.takeaways }}{{ . | safeHTML }}{{ end }}
-    </div>
-  </div>
-
-  <div class="section project-section">
-    <div class="section-content">
-      {{ with $project.extra }}{{ . | safeHTML }}{{ end }}
-    </div>
-  </div>
-
-{{ end }}
 
 {{ end }}
