@@ -1,18 +1,4 @@
-- client:
-  full: Marketing Team
-  icon: assets/icons/client.png
-  content:
-  - subheading: For students with
-    points:
-    - An interest in marketing, branding, and publicity
-    - Basic photography skills
-    - An eagerness to interact with the CS community
-  - subheading: You'll have the chance to
-    points:
-    - Interview professionals in the CS community
-    - Create weekly Medium articles
-    - Manage the club Instagram and promotional material
-- client:
+- mentored:
   full: Mentored Team
   icon: assets/icons/mentored.png
   content:
@@ -26,3 +12,17 @@
     - Learn the fundamentals of software development
     - Receive guidance and mentorship from project leaders
     - Practice building a product from start to finish
+- marketing:
+  full: Marketing Team
+  icon: assets/icons/client.png
+  content:
+  - subheading: For students with
+    points:
+    - An interest in marketing, branding, and publicity
+    - Basic photography skills
+    - An eagerness to interact with the CS community
+  - subheading: You'll have the chance to
+    points:
+    - Interview professionals in the CS community
+    - Create weekly Medium articles
+    - Manage the club Instagram and promotional material
