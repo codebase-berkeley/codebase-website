@@ -6,20 +6,20 @@
     {{ .Site.Data.home.projectsSection.description }}
   </div>
   <div class="grid-cards">
-    <div class="section">
-      <div class="section-subtitle">Client Projects</div>
-      <div class="row justify-content-center">
-        {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
-          <div class="card grid-card-flat">
-            <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
-            <div class="grid-card-content card-body">
-              <div class="project-card-title">{{ .Params.area }}</div>
-              <div class="project-card-blurb">{{ .Params.blurb }}</div>
-            </div>
-          </div>
-        {{ end }}
-      </div>
-    </div>
+    <!--<div class="section">-->
+      <!--<div class="section-subtitle">Client Projects</div>-->
+      <!--<div class="row justify-content-center">-->
+        <!--{{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}-->
+          <!--<div class="card grid-card-flat">-->
+            <!--<img class="grid-card-img card-img-top" src={{ .Params.logo }}>-->
+            <!--<div class="grid-card-content card-body">-->
+              <!--<div class="project-card-title">{{ .Params.area }}</div>-->
+              <!--<div class="project-card-blurb">{{ .Params.blurb }}</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--{{ end }}-->
+      <!--</div>-->
+    <!--</div>-->
     <div class="section">
       <div class="section-subtitle">Mentored Project</div>
       <div class="row justify-content-md-center">

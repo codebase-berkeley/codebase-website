@@ -1,3 +1,17 @@
+aptiv:
+  intro: >
+    Aptiv is a global technology company that develops safer, greener, and more connected solutions, which enable the future of mobility. Aptiv is delivering the software capabilities, advanced computing platforms, and networking architecture to assist smart and self driving cars.
+  problem: >
+    Develop a driver takeover readiness heuristic using various ML models and showcase this heuristic with real data in a Unity simulation.
+  implementation: >
+    First there was the Unity simulation, which we built from scratch. We worked on the simulation throughout the semester, first setting up basic functionality to display important information from the dataset and then polishing up the UI. Second, we worked on the driver takeover readiness heuristic, which composed of decided what would be valuable to the score and then implementing the necessary models for those values in Python.
+  challenges: >
+    As with any dataset, there's a lot of cleaning to do before using it in a model or simulation. Aptiv's dataset was cumbersome to work with because it wasn't a simple MxN dimensional dataset, since the dataset was a time series and each sample was itself a variable dimension matrix, which made writing code for cleaning the dataset much more cumbersome. Aptiv's tracking system also had many nuances, further making cleaning and working with their dataset more difficult. The Unity simulation also had its own challenges, such as interpolating surrounding vehicle objects and removing jitteriness from their movements.
+  takeaways: >
+    This project's scope ended up changing multiple times over the course of the semester, which made our objectives unclear in the beginning. More detailed objectives on our part and clearer expectations on Aptiv's part would have significantly hastened our project development. Also, having more Aptiv engineers available to clarify technical specifications would have been very useful throughout our project.
+  extra: ""
+  image: none
+
 beam:
   intro: >
     Beam Financial is a mobile-first online banking platform that offers 2-4% APY on your assets stored in their system. Through the Beam app, users can invite their friends to gain daily interest rate rewards, called Billies. The platform is zero-fees, no interest rate, and FDIC insured.
@@ -14,7 +28,25 @@ beam:
     <br> <br> Everyone on the team still learned a lot from the experience. It’s not often a team gets to own the entire life of an application from end-to-end like we did. Building a web application with concretely definable tasks allowed us to focus on operations, coding practices, and teamwork. Our final application was running on real Beam data and offered real, tangible insights for Beam employees.
   extra:
   image: none
-mentored-fa17:
+
+bettercloud:
+  intro: >
+    BetterCloud is a SaaS management platform headquartered in New York. IT admins can automate processes to enforce company policies, onboard employees, and complete other IT duties. Many companies, such as BuzzFeed and Zuora, use BetterCloud’s product.
+  problem: >
+    We tackled two independent problems for BetterCloud.
+    <br><br>Many IT admins use ServiceNow for managing and tracking tickets (issues to be solved by the IT team). IT admins who also use BetterCloud’s services had to switch between the ServiceNow and BetterCloud platforms many times throughout the process. So, we integrated BetterCloud’s functionalities within the ServiceNow platform by creating a custom ServiceNow developer instance. Users were able to link and start BetterCloud workflows from within a ServiceNow ticket.
+    <br><br>Our second problem involved proving a distributed server concept. BetterCloud works with many different vendors’ APIs. For example, in order to complete a workflow, BetterCloud might have to use Google, Slack and Okta APIs in order to have complete authentication. However, these vendors might impose a limit to how many API calls a server can make over a certain time period, also know as a rate limit. As BetterCloud grows, rate limiting is becoming an issue, since an increasing number of API calls is needed. This is in danger of leading to BetterCloud service failures, since rate limits can be easily exceeded. Thus, we worked on ways to combat this issue and came up with two approaches that can be combined in the future. In our first approach, we distributed the load across several servers with a specified rate created using Google Cloud Functions. In our second approach, we had a queue to keep track of the number of remaining requests to be made and requeued failed requests.
+  implementation: >
+    We worked within ServiceNow’s platform for the first project, integrating BetterCloud workflows into ServiceNow, using JavaScript. For our second project, we used Node.js and Google Cloud Functions to create a customizable to for API rate limit testing.
+  challenges: >
+    ServiceNow’s technologies were very niche and had a steep learning curve. Learning how to work with their interface was definitely a challenge, since oftentimes it was very buggy. ServiceNow has its own version control system, which turned out to be difficult to work with. There was no simple way to merge work from different sub-projects on GitHub, which was a blocker for the first half of the semester.
+    <br><br> For the second project, replicating actual API rate limit calling was relatively difficult, because we weren’t provided with production-level BetterCloud endpoints, limiting our ability to build a precise tool that could be exactly used for BetterCloud’s purposes.
+  takeaways: >
+    In retrospect, we could’ve committed ourselves to more work. Overall, everyone learned a lot from this experience and it’s awesome to see how essential our work was to BetterCloud’s growth.
+  extra: ""
+  image: none
+
+mentored-sp18:
   intro: In Spring 2018, the mentored project was Codedoor, a clone of Glassdoor for internal use. Codebase members can log into the web app using their slack accounts and, like in Glassdoor, post and view reviews, ratings, and interviews for different companies.
   problem: Career development is one reason why many people join Codebase, and in particular what many members want is a resource for what companies are worth applying to, what it’s like to work for them, and how hard their interviews are. Glassdoor is a great public resource for this, and we agreed that having an internal version of Glassdoor would be a great investment for the club.
            <br> <br> The primary task of the mentored project members was to build a web application from scratch including all the necessary profiles, companies, and pages. The design was completed by project managers before the project began and the problem boiled down to translating designs into working pages, with a home page displaying popular companies, a page for each company listing their reviews and interviews, a search function for interviews, companies, and reviews, and finally, a permalink page for each interview and review.
@@ -26,12 +58,19 @@ mentored-fa17:
   extra: ""
   image: none
 
-mentored-sp18:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+mentored-fa18:
+  intro: >
+    The Mentored Project is a unique project in which students with little to no computer science background learn full-stack web development through working together to engineer a web application for an external client. In Fall 2018, the Mentored Project built a web application for the teachers of Ygnacio Valley High School that would help them easily manage and track their lesson plans. Click <a href="https://medium.com/@codebase/the-mentored-project-72db8aabb70e?fbclid=IwAR0qIYNmioBSdjvqgu-yvzsgkIg3FYkJU9KNt-pWzIEnLxzaO6FLOoNBZZ4">here</a> to read more about the project and the curriculum.
+  problem: >
+    During our working period with the high school, we were to create a web application in which teachers could create classes, units, and upload lessons. Teachers would also be able to create multiple choice quizzes in order to quiz students on the lesson. Students would be able to log into the application and take the quizzes. Teachers would also have a place to visualize the quiz data over time.
+  implementation: >
+    In a full-stack web application, there is a frontend and a backend component. For the frontend we used React.js and divided the web application into multiple components. We passed data  between components using props and state variables. For the backend, we used Express.js for routing and managed the data using a PostgreSQL database. Through learning these various technologies, members were able to gain a solid understanding of full-stack web development.
+  challenges: >
+    One of the hardest things to implement was login via Google OAuth. Creating and storing users was no easy task, but developers Isabelle Zhou and Kelvin Jue persisted and figured it out. <a href="https://docs.google.com/document/d/1MYzSBgsyY3Gie2E7DI6NqYeveSXEhXryZ9lvf-x3Hlg/edit">Here</a> is some documentation they created on how to implement login with a React, Express, PostgreSQL stack.
+    <br><br>We also struggled with passing a lot of data between React components. We had to properly organize our variables and pass down functions to child components that would call the parent component to properly update the variable.
+
+  takeaways: >
+    Mentored Project is special because of the sheer amount that developers learn from the experience. After a semester on Mentored Project and learning web development, they are able to tackle future client projects in CodeBase. It was great to see developers show persistence through difficult technical obstacles in order to find a solution. That tenacity and love for technical challenges are what make a great engineer.
   extra: ""
   image: none
 
@@ -67,7 +106,6 @@ polymorph-ua:
     <br> <br> Everyone on the team still learned a lot from the experience. Many members did not have much previous exposure to machine learning, and this was a very practical and face-paced, albeit rocky, introduction to machine learning. Learning about the pipeline for creating a working machine learning model was incredibly intellectually stimulating, in that the actual model is only the tip of the iceberg-to create such a model. Hours and hours of data cleaning and examination, parameter tuning, and model training were required. Often times, doing this randomly until the best possible result emerge actually worked the best.
   extra:
   image: none
-
 
 polymorph-dpf:
   intro: >
@@ -162,6 +200,24 @@ sutro:
   image: none
 
 upstream:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
+  extra: ""
+  image: none
+
+zumper:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
+  extra: ""
+  image: none
+
+zymergen:
   intro: ""
   problem: ""
   implementation: ""

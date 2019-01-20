@@ -1,7 +1,7 @@
 ---
 date: 2018-08-02
 url: "./projects/zumper/"
-current: true
+current: false
 consulting: true
 full: "Zumper"
 area: "Machine Learning"

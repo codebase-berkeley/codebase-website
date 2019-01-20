@@ -1,18 +1,18 @@
 - client:
-  full: Client Team
+  full: Marketing Team
   icon: assets/icons/client.png
   content:
   - subheading: For students with
     points:
-    - Solid experience through projects and internships
-    - A desire to gain industry software experience
-    - An eagerness to tackle a challenge
+    - An interest in marketing, branding, and publicity
+    - Basic photography skills
+    - An eagerness to interact with the CS community
   - subheading: You'll have the chance to
     points:
-    - Work closely with industry partners
-    - Dive into the real-world software development
-    - Deliver a completed, large-scale product
-- mentored:
+    - Interview professionals in the CS community
+    - Create weekly Medium articles
+    - Manage the club Instagram and promotional material
+- client:
   full: Mentored Team
   icon: assets/icons/mentored.png
   content:

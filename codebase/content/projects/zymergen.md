@@ -1,7 +1,7 @@
 ---
 date: 2018-08-05	
 url: "./projects/zymergen/"	
-current: true	
+current: false
 consulting: true	
 full: "Zymergen"	
 area: "Full Stack Web"	
