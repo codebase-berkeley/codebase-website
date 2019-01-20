@@ -8,10 +8,11 @@ install:
 script:
 - cd codebase
 - hugo
-- scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ../id_rsa -rp public/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
+- scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ../id_rsa -rp
+  public/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
 before_install:
 - openssl aes-256-cbc -K $encrypted_55361f9c588e_key -iv $encrypted_55361f9c588e_iv
-  -in id_rsa.enc -out id_rsa -d
+  -in id_rsa.enc -out ./id_rsa -d
 branches:
   only:
   - rebrand-2018
