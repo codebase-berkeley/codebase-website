@@ -2,4 +2,5 @@ codebase/.build*
 id_rsa
 venv/*
 .DS_Store
+.idea/
 codebase/public/
