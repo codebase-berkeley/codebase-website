@@ -2,11 +2,11 @@
   full: Mentored Team
   icon: assets/icons/mentored.png
   content:
-  - subheading: For students with
+  - subheading: For students
     points:
-    - Introductory computer science experience
-    - A demonstrated passion for computer science
-    - An eagerness to learn
+    - Who are Freshmen or Sophomores
+    - Who demonstrate a passion for computer science
+    - With an eagerness to learn
   - subheading: You'll have the chance to
     points:
     - Learn the fundamentals of software development
@@ -16,11 +16,11 @@
   full: Marketing Team
   icon: assets/icons/client.png
   content:
-  - subheading: For students with
+  - subheading: For students
     points:
-    - An interest in marketing, branding, and publicity
-    - Basic photography skills
-    - An eagerness to interact with the CS community
+    - With an interest in marketing, branding, and publicity
+    - With basic photography skills
+    - With an eagerness to interact with the CS community
   - subheading: You'll have the chance to
     points:
     - Interview professionals in the CS community
