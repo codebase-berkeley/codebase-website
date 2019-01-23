@@ -209,11 +209,20 @@ upstream:
   image: none
 
 zumper:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+  intro: >
+    Zumper is an online platform for apartment rentals. They are focused on building a smooth, efficient, and transparent renting process for both tenants and landlords.
+  problem: >
+    The main method of communication between tenants and landlords on Zumper is through messaging: potential tenants can look through various apartments on the site and directly message anyone whose apartment they’re interested in. However, since Zumper as a platform is open to everyone, landlords must sometimes deal with spam messages. Our problem was to implement a spam detection solution for Zumper’s platform, improving the user experience for both tenants and landlords.
+    <br><br>
+    We did this through two sub-projects. For the first, we researched and implemented various ML models for spam classification. We used these models to create an API to classify any incoming messages from Zumper. No ML model is perfect, however, and we also needed to be wary of false positives (classifying an incoming message which is not spam as spam) since that would be especially bad for Zumper. Therefore, we also wanted a way to validate our model’s classifications and allow humans to step in for especially hard to classify messages. For the second part of the project, we created a web application for manual classification of messages. This allowed Zumper employees to log in and classify messages as spam or not spam, adding a human verification step to our process.
+  implementation: >
+    Our project came in 2 parts, web and ML. For the web app, we built out a React frontend with an Express backend connected to a PostgreSQL database. On the ML side, we trained Scipy and Tensorflow models trained on public datasets through the use of BERT, ELMo, and TF-IDF vectorization. We built a Flask application to host these models and dockerized it for deployment.
+  challenges: >
+    On the web side, our authentication flow added some complexity to our development process. We chose to use a Session based authentication model, and interfacing client side Session storage with backend verification while using Google OAuth to allow users to easily have access to the platform was a hurdle that we had to overcome.
+    <br><br>
+    One technical challenge we encountered on the ML side was ensuring we had a good experimentation pipeline with our sample data. This involved creating processes to clean and transform our message data, train our models, and finally test and visualize how our models performed compared to each other. Ensuring the pipeline was set up properly made it much easier to set up and test new models. This was also incredibly valuable to Zumper themselves, as it provided them a means to reproduce our results as well as easily experiment with their own models.
+  takeaways: >
+    One of our biggest takeaways from running this project was the importance of detailed planning.  Spending a lot of time before the project started to flesh out our designs and come up with week-to-week goals made the project run super smoothly overall. Having a concrete idea of our goals for each step along the way also made it easier to have a flexible development process: we were able to easily allocate more developer time when encountering technical issues and work on our stretch goals when running ahead of schedule.
   extra: ""
   image: none
 
