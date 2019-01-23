@@ -52,28 +52,6 @@
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="js/slick.min.js"></script>
 
-      <section class="team-pic-section" id = "team">
-        {{ partial "memberList" . }}
-      </section>
-
-      <!-- Alumni Placement Section -->
-
-      <div class="section alumni-section">
-        <div class="section-title">
-          {{ .Site.Data.about.alumni.title }}
-        </div>
-        <div class="section-description">
-          {{ .Site.Data.about.alumni.description}}
-        </div>
-        <div class="company-logos-container">
-          {{ range $Company := .Site.Data.about.companies}}
-            <img class="alumni-company-logo" src={{print "assets/alumniCompanyLogos/" $Company.src}}>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-
   <script type="text/javascript">
     $(document).ready(function(){
       $('.carousel-container').slick({

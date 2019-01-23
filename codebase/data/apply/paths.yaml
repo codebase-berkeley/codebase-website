@@ -1,6 +1,7 @@
 - mentored:
   full: Mentored Team
   icon: assets/icons/mentored.png
+  active: true
   content:
   - subheading: For students
     points:
@@ -15,6 +16,7 @@
 - marketing:
   full: Marketing Team
   icon: assets/icons/client.png
+  active: false
   content:
   - subheading:
     points:
