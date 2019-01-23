@@ -165,10 +165,10 @@
       linkedin: https://www.linkedin.com/in/brian-deleonardis-b49030121/
       github: https://github.com/bdeleonardis1
       website: none
-    - first: Caroline
+    - first: Carolyn
       last: Duan
       position:
-      photo: assets/memberPhotos/caroline.jpg
+      photo: assets/memberPhotos/carolyn.jpg
       linkedin: none
       github: none
       website: none
@@ -235,13 +235,13 @@
       linkedin: none
       github: none
       website: none
-#    - first: Matthew
-#      last: Soh
-#      position:
-#      photo: assets/memberPhotos/matthew.jpg
-#      linkedin: none
-#      github: none
-#      website: none
+    - first: Matthew
+      last: Soh
+      position:
+      photo: assets/memberPhotos/matts.jpg
+      linkedin: none
+      github: none
+      website: none
     - first: Nikhil
       last: Jain
       position:
@@ -349,6 +349,13 @@
       linkedin: https://www.linkedin.com/in/blevis/
       github: https://github.com/brianlevis
       website: https://brianlevis.com
+    - first: Cindy
+      last: Yuan
+      position: VP of Marketing
+      photo: assets/alumniPhotos/cindy.jpg
+      linkedin: https://linkedin.com/in/cindyjyuan
+      github: none
+      website: none
     - first: Edric
       last: Xiang
       position: Project Developer
