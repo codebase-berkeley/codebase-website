@@ -16,13 +16,14 @@
   full: Marketing Team
   icon: assets/icons/client.png
   content:
-  - subheading: For students
+  - subheading:
     points:
-    - With an interest in marketing, branding, and publicity
-    - With basic photography skills
-    - With an eagerness to interact with the CS community
-  - subheading: You'll have the chance to
+    -
+    -
+  - subheading: No longer available!
     points:
-    - Interview professionals in the CS community
-    - Create weekly Medium articles
-    - Manage the club Instagram and promotional material
+    -
+  - subheading:
+    points:
+    -
+    -
