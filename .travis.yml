@@ -12,6 +12,3 @@ script:
   public/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
 before_install:
 - echo $DEPLOY_KEY | gpg --passphrase-fd 0 id_rsa.gpg
-branches:
-  only:
-  - rebrand-2018
