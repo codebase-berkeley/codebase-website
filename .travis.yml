@@ -9,6 +9,6 @@ script:
 - cd codebase
 - hugo
 - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ../id_rsa -rp
-  public/. codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
+  public/* codebase@ssh.ocf.berkeley.edu:/home/c/co/codebase/public_html/
 before_install:
 - echo $DEPLOY_KEY | gpg --passphrase-fd 0 id_rsa.gpg
