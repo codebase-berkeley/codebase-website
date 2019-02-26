@@ -12,6 +12,15 @@ aptiv:
   extra: ""
   image: none
 
+atlassian:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
+  extra: ""
+  image: none
+
 beam:
   intro: >
     Beam Financial is a mobile-first online banking platform that offers 2-4% APY on your assets stored in their system. Through the Beam app, users can invite their friends to gain daily interest rate rewards, called Billies. The platform is zero-fees, no interest rate, and FDIC insured.
@@ -46,6 +55,15 @@ bettercloud:
   extra: ""
   image: none
 
+hackerrank:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
+  extra: ""
+  image: none
+
 mentored-sp18:
   intro: In Spring 2018, the mentored project was Codedoor, a clone of Glassdoor for internal use. Codebase members can log into the web app using their slack accounts and, like in Glassdoor, post and view reviews, ratings, and interviews for different companies.
   problem: Career development is one reason why many people join Codebase, and in particular what many members want is a resource for what companies are worth applying to, what it’s like to work for them, and how hard their interviews are. Glassdoor is a great public resource for this, and we agreed that having an internal version of Glassdoor would be a great investment for the club.
@@ -71,6 +89,24 @@ mentored-fa18:
 
   takeaways: >
     Mentored Project is special because of the sheer amount that developers learn from the experience. After a semester on Mentored Project and learning web development, they are able to tackle future client projects in CodeBase. It was great to see developers show persistence through difficult technical obstacles in order to find a solution. That tenacity and love for technical challenges are what make a great engineer.
+  extra: ""
+  image: none
+
+netskope:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
+  extra: ""
+  image: none
+
+pantheon:
+  intro: ""
+  problem: ""
+  implementation: ""
+  challenges: ""
+  takeaways: ""
   extra: ""
   image: none
 
