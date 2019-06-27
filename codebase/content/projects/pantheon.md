@@ -1,7 +1,7 @@
 ---
 date: 2019-01-05
 url: "./projects/pantheon/"
-current: true
+current: false
 consulting: true
 full: "Pantheon"
 area: "Full Stack Web"

@@ -13,11 +13,16 @@ aptiv:
   image: none
 
 atlassian:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+  intro: >
+    Atlassian is a technology company that builds developer productivity tools for over 125,000 companies worldwide. Their most well-known products include Jira, a project planning and agile team management tool, and Trello, a lightweight task management platform. We worked specifically with their Platform Services team, which deals with the infrastructure design behind all of their services.
+  problem: >
+    Our goal for this project was to integrate new rate limiting algorithms, specifically token bucket and sliding window, into the Lyft open source rate limiter repo.
+  implementation: >
+    First, we used Go to implement the token bucket and sliding window into the Lyft repo, which already had the fixed window algorithm implemented. The bulk of the project, however, was writing comprehensive tests for the algorithms and integrating them into the existing repo. This involved modifying their existing yaml configuration files to allow for the selection of an algorithm and overriding proto files.
+  challenges: >
+    One of the most difficult things about the project was just understanding where to get started. A lot of our developers had not previously worked with Go and we were working with an existing codebase that no one had ever touched before. For example, when we were trying to add fields to predefined classes through proto, we discovered the proto files were defined in an entirely different repository. To solve this, we ended up having to overwrite the path with our own created file. Figuring out what to modify and what already existed while working with a new language was a learning experience.
+  takeaways: >
+    In terms of the project, we learned a lot about the importance of writing extensive tests for any given change. On top of that, exposure to working with pre-existing code helped our developers gain technical maturity as it was similar to working in industry -- much different than a class project. Finally, we learned a lot about the importance of planning ahead and communication to ensure that everybody knew exactly what is going on with the project at all times.
   extra: ""
   image: none
 
@@ -56,11 +61,16 @@ bettercloud:
   image: none
 
 hackerrank:
-  intro: ""
-  problem: ""
-  implementation: ""
-  challenges: ""
-  takeaways: ""
+  intro: >
+    HackerRank is a technical hiring platform that helps businesses evaluate software developers by skill. They enable tech recruiters and hiring managers to objectively evaluate talent at every stage of the recruiting process to help them hire qualified developers. 
+  problem: >
+    Our goal for this project was to develop a plugin for the Eclipse Che IDE that allows for real-time pair programming and collaboration. Eclipse Che is a browser IDE that HackerRank utilizes for their online video interviewing interface. Our plugin can help improve this experience by allowing the interviewer to observe and interact with the candidate during the problem solving process. 
+  implementation: >
+    As we began to pair-program the plugin from scratch, we first delved into understanding the architecture of the Che IDE in order to come up with a detailed design of what we were about to develop. After multiple iterations, our final design included a socket server to connect two users on the backend and a client-side extension that handled conflict resolution on the frontend. We used Atom Teletype’s CRDT implementation to handle conflict resolution between documents.
+  challenges: >
+    Overall, this was one of the most technically challenging projects that we have taken on. One major blocker was that we heavily depended on support from the open-source Eclipse Che community. Unfortunately, many of the features of the latest version of the product, Che 7, is still under development and there was an extreme lack of documentation on the product, so when we faced issues, it took a lot of digging to unblock. The project also carried many challenges in dealing with concurrency. For example, when a user is editing a document, they may be receiving simultaneous edits from other users at any time. Because of this, we had to be careful when applying operations to our document as they relied on the state of the document itself. We handled this by making sure our operations of reading the document state and integrating changes was atomic by implementing locks for the operations. 
+  takeaways: > 
+    Despite numerous challenges, the team was able to learn a lot throughout the semester. We realized the importance of taking on a difficult project by actively seeking technical support and managing project scope. Due to the short working period of each project, being stuck on an issue for multiple weeks detracts from both the experience and project progress. Overall, the team learned a lot about managing morale and solving difficult problems by continuously seeking support and applying different approaches to problems.
   extra: ""
   image: none
 
