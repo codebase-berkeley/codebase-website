@@ -4,9 +4,9 @@ url: "./projects/project1/"
 current: true
 consulting: false
 full: "Mentored Project Fall 2019"
-area: "Coming Soon!"
+area: "Full Stack Web"
 retro: false
-blurb: "For Fall 2019, our Mentored Project will be working with EthiCAL! More details coming soon..."
+blurb: "EthiCAL is a student-run initiative that designs and sells ethically made apparel while donating all proceeds to help disadvantaged entrepreneurs grow. We will be building an all-in-one web portal to manage EthiCAL's sales, inventory, and communications."
 logo: "./assets/ethical-logo.png"
 semester: "Fall"
 year: "2019"

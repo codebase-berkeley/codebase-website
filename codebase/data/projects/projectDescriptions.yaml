@@ -22,7 +22,7 @@ atlassian:
   challenges: >
     One of the most difficult things about the project was just understanding where to get started. A lot of our developers had not previously worked with Go and we were working with an existing codebase that no one had ever touched before. For example, when we were trying to add fields to predefined classes through proto, we discovered the proto files were defined in an entirely different repository. To solve this, we ended up having to overwrite the path with our own created file. Figuring out what to modify and what already existed while working with a new language was a learning experience.
   takeaways: >
-    In terms of the project, we learned a lot about the importance of writing extensive tests for any given change. On top of that, exposure to working with pre-existing code helped our developers gain technical maturity as it was similar to working in industry -- much different than a class project. Finally, we learned a lot about the importance of planning ahead and communication to ensure that everybody knew exactly what is going on with the project at all times.
+    We learned a lot about the importance of writing extensive tests for any given change. On top of that, exposure to working with pre-existing code helped our developers gain technical maturity as it was similar to working in industry -- much different than a class project. Finally, we learned a lot about the importance of planning ahead and communication to ensure that everybody knew exactly what is going on with the project at all times.
   extra: ""
   image: none
 
