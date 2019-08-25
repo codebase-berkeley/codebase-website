@@ -13,19 +13,18 @@
     - Learn the fundamentals of software development
     - Receive guidance and mentorship from project leaders
     - Practice building a product from start to finish
-- marketing:
-  full: Marketing Team
+- client:
+  full: Client Team
   icon: assets/icons/client.png
-  active: false
+  active: true
   content:
-  - subheading:
-    points:
-    -
-    -
-  - subheading: No longer available!
-    points:
-    -
-  - subheading:
-    points:
-    -
-    -
+    - subheading: For students
+      points:
+        - Who have previous internship experience
+        - Who have completed significant side project(s)
+        - Who would love to gain more industry experience
+    - subheading: You'll have the chance to
+      points:
+        - Work with startup clients around the Bay Area
+        - Interact with full-time software engineers 
+        - Build impactful software that companies use

@@ -1,11 +1,11 @@
 ---
 date: 2019-01-03
 url: "./projects/atlassian/"
-current: true
+current: false
 consulting: true
 full: "Atlassian"
 area: "Backend"
-retro: false
+retro: true
 blurb: "Atlassian provides an arsenal of productivity tools, including Trello, Jira, and Bitbucket, that power 125,000 companies worldwide. We will be implementing rate limiting algorithms to help protect Atlassian’s microservices against DoS attacks."
 logo: "./assets/atlassian-logo.png"
 semester: "Spring"
