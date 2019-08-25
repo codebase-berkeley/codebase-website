@@ -14,7 +14,7 @@ hugo version
 ```
 hugo server -D
 ```
-Feel free to reach out to Cindy or Young with any questions about anything at all!
+Feel free to reach out to the VP of Marketing for any questions!
 
 ---
 
