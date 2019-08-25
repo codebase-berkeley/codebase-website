@@ -2,10 +2,11 @@
   full: Mentored Team
   icon: assets/icons/mentored.png
   active: true
+  type: mentored
   content:
   - subheading: For students who have
     points:
-    - At least 3 semesters left at cal (including fall 2019)
+    - At least 3 semesters left at cal (including Fall 2019)
     - Taken or are concurrently enrolled in CS 61A
     - No prior industry experience
   - subheading: You'll have the chance to
@@ -17,12 +18,13 @@
   full: Client Team
   icon: assets/icons/client.png
   active: true
+  type: client
   content:
-    - subheading: For students
+    - subheading: For students who have
       points:
-        - Who have previous internship experience
-        - Who have completed significant side project(s)
-        - Who would love to gain more industry experience
+        - At least 2 semesters left at cal (including Fall 2019)
+        - Taken or are concurrently enrolled in CS 61A
+        - Completed a Software Engineering internship or significant side project
     - subheading: You'll have the chance to
       points:
         - Work with startup clients around the Bay Area

@@ -16,9 +16,16 @@
           {{ end }}
         </div>
         {{ if eq .active true }}
-          <a class="grid-card-button apply-button" href="https://codebase1.typeform.com/to/E8rWNZ">
+          {{ if eq .type "client" }}
+          <a class="grid-card-button apply-button" href="https://codebase1.typeform.com/to/VubvKo">
             Apply Now
           </a>
+          {{ end }}
+          {{ if eq .type "mentored" }}
+          <a class="grid-card-button apply-button" href="https://codebase1.typeform.com/to/gamvgR">
+            Apply Now
+          </a>
+          {{ end }}
         {{ end }}
       </div>
     {{ end }}
