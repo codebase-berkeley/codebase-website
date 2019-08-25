@@ -3,11 +3,11 @@
   icon: assets/icons/mentored.png
   active: true
   content:
-  - subheading: For students
+  - subheading: For students who have
     points:
-    - Who are Freshmen or Sophomores
-    - Who demonstrate a passion for computer science
-    - With an eagerness to learn
+    - At least 3 semesters left at cal (including fall 2019)
+    - Taken or are concurrently enrolled in CS 61A
+    - No prior industry experience
   - subheading: You'll have the chance to
     points:
     - Learn the fundamentals of software development
