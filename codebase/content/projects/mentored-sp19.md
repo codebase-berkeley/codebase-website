@@ -1,7 +1,7 @@
 ---
 date: 2019-01-02
 url: "./projects/project1/"
-current: true
+current: false
 consulting: false
 full: "Mentored Project Spring 2019"
 area: "Full Stack Web"

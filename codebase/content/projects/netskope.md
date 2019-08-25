@@ -1,7 +1,7 @@
 ---
 date: 2019-01-04
 url: "./projects/netskope/"
-current: true
+current: false
 consulting: true
 full: "Netskope"
 area: "Full Stack Web"
