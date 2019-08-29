@@ -46,56 +46,56 @@
   people:
     - first: Erica
       last: Kong
-      position: Client PM
+      position: Client PM - Storr
       photo: assets/memberPhotos/erica.jpg
       linkedin: https://www.linkedin.com/in/erica-kong-085169a1
       github: https://github.com/ekwkk
       website: none
     - first: Isabelle
       last: Zhou
-      position: Client PM
+      position: Client PM - Postman
       photo: assets/memberPhotos/isabelle.jpg
       linkedin: none
       github: none
       website: none
     - first: George
       last: Zhang
-      position: Client PM
+      position: Client PM - Mixpanel
       photo: assets/memberPhotos/george.jpg
       linkedin: https://www.linkedin.com/in/georgelzhang/
       github: https://github.com/gorgzhang/
       website: https://gorgzhang.github.io/
     - first: Julia
       last: Luo
-      position: PM –
+      position: Client PM – Storr
       photo: assets/memberPhotos/julia.jpg
       linkedin: https://www.linkedIn.com/in/juliazluo
       github: http://www.github.com/julialuo
       website: http://www.juliazluo.me
     - first: Mary
       last: Xu
-      position: Client PM
+      position: Client PM - Postman
       photo: assets/memberPhotos/mary.jpg
       linkedin: https://www.linkedin.com/in/ruili-xu/
       github: https://github.com/rlxu
       website: https://rlxu.github.io/
     - first: Matt
       last: Jeng
-      position: Client PM
+      position: Client PM - Bill.com
       photo: assets/memberPhotos/matt.jpg
       linkedin: https://www.linkedin.com/in/matthewjeng/
       github: https://github.com/mjeng
       website: https://mjeng.github.io/
     - first: Nagaganesh
       last: Jaladanki
-      position: Client PM
+      position: Client PM - Mixpanel
       photo: assets/memberPhotos/ganesh.jpg
       linkedin: https://www.linkedin.com/in/nagaganesh/
       github: http://github.com/njaladan
       website: none
     - first: Raymond
       last: Guo
-      position: Client PM
+      position: Client PM - Bill.com
       photo: assets/memberPhotos/raymondg.jpg
       linkedin: https://www.linkedin.com/in/raymond-guo/
       github: https://github.com/guor8lei
@@ -144,13 +144,6 @@
       linkedin: none
       github: none
       website: none
-    - first: Daniel
-      last: Grimshaw
-      position: Project Developer
-      photo: assets/memberPhotos/daniel.jpg
-      linkedin: https://linkedin.com/in/daniel-grimshaw
-      github: https://github.com/danielgrimshaw
-      website: none
     - first: Francesca
       last: Song
       position: Project Developer
@@ -183,13 +176,6 @@
       last: Tse
       position: Project Developer
       photo: assets/memberPhotos/kyle.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Mulan
-      last: Zhao
-      position: Project Developer
-      photo: assets/memberPhotos/mulan.jpg
       linkedin: none
       github: none
       website: none
@@ -328,6 +314,13 @@
       linkedin: https://www.linkedin.com/in/cynthia-wang-4ab743132/
       github: https://github.com/wangcynthia
       website: http://www.wangcynthia.github.io
+    - first: Daniel
+      last: Grimshaw
+      position: Project Developer
+      photo: assets/memberPhotos/daniel.jpg
+      linkedin: https://linkedin.com/in/daniel-grimshaw
+      github: https://github.com/danielgrimshaw
+      website: none
     - first: Edric
       last: Xiang
       position: Project Developer
@@ -447,6 +440,13 @@
       linkedin: none
       github: none
       website: none
+    - first: Mulan
+      last: Zhao
+      position: Project Developer
+      photo: assets/memberPhotos/mulan.jpg
+      linkedin: none
+      github: none
+      website: none
     - first: Nilay
       last: Khatore
       position: Project Developer
@@ -459,6 +459,13 @@
       position: VP of Professional Development
       photo: assets/alumniPhotos/pal.jpg
       linkedin: https://www.linkedin.com/in/pal-makkar-ba7411130/
+      github: none
+      website: none
+    - first: Pratibha
+      last: Sriram
+      position: Project Developer
+      photo: assets/alumniPhotos/pratibha.jpg
+      linkedin: none
       github: none
       website: none
     - first: Raghav
