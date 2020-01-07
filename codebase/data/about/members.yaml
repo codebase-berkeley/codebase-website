@@ -14,213 +14,234 @@
       linkedin: https://www.linkedin.com/in/elise-xu/
       github: https://github.com/elisexu
       website: http://elisexu.herokuapp.com
-    - first: Jihan
-      last: Yin
-      position: VP of Internal
-      photo: assets/memberPhotos/jihan.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Jared
-      last: Rosner
-      position: VP of Internal
-      photo: assets/memberPhotos/jared.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Nikhil
-      last: Jain
+    - first: Raymond
+      last: Guo
+      position: VP of Operations
+      photo: assets/memberPhotos/raymondg.jpg
+      linkedin: https://www.linkedin.com/in/raymond-guo/
+      github: https://github.com/guor8lei
+      website: http://raymondguo.me/
+    - first: Julia
+      last: Wang
       position: VP of External
-      photo: assets/memberPhotos/nikhil.jpg
+      photo: assets/memberPhotos/juliaw.jpg
+      linkedin: https://linkedin.com/in/julia-wang-433218168/
+      github: https://github.com/juliawang18
+      website: none
+    - first: Richard
+      last: Liu
+      position: VP of External
+      photo: assets/memberPhotos/richard.jpg
+      linkedin: https://www.linkedin.com/in/richard-y-liu/
+      github: https://github.com/rrrliu
+      website: https://richardliu.me/
+    - first: Andrew
+      last: Lieu
+      position: VP of Internal
+      photo: assets/memberPhotos/andrewl.jpg
       linkedin: none
-      github: none
+      github: https://github.com/andrewlieu
       website: none
     - first: William
       last: Zhou
-      position: VP of Marketing
+      position: VP of Internal
       photo: assets/memberPhotos/william.jpg
-      linkedin: https://linkedin.com/in/williamzhouu
+      linkedin: https://www.linkedin.com/in/williamzhouu/
       github: https://github.com/guanlinzhou
       website: none
 - group: Project Managers
   people:
     - first: Erica
       last: Kong
-      position: Client PM - Storr
+      position: Client PM
       photo: assets/memberPhotos/erica.jpg
       linkedin: https://www.linkedin.com/in/erica-kong-085169a1
       github: https://github.com/ekwkk
       website: none
+    - first: Francesca
+      last: Song
+      position: Client PM
+      photo: assets/memberPhotos/francesca.jpg
+      linkedin: https://www.linkedin.com/in/francescajsong
+      github: https://github.com/francescajs
+      website: none
     - first: Isabelle
       last: Zhou
-      position: Client PM - Postman
+      position: Client PM
       photo: assets/memberPhotos/isabelle.jpg
-      linkedin: none
-      github: none
+      linkedin: https://www.linkedin.com/in/isabelle-zhou/
+      github: https://github.com/isabelleyzhou
       website: none
-    - first: George
-      last: Zhang
-      position: Client PM - Mixpanel
-      photo: assets/memberPhotos/george.jpg
-      linkedin: https://www.linkedin.com/in/georgelzhang/
-      github: https://github.com/gorgzhang/
-      website: https://gorgzhang.github.io/
-    - first: Julia
-      last: Luo
-      position: Client PM – Storr
-      photo: assets/memberPhotos/julia.jpg
-      linkedin: https://www.linkedIn.com/in/juliazluo
-      github: http://www.github.com/julialuo
-      website: http://www.juliazluo.me
-    - first: Mary
-      last: Xu
-      position: Client PM - Postman
-      photo: assets/memberPhotos/mary.jpg
-      linkedin: https://www.linkedin.com/in/ruili-xu/
-      github: https://github.com/rlxu
-      website: https://rlxu.github.io/
-    - first: Matt
-      last: Jeng
-      position: Client PM - Bill.com
-      photo: assets/memberPhotos/matt.jpg
-      linkedin: https://www.linkedin.com/in/matthewjeng/
-      github: https://github.com/mjeng
-      website: https://mjeng.github.io/
-    - first: Nagaganesh
-      last: Jaladanki
-      position: Client PM - Mixpanel
-      photo: assets/memberPhotos/ganesh.jpg
-      linkedin: https://www.linkedin.com/in/nagaganesh/
-      github: http://github.com/njaladan
+    - first: Kelvin
+      last: Jue
+      position: Client PM
+      photo: assets/memberPhotos/kelvin.jpg
+      linkedin: https://www.linkedin.com/in/kelvin-jue
+      github: http://github.com/kelvinjue
       website: none
-    - first: Raymond
-      last: Guo
-      position: Client PM - Bill.com
-      photo: assets/memberPhotos/raymondg.jpg
-      linkedin: https://www.linkedin.com/in/raymond-guo/
-      github: https://github.com/guor8lei
-      website: http://raymondguo.me/
-    - first: Amitav
-      last: Baruah
+    - first: Kyle
+      last: Tse
+      position: Client PM
+      photo: assets/memberPhotos/kyle.jpg
+      linkedin: https://www.linkedin.com/in/kyle-tse/
+      github: https://github.com/tsekylekobie
+      website: none
+    - first: Rachel
+      last: Lau
+      position: Client PM
+      photo: assets/memberPhotos/rachel.jpg
+      linkedin: https://linkedin.com/in/rachel-s-lau
+      github: https://github.com/rachelslau
+      website: https://rachelslau.github.io
+    - first: Selina
+      last: Feng
+      position: Client PM
+      photo: assets/memberPhotos/selina.jpg
+      linkedin: https://www.linkedin.com/in/selina-feng/
+      github: https://github.com/selinafeng
+      website: http://selinafeng.github.io
+    - first: Warren
+      last: Wang
+      position: Client PM
+      photo: assets/memberPhotos/warren.jpg
+      linkedin: https://linkedin.com/in/warrenwwang/
+      github: https://github.com/Warrenwwang1
+      website: https://warrenwwang1.github.io/
+    - first: Bianca
+      last: Lee
       position: Mentored PM
-      photo: assets/memberPhotos/amitav.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Trevor
-      last: Aquino
+      photo: assets/memberPhotos/bianca.jpg
+      linkedin: https://www.linkedin.com/in/biancalee27/
+      github: https://www.github.com/leebianca
+      website: https://leebianca.github.io/#/
+    - first: Brian
+      last: DeLeonardis
       position: Mentored PM
-      photo: assets/memberPhotos/trevor.jpg
-      linkedin: https://www.linkedin.com/in/trevoraquino/
-      github: https://github.com/trev4ev
-      website: http://trev4ev.github.io/
+      photo: assets/memberPhotos/briand.jpg
+      linkedin: https://www.linkedin.com/in/brian-deleonardis-b49030121/
+      github: https://github.com/bdeleonardis1
+      website: none
 - group: Project Developers
   people:
     - first: Andrew
       last: Kou
       position: Project Developer
       photo: assets/memberPhotos/andrewk.jpg
-      linkedin: none
-      github: none
+      linkedin: https://linkedin.com/in/andrew-k-6071b8137/
+      github: https://github.com/andrewhkou
       website: none
-    - first: Andrew
-      last: Lieu
+    - first: Elena
+      last: Chen
       position: Project Developer
-      photo: assets/memberPhotos/andrewl.jpg
-      linkedin: none
+      photo: assets/memberPhotos/elena.jpg
+      linkedin: https://www.linkedin.com/in/ziyi-‘elena’-c-b1309a106
       github: none
       website: none
-    - first: Bianca
-      last: Lee
+    - first: James
+      last: Li
       position: Project Developer
-      photo: assets/memberPhotos/bianca.jpg
-      linkedin: none
+      photo: assets/memberPhotos/james.jpg
+      linkedin: https://www.linkedin.com/in/james-li898
       github: none
       website: none
-    - first: Carolyn
-      last: Duan
+    - first: Jessica
+      last: Dowdall
       position: Project Developer
-      photo: assets/memberPhotos/carolyn.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Francesca
-      last: Song
+      photo: assets/memberPhotos/jessica.jpg
+      linkedin: https://www.linkedin.com/dowdalljessica
+      github: https://github.com/jessicamd
+      website: none  
+    - first: Jodie
+      last: Lu
       position: Project Developer
-      photo: assets/memberPhotos/francesca.jpg
-      linkedin: none
-      github: none
+      photo: assets/memberPhotos/jodie.jpg
+      linkedin: https://www.linkedin.com/in/jodie-lu/
+      github: https://github.com/jodielu
       website: none
-    - first: Hermish
-      last: Mehta
+    - first: Katelyn
+      last: Schmidt
       position: Project Developer
-      photo: assets/memberPhotos/hermish.jpg
+      photo: assets/memberPhotos/katelyn.jpg
       linkedin: none
-      github: none
+      github: https://github.com/katelyn-schmidt
       website: none
-    - first: Julia
-      last: Wang
+    - first: Kelly
+      last: Tsai
       position: Project Developer
-      photo: assets/memberPhotos/juliaw.jpg
-      linkedin: none
-      github: none
+      photo: assets/memberPhotos/kellyt.jpg
+      linkedin: https://www.linkedin.com/in/kelly-tsai/
+      github: https://github.com/youzhentsai
       website: none
-    - first: Kelvin
-      last: Jue
+    - first: Kevin
+      last: Zhu
       position: Project Developer
-      photo: assets/memberPhotos/kelvin.jpg
-      linkedin: none
-      github: none
-      website: none
+      photo: assets/memberPhotos/kevin.jpg
+      linkedin: https://www.linkedin.com/in/kevinjzhu
+      github: https://github.com/kevinzhu822
+      website: https://kevin-zhu.com/
     - first: Kyle
-      last: Tse
+      last: Golden
       position: Project Developer
-      photo: assets/memberPhotos/kyle.jpg
-      linkedin: none
+      photo: assets/memberPhotos/kyleg.jpg
+      linkedin: https://www.linkedin.com/in/kyleagolden/
+      github: https://github.com/TheGoldenKyle
+      website: none
+    - first: Raymond
+      last: Xu
+      position: Project Developer
+      photo: assets/memberPhotos/raymondx.jpg
+      linkedin: https://www.linkedin.com/in/raymond-x-13b346138/
       github: none
       website: none
-    - first: Olivia
-      last: Shiah
+    - first: Ryan
+      last: DiCenzo
       position: Project Developer
-      photo: assets/alumniPhotos/olivia.jpg
-      linkedin: http://linkedin.com/in/olivia-shiah/
-      github: http://github.com/oliviaozs
-      website: none
-    - first: Rachel
-      last: Lau
+      photo: assets/memberPhotos/ryand.jpg
+      linkedin: https://www.linkedin.com/in/ryandicenzo
+      github: https://github.com/ryandicenzo
+      website: http://ryandicenzo.com/
+    - first: Ryan
+      last: Zhao
       position: Project Developer
-      photo: assets/memberPhotos/rachel.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Richard
-      last: Liu
+      photo: assets/memberPhotos/ryanz.jpg
+      linkedin: https://www.linkedin.com/in/ryan-zhao-ab4752121/
+      github: https://github.com/KnightAsterial
+      website: none         
+    - first: Micah
+      last: Feras
       position: Project Developer
-      photo: assets/memberPhotos/richard.jpg
-      linkedin: none
-      github: none
+      photo: assets/memberPhotos/micah.jpg
+      linkedin: https://www.linkedin.com/in/micahelinorferas/
+      github: https://github.com/micahelinor
       website: none
-    - first: Sarah
-      last: Hammond
+    - first: Michael
+      last: Chen
       position: Project Developer
-      photo: assets/alumniPhotos/sarah.jpg
-      linkedin: https://www.linkedin.com/in/sarahehammond/
-      github: https://github.com/slizha
-      website: none
-    - first: Steven
-      last: Tsay
+      photo: assets/memberPhotos/michael.jpg
+      linkedin: https://www.linkedin.com/in/mchen185/
+      github: https://github.com/mchen10
+      website: https://mchen10.github.io/
+    - first: Stephen
+      last: Ng
       position: Project Developer
-      photo: assets/memberPhotos/steven.jpg
-      linkedin: none
-      github: none
-      website: none
-    - first: Warren
-      last: Wang
+      photo: assets/memberPhotos/stephen.jpg
+      linkedin: https://www.linkedin.com/in/stephenngjy
+      github: https://www.github.com/stephng3
+      website: https://stephng3.github.io/
+    - first: Terrance
+      last: Li
       position: Project Developer
-      photo: assets/memberPhotos/warren.jpg
-      linkedin: none
-      github: none
-      website: none
+      photo: assets/memberPhotos/terrance.jpg
+      linkedin: https://www.linkedin.com/in/terrance-li/
+      github: https://github.com/darkterbear
+      website: https://terranceli.com  
+    - first: Vincent
+      last: Tantra
+      position: Project Developer
+      photo: assets/memberPhotos/vincent.jpg
+      linkedin: https://www.linkedin.com/in/vincenttantra
+      github: https://www.github.com/vtantra
+      website: https://vtantra.github.io/
 - group: Alumni
   people:
     - first: Abhishyant
@@ -237,10 +258,17 @@
       linkedin: https://www.linkedin.com/in/aditya-srivastava/
       github: https://github.com/indianwolverine
       website: https://aditya-srivastava.herokuapp.com/
+    - first: Amitav
+      last: Baruah
+      position: Mentored PM
+      photo: assets/alumniPhotos/amitav.jpg
+      linkedin: https://www.linkedin.com/in/amitav-baruah
+      github: https://github.com/abaruah117
+      website: none
     - first: Andi
       last: Gu
       position: Project Developer
-      photo: assets/memberPhotos/andi.jpg
+      photo: assets/alumniPhotos/andi.jpg
       linkedin: none
       github: none
       website: none
@@ -253,7 +281,7 @@
       website: http://www.theandrewchan.github.io
     - first: Anjana
       last: Srinivas
-      position: Project Manager
+      position: Client PM
       photo: assets/alumniPhotos/anjana.jpg
       linkedin: https://www.linkedin.com/in/anjana-srinivas-34268010a/
       github: none
@@ -273,19 +301,19 @@
       github: none
       website: https://chee.io
     - first: Brian
-      last: DeLeonardis
-      position: Mentored PM
-      photo: assets/alumniPhotos/briand.jpg
-      linkedin: https://www.linkedin.com/in/brian-deleonardis-b49030121/
-      github: https://github.com/bdeleonardis1
-      website: none
-    - first: Brian
       last: Levis
-      position: Project Manager
+      position: Client PM
       photo: assets/alumniPhotos/brianl.jpg
       linkedin: https://www.linkedin.com/in/blevis/
       github: https://github.com/brianlevis
       website: https://brianlevis.com
+    - first: Carolyn
+      last: Duan
+      position: Project Developer
+      photo: assets/alumniPhotos/carolyn.jpg
+      linkedin: none
+      github: none
+      website: none
     - first: Cindy
       last: Yuan
       position: VP of Marketing
@@ -296,21 +324,21 @@
     - first: Cody
       last: Zeng
       position: VP of Internal
-      photo: assets/memberPhotos/cody.jpg
+      photo: assets/alumniPhotos/cody.jpg
       linkedin:  https://www.linkedIn.com/in/codyzeng
       github: http://github.com/c0dyzeng
       website: none
     - first: Cynthia
       last: Wang
       position: VP of Projects
-      photo: assets/memberPhotos/cynthia.jpg
+      photo: assets/alumniPhotos/cynthia.jpg
       linkedin: https://www.linkedin.com/in/cynthia-wang-4ab743132/
       github: https://github.com/wangcynthia
       website: http://www.wangcynthia.github.io
     - first: Daniel
       last: Grimshaw
       position: Project Developer
-      photo: assets/memberPhotos/daniel.jpg
+      photo: assets/alumniPhotos/daniel.jpg
       linkedin: https://linkedin.com/in/daniel-grimshaw
       github: https://github.com/danielgrimshaw
       website: none
@@ -324,7 +352,7 @@
     - first: Ellen
       last: Luo
       position: VP of Internal
-      photo: assets/memberPhotos/ellen.jpg
+      photo: assets/alumniPhotos/ellen.jpg
       linkedin: https://www.linkedin.com/in/ellenluo/
       github: https://github.com/ellenluo
       website: http://www.ellenluo.me/
@@ -332,40 +360,54 @@
       last: Chiu
       position: Project Developer
       photo: assets/alumniPhotos/emma.jpg
-      linkedin: none
+      linkedin: https://www.linkedin.com/in/emma-yf-chiu/
       github: none
       website: none
     - first: Felicia
       last: Lin
       position: Client PM
-      photo: assets/memberPhotos/felicia.jpg
-      linkedin: none
+      photo: assets/alumniPhotos/felicia.jpg
+      linkedin: https://www.linkedin.com/in/felicia-lin-fjl999/
       github: none
       website: none
     - first: Forest
       last: Hu
-      position: Project Manager
-      photo: assets/memberPhotos/forest.jpg
-      linkedin: none
+      position: Client PM
+      photo: assets/alumniPhotos/forest.jpg
+      linkedin: https://www.linkedin.com/in/foresthu
       github: none
       website: none
+    - first: George
+      last: Zhang
+      position: Client PM
+      photo: assets/alumniPhotos/george.jpg
+      linkedin: https://www.linkedin.com/in/georgelzhang/
+      github: https://github.com/gorgzhang/
+      website: https://gorgzhang.github.io/
     - first: Hans
       last: Zheng
       position: Client PM
-      photo: assets/memberPhotos/hans.jpg
+      photo: assets/alumniPhotos/hans.jpg
+      linkedin: https://www.linkedin.com/in/hans-zheng/
+      github: none
+      website: none
+    - first: Hermish
+      last: Mehta
+      position: Project Developer
+      photo: assets/alumniPhotos/hermish.jpg
       linkedin: none
       github: none
       website: none
     - first: Ishan
       last: Vachhani
       position: Project Developer
-      photo: assets/memberPhotos/ishan.jpg
+      photo: assets/alumniPhotos/ishan.jpg
       linkedin: none
       github: https://github.com/ishanv1
       website: none
     - first: Ivon
       last: Liu
-      position: Project Manager
+      position: Client PM
       photo: assets/alumniPhotos/ivon.jpg
       linkedin: https://www.linkedin.com/in/ivonliu/
       github: https://github.com/ivonliu
@@ -377,18 +419,39 @@
       linkedin: none
       github: none
       website: none
+    - first: Jared
+      last: Rosner
+      position: VP of Internal
+      photo: assets/alumniPhotos/jared.jpg
+      linkedin: https://www.linkedin.com/in/jared-rosner/
+      github: https://github.com/Jared-Rosner
+      website: none
+    - first: Jihan
+      last: Yin
+      position: VP of Internal
+      photo: assets/alumniPhotos/jihan.jpg
+      linkedin: https://www.linkedin.com/in/jihanyin/
+      github: http://github.com/arilato
+      website: none
     - first: Jonathan
       last: Fung
       position: VP of Operations
-      photo: assets/memberPhotos/jonathan.jpg
+      photo: assets/alumniPhotos/jonathan.jpg
       linkedin: https://www.linkedin.com/in/jonfung1/
       github: https://github.com/jonfung
       website: http://www.jonfung.me/
+    - first: Julia
+      last: Luo
+      position: Client PM
+      photo: assets/alumniPhotos/julia.jpg
+      linkedin: https://www.linkedIn.com/in/juliazluo
+      github: http://www.github.com/julialuo
+      website: http://www.juliazluo.me
     - first: Justin
       last: Lu
       position: VP of Internal
-      photo: assets/memberPhotos/justin.jpg
-      linkedin: none
+      photo: assets/alumniPhotos/justin.jpg
+      linkedin: https://linkedin.com/in/justin-lu
       github: none
       website: none
     - first: Kavita
@@ -401,7 +464,7 @@
     - first: Kush
       last: Khanolkar
       position: Project Developer
-      photo: assets/memberPhotos/kush.jpg
+      photo: assets/alumniPhotos/kush.jpg
       linkedin: none
       github: none
       website: none
@@ -422,30 +485,65 @@
     - first: Lawrence
       last: Jiang
       position: Mentored PM
-      photo: assets/memberPhotos/lawrence.jpg
-      linkedin: none
+      photo: assets/alumniPhotos/lawrence.jpg
+      linkedin: https://www.linkedin.com/in/lawrence-jiang-2b0144117/
       github: none
       website: none
+    - first: Mary
+      last: Xu
+      position: Client PM
+      photo: assets/alumniPhotos/mary.jpg
+      linkedin: https://www.linkedin.com/in/ruili-xu/
+      github: https://github.com/rlxu
+      website: https://rlxu.github.io/
+    - first: Matt
+      last: Jeng
+      position: Client PM
+      photo: assets/alumniPhotos/matt.jpg
+      linkedin: https://www.linkedin.com/in/matthewjeng/
+      github: https://github.com/mjeng
+      website: https://mjeng.github.io/
     - first: Matthew
       last: Soh
-      position: Project Manager
-      photo: assets/memberPhotos/matts.jpg
-      linkedin: none
+      position: Client PM
+      photo: assets/alumniPhotos/matts.jpg
+      linkedin: https://www.linkedin.com/in/matthew-soh
       github: none
       website: none
     - first: Mulan
       last: Zhao
       position: Project Developer
-      photo: assets/memberPhotos/mulan.jpg
+      photo: assets/alumniPhotos/mulan.jpg
       linkedin: none
       github: none
+      website: none
+    - first: Nagaganesh
+      last: Jaladanki
+      position: Client PM
+      photo: assets/alumniPhotos/ganesh.jpg
+      linkedin: https://www.linkedin.com/in/nagaganesh/
+      github: http://github.com/njaladan
+      website: none
+    - first: Nikhil
+      last: Jain
+      position: VP of External
+      photo: assets/alumniPhotos/nikhil.jpg
+      linkedin: https://www.linkedin.com/in/n-jain23/
+      github: https://github.com/nikhilJain17
       website: none
     - first: Nilay
       last: Khatore
       position: Project Developer
-      photo: assets/memberPhotos/nilay.jpg
+      photo: assets/alumniPhotos/nilay.jpg
       linkedin: none
       github: none
+      website: none
+    - first: Olivia
+      last: Shiah
+      position: Project Developer
+      photo: assets/alumniPhotos/olivia.jpg
+      linkedin: http://linkedin.com/in/olivia-shiah/
+      github: http://github.com/oliviaozs
       website: none
     - first: Pal
       last: Makkar
@@ -463,39 +561,39 @@
       website: none
     - first: Raghav
       last: Anand
-      position: Project Manager
+      position: Client PM
       photo: assets/alumniPhotos/raghav.jpg
       linkedin: https://www.linkedin.com/in/raghav-anand-034b89127/
       github: https://www.github.com/raghavanand98
       website: http://www.raghavanand98.com
-    - first: Raymond
-      last: Xu
-      position: Project Developer
-      photo: assets/alumniPhotos/raymondx.jpg
-      linkedin: none
-      github: none
-      website: none
     - first: Sahana
       last: Srinivasan
       position: VP of Projects
-      photo: assets/memberPhotos/sahana.jpg
+      photo: assets/alumniPhotos/sahana.jpg
       linkedin: https://www.linkedin.com/in/sahana-srinivasan-904912118/
       github: none
       website: none
+    - first: Sarah
+      last: Hammond
+      position: Project Developer
+      photo: assets/alumniPhotos/sarah.jpg
+      linkedin: https://www.linkedin.com/in/sarahehammond/
+      github: https://github.com/slizha
+      website: none
     - first: Saurav
       last: Kadavath
-      position: Project Manager
+      position: Client PM
       photo: assets/alumniPhotos/saurav.jpg
       linkedin: https://www.linkedin.com/in/saurav-kadavath-808b07132/
       github: https://www.github.com/ssss1029
       website: http://www.sauravkadavath.com
-    - first: Selina
-      last: Feng
+    - first: Shloak
+      last: Jain
       position: Project Developer
-      photo: assets/alumniPhotos/selina.jpg
-      linkedin: http://www.linkedin.com/in/selina-feng
-      github: http://github.com/selinafeng
-      website: http://selinafeng.github.io
+      photo: assets/alumniPhotos/shloak.jpg
+      linkedin: https://linkedin.com/in/shloak
+      github: https://github.com/shloak
+      website: none
     - first: Simarjeev
       last: Singh
       position: Project Developer
@@ -506,14 +604,14 @@
     - first: Skyler
       last: Ruesga
       position: Project Developer
-      photo: assets/memberPhotos/skyler.jpg
+      photo: assets/alumniPhotos/skyler.jpg
       linkedin: https://www.linkedin.com/in/sruesga/
       github: https://github.com/sruesga/
       website: none
     - first: Sophia
       last: Lau
       position: VP of Marketing
-      photo: assets/memberPhotos/sophia.jpg
+      photo: assets/alumniPhotos/sophia.jpg
       linkedin: https://www.linkedin.com/in/lausophia
       github: https://github.com/lausophia
       website: http://sophialau.me/
@@ -524,6 +622,13 @@
       linkedin: none
       github: none
       website: none
+    - first: Steven
+      last: Tsay
+      position: Project Developer
+      photo: assets/alumniPhotos/steven.jpg
+      linkedin: https://www.linkedin.com/in/steven-tsay/
+      github: none
+      website: none
     - first: Tim
       last: Foster
       position: VP of Finance
@@ -531,10 +636,17 @@
       linkedin: none
       github: none
       website: none
+    - first: Trevor
+      last: Aquino
+      position: Mentored PM
+      photo: assets/alumniPhotos/trevor.jpg
+      linkedin: https://www.linkedin.com/in/trevoraquino/
+      github: https://github.com/trev4ev
+      website: http://trev4ev.github.io/
     - first: Young
       last: Guo
       position: President
-      photo: assets/memberPhotos/young.jpg
+      photo: assets/alumniPhotos/young.jpg
       linkedin: https://www.linkedin.com/in/youngguo/
       github: https://github.com/oldguo
       website: https://oldguo.github.io/
