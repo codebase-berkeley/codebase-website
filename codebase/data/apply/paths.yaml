@@ -6,7 +6,7 @@
   content:
   - subheading: For students who have
     points:
-    - At least 3 semesters left at cal (including Fall 2019)
+    - At least 3 semesters left at Cal (including Spring 2020)
     - Taken or are concurrently enrolled in CS 61A
     - No prior industry experience
   - subheading: You'll have the chance to
@@ -22,9 +22,9 @@
   content:
     - subheading: For students who have
       points:
-        - At least 2 semesters left at cal (including Fall 2019)
+        - At least 2 semesters left at Cal (including Spring 2020)
         - Taken or are concurrently enrolled in CS 61A
-        - Completed a Software Engineering internship or significant side project
+        - Completed a SWE internship or significant side project
     - subheading: You'll have the chance to
       points:
         - Work with startup clients around the Bay Area
