@@ -2,7 +2,7 @@
 date: 2019-08-12
 url: ""
 type: projects
-current: true
+current: false
 consulting: true
 full: "Bill.com"
 area: "Full Stack Web"
