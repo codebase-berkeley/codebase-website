@@ -1,6 +1,6 @@
 title: Client Testimonials
 testimonials:
-  - quote: Bright smart students eager to solve large-scale real world problems... nothing short of what we expected from Cal bears!
+  - quote: Bright smart students eager to solve large-scale real world problems... nothing short of what we expected from Cal Bears!
     logo: assets/polymorph-logo.png
     url: ./projects/polymorph/
     bottom: 100
@@ -28,7 +28,7 @@ testimonials:
     shadowX: -20
     shadowY: 20
     shadowColor: \#7179A1
-  - quote: Codebase is built of many young, ambitious, and talented individuals and can fulfill the needs of any business big or small.
+  - quote: CodeBase is built of many young, ambitious, and talented individuals and can fulfill the needs of any business big or small.
     logo: assets/upstream-logo.png
     url: ./projects/upstream/
     bottom: 100
