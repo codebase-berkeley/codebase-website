@@ -6,7 +6,7 @@ consulting: true
 full: "Zumper"
 area: "Machine Learning"
 retro: true
-blurb: "Zumper is a full-service home rental platform. We will be building models for spam classification and creating a web application to display and interact with the results."
+blurb: "Zumper is a full-service home rental platform. We built models for spam classification and creating a web application to display and interact with the results."
 logo: "./assets/zumper-logo.jpg"
 semester: "Fall"
 year: "2018"
