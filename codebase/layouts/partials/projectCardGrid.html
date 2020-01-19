@@ -9,7 +9,7 @@
     <div class="section">
       <div class="section-subtitle">Client Projects</div>
       <div class="row justify-content-center">
-        <!-- {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
+        {{ range (where (where .Pages ".Params.current" true) ".Params.consulting" true) }}
           <div class="card grid-card-flat">
             <img class="grid-card-img card-img-top" src={{ .Params.logo }}>
             <div class="grid-card-content card-body">
@@ -17,8 +17,7 @@
               <div class="project-card-blurb">{{ .Params.blurb }}</div>
             </div>
           </div>
-        {{ end }} -->
-        We'll be announcing our clients for the Spring 2020 semester in a few days!
+        {{ end }}
       </div>
     </div>
     <div class="section">
