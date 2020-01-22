@@ -7,9 +7,23 @@ testimonials:
     shadowX: -20
     shadowY: -20
     shadowColor: \#2F3B79
+  - quote: Berkeley Codebase gave us the ability to accelerate our R&D efforts by taking an idea and running with it to create a viable proof of concept. Working with them helped us think through our problems and opportunities more clearly, and they were a creative value-add as well.
+    logo: assets/pantheon-logo.png
+    url: ./projects/pantheon/
+    bottom: 60
+    shadowX: -20
+    shadowY: 20
+    shadowColor: \#7179A1
   - quote: Better work than what we’ve sometimes seen from people with years of industry experience. Team quality was strong and there was clear enthusiasm for the work. 
     logo: assets/riffyn-logo.png
     url: ./projects/riffyn/
+    bottom: 100
+    shadowX: -20
+    shadowY: -20
+    shadowColor: \#2F3B79
+  - quote: The Algorithms Engine was demoed successfully to a wider Engineering audience at Atlassian including senior leadership via a very detailed demo, and received resounding kudos from the audience.
+    logo: assets/atlassian-logo.png
+    url: ./projects/atlassian/
     bottom: 60
     shadowX: -20
     shadowY: 20
@@ -37,7 +51,7 @@ testimonials:
     shadowColor: \#2F3B79
   - quote: Excellent overall software development effort and results. The scoping and deliverables were on point. The team did an outstanding job of self-learning and incorporating feedback from the mid-project check-in.
     logo: assets/riffyn-logo.png
-    url: ./projects/sutro/
+    url: ./projects/riffyn/
     bottom: 60
     shadowX: -20
     shadowY: 20
