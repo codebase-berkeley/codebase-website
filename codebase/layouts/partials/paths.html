@@ -1,4 +1,9 @@
 <div class="section apply-section">
+  <script>
+    function apply_clue() {
+      console.log("clue 7: git squash && patch bug");
+    }
+  </script>
   <div class="row">
     {{ range .Site.Data.apply.paths }}
       <div class="col-md-6">
@@ -17,12 +22,12 @@
         </div>
         {{ if eq .active true }}
           {{ if eq .type "client" }}
-          <a class="grid-card-button apply-button" href="https://airtable.com/shrDQ1GlKUI2wlGPd">
+          <a class="grid-card-button apply-button" onclick="apply_clue()">
             Apply Now
           </a>
           {{ end }}
           {{ if eq .type "mentored" }}
-          <a class="grid-card-button apply-button" href="https://airtable.com/shrKTODXv5LRIRkC2">
+          <a class="grid-card-button apply-button" onclick="apply_clue()">
             Apply Now
           </a>
           {{ end }}

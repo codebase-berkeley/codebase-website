@@ -7,6 +7,7 @@ values:
   - value: Put people first
     description: Build meaningful, lasting relationships with each other
     icon: assets/icons/peoplefirst.png
+    clue: hehexd
   - value: Actively take ownership
     description: Strive to take initiative and trust your peers to do the same
     icon: assets/icons/activelytakeownership.png

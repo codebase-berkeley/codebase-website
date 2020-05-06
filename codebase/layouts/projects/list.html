@@ -37,6 +37,7 @@
           </div>
         </a>
       {{ else if and (eq .Params.current false) (eq .Params.retro false)}}
+        {{ if not (eq .Params.title "theranos") }}
         <div class="grid-card card" style="width: 18rem;">
           <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
           <div class="grid-card-content card-body">
@@ -44,8 +45,23 @@
             <div class="project-card-blurb">{{ .Params.blurb }}</div>
           </div>
         </div>
+        {{ else }}
+        <script>
+          function theranos_clue() {
+            console.log("clue 6: 46 + 1");
+          }
+        </script>
+        <div class="grid-card card" style="width: 18rem;" onclick="theranos_clue()", onmouseover="this.style.cursor='pointer'">
+            <img class="grid-card-img card-img-top project-card-logo" src={{ .Params.logo }} alt="Card image cap" style="max-height: 2.5em; width: auto">
+            <div class="grid-card-content card-body">
+              <div class="project-card-title">{{ .Params.area }}</div>
+              <div class="project-card-blurb">{{ .Params.blurb }}</div>
+            </div>
+          </div>
+        {{ end }}
+        {{ end }}
+
       {{ end }}
-    {{ end }}
     </div>
   </div>
 

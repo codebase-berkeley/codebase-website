@@ -6,7 +6,17 @@
           <div class="card grid-card value-grid-card">
             <div class="card-body value-card">
               <img class="card-img-top" src="{{ .icon }}" style="height: 100px; width: 100px">
-              <div class="grid-card-area card-title">{{ .value }}</div>
+              {{if .clue}}
+                <script>
+                  function behavior_clue() {
+                    console.log("clue 4: it's right in front of you. you just have to look harder.");
+                  }
+                </script>
+                <div class="grid-card-area card-title" onclick="behavior_clue()" onMouseOver="this.style.cursor='pointer'">{{ .value }}</div>
+                <div class="tiny-text" style="color:	#F5F5F5;font-size: 10px;opacity:0.4"> clue 5: *snap* yo fingers do yo step you can do it by yaself </div>
+              {{ else }}
+                <div class="grid-card-area card-title">{{ .value }}</div>
+              {{ end }}
               <div class="grid-card-content card-text">{{ .description }}</div>
             </div>
           </div>
