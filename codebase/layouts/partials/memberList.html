@@ -8,25 +8,36 @@
             <div class="member-details-wrapper">
               <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
               <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
-              {{ if .clue}}
+              <div class="inner-member-details inner-member-details member-title">{{.clue}}</div>
+
+              {{ if (eq .clue "jon") }}
               <script> 
-              function kelvin_clue() {
-                console.log("clue 3: insert(0,people)");
+              function jon_clue() {
+                console.log("clue 6: antman crawling up...");
               }
               </script>
-                <a href="javascript: void(0)" onclick="kelvin_clue()"><img class="member-link-image" src="assets/linkedin.png" /></a>
-                <a href="javascript: void(0)" onclick="kelvin_clue()"><img class="member-link-image" src="assets/github.png" /></a>
-                <a href="javascript: void(0)" onclick="kelvin_clue()"><img class="member-link-image" src="assets/website.png" /></a>
+              <a href="javascript: void(0)" onclick="jon_clue()"><img class="member-link-image" src="assets/linkedin.png" /></a>
+              <a href="javascript: void(0)" onclick="jon_clue()"><img class="member-link-image" src="assets/github.png" /></a>
+              <a href="javascript: void(0)" onclick="jon_clue()"><img class="member-link-image" src="assets/website.png" /></a>
+              {{ else if (eq .clue "kel") }}
+              <script> 
+              function kel_clue() {
+                console.log("clue 3: insert(0, people)");
+              }
+              </script>
+              <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/linkedin.png" /></a>
+              <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/github.png" /></a>
+              <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/website.png" /></a>
               {{ else }}
-                {{ if not (eq .linkedin "none") }}
-                  <a ontouchstart="" href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
-                {{ end }}
-                {{ if not (eq .github "none") }}
-                  <a ontouchstart="" href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
-                {{ end }}
-                {{ if not (eq .website "none") }}
-                  <a ontouchstart="" href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
-                {{ end }}
+              {{ if not (eq .linkedin "none") }}
+                <a ontouchstart="" href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
+              {{ end }}
+              {{ if not (eq .github "none") }}
+                <a ontouchstart="" href={{.github}}><img class="member-link-image" src="assets/github.png" /></a>
+              {{ end }}
+              {{ if not (eq .website "none") }}
+                <a ontouchstart="" href={{.website}}><img class="member-link-image" src="assets/website.png" /></a>
+              {{ end }}
               {{ end }}
             </div>
             
