@@ -8,8 +8,6 @@
             <div class="member-details-wrapper">
               <div class="inner-member-details inner-member-details member-name">{{ .first}} {{ .last }}</div>
               <div class="inner-member-details inner-member-details member-title">{{.position}}</div>
-              <div class="inner-member-details inner-member-details member-title">{{.clue}}</div>
-
               {{ if (eq .clue "jon") }}
               <script> 
               function jon_clue() {
@@ -28,6 +26,15 @@
               <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/linkedin.png" /></a>
               <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/github.png" /></a>
               <a href="javascript: void(0)" onclick="kel_clue()"><img class="member-link-image" src="assets/website.png" /></a>
+              {{ else if (eq .clue "parth") }}
+              <script> 
+              function parth_clue() {
+                console.log("Good attempt. Try again!");
+              }
+              </script>
+              <a href="javascript: void(0)" onclick="parth_clue()"><img class="member-link-image" src="assets/linkedin.png" /></a>
+              <a href="javascript: void(0)" onclick="parth_clue()"><img class="member-link-image" src="assets/github.png" /></a>
+              <a href="javascript: void(0)" onclick="parth_clue()"><img class="member-link-image" src="assets/website.png" /></a>
               {{ else }}
               {{ if not (eq .linkedin "none") }}
                 <a ontouchstart="" href={{.linkedin}}><img class="member-link-image" src="assets/linkedin.png" /></a>
